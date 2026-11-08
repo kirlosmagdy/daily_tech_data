@@ -1,0 +1,26 @@
+# Environment & Secrets
+.env
+.env.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Data & DuckDB (only data/history/ and site/data/ are committed)
+data/raw/
+*.duckdb
+*.duckdb.wal
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# Node / Next.js
+node_modules/
+site/node_modules/
+site/.next/
+site/out/

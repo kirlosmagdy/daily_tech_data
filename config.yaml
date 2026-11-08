@@ -1,0 +1,205 @@
+project:
+  name: "Daily Tech & Data Pulse"
+  version: "1.1"
+  lookback_hours: 48
+  history_retention_days: 90
+  max_snippet_length: 300
+
+trust_tiers:
+  tier_1: 1.0
+  tier_2: 0.8
+  tier_3: 0.6
+
+ranking:
+  half_life_hours: 18
+  default_engagement_percentile: 0.7
+  cross_source_bonus_step: 0.15
+  cross_source_bonus_max: 0.45
+
+thresholds:
+  min_title_length: 10
+  min_score:
+    hackernews: 5
+    devto: 3
+    lobsters: 2
+    github: 10
+    rss: 0
+    arxiv: 0
+    bluesky: 2
+    x: 5
+    reddit: 5
+
+sources:
+  hackernews:
+    enabled: true
+    tier: "tier_2"
+  devto:
+    enabled: true
+    tier: "tier_3"
+    tags:
+      - dataengineering
+      - data
+      - python
+      - sql
+      - ai
+      - machinelearning
+      - devops
+      - opensource
+      - cloud
+      - database
+  lobsters:
+    enabled: true
+    tier: "tier_2"
+    tags:
+      - databases
+      - ai
+      - programming
+      - python
+      - security
+      - cloud
+  rss:
+    enabled: true
+    tier: "tier_1"
+    feeds:
+      - name: "Databricks Blog"
+        url: "https://www.databricks.com/feed"
+      - name: "Snowflake Blog"
+        url: "https://www.snowflake.com/en/blog/feed/"
+      - name: "dbt Labs Blog"
+        url: "https://www.getdbt.com/blog/feed.xml"
+      - name: "Confluent Blog"
+        url: "https://www.confluent.io/rss.xml"
+      - name: "Google Cloud Blog"
+        url: "https://cloudblog.withgoogle.com/rss/"
+      - name: "AWS Big Data Blog"
+        url: "https://aws.amazon.com/blogs/big-data/feed/"
+      - name: "Microsoft Fabric Blog"
+        url: "https://blog.fabric.microsoft.com/en-us/blog/feed/"
+      - name: "Netflix TechBlog"
+        url: "https://netflixtechblog.com/feed"
+      - name: "Uber Engineering"
+        url: "https://www.uber.com/en-EG/blog/engineering/rss/"
+      - name: "Cloudflare Blog"
+        url: "https://blog.cloudflare.com/rss/"
+      - name: "GitHub Blog"
+        url: "https://github.blog/feed/"
+      - name: "Hugging Face Blog"
+        url: "https://huggingface.co/blog/feed.xml"
+      - name: "OpenAI News"
+        url: "https://openai.com/news/rss.xml"
+      - name: "Data Engineering Weekly"
+        url: "https://www.dataengineeringweekly.com/feed"
+      - name: "DuckDB Blog"
+        url: "https://duckdb.org/feed.xml"
+  github:
+    enabled: true
+    tier: "tier_2"
+    topics:
+      - data-engineering
+      - duckdb
+      - dbt
+      - apache-airflow
+      - machine-learning
+      - llm
+      - sql
+      - data-science
+  arxiv:
+    enabled: true
+    tier: "tier_1"
+    categories:
+      - cs.DB
+      - cs.LG
+      - cs.AI
+  bluesky:
+    enabled: false
+    tier: "tier_3"
+    handles: []
+  x:
+    enabled: false
+    tier: "tier_3"
+    handles: []
+  reddit:
+    enabled: false
+    tier: "tier_3"
+    subreddits: []
+
+topics:
+  data_engineering:
+    - data engineering
+    - etl
+    - elt
+    - data pipeline
+    - apache airflow
+    - spark
+    - kafka
+    - dbt
+    - data integration
+    - orchestration
+  analytics_and_bi:
+    - data analytics
+    - business intelligence
+    - power bi
+    - tableau
+    - looker
+    - metrics
+    - dashboard
+    - data modeling
+  databases_and_warehouses:
+    - database
+    - postgres
+    - postgresql
+    - duckdb
+    - snowflake
+    - databricks
+    - bigquery
+    - clickhouse
+    - iceberg
+    - sql
+    - data warehouse
+    - lakehouse
+  ai_and_ml:
+    - artificial intelligence
+    - machine learning
+    - llm
+    - gpt
+    - neural network
+    - deep learning
+    - pytorch
+    - rag
+    - transformer
+    - fine-tuning
+  programming_and_devtools:
+    - python
+    - rust
+    - typescript
+    - golang
+    - compiler
+    - cli
+    - git
+    - testing
+    - Polars
+    - pandas
+  cloud:
+    - aws
+    - gcp
+    - azure
+    - kubernetes
+    - docker
+    - serverless
+    - terraform
+    - cloud native
+  security:
+    - cybersecurity
+    - vulnerability
+    - cve
+    - encryption
+    - zero-day
+    - infosec
+    - authentication
+  open_source:
+    - open source
+    - open-source
+    - apache
+    - linux
+    - mit license
+    - gpl
