@@ -1,0 +1,197 @@
+[
+  {
+    "paper": {
+      "id": "2611.06500",
+      "authors": [
+        {
+          "_id": "6aed1ab00962bbebb014f22d",
+          "user": {
+            "_id": "6944f823c5a9b7be20f82778",
+            "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Fjn84j07IlBwXJxPtDm5i.png",
+            "isPro": false,
+            "fullname": "Yt Liu",
+            "user": "TiffanyYT",
+            "type": "user",
+            "name": "TiffanyYT"
+          },
+          "name": "Yuetong Liu",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-11-06T15:14:45.543Z",
+          "hidden": false
+        },
+        {
+          "_id": "6aed1ab00962bbebb014f22e",
+          "name": "Zhehao Zhou",
+          "hidden": false
+        },
+        {
+          "_id": "6aed1ab00962bbebb014f22f",
+          "name": "Yitong Zhang",
+          "hidden": false
+        },
+        {
+          "_id": "6aed1ab00962bbebb014f230",
+          "name": "Haorui Chen",
+          "hidden": false
+        },
+        {
+          "_id": "6aed1ab00962bbebb014f231",
+          "name": "Jia Li",
+          "hidden": false
+        }
+      ],
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "submittedOnDailyAt": "2026-11-06T00:00:00.000Z",
+      "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+      "submittedOnDailyBy": {
+        "_id": "6944f823c5a9b7be20f82778",
+        "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Fjn84j07IlBwXJxPtDm5i.png",
+        "isPro": false,
+        "fullname": "Yt Liu",
+        "user": "TiffanyYT",
+        "type": "user",
+        "name": "TiffanyYT"
+      },
+      "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarization methods remain constrained by discrete text representations, limiting the achievable compression ratios.\n  In this work, we challenge the prevailing assumption that agents must consume tool observations as explicit text tokens. To this end, we propose Coca-Cola, a continuous latent context compression model for LLM agents. Coca-Cola compresses tool observations into latent tokens and embeds them into the input embedding space of the agent. We further introduce Action-Preserving Training, which aligns the agent's next-action distributions under full and compressed observations. This trains the compression model to learn action-sufficient latent tokens that retain decision-critical information. Experiments with web-search agents on four QA benchmarks and two model families show that Coca-Cola reduces the agent's token consumption by 70.01%-89.24% and end-to-end runtime by 24.45%-55.97%, while consistently improving task performance. These results suggest that Coca-Cola offers a promising approach for context compression in agents. Our code is available at https://github.com/THU-Agent/Coca-cola.",
+      "upvotes": 5,
+      "discussionId": "6aed1ab00962bbebb014f232",
+      "githubRepo": "https://github.com/THU-Agent/Coca-cola",
+      "githubRepoAddedBy": "user",
+      "githubStars": 7,
+      "organization": {
+        "_id": "628735cbc83a2d6ab8d14a66",
+        "name": "Tsinghua",
+        "fullname": "Tsinghua University",
+        "avatar": "https://www.gravatar.com/avatar/6c5c1441e3283e7543342e59277ea219?d=retro&size=100"
+      }
+    },
+    "publishedAt": "2026-11-03T19:00:00.000Z",
+    "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+    "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarization methods remain constrained by discrete text representations, limiting the achievable compression ratios.\n  In this work, we challenge the prevailing assumption that agents must consume tool observations as explicit text tokens. To this end, we propose Coca-Cola, a continuous latent context compression model for LLM agents. Coca-Cola compresses tool observations into latent tokens and embeds them into the input embedding space of the agent. We further introduce Action-Preserving Training, which aligns the agent's next-action distributions under full and compressed observations. This trains the compression model to learn action-sufficient latent tokens that retain decision-critical information. Experiments with web-search agents on four QA benchmarks and two model families show that Coca-Cola reduces the agent's token consumption by 70.01%-89.24% and end-to-end runtime by 24.45%-55.97%, while consistently improving task performance. These results suggest that Coca-Cola offers a promising approach for context compression in agents. Our code is available at https://github.com/THU-Agent/Coca-cola.",
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06500.png",
+    "numComments": 4,
+    "submittedBy": {
+      "_id": "6944f823c5a9b7be20f82778",
+      "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Fjn84j07IlBwXJxPtDm5i.png",
+      "fullname": "Yt Liu",
+      "name": "TiffanyYT",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 1,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "628735cbc83a2d6ab8d14a66",
+      "name": "Tsinghua",
+      "fullname": "Tsinghua University",
+      "avatar": "https://www.gravatar.com/avatar/6c5c1441e3283e7543342e59277ea219?d=retro&size=100"
+    },
+    "isAuthorParticipating": true
+  },
+  {
+    "paper": {
+      "id": "2611.06498",
+      "authors": [
+        {
+          "_id": "6aee429e05af6789c06316a0",
+          "user": {
+            "_id": "6ae057f8e1ace3a999e98fa6",
+            "avatarUrl": "/avatars/6c19789969ab097f204323f56db68908.svg",
+            "isPro": false,
+            "fullname": "Georgios Feretzakis",
+            "user": "gferetzakis",
+            "type": "user",
+            "name": "gferetzakis"
+          },
+          "name": "Georgios Feretzakis",
+          "status": "claimed_verified",
+          "statusLastChangedAt": "2026-11-07T00:45:04.932Z",
+          "hidden": false
+        },
+        {
+          "_id": "6aee429e05af6789c06316a1",
+          "name": "Alexandros Papaspyridis",
+          "hidden": false
+        }
+      ],
+      "mediaUrls": [
+        "https://cdn-uploads.huggingface.co/production/uploads/6ae057f8e1ace3a999e98fa6/__JcYLIHnMGZh8eRRggGH.png"
+      ],
+      "publishedAt": "2026-11-04T13:32:04.000Z",
+      "submittedOnDailyAt": "2026-11-06T00:00:00.000Z",
+      "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+      "submittedOnDailyBy": {
+        "_id": "6ae057f8e1ace3a999e98fa6",
+        "avatarUrl": "/avatars/6c19789969ab097f204323f56db68908.svg",
+        "isPro": false,
+        "fullname": "Georgios Feretzakis",
+        "user": "gferetzakis",
+        "type": "user",
+        "name": "gferetzakis"
+      },
+      "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors encode its text. We study this text-vector integrity gap. A verifier that recomputes vectors and accepts them within a cosine tolerance concedes a predictable share of queries to an attacker who controls the vectors: the hijack rate equals the distribution of angular retrieval margins at the tolerance (the margin law). Margins are small in five corpora and two embedding models, so an idealised tolerance at the level of floating-point noise leaves up to 5.5% of queries exposed (at most 1.2% in any corpus once exact duplicate documents are excluded), and a threshold calibrated from our CPU INT8-FP32 comparison of a small embedding model (at the empirical 0.1% quantile of honest cosines) leaves 98-100% exposed; on a Raspberry Pi 5 running a local language model, such an attack lowers correct answers from 0.75 to 0.39. Integrity audits of compressed vector stores fare no better: on a FAISS product-quantisation index over 57,638 documents, tampered vectors that all pass the audit put the attacker's document first for 25% of targets. Verifying quantisation codes instead, with ambiguity decided by the verifier, a calibrated guard band and canonicalisation, accepted every honest vector in our samples on three platforms and left the publisher no choice. We also show that common floating-point and dynamic-INT8 inference pipelines are not bit-reproducible across batch sizes or architectures, and report pre-registered negative results on abstention, context pruning and semantic screening. We release code and data.",
+      "upvotes": 4,
+      "discussionId": "6aee429f05af6789c06316a2",
+      "projectPage": "https://doi.org/10.5281/zenodo.23948839",
+      "githubRepo": "https://github.com/securagenai/signed-but-steerable",
+      "githubRepoAddedBy": "user",
+      "ai_summary": "Signed retrieval packs can contain embedding vectors that do not match their text, and practical vector verification and compressed-index audits leave many queries vulnerable, while code-level verification with calibrated ambiguity handling accepts honest vectors.",
+      "ai_keywords": [
+        "retrieval-augmented generation",
+        "precomputed embedding vectors",
+        "text-vector integrity gap",
+        "cosine tolerance",
+        "angular retrieval margins",
+        "embedding models",
+        "INT8-FP32 comparison",
+        "local language model",
+        "FAISS product-quantisation index",
+        "quantisation codes",
+        "dynamic-INT8 inference",
+        "bit-reproducible inference",
+        "semantic screening",
+        "context pruning",
+        "abstention"
+      ],
+      "ai_summary_model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "githubStars": 1,
+      "organization": {
+        "_id": "6ae05b0b0f8a7fd42d505a2b",
+        "name": "securagenai",
+        "fullname": "securagen.ai P.C.",
+        "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6ae057f8e1ace3a999e98fa6/_9MBtAEqyGPO7PIq91beb.png"
+      }
+    },
+    "publishedAt": "2026-11-04T08:32:04.000Z",
+    "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+    "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors encode its text. We study this text-vector integrity gap. A verifier that recomputes vectors and accepts them within a cosine tolerance concedes a predictable share of queries to an attacker who controls the vectors: the hijack rate equals the distribution of angular retrieval margins at the tolerance (the margin law). Margins are small in five corpora and two embedding models, so an idealised tolerance at the level of floating-point noise leaves up to 5.5% of queries exposed (at most 1.2% in any corpus once exact duplicate documents are excluded), and a threshold calibrated from our CPU INT8-FP32 comparison of a small embedding model (at the empirical 0.1% quantile of honest cosines) leaves 98-100% exposed; on a Raspberry Pi 5 running a local language model, such an attack lowers correct answers from 0.75 to 0.39. Integrity audits of compressed vector stores fare no better: on a FAISS product-quantisation index over 57,638 documents, tampered vectors that all pass the audit put the attacker's document first for 25% of targets. Verifying quantisation codes instead, with ambiguity decided by the verifier, a calibrated guard band and canonicalisation, accepted every honest vector in our samples on three platforms and left the publisher no choice. We also show that common floating-point and dynamic-INT8 inference pipelines are not bit-reproducible across batch sizes or architectures, and report pre-registered negative results on abstention, context pruning and semantic screening. We release code and data.",
+    "mediaUrls": [
+      "https://cdn-uploads.huggingface.co/production/uploads/6ae057f8e1ace3a999e98fa6/__JcYLIHnMGZh8eRRggGH.png"
+    ],
+    "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.06498.png",
+    "numComments": 6,
+    "submittedBy": {
+      "_id": "6ae057f8e1ace3a999e98fa6",
+      "avatarUrl": "/avatars/6c19789969ab097f204323f56db68908.svg",
+      "fullname": "Georgios Feretzakis",
+      "name": "gferetzakis",
+      "type": "user",
+      "isPro": false,
+      "isHf": false,
+      "isHfAdmin": false,
+      "isMod": false,
+      "followerCount": 2,
+      "isUserFollowing": false
+    },
+    "organization": {
+      "_id": "6ae05b0b0f8a7fd42d505a2b",
+      "name": "securagenai",
+      "fullname": "securagen.ai P.C.",
+      "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6ae057f8e1ace3a999e98fa6/_9MBtAEqyGPO7PIq91beb.png"
+    },
+    "isAuthorParticipating": true
+  }
+]

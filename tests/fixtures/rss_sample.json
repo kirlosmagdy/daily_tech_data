@@ -1,0 +1,12 @@
+{
+  "feed_name": "Databricks Blog",
+  "feed_url": "https://www.databricks.com/feed",
+  "entries": [
+    {
+      "title": "Read, don't copy: replacing file feeds with OpenSharing - Part 2 (How to Implement)",
+      "link": "https://www.databricks.com/blog/read-dont-copy-replacing-file-feeds-opensharing-part-2-how-implement",
+      "summary": "Many data-sharing architectures begin with a familiar pattern: A provider exports...",
+      "published": "Fri, 06 Nov 2026 22:13:00 GMT"
+    }
+  ]
+}

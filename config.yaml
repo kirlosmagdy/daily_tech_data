@@ -56,7 +56,7 @@ sources:
       - programming
       - python
       - security
-      - cloud
+      - devops
   rss:
     enabled: true
     tier: "tier_1"
@@ -64,7 +64,7 @@ sources:
       - name: "Databricks Blog"
         url: "https://www.databricks.com/feed"
       - name: "Snowflake Blog"
-        url: "https://www.snowflake.com/en/blog/feed/"
+        url: "https://www.snowflake.com/feed/"
       - name: "dbt Labs Blog"
         url: "https://www.getdbt.com/blog/feed.xml"
       - name: "Confluent Blog"
@@ -77,8 +77,8 @@ sources:
         url: "https://blog.fabric.microsoft.com/en-us/blog/feed/"
       - name: "Netflix TechBlog"
         url: "https://netflixtechblog.com/feed"
-      - name: "Uber Engineering"
-        url: "https://www.uber.com/en-EG/blog/engineering/rss/"
+      - name: "Airbnb Engineering"
+        url: "https://medium.com/feed/airbnb-engineering"
       - name: "Cloudflare Blog"
         url: "https://blog.cloudflare.com/rss/"
       - name: "GitHub Blog"

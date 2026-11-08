@@ -1,0 +1,75 @@
+{
+  "hits": [
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "krrled"
+        },
+        "title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "AetherSkin – A diagnostic skin intelligence platform I'm building"
+        },
+        "url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://aetherskin.app"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_krrled",
+        "story_50414806"
+      ],
+      "author": "krrled",
+      "children": [
+        50414807
+      ],
+      "created_at": "2026-11-08T16:44:35Z",
+      "created_at_i": 1794156275,
+      "num_comments": 0,
+      "objectID": "50414806",
+      "points": 1,
+      "story_id": 50414806,
+      "title": "AetherSkin – A diagnostic skin intelligence platform I'm building",
+      "updated_at": "2026-11-08T16:46:18Z",
+      "url": "https://aetherskin.app"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "firemelt"
+        },
+        "title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "A guy running Claude KYC business to bypass anthropics restrictions"
+        },
+        "url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://twitter.com/_FORAB/status/2118978587265290558"
+        }
+      },
+      "_tags": [
+        "story",
+        "author_firemelt",
+        "story_50414800"
+      ],
+      "author": "firemelt",
+      "created_at": "2026-11-08T16:43:51Z",
+      "created_at_i": 1794156231,
+      "num_comments": 0,
+      "objectID": "50414800",
+      "points": 1,
+      "story_id": 50414800,
+      "title": "A guy running Claude KYC business to bypass anthropics restrictions",
+      "updated_at": "2026-11-08T16:44:35Z",
+      "url": "https://twitter.com/_FORAB/status/2118978587265290558"
+    }
+  ]
+}
