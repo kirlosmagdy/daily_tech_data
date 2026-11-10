@@ -25,6 +25,7 @@ thresholds:
     github: 10
     rss: 0
     arxiv: 0
+    hf_papers: 0
     bluesky: 2
     x: 5
     reddit: 5
@@ -110,6 +111,9 @@ sources:
       - cs.DB
       - cs.LG
       - cs.AI
+  hf_papers:
+    enabled: true
+    tier: "tier_1"
   bluesky:
     enabled: false
     tier: "tier_3"
@@ -177,7 +181,7 @@ topics:
     - cli
     - git
     - testing
-    - Polars
+    - polars
     - pandas
   cloud:
     - aws
