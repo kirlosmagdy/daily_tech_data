@@ -1,0 +1,33 @@
+tool,aliases,context_words
+dbt,dbt|dbt-core|dbt-duckdb,
+Spark,spark|pyspark,apache|data|sql|streaming|cluster|dataframe|databricks|etl|pipeline
+Airflow,airflow,apache|dag|dags|orchestration|pipeline|workflow|data|task
+Snowflake,snowflake,data|warehouse|sql|cloud|table|iceberg|cortex|query|db
+Databricks,databricks,
+Kafka,kafka,apache|stream|streaming|event|events|broker|topic|confluent|pipeline
+DuckDB,duckdb,
+PostgreSQL,postgres|postgresql,
+BigQuery,bigquery,
+Power BI,power bi|powerbi,
+Polars,polars,
+Iceberg,iceberg,apache|table|tables|lakehouse|parquet|catalog|snowflake|aws|s3|trino
+ClickHouse,clickhouse,
+Kubernetes,kubernetes|k8s,
+PyTorch,pytorch,
+TensorFlow,tensorflow,
+Pandas,pandas,python|dataframe|data|numpy|polars|csv|parquet|series
+Docker,docker,
+Terraform,terraform,
+Trino,trino,
+Flink,flink,apache|stream|streaming|data|sql|kafka|event|stateful
+Dagster,dagster,
+Prefect,prefect,python|workflow|orchestration|pipeline|data|flow|task|airflow
+Redshift,redshift,aws|amazon|data|warehouse|sql|query|s3|table
+Supabase,supabase,
+Tableau,tableau,
+Looker,looker,bi|google|dashboard|analytics|sql|lookml|metrics
+LangChain,langchain,
+LlamaIndex,llamaindex,
+vLLM,vllm,
+Ray,ray,anyscale|distributed|python|ml|ai|cluster|llm|pytorch|compute
+Delta Lake,delta lake|deltalake,
