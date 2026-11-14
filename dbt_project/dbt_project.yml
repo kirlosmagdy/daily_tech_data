@@ -1,0 +1,14 @@
+name: "daily_tech_pulse"
+version: "1.1.0"
+config-version: 2
+
+profile: "daily_tech_pulse"
+
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  daily_tech_pulse:
+    +materialized: table

@@ -1,0 +1,133 @@
+# yaml-language-server: $schema=none
+version: 2
+
+models:
+  - name: stg_silver_items
+    description: "Staging view over the deduplicated and enriched Silver Parquet history."
+    columns:
+      - name: canonical_url
+        description: "Normalized unique URL for the content item."
+        data_tests:
+          - not_null
+          - unique
+      - name: source
+        description: "Identifier of the primary source connector."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ["hackernews", "devto", "lobsters", "rss", "github", "arxiv", "hf_papers", "bluesky", "x", "reddit"]
+      - name: tier
+        description: "Trust tier category assigned to the source."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ["tier_1", "tier_2", "tier_3"]
+      - name: title
+        description: "Cleaned plain-text title of the item."
+        data_tests:
+          - not_null
+      - name: sentiment
+        description: "VADER compound sentiment score ranging from -1.0 to 1.0."
+        data_tests:
+          - between:
+              min_value: -1.0
+              max_value: 1.0
+
+  - name: gold_ranked_items
+    description: "All Silver items scored with engagement percentile, trust weight, freshness decay, and cross-source bonus."
+    columns:
+      - name: canonical_url
+        description: "Normalized unique URL for the content item."
+        data_tests:
+          - not_null
+          - unique
+      - name: source
+        description: "Primary source identifier."
+        data_tests:
+          - accepted_values:
+              values: ["hackernews", "devto", "lobsters", "rss", "github", "arxiv", "hf_papers", "bluesky", "x", "reddit"]
+      - name: tier
+        description: "Trust tier label (tier_1, tier_2, tier_3)."
+        data_tests:
+          - accepted_values:
+              values: ["tier_1", "tier_2", "tier_3"]
+      - name: sentiment
+        description: "VADER compound sentiment score between -1.0 and 1.0."
+        data_tests:
+          - between:
+              min_value: -1.0
+              max_value: 1.0
+      - name: rank_score
+        description: "Composite ranking score combining engagement percentile, trust weight, freshness, and cross-source bonus."
+        data_tests:
+          - not_null
+
+  - name: gold_today_feed
+    description: "Top 100 ranked items from the last 36 hours for the Today page."
+    columns:
+      - name: canonical_url
+        description: "Normalized unique URL."
+        data_tests:
+          - not_null
+          - unique
+      - name: rank_score
+        description: "Composite rank score."
+        data_tests:
+          - not_null
+
+  - name: gold_daily_topic_counts
+    description: "Daily count of distinct items per topic over the 90-day retention window."
+    columns:
+      - name: metric_date
+        description: "UTC publication date."
+        data_tests:
+          - not_null
+      - name: topic
+        description: "Topic slug from seeds/topics.csv."
+        data_tests:
+          - not_null
+      - name: item_count
+        description: "Number of distinct items tagged with this topic on metric_date."
+        data_tests:
+          - not_null
+
+  - name: gold_tool_trends
+    description: "Tool mention counts in the last 7 days compared against the previous 7 days."
+    columns:
+      - name: tool
+        description: "Canonical tool name from seeds/tools.csv."
+        data_tests:
+          - not_null
+          - unique
+      - name: mentions_last_7d
+        description: "Mentions in the most recent 7-day window."
+      - name: mentions_prev_7d
+        description: "Mentions in the preceding 7-day window (days 8 to 14)."
+      - name: mentions_delta
+        description: "Difference between mentions_last_7d and mentions_prev_7d."
+
+  - name: gold_weekly_tool_sentiment
+    description: "Weekly average VADER sentiment for tools with at least 10 mentions in that week."
+    columns:
+      - name: week_start
+        description: "Monday start date of the ISO week."
+      - name: tool
+        description: "Canonical tool name."
+      - name: mentions_count
+        description: "Distinct item mentions during the week (minimum 10)."
+      - name: avg_sentiment
+        description: "Mean VADER sentiment score for the tool that week."
+
+  - name: gold_source_health
+    description: "Per-source operational health, trust tier, item count, and last successful collection time."
+    columns:
+      - name: source
+        description: "Source connector name."
+        data_tests:
+          - not_null
+          - unique
+      - name: status
+        description: "Health status (ok, partial, or failed)."
+        data_tests:
+          - accepted_values:
+              values: ["ok", "partial", "failed"]
