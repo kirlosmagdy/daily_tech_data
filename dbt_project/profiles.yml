@@ -4,4 +4,4 @@ daily_tech_pulse:
     dev:
       type: duckdb
       path: "data/pulse.duckdb"
-      threads: 4
+      threads: 1
