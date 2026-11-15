@@ -2,26 +2,32 @@
   {
     "week_start": "2026-11-09T00:00:00",
     "tool": "PostgreSQL",
-    "mentions_count": 42,
-    "avg_sentiment": 0.1858
+    "mentions_count": 44,
+    "avg_sentiment": 0.211
   },
   {
     "week_start": "2026-11-09T00:00:00",
     "tool": "DuckDB",
-    "mentions_count": 36,
-    "avg_sentiment": 0.2472
+    "mentions_count": 37,
+    "avg_sentiment": 0.2604
   },
   {
     "week_start": "2026-11-09T00:00:00",
     "tool": "dbt",
-    "mentions_count": 35,
-    "avg_sentiment": 0.1761
+    "mentions_count": 36,
+    "avg_sentiment": 0.1867
   },
   {
     "week_start": "2026-11-09T00:00:00",
     "tool": "Snowflake",
-    "mentions_count": 23,
-    "avg_sentiment": 0.2335
+    "mentions_count": 24,
+    "avg_sentiment": 0.247
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "BigQuery",
+    "mentions_count": 22,
+    "avg_sentiment": 0.1962
   },
   {
     "week_start": "2026-11-09T00:00:00",
@@ -31,27 +37,21 @@
   },
   {
     "week_start": "2026-11-09T00:00:00",
-    "tool": "BigQuery",
-    "mentions_count": 21,
-    "avg_sentiment": 0.179
-  },
-  {
-    "week_start": "2026-11-09T00:00:00",
     "tool": "Airflow",
     "mentions_count": 18,
     "avg_sentiment": 0.1572
   },
   {
     "week_start": "2026-11-09T00:00:00",
-    "tool": "Databricks",
+    "tool": "Redshift",
     "mentions_count": 17,
-    "avg_sentiment": 0.117
+    "avg_sentiment": 0.3865
   },
   {
     "week_start": "2026-11-09T00:00:00",
-    "tool": "Redshift",
-    "mentions_count": 15,
-    "avg_sentiment": 0.3394
+    "tool": "Databricks",
+    "mentions_count": 17,
+    "avg_sentiment": 0.117
   },
   {
     "week_start": "2026-11-09T00:00:00",

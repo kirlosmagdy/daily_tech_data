@@ -7,11 +7,11 @@
     "title": "NousResearch/hermes-agent: The agent that grows with you",
     "snippet": "The agent that grows with you",
     "author": "NousResearch",
-    "published_at": "2026-11-15T13:58:40+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T12:16:51+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 263522,
+    "source_score": 263524,
     "comments_count": 53903,
     "source_tags": [
       "ai",
@@ -39,9 +39,9 @@
       "github"
     ],
     "engagement_percentile": 1.0,
-    "freshness_score": 0.9994,
+    "freshness_score": 0.9936,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.7995
+    "rank_score": 0.7949
   },
   {
     "source": "github",
@@ -51,8 +51,8 @@
     "title": "huggingface/transformers: 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
     "snippet": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
     "author": "huggingface",
-    "published_at": "2026-11-15T13:49:30+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T11:49:30+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 168993,
@@ -91,104 +91,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9635,
-    "freshness_score": 0.9936,
+    "engagement_percentile": 0.9641,
+    "freshness_score": 0.9765,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.7659
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "626805178",
-    "canonical_url": "https://github.com/langgenius/dify",
-    "title": "langgenius/dify: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-    "snippet": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-    "author": "langgenius",
-    "published_at": "2026-11-15T13:33:54+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 161187,
-    "comments_count": 1385,
-    "source_tags": [
-      "agent",
-      "agentic-ai",
-      "agentic-framework",
-      "agentic-workflow",
-      "ai",
-      "automation",
-      "claude",
-      "deepseek",
-      "genai",
-      "gpt",
-      "llm",
-      "low-code",
-      "mcp",
-      "nextjs",
-      "no-code",
-      "openai",
-      "python",
-      "skills",
-      "workflow"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.9118,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.9583,
-    "freshness_score": 0.9835,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.754
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "65600975",
-    "canonical_url": "https://github.com/pytorch/pytorch",
-    "title": "pytorch/pytorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-    "snippet": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-    "author": "pytorch",
-    "published_at": "2026-11-15T13:54:34+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 105513,
-    "comments_count": 18281,
-    "source_tags": [
-      "autograd",
-      "deep-learning",
-      "gpu",
-      "machine-learning",
-      "neural-network",
-      "numpy",
-      "python",
-      "tensor"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [
-      "PyTorch"
-    ],
-    "sentiment": 0.8957,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.9375,
-    "freshness_score": 0.9968,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.7476
+    "rank_score": 0.7532
   },
   {
     "source": "github",
@@ -198,12 +104,12 @@
     "title": "paperclipai/paperclip: The open-source app everyone uses to manage agents at work",
     "snippet": "The open-source app everyone uses to manage agents at work",
     "author": "paperclipai",
-    "published_at": "2026-11-15T13:59:10+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T12:22:27+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 114029,
-    "comments_count": 6691,
+    "source_score": 114031,
+    "comments_count": 6693,
     "source_tags": [
       "acpx",
       "agent-orchestration",
@@ -238,10 +144,104 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9323,
-    "freshness_score": 1.0,
+    "engagement_percentile": 0.9333,
+    "freshness_score": 0.9974,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.7458
+    "rank_score": 0.7448
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "626805178",
+    "canonical_url": "https://github.com/langgenius/dify",
+    "title": "langgenius/dify: Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "snippet": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "author": "langgenius",
+    "published_at": "2026-11-15T11:33:54+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 161187,
+    "comments_count": 1386,
+    "source_tags": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "automation",
+      "claude",
+      "deepseek",
+      "genai",
+      "gpt",
+      "llm",
+      "low-code",
+      "mcp",
+      "nextjs",
+      "no-code",
+      "openai",
+      "python",
+      "skills",
+      "workflow"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.9118,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.959,
+    "freshness_score": 0.9666,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.7415
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "65600975",
+    "canonical_url": "https://github.com/pytorch/pytorch",
+    "title": "pytorch/pytorch: Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "snippet": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "author": "pytorch",
+    "published_at": "2026-11-15T11:54:34+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 105513,
+    "comments_count": 18284,
+    "source_tags": [
+      "autograd",
+      "deep-learning",
+      "gpu",
+      "machine-learning",
+      "neural-network",
+      "numpy",
+      "python",
+      "tensor"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [
+      "PyTorch"
+    ],
+    "sentiment": 0.8957,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.9385,
+    "freshness_score": 0.9797,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.7355
   },
   {
     "source": "github",
@@ -251,12 +251,12 @@
     "title": "vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs",
     "snippet": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "author": "vllm-project",
-    "published_at": "2026-11-15T13:58:19+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T11:58:19+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 96953,
-    "comments_count": 10406,
+    "source_score": 96955,
+    "comments_count": 10408,
     "source_tags": [
       "amd",
       "blackwell",
@@ -292,10 +292,116 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9167,
+    "engagement_percentile": 0.9179,
+    "freshness_score": 0.9822,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.7213
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "979115477",
+    "canonical_url": "https://github.com/bytedance/deer-flow",
+    "title": "bytedance/deer-flow: An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "snippet": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "author": "bytedance",
+    "published_at": "2026-11-15T12:23:43+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 85359,
+    "comments_count": 1105,
+    "source_tags": [
+      "agent",
+      "agentic",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "ai-agents",
+      "deep-research",
+      "harness",
+      "langchain",
+      "langgraph",
+      "langmanus",
+      "llm",
+      "multi-agent",
+      "nodejs",
+      "podcast",
+      "python",
+      "superagent",
+      "typescript"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "LangChain"
+    ],
+    "sentiment": 0.8225,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.8923,
+    "freshness_score": 0.9981,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.7125
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "725205304",
+    "canonical_url": "https://github.com/unslothai/unsloth",
+    "title": "unslothai/unsloth: Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+    "snippet": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+    "author": "unslothai",
+    "published_at": "2026-11-15T12:25:43+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 79532,
+    "comments_count": 482,
+    "source_tags": [
+      "agent",
+      "ai",
+      "chatgpt",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "image-generation",
+      "llama",
+      "llm",
+      "llms",
+      "openai",
+      "python",
+      "qwen",
+      "reinforcement-learning",
+      "self-hosted",
+      "stable-diffusion",
+      "text-to-speech",
+      "tts",
+      "ui",
+      "unsloth"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.6124,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.8718,
     "freshness_score": 0.9994,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.7329
+    "rank_score": 0.697
   },
   {
     "source": "github",
@@ -305,8 +411,8 @@
     "title": "Significant-Gravitas/AutoGPT: AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
     "snippet": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
     "author": "Significant-Gravitas",
-    "published_at": "2026-11-15T11:27:17+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T09:27:17+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 188032,
@@ -335,53 +441,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.974,
-    "freshness_score": 0.9071,
+    "engagement_percentile": 0.9744,
+    "freshness_score": 0.8915,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.7067
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "45717250",
-    "canonical_url": "https://github.com/tensorflow/tensorflow",
-    "title": "tensorflow/tensorflow: An Open Source Machine Learning Framework for Everyone",
-    "snippet": "An Open Source Machine Learning Framework for Everyone",
-    "author": "tensorflow",
-    "published_at": "2026-11-15T10:58:26+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 201621,
-    "comments_count": 3461,
-    "source_tags": [
-      "deep-learning",
-      "deep-neural-networks",
-      "distributed",
-      "machine-learning",
-      "ml",
-      "neural-network",
-      "python",
-      "tensorflow"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [
-      "TensorFlow"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.9896,
-    "freshness_score": 0.8903,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.7048
+    "rank_score": 0.6949
   },
   {
     "source": "github",
@@ -391,12 +454,12 @@
     "title": "netdata/netdata: The fastest path to AI-powered full stack observability, even for lean teams.",
     "snippet": "The fastest path to AI-powered full stack observability, even for lean teams.",
     "author": "netdata",
-    "published_at": "2026-11-15T13:58:13+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T11:58:13+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 81423,
-    "comments_count": 455,
+    "comments_count": 456,
     "source_tags": [
       "ai",
       "alerting",
@@ -436,46 +499,34 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.8802,
-    "freshness_score": 0.9994,
+    "engagement_percentile": 0.8821,
+    "freshness_score": 0.9822,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.7037
+    "rank_score": 0.6931
   },
   {
     "source": "github",
     "tier": "tier_2",
-    "source_item_id": "725205304",
-    "canonical_url": "https://github.com/unslothai/unsloth",
-    "title": "unslothai/unsloth: Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
-    "snippet": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
-    "author": "unslothai",
-    "published_at": "2026-11-15T13:52:44+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "source_item_id": "45717250",
+    "canonical_url": "https://github.com/tensorflow/tensorflow",
+    "title": "tensorflow/tensorflow: An Open Source Machine Learning Framework for Everyone",
+    "snippet": "An Open Source Machine Learning Framework for Everyone",
+    "author": "tensorflow",
+    "published_at": "2026-11-15T08:58:26+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 79531,
-    "comments_count": 482,
+    "source_score": 201621,
+    "comments_count": 3461,
     "source_tags": [
-      "agent",
-      "ai",
-      "chatgpt",
-      "deepseek",
-      "fine-tuning",
-      "gemma",
-      "image-generation",
-      "llama",
-      "llm",
-      "llms",
-      "openai",
+      "deep-learning",
+      "deep-neural-networks",
+      "distributed",
+      "machine-learning",
+      "ml",
+      "neural-network",
       "python",
-      "qwen",
-      "reinforcement-learning",
-      "self-hosted",
-      "stable-diffusion",
-      "text-to-speech",
-      "tts",
-      "ui",
-      "unsloth"
+      "tensorflow"
     ],
     "domain": "github.com",
     "topics": [
@@ -483,16 +534,18 @@
       "programming_and_devtools",
       "open_source"
     ],
-    "tools_mentioned": [],
-    "sentiment": 0.6124,
+    "tools_mentioned": [
+      "TensorFlow"
+    ],
+    "sentiment": 0.0,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.8698,
-    "freshness_score": 0.9955,
+    "engagement_percentile": 0.9897,
+    "freshness_score": 0.875,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6927
+    "rank_score": 0.6928
   },
   {
     "source": "github",
@@ -502,11 +555,11 @@
     "title": "rohitg00/ai-engineering-from-scratch: Learn AI Engineering! Learn it. Build it. Ship it for others.",
     "snippet": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
     "author": "rohitg00",
-    "published_at": "2026-11-15T13:39:42+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T12:24:41+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 78997,
+    "source_score": 78998,
     "comments_count": 70,
     "source_tags": [
       "agents",
@@ -541,10 +594,62 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.8594,
-    "freshness_score": 0.9872,
+    "engagement_percentile": 0.8615,
+    "freshness_score": 0.9987,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6787
+    "rank_score": 0.6883
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "60246359",
+    "canonical_url": "https://github.com/ClickHouse/ClickHouse",
+    "title": "ClickHouse/ClickHouse: ClickHouse® is a real-time analytics database management system",
+    "snippet": "ClickHouse® is a real-time analytics database management system",
+    "author": "ClickHouse",
+    "published_at": "2026-11-15T12:24:35+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 50933,
+    "comments_count": 9118,
+    "source_tags": [
+      "ai",
+      "analytics",
+      "big-data",
+      "clickhouse",
+      "cloud-native",
+      "cpp",
+      "database",
+      "dbms",
+      "distributed",
+      "embedded",
+      "hacktoberfest",
+      "lakehouse",
+      "mpp",
+      "olap",
+      "rust",
+      "self-hosted",
+      "sql"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "ClickHouse"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.8359,
+    "freshness_score": 0.9987,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.6679
   },
   {
     "source": "github",
@@ -554,8 +659,8 @@
     "title": "langchain-ai/langchain: The agent engineering platform.",
     "snippet": "The agent engineering platform.",
     "author": "langchain-ai",
-    "published_at": "2026-11-15T11:02:02+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T09:02:02+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 149544,
@@ -596,10 +701,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9427,
-    "freshness_score": 0.8926,
+    "engagement_percentile": 0.9436,
+    "freshness_score": 0.8773,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6732
+    "rank_score": 0.6622
   },
   {
     "source": "github",
@@ -609,12 +714,12 @@
     "title": "open-webui/open-webui: User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "snippet": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "author": "open-webui",
-    "published_at": "2026-11-15T10:35:45+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T08:35:45+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 158696,
-    "comments_count": 370,
+    "source_score": 158698,
+    "comments_count": 371,
     "source_tags": [
       "ai",
       "llm",
@@ -644,62 +749,62 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9531,
-    "freshness_score": 0.8773,
+    "engagement_percentile": 0.9538,
+    "freshness_score": 0.8622,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6689
+    "rank_score": 0.6579
   },
   {
     "source": "github",
     "tier": "tier_2",
-    "source_item_id": "60246359",
-    "canonical_url": "https://github.com/ClickHouse/ClickHouse",
-    "title": "ClickHouse/ClickHouse: ClickHouse® is a real-time analytics database management system",
-    "snippet": "ClickHouse® is a real-time analytics database management system",
-    "author": "ClickHouse",
-    "published_at": "2026-11-15T13:58:52+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "source_item_id": "41986369",
+    "canonical_url": "https://github.com/pingcap/tidb",
+    "title": "pingcap/tidb: TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+    "snippet": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+    "author": "pingcap",
+    "published_at": "2026-11-15T12:18:49+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 50933,
-    "comments_count": 9118,
+    "source_score": 40735,
+    "comments_count": 7640,
     "source_tags": [
+      "agent",
+      "agent-context",
+      "agent-memory",
+      "agentic",
       "ai",
-      "analytics",
-      "big-data",
-      "clickhouse",
       "cloud-native",
-      "cpp",
       "database",
-      "dbms",
-      "distributed",
-      "embedded",
+      "distributed-database",
+      "distributed-transactions",
+      "go",
       "hacktoberfest",
-      "lakehouse",
-      "mpp",
-      "olap",
-      "rust",
-      "self-hosted",
-      "sql"
+      "htap",
+      "memory",
+      "mysql",
+      "mysql-compatibility",
+      "scale",
+      "serverless",
+      "sql",
+      "tidb"
     ],
     "domain": "github.com",
     "topics": [
       "databases_and_warehouses",
-      "programming_and_devtools",
-      "open_source"
+      "ai_and_ml",
+      "cloud"
     ],
-    "tools_mentioned": [
-      "ClickHouse"
-    ],
-    "sentiment": 0.0,
+    "tools_mentioned": [],
+    "sentiment": -0.0936,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.8333,
-    "freshness_score": 0.9994,
+    "engagement_percentile": 0.8154,
+    "freshness_score": 0.9949,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6662
+    "rank_score": 0.649
   },
   {
     "source": "github",
@@ -709,11 +814,11 @@
     "title": "tt-a1i/archify: Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
     "snippet": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
     "author": "tt-a1i",
-    "published_at": "2026-11-15T11:28:31+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T09:28:31+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 96549,
+    "source_score": 96551,
     "comments_count": 360,
     "source_tags": [
       "agent-skills",
@@ -747,10 +852,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9063,
-    "freshness_score": 0.9076,
+    "engagement_percentile": 0.9077,
+    "freshness_score": 0.892,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.658
+    "rank_score": 0.6478
   },
   {
     "source": "github",
@@ -760,11 +865,11 @@
     "title": "affaan-m/ECC: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "snippet": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "author": "affaan-m",
-    "published_at": "2026-11-15T08:48:46+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T06:48:46+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 303474,
+    "source_score": 303492,
     "comments_count": 281,
     "source_tags": [
       "ai-agents",
@@ -787,10 +892,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9948,
-    "freshness_score": 0.8191,
+    "engagement_percentile": 0.9949,
+    "freshness_score": 0.805,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6518
+    "rank_score": 0.6407
   },
   {
     "source": "github",
@@ -800,11 +905,11 @@
     "title": "f/prompts.chat: f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
     "snippet": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
     "author": "f",
-    "published_at": "2026-11-15T09:04:27+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T07:04:27+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 177478,
+    "source_score": 177485,
     "comments_count": 90,
     "source_tags": [
       "ai",
@@ -838,10 +943,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9688,
-    "freshness_score": 0.8275,
+    "engagement_percentile": 0.9692,
+    "freshness_score": 0.8133,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6413
+    "rank_score": 0.6306
   },
   {
     "source": "github",
@@ -851,8 +956,8 @@
     "title": "Developer-Y/cs-video-courses: List of Computer Science courses with video lectures.",
     "snippet": "List of Computer Science courses with video lectures.",
     "author": "Developer-Y",
-    "published_at": "2026-11-15T11:20:21+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T09:20:21+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 84855,
@@ -888,62 +993,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.8854,
-    "freshness_score": 0.903,
+    "engagement_percentile": 0.8872,
+    "freshness_score": 0.8875,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6396
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "41986369",
-    "canonical_url": "https://github.com/pingcap/tidb",
-    "title": "pingcap/tidb: TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
-    "snippet": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
-    "author": "pingcap",
-    "published_at": "2026-11-15T13:30:49+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 40734,
-    "comments_count": 7638,
-    "source_tags": [
-      "agent",
-      "agent-context",
-      "agent-memory",
-      "agentic",
-      "ai",
-      "cloud-native",
-      "database",
-      "distributed-database",
-      "distributed-transactions",
-      "go",
-      "hacktoberfest",
-      "htap",
-      "memory",
-      "mysql",
-      "mysql-compatibility",
-      "scale",
-      "serverless",
-      "sql",
-      "tidb"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "databases_and_warehouses",
-      "ai_and_ml",
-      "cloud"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.0936,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.8125,
-    "freshness_score": 0.9816,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.638
+    "rank_score": 0.6299
   },
   {
     "source": "github",
@@ -953,8 +1006,8 @@
     "title": "apache/airflow: Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
     "snippet": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
     "author": "apache",
-    "published_at": "2026-11-15T13:30:23+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T12:01:31+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 47484,
@@ -995,10 +1048,93 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.7917,
-    "freshness_score": 0.9816,
+    "engagement_percentile": 0.7949,
+    "freshness_score": 0.9841,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6217
+    "rank_score": 0.6258
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "458648791",
+    "canonical_url": "https://github.com/paperless-ngx/paperless-ngx",
+    "title": "paperless-ngx/paperless-ngx: A community-supported supercharged document management system: scan, index and archive all your documents",
+    "snippet": "A community-supported supercharged document management system: scan, index and archive all your documents",
+    "author": "paperless-ngx",
+    "published_at": "2026-11-15T12:15:32+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 48133,
+    "comments_count": 9,
+    "source_tags": [
+      "ai",
+      "angular",
+      "archiving",
+      "django",
+      "dms",
+      "document-management",
+      "document-management-system",
+      "llm",
+      "machine-learning",
+      "ocr",
+      "optical-character-recognition",
+      "pdf"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.7795,
+    "freshness_score": 0.993,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.6192
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "266417772",
+    "canonical_url": "https://github.com/SimplifyJobs/Summer2027-Internships",
+    "title": "SimplifyJobs/Summer2027-Internships: Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+    "snippet": "Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+    "author": "SimplifyJobs",
+    "published_at": "2026-11-15T12:01:57+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 48425,
+    "comments_count": 135,
+    "source_tags": [
+      "data-science",
+      "fall-2026",
+      "github",
+      "internship",
+      "internships",
+      "interview-preparation",
+      "jobs",
+      "software-engineering",
+      "university"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.7846,
+    "freshness_score": 0.9841,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.6177
   },
   {
     "source": "github",
@@ -1008,8 +1144,8 @@
     "title": "apache/superset: Apache Superset is a Data Visualization and Data Exploration Platform",
     "snippet": "Apache Superset is a Data Visualization and Data Exploration Platform",
     "author": "apache",
-    "published_at": "2026-11-15T11:31:51+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T09:31:51+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 75527,
@@ -1047,10 +1183,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.849,
-    "freshness_score": 0.9094,
+    "engagement_percentile": 0.8513,
+    "freshness_score": 0.8938,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6176
+    "rank_score": 0.6087
   },
   {
     "source": "github",
@@ -1060,11 +1196,11 @@
     "title": "JuliusBrussee/caveman: 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
     "snippet": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
     "author": "JuliusBrussee",
-    "published_at": "2026-11-15T09:19:16+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T07:19:16+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 120304,
+    "source_score": 120316,
     "comments_count": 88,
     "source_tags": [
       "ai",
@@ -1088,50 +1224,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9219,
-    "freshness_score": 0.8355,
+    "engagement_percentile": 0.9231,
+    "freshness_score": 0.8212,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6162
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "266417772",
-    "canonical_url": "https://github.com/SimplifyJobs/Summer2027-Internships",
-    "title": "SimplifyJobs/Summer2027-Internships: Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
-    "snippet": "Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
-    "author": "SimplifyJobs",
-    "published_at": "2026-11-15T13:32:02+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 48425,
-    "comments_count": 135,
-    "source_tags": [
-      "data-science",
-      "fall-2026",
-      "github",
-      "internship",
-      "internships",
-      "interview-preparation",
-      "jobs",
-      "software-engineering",
-      "university"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.7813,
-    "freshness_score": 0.9828,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.6143
+    "rank_score": 0.6064
   },
   {
     "source": "github",
@@ -1141,8 +1237,8 @@
     "title": "deepspeedai/DeepSpeed: DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
     "snippet": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
     "author": "deepspeedai",
-    "published_at": "2026-11-15T13:39:33+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T11:39:33+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 43325,
@@ -1174,10 +1270,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.7708,
-    "freshness_score": 0.9872,
+    "engagement_percentile": 0.7744,
+    "freshness_score": 0.9703,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6088
+    "rank_score": 0.6011
   },
   {
     "source": "github",
@@ -1187,8 +1283,8 @@
     "title": "apache/spark: Apache Spark - A unified analytics engine for large-scale data processing",
     "snippet": "Apache Spark - A unified analytics engine for large-scale data processing",
     "author": "apache",
-    "published_at": "2026-11-15T13:49:01+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T11:49:01+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 44524,
@@ -1218,10 +1314,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.7656,
-    "freshness_score": 0.9936,
+    "engagement_percentile": 0.7692,
+    "freshness_score": 0.9765,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6086
+    "rank_score": 0.6009
   },
   {
     "source": "github",
@@ -1231,8 +1327,8 @@
     "title": "ray-project/ray: Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
     "snippet": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
     "author": "ray-project",
-    "published_at": "2026-11-15T12:34:16+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T10:34:16+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 44290,
@@ -1274,10 +1370,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.8021,
-    "freshness_score": 0.9469,
+    "engagement_percentile": 0.8051,
+    "freshness_score": 0.9306,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6076
+    "rank_score": 0.5994
   },
   {
     "source": "github",
@@ -1287,11 +1383,11 @@
     "title": "headroomlabs-ai/headroom: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
     "snippet": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
     "author": "headroomlabs-ai",
-    "published_at": "2026-11-15T10:31:56+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T08:31:56+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 79698,
+    "source_score": 79699,
     "comments_count": 306,
     "source_tags": [
       "agent",
@@ -1328,10 +1424,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.8646,
-    "freshness_score": 0.875,
+    "engagement_percentile": 0.8667,
+    "freshness_score": 0.86,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.6052
+    "rank_score": 0.5963
   },
   {
     "source": "github",
@@ -1341,11 +1437,11 @@
     "title": "ultralytics/ultralytics: Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
     "snippet": "Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
     "author": "ultralytics",
-    "published_at": "2026-11-15T11:06:29+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T09:06:29+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 63438,
+    "source_score": 63439,
     "comments_count": 80,
     "source_tags": [
       "computer-vision",
@@ -1382,10 +1478,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.8229,
-    "freshness_score": 0.8949,
+    "engagement_percentile": 0.8256,
+    "freshness_score": 0.8795,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.5891
+    "rank_score": 0.5809
   },
   {
     "source": "github",
@@ -1395,8 +1491,8 @@
     "title": "dbeaver/dbeaver: Free universal database tool and SQL client",
     "snippet": "Free universal database tool and SQL client",
     "author": "dbeaver",
-    "published_at": "2026-11-15T10:33:50+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T08:33:50+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 52437,
@@ -1437,10 +1533,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.8177,
-    "freshness_score": 0.8762,
+    "engagement_percentile": 0.8205,
+    "freshness_score": 0.8611,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.5732
+    "rank_score": 0.5652
   },
   {
     "source": "github",
@@ -1450,8 +1546,8 @@
     "title": "tesseract-ocr/tesseract: Tesseract Open Source OCR Engine (main repository)",
     "snippet": "Tesseract Open Source OCR Engine (main repository)",
     "author": "tesseract-ocr",
-    "published_at": "2026-11-15T09:19:06+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T07:19:06+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 77523,
@@ -1475,10 +1571,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.8542,
-    "freshness_score": 0.8355,
+    "engagement_percentile": 0.8564,
+    "freshness_score": 0.8212,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.5709
+    "rank_score": 0.5626
   },
   {
     "source": "github",
@@ -1488,8 +1584,8 @@
     "title": "qdrant/qdrant: Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
     "snippet": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
     "author": "qdrant",
-    "published_at": "2026-11-15T13:35:48+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T11:35:48+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 35564,
@@ -1526,10 +1622,49 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.7135,
-    "freshness_score": 0.9847,
+    "engagement_percentile": 0.7179,
+    "freshness_score": 0.9678,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.5621
+    "rank_score": 0.5559
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "683347556",
+    "canonical_url": "https://github.com/tursodatabase/turso",
+    "title": "tursodatabase/turso: A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+    "snippet": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+    "author": "tursodatabase",
+    "published_at": "2026-11-15T12:24:07+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 25261,
+    "comments_count": 1638,
+    "source_tags": [
+      "database",
+      "embedded-database",
+      "sql",
+      "sqlite3",
+      "webassembly"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [
+      "PostgreSQL"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6769,
+    "freshness_score": 0.9987,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.5408
   },
   {
     "source": "github",
@@ -1539,11 +1674,11 @@
     "title": "browser-use/browser-use: Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
     "snippet": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
     "author": "browser-use",
-    "published_at": "2026-11-15T05:39:17+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T03:39:17+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 121077,
+    "source_score": 121078,
     "comments_count": 616,
     "source_tags": [
       "ai-agents",
@@ -1576,10 +1711,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9271,
-    "freshness_score": 0.7255,
+    "engagement_percentile": 0.9282,
+    "freshness_score": 0.713,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.5381
+    "rank_score": 0.5295
   },
   {
     "source": "github",
@@ -1589,11 +1724,11 @@
     "title": "firecrawl/firecrawl: Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
     "snippet": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
     "author": "firecrawl",
-    "published_at": "2026-11-15T03:43:22+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T01:43:22+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 201917,
+    "source_score": 201928,
     "comments_count": 801,
     "source_tags": [
       "ai",
@@ -1626,49 +1761,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9844,
-    "freshness_score": 0.6734,
+    "engagement_percentile": 0.9846,
+    "freshness_score": 0.6619,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.5303
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "683347556",
-    "canonical_url": "https://github.com/tursodatabase/turso",
-    "title": "tursodatabase/turso: A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
-    "snippet": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
-    "author": "tursodatabase",
-    "published_at": "2026-11-15T13:28:51+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 25260,
-    "comments_count": 1637,
-    "source_tags": [
-      "database",
-      "embedded-database",
-      "sql",
-      "sqlite3",
-      "webassembly"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "databases_and_warehouses",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [
-      "PostgreSQL"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.6719,
-    "freshness_score": 0.9803,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.5269
+    "rank_score": 0.5214
   },
   {
     "source": "github",
@@ -1678,11 +1774,11 @@
     "title": "shareAI-lab/learn-claude-code: Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
     "snippet": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
     "author": "shareAI-lab",
-    "published_at": "2026-11-15T06:06:07+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T04:06:07+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 80431,
+    "source_score": 80432,
     "comments_count": 57,
     "source_tags": [
       "agent",
@@ -1707,10 +1803,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.875,
-    "freshness_score": 0.7382,
+    "engagement_percentile": 0.8769,
+    "freshness_score": 0.7255,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.5167
+    "rank_score": 0.509
   },
   {
     "source": "github",
@@ -1720,8 +1816,8 @@
     "title": "reflex-dev/reflex: 🕸️ Web apps in pure Python 🐍",
     "snippet": "🕸️ Web apps in pure Python 🐍",
     "author": "reflex-dev",
-    "published_at": "2026-11-15T12:07:43+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-15T10:07:43+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 29028,
@@ -1751,1738 +1847,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.6823,
-    "freshness_score": 0.9306,
+    "engagement_percentile": 0.6872,
+    "freshness_score": 0.9147,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.508
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "149026292",
-    "canonical_url": "https://github.com/cube-js/cube",
-    "title": "cube-js/cube: 📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics",
-    "snippet": "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics",
-    "author": "cube-js",
-    "published_at": "2026-11-15T13:34:00+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 21224,
-    "comments_count": 1188,
-    "source_tags": [
-      "agentic-analytics",
-      "agents",
-      "ai",
-      "analytics",
-      "bi",
-      "bigquery",
-      "business-intelligence",
-      "businessintelligence",
-      "conversational-analytics",
-      "cube",
-      "databricks",
-      "embedded-analytics",
-      "headless-bi",
-      "mysql",
-      "postgresql",
-      "rust",
-      "semantic-layer",
-      "snowflake",
-      "sql"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "analytics_and_bi",
-      "databases_and_warehouses",
-      "ai_and_ml",
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [
-      "Snowflake",
-      "Databricks",
-      "PostgreSQL",
-      "BigQuery"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.6146,
-    "freshness_score": 0.9841,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4838
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "196353673",
-    "canonical_url": "https://github.com/taosdata/TDengine",
-    "title": "taosdata/TDengine: High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios",
-    "snippet": "High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios",
-    "author": "taosdata",
-    "published_at": "2026-11-15T11:57:21+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 25194,
-    "comments_count": 454,
-    "source_tags": [
-      "bigdata",
-      "cloud-native",
-      "cluster",
-      "connected-vehicles",
-      "database",
-      "distributed",
-      "financial-analysis",
-      "industrial-iot",
-      "iot",
-      "metrics",
-      "monitoring",
-      "scalability",
-      "sql",
-      "tdengine",
-      "time-series",
-      "time-series-database",
-      "tsdb"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "analytics_and_bi",
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.6458,
-    "freshness_score": 0.9247,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4778
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "204086862",
-    "canonical_url": "https://github.com/streamlit/streamlit",
-    "title": "streamlit/streamlit: Streamlit — The agent-native framework for data apps and dashboards.",
-    "snippet": "Streamlit — The agent-native framework for data apps and dashboards.",
-    "author": "streamlit",
-    "published_at": "2026-11-15T06:32:53+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 46361,
-    "comments_count": 1198,
-    "source_tags": [
-      "agents",
-      "business-intelligence",
-      "dashboards",
-      "data-analysis",
-      "data-apps",
-      "data-science",
-      "data-visualization",
-      "deep-learning",
-      "developer-tools",
-      "internal-tools",
-      "machine-learning",
-      "python",
-      "streamlit",
-      "web-apps"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "analytics_and_bi",
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.7865,
-    "freshness_score": 0.7506,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4723
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5036386",
-    "canonical_url": "https://dev.to/necoz/cat-mutilation-successful-welcome-new-members-4bj4",
-    "title": "Cat Mutilation Successful!! 🛸 Welcome New Members!! 🐈🎉",
-    "snippet": "Hoi hoi! 👋 Last week, we launched the Necoz organization here on DEV! ...",
-    "author": "nyaomaru",
-    "published_at": "2026-11-15T12:01:42+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 32,
-    "comments_count": 8,
-    "source_tags": [
-      "community",
-      "github",
-      "necoz",
-      "opensource"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.9368,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.8333,
-    "freshness_score": 0.9271,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4635
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "212037775",
-    "canonical_url": "https://github.com/akfamily/akshare",
-    "title": "akfamily/akshare: AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库",
-    "snippet": "AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库",
-    "author": "akfamily",
-    "published_at": "2026-11-15T12:27:10+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 23341,
-    "comments_count": 0,
-    "source_tags": [
-      "academic",
-      "akshare",
-      "asset-pricing",
-      "bond",
-      "currency",
-      "data",
-      "data-analysis",
-      "data-science",
-      "datasets",
-      "economic-data",
-      "economics",
-      "finance",
-      "finance-api",
-      "financial-data",
-      "fundamental",
-      "futures",
-      "mcp",
-      "option",
-      "quant",
-      "stock"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.7772,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.6094,
-    "freshness_score": 0.9427,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4595
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "84240850",
-    "canonical_url": "https://github.com/timescale/timescaledb",
-    "title": "timescale/timescaledb: A time-series database for high-performance real-time analytics packaged as a Postgres extension",
-    "snippet": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
-    "author": "timescale",
-    "published_at": "2026-11-15T11:52:34+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 23861,
-    "comments_count": 482,
-    "source_tags": [
-      "analytics",
-      "database",
-      "financial-analysis",
-      "historian",
-      "iot",
-      "postgres",
-      "postgresql",
-      "sql",
-      "tigerdata",
-      "time-series",
-      "time-series-database",
-      "timescaledb",
-      "tsdb"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [
-      "PostgreSQL"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.6198,
-    "freshness_score": 0.9217,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.457
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "139199684",
-    "canonical_url": "https://github.com/PrefectHQ/prefect",
-    "title": "PrefectHQ/prefect: Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-    "snippet": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-    "author": "PrefectHQ",
-    "published_at": "2026-11-15T10:10:57+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 24159,
-    "comments_count": 892,
-    "source_tags": [
-      "automation",
-      "data",
-      "data-engineering",
-      "data-ops",
-      "data-science",
-      "infrastructure",
-      "ml-ops",
-      "observability",
-      "orchestration",
-      "pipeline",
-      "prefect",
-      "python",
-      "workflow",
-      "workflow-engine"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "data_engineering",
-      "programming_and_devtools",
-      "cloud"
-    ],
-    "tools_mentioned": [
-      "Prefect"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.6406,
-    "freshness_score": 0.8633,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4425
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "1200597263",
-    "canonical_url": "https://github.com/Graphify-Labs/graphify",
-    "title": "Graphify-Labs/graphify: Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-    "snippet": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-    "author": "Graphify-Labs",
-    "published_at": "2026-11-14T23:28:08+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 148066,
-    "comments_count": 1637,
-    "source_tags": [
-      "ai-agents",
-      "antigravity",
-      "ast",
-      "claude-code",
-      "code-analysis",
-      "code-search",
-      "codex",
-      "cursor",
-      "developer-tools",
-      "gemini",
-      "graphify",
-      "graphrag",
-      "knowledge-graph",
-      "leiden",
-      "llm",
-      "mcp",
-      "openclaw",
-      "rag",
-      "skills",
-      "tree-sitter"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "databases_and_warehouses",
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.5267,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.9479,
-    "freshness_score": 0.5718,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4336
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50503465",
-    "canonical_url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games",
-    "title": "My favourite modern NES games",
-    "snippet": "",
-    "author": "jordigh",
-    "published_at": "2026-11-15T04:41:25+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 107,
-    "comments_count": 10,
-    "source_tags": [
-      "front_page",
-      "games",
-      "retrocomputing",
-      "story"
-    ],
-    "domain": "jordi.inversethought.com",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews",
-      "lobsters"
-    ],
-    "engagement_percentile": 0.6582,
-    "freshness_score": 0.699,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.4233
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50504277",
-    "canonical_url": "https://netbsd.org/~nia/disk-encrypt",
-    "title": "Disk encryption on NetBSD – achieving secrecy",
-    "snippet": "",
-    "author": "jaypatelani",
-    "published_at": "2026-11-15T07:29:54+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 48,
-    "comments_count": 5,
-    "source_tags": [
-      "front_page",
-      "netbsd",
-      "story"
-    ],
-    "domain": "netbsd.org",
-    "topics": [
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews",
-      "lobsters"
-    ],
-    "engagement_percentile": 0.5759,
-    "freshness_score": 0.7786,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.4125
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "458648791",
-    "canonical_url": "https://github.com/paperless-ngx/paperless-ngx",
-    "title": "paperless-ngx/paperless-ngx: A community-supported supercharged document management system: scan, index and archive all your documents",
-    "snippet": "A community-supported supercharged document management system: scan, index and archive all your documents",
-    "author": "paperless-ngx",
-    "published_at": "2026-11-15T02:35:44+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 48133,
-    "comments_count": 9,
-    "source_tags": [
-      "ai",
-      "angular",
-      "archiving",
-      "django",
-      "dms",
-      "document-management",
-      "document-management-system",
-      "llm",
-      "machine-learning",
-      "ocr",
-      "optical-character-recognition",
-      "pdf"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.776,
-    "freshness_score": 0.6447,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4002
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50504072",
-    "canonical_url": "https://github.com/matheuzgomes/gawain",
-    "title": "Show HN: Gawain – Require type hints on all Python variables",
-    "snippet": "Yes, i really hate \"dict[str, ANY]\"",
-    "author": "MarinhoD",
-    "published_at": "2026-11-15T06:39:25+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 57,
-    "comments_count": 35,
-    "source_tags": [
-      "front_page",
-      "show_hn",
-      "story"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.3167,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.6582,
-    "freshness_score": 0.754,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.397
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50504077",
-    "canonical_url": "https://runkiri.com/",
-    "title": "Kiri – The Modern Container Runtime",
-    "snippet": "",
-    "author": "nikolay",
-    "published_at": "2026-11-15T06:40:41+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 59,
-    "comments_count": 30,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "runkiri.com",
-    "topics": [
-      "cloud"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.6392,
-    "freshness_score": 0.7545,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3858
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5039348",
-    "canonical_url": "https://dev.to/wst2002rk/jira-said-done-it-wasnt-and-the-bug-showed-up-later-so-i-made-jira-check-first-9ed",
-    "title": "Jira said Done. It wasn't, and the bug showed up later. So I made Jira check first.",
-    "snippet": "Picture this. The ticket moved to Done on Friday. The pull request was merged, CI was green, everyone...",
-    "author": "wst2002rk",
-    "published_at": "2026-11-15T07:05:40+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 33,
-    "comments_count": 2,
-    "source_tags": [
-      "ai",
-      "opensource",
-      "showdev",
-      "testing"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.8194,
-    "freshness_score": 0.7667,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3769
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "20587599",
-    "canonical_url": "https://github.com/apache/flink",
-    "title": "apache/flink: Apache Flink",
-    "snippet": "Apache Flink",
-    "author": "apache",
-    "published_at": "2026-11-15T04:57:10+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 26473,
-    "comments_count": 428,
-    "source_tags": [
-      "big-data",
-      "flink",
-      "java",
-      "python",
-      "scala",
-      "sql"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "data_engineering",
-      "databases_and_warehouses",
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [
-      "Flink"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.6615,
-    "freshness_score": 0.7062,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3737
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "33015583",
-    "canonical_url": "https://github.com/keras-team/keras",
-    "title": "keras-team/keras: Deep Learning for humans",
-    "snippet": "Deep Learning for humans",
-    "author": "keras-team",
-    "published_at": "2026-11-14T22:23:07+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 64425,
-    "comments_count": 263,
-    "source_tags": [
-      "data-science",
-      "deep-learning",
-      "jax",
-      "machine-learning",
-      "neural-networks",
-      "python",
-      "pytorch",
-      "tensorflow"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [
-      "PyTorch",
-      "TensorFlow"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.8281,
-    "freshness_score": 0.5484,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3633
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50497892",
-    "canonical_url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete",
-    "title": "PyPI's redesigned project pages with clearer security signals are now live",
-    "snippet": "",
-    "author": "rbanffy",
-    "published_at": "2026-11-14T17:40:52+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 249,
-    "comments_count": 106,
-    "source_tags": [
-      "front_page",
-      "python",
-      "security",
-      "story"
-    ],
-    "domain": "blog.pypi.org",
-    "topics": [
-      "programming_and_devtools",
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.34,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews",
-      "lobsters"
-    ],
-    "engagement_percentile": 0.8608,
-    "freshness_score": 0.4573,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.3622
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5039203",
-    "canonical_url": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
-    "title": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
-    "snippet": "A 1969 Mission Control console for kids. Built in one day for NASA Space Apps 2026. TL;DR: For NASA...",
-    "author": "earlgreyhot1701d",
-    "published_at": "2026-11-15T06:00:28+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 22,
-    "comments_count": 2,
-    "source_tags": [
-      "ai",
-      "hackathon",
-      "showdev",
-      "webdev"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.3182,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.8056,
-    "freshness_score": 0.7353,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3554
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "fllb0m",
-    "canonical_url": "https://willett.io/posts/data",
-    "title": "Let Me Let You Own Your Data",
-    "snippet": "",
-    "author": "thomas0",
-    "published_at": "2026-11-14T18:08:27.850000+02:00",
-    "collected_at": "2026-11-15T13:58:30.339006+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 37,
-    "comments_count": 27,
-    "source_tags": [
-      "databases",
-      "privacy"
-    ],
-    "domain": "willett.io",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.9111,
-    "freshness_score": 0.4656,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3394
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "349372179",
-    "canonical_url": "https://github.com/lightdash/lightdash",
-    "title": "lightdash/lightdash: Agentic BI. Analytics at the speed of code ⚡️",
-    "snippet": "Agentic BI. Analytics at the speed of code ⚡️",
-    "author": "lightdash",
-    "published_at": "2026-11-15T13:26:49+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 6232,
-    "comments_count": 1073,
-    "source_tags": [
-      "analytics-engineering",
-      "business-intelligence",
-      "chat-with-your-data",
-      "data-analysis",
-      "data-analyst",
-      "data-analytics",
-      "data-app",
-      "data-visualization",
-      "dbt",
-      "self-hosted",
-      "slack-bot",
-      "sql",
-      "text-to-sql"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "data_engineering",
-      "databases_and_warehouses",
-      "open_source"
-    ],
-    "tools_mentioned": [
-      "dbt"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.4323,
-    "freshness_score": 0.979,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3386
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50499083",
-    "canonical_url": "https://github.com/IRS-Public/direct-file",
-    "title": "US IRS free online tax filing open source repo (2025)",
-    "snippet": "",
-    "author": "accountinhn",
-    "published_at": "2026-11-14T19:48:20+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 166,
-    "comments_count": 101,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.5106,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.8418,
-    "freshness_score": 0.4965,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3343
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5039358",
-    "canonical_url": "https://dev.to/tthanh2k6/building-a-faster-playwright-mcp-server-compact-dom-deltas-1-turn-form-filling-and-submit-guards-2o2p",
-    "title": "Building a Faster Playwright MCP Server: Compact DOM Deltas, 1-Turn Form Filling, and Submit Guards",
-    "snippet": "While using a browser automation agent over Model Context Protocol (MCP) to prefill job applications...",
-    "author": "tthanh2k6",
-    "published_at": "2026-11-15T06:17:17+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 3,
-    "comments_count": 6,
-    "source_tags": [
-      "mcp",
-      "opensource",
-      "playwright",
-      "webdev"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "ai_and_ml",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.7361,
-    "freshness_score": 0.7434,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3283
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "379865325",
-    "canonical_url": "https://github.com/drizzle-team/drizzle-orm",
-    "title": "drizzle-team/drizzle-orm: ORM",
-    "snippet": "ORM",
-    "author": "drizzle-team",
-    "published_at": "2026-11-14T21:47:41+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 36276,
-    "comments_count": 2061,
-    "source_tags": [
-      "bunjs",
-      "mysql",
-      "nodejs",
-      "orm",
-      "postgres",
-      "postgresql",
-      "sql",
-      "sqlite",
-      "turso",
-      "typescript"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "databases_and_warehouses",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [
-      "PostgreSQL"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.7292,
-    "freshness_score": 0.5359,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3126
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "979115477",
-    "canonical_url": "https://github.com/bytedance/deer-flow",
-    "title": "bytedance/deer-flow: An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "snippet": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "author": "bytedance",
-    "published_at": "2026-11-14T16:17:15+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 85359,
-    "comments_count": 1105,
-    "source_tags": [
-      "agent",
-      "agentic",
-      "agentic-framework",
-      "agentic-workflow",
-      "ai",
-      "ai-agents",
-      "deep-research",
-      "harness",
-      "langchain",
-      "langgraph",
-      "langmanus",
-      "llm",
-      "multi-agent",
-      "nodejs",
-      "podcast",
-      "python",
-      "superagent",
-      "typescript"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [
-      "LangChain"
-    ],
-    "sentiment": 0.8225,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.8906,
-    "freshness_score": 0.4336,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3089
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50499945",
-    "canonical_url": "https://thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year",
-    "title": "Dartmouth (Guarini) will not admit math PhD cohort this year",
-    "snippet": "",
-    "author": "sebg",
-    "published_at": "2026-11-14T21:23:40+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 98,
-    "comments_count": 40,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "thedartmouth.com",
-    "topics": [
-      "analytics_and_bi"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.1511,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.7278,
-    "freshness_score": 0.5277,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3073
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5039243",
-    "canonical_url": "https://dev.to/kenielzep97/i-told-my-agent-who-sent-the-message-it-mostly-stopped-saying-we-were-talking-12o8",
-    "title": "I Told My Agent Who Sent the Message. It Mostly Stopped Saying We Were Talking.",
-    "snippet": "This is the line: AUTOMATED SCHEDULER CHECK: sender=scheduler, not Keniel; Keniel is not...",
-    "author": "kenielzep97",
-    "published_at": "2026-11-15T05:48:10+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 9,
-    "comments_count": 1,
-    "source_tags": [
-      "agents",
-      "ai",
-      "llm",
-      "testing"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.2263,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.6806,
-    "freshness_score": 0.7297,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.298
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50496921",
-    "canonical_url": "https://netmeister.org/blog/claude-delusion.html",
-    "title": "The Claude Delusion",
-    "snippet": "",
-    "author": "janvdberg",
-    "published_at": "2026-11-14T15:36:17+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 148,
-    "comments_count": 195,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "netmeister.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.8734,
-    "freshness_score": 0.4223,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2951
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50499114",
-    "canonical_url": "https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
-    "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
-    "snippet": "",
-    "author": "gnabgib",
-    "published_at": "2026-11-14T19:51:13+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 48,
-    "comments_count": 67,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "tomshardware.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.7405,
-    "freshness_score": 0.4974,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2947
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5040981",
-    "canonical_url": "https://dev.to/aniketmaurya/blacksmith-vs-github-actions-vs-celesto-ci-what-the-benchmarks-say-5fcb",
-    "title": "Blacksmith vs GitHub Actions vs Celesto CI: what the benchmarks say",
-    "snippet": "I build Celesto CI. Celesto has a lower paid per-minute rate than both Blacksmith and GitHub's 4-core...",
-    "author": "aniketmaurya",
-    "published_at": "2026-11-15T12:54:56+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 5,
-    "comments_count": 1,
-    "source_tags": [
-      "cicd",
-      "devops",
-      "githubactions",
-      "performance"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "programming_and_devtools",
-      "cloud"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.296,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.4861,
-    "freshness_score": 0.9591,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2797
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50496051",
-    "canonical_url": "https://projectzero.google/2026/11/disclosure-policy.html",
-    "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
-    "snippet": "",
-    "author": "hacb",
-    "published_at": "2026-11-14T13:13:17+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 265,
-    "comments_count": 141,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "projectzero.google",
-    "topics": [
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.1531,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.8861,
-    "freshness_score": 0.3853,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2731
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50497155",
-    "canonical_url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
-    "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-    "snippet": "",
-    "author": "wondersky",
-    "published_at": "2026-11-14T16:09:25+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 138,
-    "comments_count": 68,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "developer.nvidia.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [
-      "vLLM"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.7911,
-    "freshness_score": 0.4314,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.273
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "166515022",
-    "canonical_url": "https://github.com/trinodb/trino",
-    "title": "trinodb/trino: Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
-    "snippet": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
-    "author": "trinodb",
-    "published_at": "2026-11-15T00:50:04+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 13513,
-    "comments_count": 2757,
-    "source_tags": [
-      "analytics",
-      "big-data",
-      "data-science",
-      "database",
-      "databases",
-      "datalake",
-      "delta-lake",
-      "distributed-database",
-      "distributed-systems",
-      "hadoop",
-      "hive",
-      "iceberg",
-      "java",
-      "jdbc",
-      "presto",
-      "prestodb",
-      "query-engine",
-      "sql",
-      "trino"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "databases_and_warehouses",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [
-      "Iceberg",
-      "Trino"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.5625,
-    "freshness_score": 0.6027,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2712
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "1385122",
-    "canonical_url": "https://github.com/matplotlib/matplotlib",
-    "title": "matplotlib/matplotlib: matplotlib: plotting with Python",
-    "snippet": "matplotlib: plotting with Python",
-    "author": "matplotlib",
-    "published_at": "2026-11-14T20:26:52+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 23459,
-    "comments_count": 1476,
-    "source_tags": [
-      "data-science",
-      "data-visualization",
-      "gtk",
-      "matplotlib",
-      "plotting",
-      "python",
-      "qt",
-      "tk",
-      "wx"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.6563,
-    "freshness_score": 0.5087,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2671
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50498295",
-    "canonical_url": "https://goliath32.com/blog/ziphead.html",
-    "title": "Creating a self booting ZIP archive",
-    "snippet": "",
-    "author": "gdgghhhhh",
-    "published_at": "2026-11-14T18:29:05+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 68,
-    "comments_count": 11,
-    "source_tags": [
-      "assembly",
-      "story"
-    ],
-    "domain": "goliath32.com",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.296,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews",
-      "lobsters"
-    ],
-    "engagement_percentile": 0.6139,
-    "freshness_score": 0.4719,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.2666
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50497132",
-    "canonical_url": "https://gitlab.com/snipedbywifi/terminactory",
-    "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
-    "snippet": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Re",
-    "author": "snipedbywifi",
-    "published_at": "2026-11-14T16:05:54+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 157,
-    "comments_count": 39,
-    "source_tags": [
-      "show_hn",
-      "story"
-    ],
-    "domain": "gitlab.com",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.5696,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.7722,
-    "freshness_score": 0.4303,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2658
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "ofic7z",
-    "canonical_url": "https://aspiz.uk/wiki/AnthropomorphicSoftware",
-    "title": "Anthropomorphic Software",
-    "snippet": "",
-    "author": "abhin4v",
-    "published_at": "2026-11-15T10:05:45.227000+02:00",
-    "collected_at": "2026-11-15T13:58:30.339006+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 8,
-    "comments_count": 4,
-    "source_tags": [
-      "culture"
-    ],
-    "domain": "aspiz.uk",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.3778,
-    "freshness_score": 0.8606,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2601
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5038913",
-    "canonical_url": "https://dev.to/copyleftdev/zombies-a-gunship-and-a-judgment-model-what-could-go-wrong-2k95",
-    "title": "Zombies, a Gunship and a Judgment Model: What Could Go Wrong?",
-    "snippet": "That's Jev, a judgment model, commanding an AC-130-style gunship over a zombie-infested downtown Los...",
-    "author": "copyleftdev",
-    "published_at": "2026-11-15T04:17:57+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 9,
-    "comments_count": 0,
-    "source_tags": [
-      "ai",
-      "gamedev",
-      "llm",
-      "testing"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.4767,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.5972,
-    "freshness_score": 0.6883,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2466
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50497147",
-    "canonical_url": "https://github.com/paul-nameless/agweb",
-    "title": "Show HN: Agweb – a browser for agents that stays out of your way",
-    "snippet": "",
-    "author": "paul_nameless",
-    "published_at": "2026-11-14T16:08:12+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 100,
-    "comments_count": 30,
-    "source_tags": [
-      "show_hn",
-      "story"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.7089,
-    "freshness_score": 0.4311,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2445
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "1139971460",
-    "canonical_url": "https://github.com/rtk-ai/rtk",
-    "title": "rtk-ai/rtk: CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-    "snippet": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-    "author": "rtk-ai",
-    "published_at": "2026-11-14T09:50:26+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 86611,
-    "comments_count": 1707,
-    "source_tags": [
-      "agentic-coding",
-      "ai-coding",
-      "anthropic",
-      "claude-code",
-      "cli",
-      "command-line-tool",
-      "cost-reduction",
-      "developer-tools",
-      "llm",
-      "open-source",
-      "productivity",
-      "rust",
-      "token-optimization"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.901,
-    "freshness_score": 0.3382,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2438
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "151619717",
-    "canonical_url": "https://github.com/google-research/google-research",
-    "title": "google-research/google-research: Google Research",
-    "snippet": "Google Research",
-    "author": "google-research",
-    "published_at": "2026-11-14T14:36:20+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 39179,
-    "comments_count": 2013,
-    "source_tags": [
-      "ai",
-      "machine-learning",
-      "research"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.7448,
-    "freshness_score": 0.4064,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2421
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50496885",
-    "canonical_url": "https://aatishb.com/myriad/how-brains-learn",
-    "title": "A visual explanation of reinforcement learning",
-    "snippet": "",
-    "author": "aatish",
-    "published_at": "2026-11-14T15:31:06+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 144,
-    "comments_count": 8,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "aatishb.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.7089,
-    "freshness_score": 0.421,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2387
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://www.databricks.com/blog/spark-vs-flink",
-    "canonical_url": "https://databricks.com/blog/spark-vs-flink",
-    "title": "Apache Spark vs Apache Flink: which should you use?",
-    "snippet": "For most teams, Apache Spark™ is the better choice. Spark runs batch ETL, SQL analytics,...",
-    "author": "Databricks Blog",
-    "published_at": "2026-11-14T09:02:42+02:00",
-    "collected_at": "2026-11-15T13:58:51.862000+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "data + ai foundations"
-    ],
-    "domain": "databricks.com",
-    "topics": [
-      "data_engineering",
-      "databases_and_warehouses",
-      "open_source"
-    ],
-    "tools_mentioned": [
-      "Spark",
-      "Flink"
-    ],
-    "sentiment": 0.7823,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.328,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2296
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50497137",
-    "canonical_url": "https://github.com/FURSOY/fursoy-cpu",
-    "title": "Show HN: Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)",
-    "snippet": "",
-    "author": "fursoy",
-    "published_at": "2026-11-14T16:06:34+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 79,
-    "comments_count": 26,
-    "source_tags": [
-      "show_hn",
-      "story"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.6646,
-    "freshness_score": 0.4306,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2289
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5039663",
-    "canonical_url": "https://dev.to/gnomeman4201/shenrons-durability-numbers-didnt-survive-review-heres-what-did-3p3c",
-    "title": "SHENRON's durability numbers didn't survive review. Here's what did.",
-    "snippet": "SHENRON used to rank my Sigma rules and six attack scenarios by how brittle they were. Two...",
-    "author": "gnomeman4201",
-    "published_at": "2026-11-15T07:39:58+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 5,
-    "comments_count": 1,
-    "source_tags": [
-      "blueteam",
-      "opensource",
-      "security",
-      "sigma"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "security",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.4767,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.4861,
-    "freshness_score": 0.7836,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2285
+    "rank_score": 0.5028
   },
   {
     "source": "github",
@@ -3492,11 +1860,11 @@
     "title": "airbytehq/airbyte: Open-source data movement for ELT pipelines and AI agents — from APIs, databases & files to warehouses, lakes, and AI applications. Both self-hosted and Cloud.",
     "snippet": "Open-source data movement for ELT pipelines and AI agents — from APIs, databases & files to warehouses, lakes, and AI applications. Both self-hosted and Cloud.",
     "author": "airbytehq",
-    "published_at": "2026-11-14T14:42:51+02:00",
-    "collected_at": "2026-11-14T16:44:14.316133+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-14T00:00:00",
-    "source_score": 22378,
+    "published_at": "2026-11-15T10:28:42+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 22380,
     "comments_count": 2884,
     "source_tags": [
       "bigquery",
@@ -3539,10 +1907,2244 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.6667,
-    "freshness_score": 0.408,
+    "engagement_percentile": 0.6718,
+    "freshness_score": 0.9271,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2176
+    "rank_score": 0.4982
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "149026292",
+    "canonical_url": "https://github.com/cube-js/cube",
+    "title": "cube-js/cube: 📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics",
+    "snippet": "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics",
+    "author": "cube-js",
+    "published_at": "2026-11-15T11:34:00+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 21225,
+    "comments_count": 1188,
+    "source_tags": [
+      "agentic-analytics",
+      "agents",
+      "ai",
+      "analytics",
+      "bi",
+      "bigquery",
+      "business-intelligence",
+      "businessintelligence",
+      "conversational-analytics",
+      "cube",
+      "databricks",
+      "embedded-analytics",
+      "headless-bi",
+      "mysql",
+      "postgresql",
+      "rust",
+      "semantic-layer",
+      "snowflake",
+      "sql"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "analytics_and_bi",
+      "databases_and_warehouses",
+      "ai_and_ml",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "Snowflake",
+      "Databricks",
+      "PostgreSQL",
+      "BigQuery"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6205,
+    "freshness_score": 0.9672,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4801
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "196353673",
+    "canonical_url": "https://github.com/taosdata/TDengine",
+    "title": "taosdata/TDengine: High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios",
+    "snippet": "High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios",
+    "author": "taosdata",
+    "published_at": "2026-11-15T09:57:21+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 25194,
+    "comments_count": 454,
+    "source_tags": [
+      "bigdata",
+      "cloud-native",
+      "cluster",
+      "connected-vehicles",
+      "database",
+      "distributed",
+      "financial-analysis",
+      "industrial-iot",
+      "iot",
+      "metrics",
+      "monitoring",
+      "scalability",
+      "sql",
+      "tdengine",
+      "time-series",
+      "time-series-database",
+      "tsdb"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "analytics_and_bi",
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6513,
+    "freshness_score": 0.9088,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4735
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "204086862",
+    "canonical_url": "https://github.com/streamlit/streamlit",
+    "title": "streamlit/streamlit: Streamlit — The agent-native framework for data apps and dashboards.",
+    "snippet": "Streamlit — The agent-native framework for data apps and dashboards.",
+    "author": "streamlit",
+    "published_at": "2026-11-15T04:32:53+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 46361,
+    "comments_count": 1198,
+    "source_tags": [
+      "agents",
+      "business-intelligence",
+      "dashboards",
+      "data-analysis",
+      "data-apps",
+      "data-science",
+      "data-visualization",
+      "deep-learning",
+      "developer-tools",
+      "internal-tools",
+      "machine-learning",
+      "python",
+      "streamlit",
+      "web-apps"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "analytics_and_bi",
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.7897,
+    "freshness_score": 0.7377,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4661
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5036386",
+    "canonical_url": "https://dev.to/necoz/cat-mutilation-successful-welcome-new-members-4bj4",
+    "title": "Cat Mutilation Successful!! 🛸 Welcome New Members!! 🐈🎉",
+    "snippet": "Hoi hoi! 👋 Last week, we launched the Necoz organization here on DEV! ...",
+    "author": "nyaomaru",
+    "published_at": "2026-11-15T10:01:42+00:00",
+    "collected_at": "2026-11-15T12:25:49.215492+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 35,
+    "comments_count": 8,
+    "source_tags": [
+      "community",
+      "github",
+      "necoz",
+      "opensource"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.9368,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.8378,
+    "freshness_score": 0.9111,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.458
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "212037775",
+    "canonical_url": "https://github.com/akfamily/akshare",
+    "title": "akfamily/akshare: AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库",
+    "snippet": "AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库",
+    "author": "akfamily",
+    "published_at": "2026-11-15T10:27:10+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 23342,
+    "comments_count": 0,
+    "source_tags": [
+      "academic",
+      "akshare",
+      "asset-pricing",
+      "bond",
+      "currency",
+      "data",
+      "data-analysis",
+      "data-science",
+      "datasets",
+      "economic-data",
+      "economics",
+      "finance",
+      "finance-api",
+      "financial-data",
+      "fundamental",
+      "futures",
+      "mcp",
+      "option",
+      "quant",
+      "stock"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.7772,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6154,
+    "freshness_score": 0.9265,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4561
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "84240850",
+    "canonical_url": "https://github.com/timescale/timescaledb",
+    "title": "timescale/timescaledb: A time-series database for high-performance real-time analytics packaged as a Postgres extension",
+    "snippet": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
+    "author": "timescale",
+    "published_at": "2026-11-15T09:52:34+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 23861,
+    "comments_count": 482,
+    "source_tags": [
+      "analytics",
+      "database",
+      "financial-analysis",
+      "historian",
+      "iot",
+      "postgres",
+      "postgresql",
+      "sql",
+      "tigerdata",
+      "time-series",
+      "time-series-database",
+      "timescaledb",
+      "tsdb"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [
+      "PostgreSQL"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6256,
+    "freshness_score": 0.9059,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4534
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "139199684",
+    "canonical_url": "https://github.com/PrefectHQ/prefect",
+    "title": "PrefectHQ/prefect: Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+    "snippet": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+    "author": "PrefectHQ",
+    "published_at": "2026-11-15T08:10:57+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 24159,
+    "comments_count": 892,
+    "source_tags": [
+      "automation",
+      "data",
+      "data-engineering",
+      "data-ops",
+      "data-science",
+      "infrastructure",
+      "ml-ops",
+      "observability",
+      "orchestration",
+      "pipeline",
+      "prefect",
+      "python",
+      "workflow",
+      "workflow-engine"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "data_engineering",
+      "programming_and_devtools",
+      "cloud"
+    ],
+    "tools_mentioned": [
+      "Prefect"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6462,
+    "freshness_score": 0.8485,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4386
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1200597263",
+    "canonical_url": "https://github.com/Graphify-Labs/graphify",
+    "title": "Graphify-Labs/graphify: Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+    "snippet": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+    "author": "Graphify-Labs",
+    "published_at": "2026-11-14T21:28:08+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 148079,
+    "comments_count": 1637,
+    "source_tags": [
+      "ai-agents",
+      "antigravity",
+      "ast",
+      "claude-code",
+      "code-analysis",
+      "code-search",
+      "codex",
+      "cursor",
+      "developer-tools",
+      "gemini",
+      "graphify",
+      "graphrag",
+      "knowledge-graph",
+      "leiden",
+      "llm",
+      "mcp",
+      "openclaw",
+      "rag",
+      "skills",
+      "tree-sitter"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses",
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.5267,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.9487,
+    "freshness_score": 0.562,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4265
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50503465",
+    "canonical_url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games",
+    "title": "My favourite modern NES games",
+    "snippet": "",
+    "author": "jordigh",
+    "published_at": "2026-11-15T02:41:25+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 115,
+    "comments_count": 11,
+    "source_tags": [
+      "front_page",
+      "games",
+      "retrocomputing",
+      "story"
+    ],
+    "domain": "jordi.inversethought.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.6667,
+    "freshness_score": 0.687,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.4213
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50504277",
+    "canonical_url": "https://netbsd.org/~nia/disk-encrypt",
+    "title": "Disk encryption on NetBSD – achieving secrecy",
+    "snippet": "",
+    "author": "jaypatelani",
+    "published_at": "2026-11-15T05:29:54+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 52,
+    "comments_count": 6,
+    "source_tags": [
+      "front_page",
+      "netbsd",
+      "story"
+    ],
+    "domain": "netbsd.org",
+    "topics": [
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.5849,
+    "freshness_score": 0.7652,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.4118
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50504072",
+    "canonical_url": "https://github.com/matheuzgomes/gawain",
+    "title": "Show HN: Gawain – Require type hints on all Python variables",
+    "snippet": "Yes, i really hate \"dict[str, ANY]\"",
+    "author": "MarinhoD",
+    "published_at": "2026-11-15T04:39:25+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 58,
+    "comments_count": 37,
+    "source_tags": [
+      "front_page",
+      "show_hn",
+      "story"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.3167,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6604,
+    "freshness_score": 0.741,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3915
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50504077",
+    "canonical_url": "https://runkiri.com/",
+    "title": "Kiri – The Modern Container Runtime",
+    "snippet": "",
+    "author": "nikolay",
+    "published_at": "2026-11-15T04:40:41+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 61,
+    "comments_count": 30,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "runkiri.com",
+    "topics": [
+      "cloud"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6415,
+    "freshness_score": 0.7415,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3805
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5039348",
+    "canonical_url": "https://dev.to/wst2002rk/jira-said-done-it-wasnt-and-the-bug-showed-up-later-so-i-made-jira-check-first-9ed",
+    "title": "Jira said Done. It wasn't, and the bug showed up later. So I made Jira check first.",
+    "snippet": "Picture this. The ticket moved to Done on Friday. The pull request was merged, CI was green, everyone...",
+    "author": "wst2002rk",
+    "published_at": "2026-11-15T05:05:40+00:00",
+    "collected_at": "2026-11-15T12:25:49.215492+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 33,
+    "comments_count": 2,
+    "source_tags": [
+      "ai",
+      "opensource",
+      "showdev",
+      "testing"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.8243,
+    "freshness_score": 0.7535,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3727
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1008304614",
+    "canonical_url": "https://github.com/semantica-agi/semantica",
+    "title": "semantica-agi/semantica: Graph-Native Infrastructure for Context and Accountable AI Systems",
+    "snippet": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+    "author": "semantica-agi",
+    "published_at": "2026-11-15T08:31:04+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 14615,
+    "comments_count": 139,
+    "source_tags": [
+      "agent-memory",
+      "ai",
+      "ai-governance",
+      "ai-infrastructure",
+      "artificial-intelligence",
+      "context-engineering",
+      "context-graphs",
+      "data-engineering",
+      "decision-intelligence",
+      "developer-tools",
+      "explainable-ai",
+      "generative-ai",
+      "graph-rag",
+      "knowledge-graph",
+      "llm",
+      "ontology",
+      "provenance",
+      "python",
+      "reasoning",
+      "semantic-search"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.5385,
+    "freshness_score": 0.86,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3705
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "20587599",
+    "canonical_url": "https://github.com/apache/flink",
+    "title": "apache/flink: Apache Flink",
+    "snippet": "Apache Flink",
+    "author": "apache",
+    "published_at": "2026-11-15T02:57:10+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 26473,
+    "comments_count": 428,
+    "source_tags": [
+      "big-data",
+      "flink",
+      "java",
+      "python",
+      "scala",
+      "sql"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "data_engineering",
+      "databases_and_warehouses",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "Flink"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6667,
+    "freshness_score": 0.6941,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3702
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "511691380",
+    "canonical_url": "https://github.com/lance-format/lance",
+    "title": "lance-format/lance: Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+    "snippet": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+    "author": "lance-format",
+    "published_at": "2026-11-15T12:19:30+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 7313,
+    "comments_count": 1111,
+    "source_tags": [
+      "apache-arrow",
+      "computer-vision",
+      "data-analysis",
+      "data-analytics",
+      "data-centric",
+      "data-format",
+      "data-science",
+      "dataops",
+      "deep-learning",
+      "duckdb",
+      "embeddings",
+      "llms",
+      "machine-learning",
+      "mlops",
+      "python",
+      "rust"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "data_engineering",
+      "databases_and_warehouses",
+      "ai_and_ml",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "DuckDB",
+      "Polars",
+      "PyTorch",
+      "Pandas"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.4513,
+    "freshness_score": 0.9955,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3594
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50497892",
+    "canonical_url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete",
+    "title": "PyPI's redesigned project pages with clearer security signals are now live",
+    "snippet": "",
+    "author": "rbanffy",
+    "published_at": "2026-11-14T15:40:52+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 253,
+    "comments_count": 108,
+    "source_tags": [
+      "front_page",
+      "python",
+      "security",
+      "story"
+    ],
+    "domain": "blog.pypi.org",
+    "topics": [
+      "programming_and_devtools",
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.34,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.8679,
+    "freshness_score": 0.4495,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.3589
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "33015583",
+    "canonical_url": "https://github.com/keras-team/keras",
+    "title": "keras-team/keras: Deep Learning for humans",
+    "snippet": "Deep Learning for humans",
+    "author": "keras-team",
+    "published_at": "2026-11-14T20:23:07+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 64425,
+    "comments_count": 263,
+    "source_tags": [
+      "data-science",
+      "deep-learning",
+      "jax",
+      "machine-learning",
+      "neural-networks",
+      "python",
+      "pytorch",
+      "tensorflow"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [
+      "PyTorch",
+      "TensorFlow"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.8308,
+    "freshness_score": 0.539,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3582
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "349372179",
+    "canonical_url": "https://github.com/lightdash/lightdash",
+    "title": "lightdash/lightdash: Agentic BI. Analytics at the speed of code ⚡️",
+    "snippet": "Agentic BI. Analytics at the speed of code ⚡️",
+    "author": "lightdash",
+    "published_at": "2026-11-15T12:26:00+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 6232,
+    "comments_count": 1073,
+    "source_tags": [
+      "analytics-engineering",
+      "business-intelligence",
+      "chat-with-your-data",
+      "data-analysis",
+      "data-analyst",
+      "data-analytics",
+      "data-app",
+      "data-visualization",
+      "dbt",
+      "self-hosted",
+      "slack-bot",
+      "sql",
+      "text-to-sql"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "data_engineering",
+      "databases_and_warehouses",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "dbt"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.441,
+    "freshness_score": 1.0,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3528
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5039203",
+    "canonical_url": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
+    "title": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
+    "snippet": "A 1969 Mission Control console for kids. Built in one day for NASA Space Apps 2026. TL;DR: For NASA...",
+    "author": "earlgreyhot1701d",
+    "published_at": "2026-11-15T04:00:28+00:00",
+    "collected_at": "2026-11-15T12:25:49.215492+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 23,
+    "comments_count": 2,
+    "source_tags": [
+      "ai",
+      "hackathon",
+      "showdev",
+      "webdev"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.3182,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.8108,
+    "freshness_score": 0.7227,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3516
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "fllb0m",
+    "canonical_url": "https://willett.io/posts/data",
+    "title": "Let Me Let You Own Your Data",
+    "snippet": "",
+    "author": "thomas0",
+    "published_at": "2026-11-14T16:08:27.850000+00:00",
+    "collected_at": "2026-11-15T12:25:58.203791+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 37,
+    "comments_count": 27,
+    "source_tags": [
+      "databases",
+      "privacy"
+    ],
+    "domain": "willett.io",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.9111,
+    "freshness_score": 0.4576,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3336
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50499083",
+    "canonical_url": "https://github.com/IRS-Public/direct-file",
+    "title": "US IRS free online tax filing open source repo (2025)",
+    "snippet": "",
+    "author": "accountinhn",
+    "published_at": "2026-11-14T17:48:20+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 166,
+    "comments_count": 101,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.5106,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.8428,
+    "freshness_score": 0.488,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.329
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5039358",
+    "canonical_url": "https://dev.to/tthanh2k6/building-a-faster-playwright-mcp-server-compact-dom-deltas-1-turn-form-filling-and-submit-guards-2o2p",
+    "title": "Building a Faster Playwright MCP Server: Compact DOM Deltas, 1-Turn Form Filling, and Submit Guards",
+    "snippet": "While using a browser automation agent over Model Context Protocol (MCP) to prefill job applications...",
+    "author": "tthanh2k6",
+    "published_at": "2026-11-15T04:17:17+00:00",
+    "collected_at": "2026-11-15T11:58:17.232687+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 3,
+    "comments_count": 6,
+    "source_tags": [
+      "mcp",
+      "opensource",
+      "playwright",
+      "webdev"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "ai_and_ml",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.7297,
+    "freshness_score": 0.7306,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3199
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5039243",
+    "canonical_url": "https://dev.to/kenielzep97/i-told-my-agent-who-sent-the-message-it-mostly-stopped-saying-we-were-talking-12o8",
+    "title": "I Told My Agent Who Sent the Message. It Mostly Stopped Saying We Were Talking.",
+    "snippet": "This is the line: AUTOMATED SCHEDULER CHECK: sender=scheduler, not Keniel; Keniel is not...",
+    "author": "kenielzep97",
+    "published_at": "2026-11-15T03:48:10+00:00",
+    "collected_at": "2026-11-15T12:25:49.215492+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 14,
+    "comments_count": 1,
+    "source_tags": [
+      "agents",
+      "ai",
+      "llm",
+      "testing"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.2263,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.7432,
+    "freshness_score": 0.7172,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3198
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "379865325",
+    "canonical_url": "https://github.com/drizzle-team/drizzle-orm",
+    "title": "drizzle-team/drizzle-orm: ORM",
+    "snippet": "ORM",
+    "author": "drizzle-team",
+    "published_at": "2026-11-14T19:47:41+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 36277,
+    "comments_count": 2061,
+    "source_tags": [
+      "bunjs",
+      "mysql",
+      "nodejs",
+      "orm",
+      "postgres",
+      "postgresql",
+      "sql",
+      "sqlite",
+      "turso",
+      "typescript"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [
+      "PostgreSQL"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.7333,
+    "freshness_score": 0.5267,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.309
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1117891044",
+    "canonical_url": "https://github.com/TableProApp/TablePro",
+    "title": "TableProApp/TablePro: Free, open-source native database client for macOS, Linux, iPhone and iPad.",
+    "snippet": "Free, open-source native database client for macOS, Linux, iPhone and iPad.",
+    "author": "TableProApp",
+    "published_at": "2026-11-15T12:04:13+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 6470,
+    "comments_count": 58,
+    "source_tags": [
+      "clickhouse",
+      "database",
+      "database-client",
+      "database-gui",
+      "duckdb",
+      "gtk4",
+      "ios",
+      "linux",
+      "macos",
+      "mariadb",
+      "mongodb",
+      "mssql",
+      "mysql",
+      "postgresql",
+      "redis",
+      "rust",
+      "sql",
+      "sql-editor",
+      "sqlite",
+      "swift"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "DuckDB",
+      "PostgreSQL",
+      "ClickHouse"
+    ],
+    "sentiment": 0.765,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.3897,
+    "freshness_score": 0.986,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3074
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50499945",
+    "canonical_url": "https://thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year",
+    "title": "Dartmouth (Guarini) will not admit math PhD cohort this year",
+    "snippet": "",
+    "author": "sebg",
+    "published_at": "2026-11-14T19:23:40+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 98,
+    "comments_count": 40,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "thedartmouth.com",
+    "topics": [
+      "analytics_and_bi"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.1511,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7296,
+    "freshness_score": 0.5186,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3027
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "453068084",
+    "canonical_url": "https://github.com/risingwavelabs/risingwave",
+    "title": "risingwavelabs/risingwave: Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.",
+    "snippet": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.",
+    "author": "risingwavelabs",
+    "published_at": "2026-11-15T04:00:40+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 9413,
+    "comments_count": 1864,
+    "source_tags": [
+      "apache-iceberg",
+      "data-engineering",
+      "database",
+      "etl-pipeline",
+      "event-streaming",
+      "kafka",
+      "materialized-view",
+      "postgresql",
+      "rust",
+      "stream-processing",
+      "webhook"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "data_engineering",
+      "databases_and_warehouses",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "Kafka",
+      "PostgreSQL",
+      "Iceberg"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.5128,
+    "freshness_score": 0.7227,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2965
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5040912",
+    "canonical_url": "https://dev.to/sumankalia/wysiwyg-or-block-editor-i-built-the-one-in-between-2im5",
+    "title": "WYSIWYG or block editor? I built the one in between",
+    "snippet": "Rich text editors have been split into two camps for a long time. WYSIWYG editors work with HTML...",
+    "author": "sumankalia",
+    "published_at": "2026-11-15T10:30:14+00:00",
+    "collected_at": "2026-11-15T12:25:49.215492+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 6,
+    "comments_count": 1,
+    "source_tags": [
+      "javascript",
+      "opensource",
+      "react",
+      "webdev"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.1779,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.527,
+    "freshness_score": 0.9283,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2935
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50499114",
+    "canonical_url": "https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+    "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
+    "snippet": "",
+    "author": "gnabgib",
+    "published_at": "2026-11-14T17:51:13+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 48,
+    "comments_count": 67,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "tomshardware.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7421,
+    "freshness_score": 0.4889,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2903
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50496921",
+    "canonical_url": "https://netmeister.org/blog/claude-delusion.html",
+    "title": "The Claude Delusion",
+    "snippet": "",
+    "author": "janvdberg",
+    "published_at": "2026-11-14T13:36:17+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 148,
+    "comments_count": 195,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "netmeister.org",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.8742,
+    "freshness_score": 0.4151,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2903
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "734174248",
+    "canonical_url": "https://github.com/lakehq/sail",
+    "title": "lakehq/sail: Drop-in Apache Spark replacement written in Rust, unifying batch processing, stream processing, and compute-intensive AI workloads.",
+    "snippet": "Drop-in Apache Spark replacement written in Rust, unifying batch processing, stream processing, and compute-intensive AI workloads.",
+    "author": "lakehq",
+    "published_at": "2026-11-15T12:20:20+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 3498,
+    "comments_count": 320,
+    "source_tags": [
+      "apache-iceberg",
+      "apache-spark",
+      "arrow",
+      "artificial-intelligence",
+      "big-data",
+      "data-engineering",
+      "datafusion",
+      "delta-lake",
+      "distributed-computing",
+      "iceberg",
+      "lakehouse",
+      "machine-learning",
+      "parquet",
+      "pyspark",
+      "python",
+      "rust",
+      "spark",
+      "spark-connect",
+      "spark-sql",
+      "sql"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "data_engineering",
+      "databases_and_warehouses",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "Spark",
+      "Iceberg"
+    ],
+    "sentiment": 0.4215,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.3641,
+    "freshness_score": 0.9962,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2902
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5040981",
+    "canonical_url": "https://dev.to/aniketmaurya/blacksmith-vs-github-actions-vs-celesto-ci-what-the-benchmarks-say-5fcb",
+    "title": "Blacksmith vs GitHub Actions vs Celesto CI: what the benchmarks say",
+    "snippet": "I build Celesto CI. Celesto has a lower paid per-minute rate than both Blacksmith and GitHub's 4-core...",
+    "author": "aniketmaurya",
+    "published_at": "2026-11-15T10:54:56+00:00",
+    "collected_at": "2026-11-15T12:25:49.215492+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 5,
+    "comments_count": 1,
+    "source_tags": [
+      "cicd",
+      "devops",
+      "githubactions",
+      "performance"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "cloud"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.296,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.4865,
+    "freshness_score": 0.9427,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2752
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50496051",
+    "canonical_url": "https://projectzero.google/2026/11/disclosure-policy.html",
+    "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+    "snippet": "",
+    "author": "hacb",
+    "published_at": "2026-11-14T11:13:17+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 267,
+    "comments_count": 145,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "projectzero.google",
+    "topics": [
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.1531,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.8931,
+    "freshness_score": 0.3787,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2706
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "166515022",
+    "canonical_url": "https://github.com/trinodb/trino",
+    "title": "trinodb/trino: Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
+    "snippet": "Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)",
+    "author": "trinodb",
+    "published_at": "2026-11-14T22:50:04+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 13513,
+    "comments_count": 2757,
+    "source_tags": [
+      "analytics",
+      "big-data",
+      "data-science",
+      "database",
+      "databases",
+      "datalake",
+      "delta-lake",
+      "distributed-database",
+      "distributed-systems",
+      "hadoop",
+      "hive",
+      "iceberg",
+      "java",
+      "jdbc",
+      "presto",
+      "prestodb",
+      "query-engine",
+      "sql",
+      "trino"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [
+      "Iceberg",
+      "Trino"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.5692,
+    "freshness_score": 0.5923,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2697
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50497155",
+    "canonical_url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+    "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+    "snippet": "",
+    "author": "wondersky",
+    "published_at": "2026-11-14T14:09:25+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 139,
+    "comments_count": 68,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "developer.nvidia.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [
+      "vLLM"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7925,
+    "freshness_score": 0.424,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2688
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "h8tghc",
+    "canonical_url": "https://blog.kizu.dev/cursors",
+    "title": "cursor:pointer on buttons",
+    "snippet": "",
+    "author": "two",
+    "published_at": "2026-11-15T09:15:40.744000+00:00",
+    "collected_at": "2026-11-15T12:25:58.203791+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 8,
+    "comments_count": 4,
+    "source_tags": [
+      "a11y",
+      "css",
+      "web"
+    ],
+    "domain": "blog.kizu.dev",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.3778,
+    "freshness_score": 0.8846,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2674
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1385122",
+    "canonical_url": "https://github.com/matplotlib/matplotlib",
+    "title": "matplotlib/matplotlib: matplotlib: plotting with Python",
+    "snippet": "matplotlib: plotting with Python",
+    "author": "matplotlib",
+    "published_at": "2026-11-14T18:26:52+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 23459,
+    "comments_count": 1476,
+    "source_tags": [
+      "data-science",
+      "data-visualization",
+      "gtk",
+      "matplotlib",
+      "plotting",
+      "python",
+      "qt",
+      "tk",
+      "wx"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6615,
+    "freshness_score": 0.5,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2646
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50497132",
+    "canonical_url": "https://gitlab.com/snipedbywifi/terminactory",
+    "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+    "snippet": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Re",
+    "author": "snipedbywifi",
+    "published_at": "2026-11-14T14:05:54+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 159,
+    "comments_count": 39,
+    "source_tags": [
+      "show_hn",
+      "story"
+    ],
+    "domain": "gitlab.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.5696,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7799,
+    "freshness_score": 0.4229,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2638
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50498295",
+    "canonical_url": "https://goliath32.com/blog/ziphead.html",
+    "title": "Creating a self booting ZIP archive",
+    "snippet": "",
+    "author": "gdgghhhhh",
+    "published_at": "2026-11-14T16:29:05+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 68,
+    "comments_count": 11,
+    "source_tags": [
+      "assembly",
+      "story"
+    ],
+    "domain": "goliath32.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.296,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.6164,
+    "freshness_score": 0.4638,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.263
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "ofic7z",
+    "canonical_url": "https://aspiz.uk/wiki/AnthropomorphicSoftware",
+    "title": "Anthropomorphic Software",
+    "snippet": "",
+    "author": "abhin4v",
+    "published_at": "2026-11-15T08:05:45.227000+00:00",
+    "collected_at": "2026-11-15T12:25:58.203791+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 8,
+    "comments_count": 4,
+    "source_tags": [
+      "culture"
+    ],
+    "domain": "aspiz.uk",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.3778,
+    "freshness_score": 0.8458,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2556
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5038913",
+    "canonical_url": "https://dev.to/copyleftdev/zombies-a-gunship-and-a-judgment-model-what-could-go-wrong-2k95",
+    "title": "Zombies, a Gunship and a Judgment Model: What Could Go Wrong?",
+    "snippet": "That's Jev, a judgment model, commanding an AC-130-style gunship over a zombie-infested downtown Los...",
+    "author": "copyleftdev",
+    "published_at": "2026-11-15T02:17:57+00:00",
+    "collected_at": "2026-11-15T12:25:49.215492+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 9,
+    "comments_count": 0,
+    "source_tags": [
+      "ai",
+      "gamedev",
+      "llm",
+      "testing"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.4767,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.6081,
+    "freshness_score": 0.6765,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2468
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50497147",
+    "canonical_url": "https://github.com/paul-nameless/agweb",
+    "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+    "snippet": "",
+    "author": "paul_nameless",
+    "published_at": "2026-11-14T14:08:12+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 101,
+    "comments_count": 30,
+    "source_tags": [
+      "show_hn",
+      "story"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7107,
+    "freshness_score": 0.4237,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2409
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1139971460",
+    "canonical_url": "https://github.com/rtk-ai/rtk",
+    "title": "rtk-ai/rtk: CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "snippet": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "author": "rtk-ai",
+    "published_at": "2026-11-14T07:50:26+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 86613,
+    "comments_count": 1707,
+    "source_tags": [
+      "agentic-coding",
+      "ai-coding",
+      "anthropic",
+      "claude-code",
+      "cli",
+      "command-line-tool",
+      "cost-reduction",
+      "developer-tools",
+      "llm",
+      "open-source",
+      "productivity",
+      "rust",
+      "token-optimization"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.9026,
+    "freshness_score": 0.3324,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.24
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "151619717",
+    "canonical_url": "https://github.com/google-research/google-research",
+    "title": "google-research/google-research: Google Research",
+    "snippet": "Google Research",
+    "author": "google-research",
+    "published_at": "2026-11-14T12:36:20+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 39179,
+    "comments_count": 2013,
+    "source_tags": [
+      "ai",
+      "machine-learning",
+      "research"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.7487,
+    "freshness_score": 0.3994,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2392
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "197743848",
+    "canonical_url": "https://github.com/rudderlabs/rudder-server",
+    "title": "rudderlabs/rudder-server: Privacy and Security focused Segment-alternative, in Golang and React",
+    "snippet": "Privacy and Security focused Segment-alternative, in Golang and React",
+    "author": "rudderlabs",
+    "published_at": "2026-11-15T06:25:47+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 4518,
+    "comments_count": 48,
+    "source_tags": [
+      "bigquery",
+      "cdp",
+      "customer-data",
+      "customer-data-lake",
+      "customer-data-pipeline",
+      "customer-data-platform",
+      "data-engineering",
+      "data-integration",
+      "data-pipeline",
+      "data-synchronization",
+      "data-warehouse",
+      "elt",
+      "etl",
+      "event-streaming",
+      "privacy",
+      "redshift",
+      "segment-alternative",
+      "snowflake",
+      "warehouse-management",
+      "warehouse-native"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "data_engineering",
+      "databases_and_warehouses",
+      "programming_and_devtools",
+      "security"
+    ],
+    "tools_mentioned": [
+      "Snowflake",
+      "BigQuery",
+      "Redshift"
+    ],
+    "sentiment": 0.8402,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.3744,
+    "freshness_score": 0.7932,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2376
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "29620400",
+    "canonical_url": "https://github.com/xonsh/xonsh",
+    "title": "xonsh/xonsh: 🐚 Python-powered shell. Full-featured, cross-platform and AI-friendly.",
+    "snippet": "🐚 Python-powered shell. Full-featured, cross-platform and AI-friendly.",
+    "author": "xonsh",
+    "published_at": "2026-11-15T00:35:25+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 9702,
+    "comments_count": 102,
+    "source_tags": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cmux",
+      "data-engineering",
+      "data-scientists",
+      "devops",
+      "devsecops",
+      "hyper",
+      "iterm2",
+      "kitty",
+      "nix",
+      "nixos",
+      "python-automation",
+      "raspberry-pi",
+      "security-automation",
+      "vscode-extension",
+      "wezterm",
+      "xonsh"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools",
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.4667,
+    "freshness_score": 0.6336,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2365
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50496885",
+    "canonical_url": "https://aatishb.com/myriad/how-brains-learn",
+    "title": "A visual explanation of reinforcement learning",
+    "snippet": "",
+    "author": "aatish",
+    "published_at": "2026-11-14T13:31:06+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 145,
+    "comments_count": 8,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "aatishb.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7107,
+    "freshness_score": 0.4138,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2352
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1048068299",
+    "canonical_url": "https://github.com/serenedb/serenedb",
+    "title": "serenedb/serenedb: The First Real-Time Search Analytics Database",
+    "snippet": "The First Real-Time Search Analytics Database",
+    "author": "serenedb",
+    "published_at": "2026-11-15T12:23:44+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 1108,
+    "comments_count": 619,
+    "source_tags": [
+      "analytics",
+      "bm25",
+      "clickhouse",
+      "cpp",
+      "database",
+      "dbms",
+      "duckdb",
+      "elasticsearch",
+      "olap",
+      "postgresql",
+      "relational-database",
+      "search-engine",
+      "search-engines",
+      "sql"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [
+      "DuckDB",
+      "PostgreSQL",
+      "ClickHouse"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.2923,
+    "freshness_score": 0.9981,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2334
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1251648409",
+    "canonical_url": "https://github.com/opengeos/GeoLibre",
+    "title": "opengeos/GeoLibre: A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+    "snippet": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+    "author": "opengeos",
+    "published_at": "2026-11-15T00:54:41+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 8641,
+    "comments_count": 24,
+    "source_tags": [
+      "cesium",
+      "data-science",
+      "duckdb",
+      "geolibre",
+      "geospatial",
+      "gis",
+      "mapbox",
+      "maplibre",
+      "maplibre-gl-js",
+      "tauri-app"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [
+      "DuckDB"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.4462,
+    "freshness_score": 0.6414,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2289
+  },
+  {
+    "source": "rss",
+    "tier": "tier_1",
+    "source_item_id": "https://www.databricks.com/blog/spark-vs-flink",
+    "canonical_url": "https://databricks.com/blog/spark-vs-flink",
+    "title": "Apache Spark vs Apache Flink: which should you use?",
+    "snippet": "For most teams, Apache Spark™ is the better choice. Spark runs batch ETL, SQL analytics,...",
+    "author": "Databricks Blog",
+    "published_at": "2026-11-14T07:02:42+00:00",
+    "collected_at": "2026-11-15T12:26:09.066163+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 0,
+    "comments_count": 0,
+    "source_tags": [
+      "data + ai foundations"
+    ],
+    "domain": "databricks.com",
+    "topics": [
+      "data_engineering",
+      "databases_and_warehouses",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "Spark",
+      "Flink"
+    ],
+    "sentiment": 0.7823,
+    "trust_weight": 1.0,
+    "mentioned_in_sources": [
+      "rss"
+    ],
+    "engagement_percentile": 0.7,
+    "freshness_score": 0.3223,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2256
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5039663",
+    "canonical_url": "https://dev.to/gnomeman4201/shenrons-durability-numbers-didnt-survive-review-heres-what-did-3p3c",
+    "title": "SHENRON's durability numbers didn't survive review. Here's what did.",
+    "snippet": "SHENRON used to rank my Sigma rules and six attack scenarios by how brittle they were. Two...",
+    "author": "gnomeman4201",
+    "published_at": "2026-11-15T05:39:58+00:00",
+    "collected_at": "2026-11-15T12:25:49.215492+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 5,
+    "comments_count": 1,
+    "source_tags": [
+      "blueteam",
+      "opensource",
+      "security",
+      "sigma"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "security",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.4767,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.4865,
+    "freshness_score": 0.7701,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2248
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50497137",
+    "canonical_url": "https://github.com/FURSOY/fursoy-cpu",
+    "title": "Show HN: Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)",
+    "snippet": "",
+    "author": "fursoy",
+    "published_at": "2026-11-14T14:06:34+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 80,
+    "comments_count": 26,
+    "source_tags": [
+      "show_hn",
+      "story"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6604,
+    "freshness_score": 0.4232,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2236
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "365373172",
+    "canonical_url": "https://github.com/growthbook/growthbook",
+    "title": "growthbook/growthbook: Open Source Feature Flags, Experimentation, and Product Analytics",
+    "snippet": "Open Source Feature Flags, Experimentation, and Product Analytics",
+    "author": "growthbook",
+    "published_at": "2026-11-14T21:49:34+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-14T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 8596,
+    "comments_count": 915,
+    "source_tags": [
+      "ab-testing",
+      "abtest",
+      "abtesting",
+      "analytics",
+      "bigquery",
+      "clickhouse",
+      "continuous-delivery",
+      "data-analysis",
+      "data-engineering",
+      "data-science",
+      "databricks",
+      "experimentation",
+      "feature-flagging",
+      "feature-flags",
+      "redshift",
+      "remote-config",
+      "snowflake",
+      "split-testing",
+      "statistics",
+      "warehouse-native"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "Snowflake",
+      "Databricks",
+      "BigQuery",
+      "ClickHouse",
+      "Redshift"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.4769,
+    "freshness_score": 0.5696,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2173
   },
   {
     "source": "hackernews",
@@ -3552,8 +4154,8 @@
     "title": "Terminal borders that don't cost a cell",
     "snippet": "",
     "author": "vinhnx",
-    "published_at": "2026-11-14T01:06:40+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
+    "published_at": "2026-11-13T23:06:40+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
     "published_date": "2026-11-13T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 417,
@@ -3576,10 +4178,10 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.9367,
-    "freshness_score": 0.2416,
+    "engagement_percentile": 0.9371,
+    "freshness_score": 0.2375,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.2082
+    "rank_score": 0.2047
   },
   {
     "source": "github",
@@ -3589,8 +4191,8 @@
     "title": "google-ai-edge/mediapipe: Cross-platform, customizable ML solutions for live and streaming media.",
     "snippet": "Cross-platform, customizable ML solutions for live and streaming media.",
     "author": "google-ai-edge",
-    "published_at": "2026-11-14T10:35:12+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-14T08:35:12+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-14T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 37702,
@@ -3624,47 +4226,126 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.7188,
-    "freshness_score": 0.3481,
+    "engagement_percentile": 0.7231,
+    "freshness_score": 0.3422,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2002
+    "rank_score": 0.1979
   },
   {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5036392",
-    "canonical_url": "https://mlblueprints.substack.com/p/swizzle-runtime-v010-how-we-reached",
-    "title": "Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust",
-    "snippet": "Autonomous coding agents, local developer tools, and edge robotics are bottlenecked by the...",
-    "author": "paramveer_singh_53163a04c",
-    "published_at": "2026-11-14T16:55:59+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "347277349",
+    "canonical_url": "https://github.com/tobymao/sqlglot",
+    "title": "tobymao/sqlglot: Python SQL Parser and Transpiler",
+    "snippet": "Python SQL Parser and Transpiler",
+    "author": "tobymao",
+    "published_at": "2026-11-14T19:49:20+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-14T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 9,
-    "comments_count": 3,
+    "source_score": 9789,
+    "comments_count": 34,
     "source_tags": [
-      "cuda",
-      "llm",
-      "opensource",
-      "rust"
+      "bigquery",
+      "clickhouse",
+      "databricks",
+      "duckdb",
+      "hive",
+      "mysql",
+      "optimizer",
+      "parser",
+      "postgres",
+      "presto",
+      "python",
+      "redshift",
+      "snowflake",
+      "spark",
+      "sql",
+      "sqlite",
+      "sqlparser",
+      "transpiler",
+      "trino",
+      "tsql"
     ],
-    "domain": "mlblueprints.substack.com",
+    "domain": "github.com",
     "topics": [
-      "ai_and_ml",
-      "programming_and_devtools",
-      "open_source"
+      "databases_and_warehouses",
+      "programming_and_devtools"
     ],
-    "tools_mentioned": [],
-    "sentiment": 0.1027,
-    "trust_weight": 0.6,
+    "tools_mentioned": [
+      "Spark",
+      "Snowflake",
+      "Databricks",
+      "DuckDB",
+      "PostgreSQL",
+      "BigQuery",
+      "ClickHouse",
+      "Trino",
+      "Redshift"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
     "mentioned_in_sources": [
-      "devto"
+      "github"
     ],
-    "engagement_percentile": 0.7361,
-    "freshness_score": 0.4443,
+    "engagement_percentile": 0.4615,
+    "freshness_score": 0.5274,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.1962
+    "rank_score": 0.1947
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "320463703",
+    "canonical_url": "https://github.com/dathere/qsv",
+    "title": "dathere/qsv: Blazing-fast, Neuro-symbolic Data-Wrangling toolkit",
+    "snippet": "Blazing-fast, Neuro-symbolic Data-Wrangling toolkit",
+    "author": "dathere",
+    "published_at": "2026-11-15T03:25:38+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
+    "published_date": "2026-11-15T00:00:00",
+    "collected_date": "2026-11-15T00:00:00",
+    "source_score": 3824,
+    "comments_count": 25,
+    "source_tags": [
+      "ai",
+      "ckan",
+      "csv",
+      "data-engineering",
+      "data-wrangling",
+      "dcat",
+      "excel",
+      "fair-data",
+      "fairification",
+      "geocode",
+      "luau",
+      "metadata",
+      "neuro-symbolic",
+      "opendata",
+      "polars",
+      "sql",
+      "statistics",
+      "stats-sighting",
+      "timeseries",
+      "visualization"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [
+      "Polars"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.3436,
+    "freshness_score": 0.7067,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1942
   },
   {
     "source": "github",
@@ -3674,11 +4355,11 @@
     "title": "ollama/ollama: Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "snippet": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "author": "ollama",
-    "published_at": "2026-11-14T02:00:10+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
+    "published_at": "2026-11-14T00:00:10+00:00",
+    "collected_at": "2026-11-15T12:26:30.309747+00:00",
     "published_date": "2026-11-14T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
-    "source_score": 187030,
+    "source_score": 187032,
     "comments_count": 4654,
     "source_tags": [
       "deepseek",
@@ -3707,10 +4388,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9792,
-    "freshness_score": 0.2502,
+    "engagement_percentile": 0.9795,
+    "freshness_score": 0.2459,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.196
+    "rank_score": 0.1927
   },
   {
     "source": "hackernews",
@@ -3720,8 +4401,8 @@
     "title": "What happened to 3Com?",
     "snippet": "",
     "author": "gvieri",
-    "published_at": "2026-11-14T01:48:59+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
+    "published_at": "2026-11-13T23:48:59+00:00",
+    "collected_at": "2026-11-15T12:25:38.723566+00:00",
     "published_date": "2026-11-13T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 199,
@@ -3744,549 +4425,45 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.8544,
-    "freshness_score": 0.2482,
+    "engagement_percentile": 0.8553,
+    "freshness_score": 0.244,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.1951
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "678526156",
-    "canonical_url": "https://github.com/marimo-team/marimo",
-    "title": "marimo-team/marimo: A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor.",
-    "snippet": "A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor.",
-    "author": "marimo-team",
-    "published_at": "2026-11-14T12:58:27+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 23552,
-    "comments_count": 637,
-    "source_tags": [
-      "artificial-intelligence",
-      "dag",
-      "data-science",
-      "data-visualization",
-      "dataflow",
-      "developer-tools",
-      "machine-learning",
-      "notebooks",
-      "pipeline",
-      "python",
-      "reactive",
-      "sql",
-      "web-app"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "databases_and_warehouses",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.625,
-    "freshness_score": 0.3816,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1908
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50491400",
-    "canonical_url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player",
-    "title": "How Not to Build a Music Player",
-    "snippet": "",
-    "author": "vinhnx",
-    "published_at": "2026-11-14T01:04:30+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-13T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 178,
-    "comments_count": 84,
-    "source_tags": [
-      "front_page",
-      "person",
-      "story",
-      "zig"
-    ],
-    "domain": "alichraghi.github.io",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews",
-      "lobsters"
-    ],
-    "engagement_percentile": 0.8354,
-    "freshness_score": 0.2413,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.1855
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "323048702",
-    "canonical_url": "https://github.com/openbq-org/OpenBB",
-    "title": "openbq-org/OpenBB: Open Data Platform for analysts, quants and AI agents.",
-    "snippet": "Open Data Platform for analysts, quants and AI agents.",
-    "author": "openbq-org",
-    "published_at": "2026-11-14T04:25:38+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 75435,
-    "comments_count": 115,
-    "source_tags": [
-      "ai",
-      "crypto",
-      "derivatives",
-      "economics",
-      "equity",
-      "finance",
-      "fixed-income",
-      "machine-learning",
-      "openbb",
-      "options",
-      "python",
-      "quantitative-finance",
-      "stocks"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.8438,
-    "freshness_score": 0.2746,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1853
+    "rank_score": 0.192
   },
   {
     "source": "devto",
     "tier": "tier_3",
-    "source_item_id": "5040912",
-    "canonical_url": "https://dev.to/sumankalia/wysiwyg-or-block-editor-i-built-the-one-in-between-2im5",
-    "title": "WYSIWYG or block editor? I built the one in between",
-    "snippet": "Rich text editors have been split into two camps for a long time. WYSIWYG editors work with HTML...",
-    "author": "sumankalia",
-    "published_at": "2026-11-15T12:30:14+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
+    "source_item_id": "5041296",
+    "canonical_url": "https://dev.to/joduchan/-where-a-ui-regression-test-starts-matters-19f7",
+    "title": "# Where a UI regression test starts matters",
+    "snippet": "A UI test can pass or fail depending on what the previous run left behind. An app might still be...",
+    "author": "joduchan",
+    "published_at": "2026-11-15T12:02:29+00:00",
+    "collected_at": "2026-11-15T12:25:49.215492+00:00",
     "published_date": "2026-11-15T00:00:00",
     "collected_date": "2026-11-15T00:00:00",
     "source_score": 5,
     "comments_count": 0,
     "source_tags": [
-      "javascript",
-      "opensource",
-      "react",
-      "webdev"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.1779,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.3194,
-    "freshness_score": 0.9445,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.181
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "q81fi4",
-    "canonical_url": "https://blog.sesse.net/blog/tech/2026-11-13-19-51_solving_the_fox_game.html",
-    "title": "Solving the fox game",
-    "snippet": "",
-    "author": "dracarys_18",
-    "published_at": "2026-11-14T12:32:33.001000+02:00",
-    "collected_at": "2026-11-15T13:58:30.339006+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 20,
-    "comments_count": 4,
-    "source_tags": [
-      "math"
-    ],
-    "domain": "blog.sesse.net",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.34,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.6,
-    "freshness_score": 0.3753,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1801
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "33457642",
-    "canonical_url": "https://github.com/dbcli/mycli",
-    "title": "dbcli/mycli: Rich MySQL Terminal Client with AutoCompletion, Syntax Highlighting, and Dataframes",
-    "snippet": "Rich MySQL Terminal Client with AutoCompletion, Syntax Highlighting, and Dataframes",
-    "author": "dbcli",
-    "published_at": "2026-11-14T17:37:20+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 11998,
-    "comments_count": 0,
-    "source_tags": [
-      "auto-completion",
-      "data-science",
-      "database",
-      "mycli",
-      "mysql",
-      "polars",
-      "python",
-      "repl",
-      "sql",
-      "syntax-highlighting"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "databases_and_warehouses",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [
-      "Polars"
-    ],
-    "sentiment": 0.802,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.4844,
-    "freshness_score": 0.4564,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1769
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5040744",
-    "canonical_url": "https://barcelonacodeschool.com/build-ai-membership-class-booking-agent-gym",
-    "title": "How to Build an AI Membership and Class Booking Agent for a Gym",
-    "snippet": "Design a safe AI gym booking agent with live capacity, membership checks, waitlists, cancellations, human escalation and tests.",
-    "author": "bcncodeschool",
-    "published_at": "2026-11-15T11:51:08+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 5,
-    "comments_count": 0,
-    "source_tags": [
-      "agents",
-      "ai",
-      "automation",
-      "tutorial"
-    ],
-    "domain": "barcelonacodeschool.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.4404,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.3194,
-    "freshness_score": 0.9211,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1766
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "453068084",
-    "canonical_url": "https://github.com/risingwavelabs/risingwave",
-    "title": "risingwavelabs/risingwave: Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.",
-    "snippet": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.",
-    "author": "risingwavelabs",
-    "published_at": "2026-11-14T16:17:14+02:00",
-    "collected_at": "2026-11-14T16:44:14.316133+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-14T00:00:00",
-    "source_score": 9411,
-    "comments_count": 1864,
-    "source_tags": [
-      "apache-iceberg",
-      "data-engineering",
-      "database",
-      "etl-pipeline",
-      "event-streaming",
-      "kafka",
-      "materialized-view",
-      "postgresql",
-      "rust",
-      "stream-processing",
-      "webhook"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "data_engineering",
-      "databases_and_warehouses",
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [
-      "Kafka",
-      "PostgreSQL",
-      "Iceberg"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.5052,
-    "freshness_score": 0.4336,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1752
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50496562",
-    "canonical_url": "https://debarshibasak.github.io/readables/blogs/agent-first-development",
-    "title": "Agile Manifesto for Agents",
-    "snippet": "",
-    "author": "debarshri",
-    "published_at": "2026-11-14T14:38:43+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 29,
-    "comments_count": 7,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "debarshibasak.github.io",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.5316,
-    "freshness_score": 0.4069,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1731
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "257913595",
-    "canonical_url": "https://github.com/voxel51/fiftyone",
-    "title": "voxel51/fiftyone: Refine high-quality datasets and visual AI models",
-    "snippet": "Refine high-quality datasets and visual AI models",
-    "author": "voxel51",
-    "published_at": "2026-11-14T16:13:04+02:00",
-    "collected_at": "2026-11-15T13:59:20.725725+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 11308,
-    "comments_count": 719,
-    "source_tags": [
-      "active-learning",
-      "artificial-intelligence",
-      "computer-vision",
-      "data-centric-ai",
-      "data-cleaning",
-      "data-curation",
-      "data-quality",
-      "data-science",
-      "deep-learning",
-      "developer-tools",
-      "image-classification",
-      "machine-learning",
-      "object-detection",
-      "python",
-      "unstructured-data",
-      "vector-search",
-      "visualization"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.5,
-    "freshness_score": 0.4325,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.173
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5040517",
-    "canonical_url": "https://dev.to/alexr/okf-agent-memory-agent-memory-as-plain-markdown-files-nhn",
-    "title": "OKF Agent Memory: agent memory as plain Markdown files",
-    "snippet": "OKF Agent Memory Every agent session starts from zero, and the decisions from last week...",
-    "author": "alexr",
-    "published_at": "2026-11-15T10:56:41+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 5,
-    "comments_count": 0,
-    "source_tags": [
-      "agents",
-      "ai",
-      "go",
-      "opensource"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "ai_and_ml",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.3194,
-    "freshness_score": 0.8892,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1704
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50496590",
-    "canonical_url": "https://interconnects.ai/p/open-source-ai-without-jensen",
-    "title": "Open-source AI without Jensen",
-    "snippet": "",
-    "author": "pr337h4m",
-    "published_at": "2026-11-14T14:44:01+02:00",
-    "collected_at": "2026-11-15T13:58:02.409652+02:00",
-    "published_date": "2026-11-14T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 26,
-    "comments_count": 7,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "interconnects.ai",
-    "topics": [
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.519,
-    "freshness_score": 0.4085,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1696
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "nbjckz",
-    "canonical_url": "https://saltysylvi.github.io/blog/parsing-nested-lists-in-bqn.html",
-    "title": "Parsing nested lists in BQN",
-    "snippet": "",
-    "author": "veqq",
-    "published_at": "2026-11-15T03:59:26.268000+02:00",
-    "collected_at": "2026-11-15T13:58:30.339006+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 11,
-    "comments_count": 1,
-    "source_tags": [
-      "apl"
-    ],
-    "domain": "saltysylvi.github.io",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.3111,
-    "freshness_score": 0.6804,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1693
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5040236",
-    "canonical_url": "https://dev.to/braska/im-building-omegon-cloud-container-hosting-built-in-sweden-for-europe-1pjj",
-    "title": "I'm building omegon cloud: container hosting built in Sweden, for Europe",
-    "snippet": "Hi dev.to! I'm building omegon cloud, a container hosting platform run by a Swedish company, with...",
-    "author": "braska",
-    "published_at": "2026-11-15T10:02:15+02:00",
-    "collected_at": "2026-11-15T13:58:17.232687+02:00",
-    "published_date": "2026-11-15T00:00:00",
-    "collected_date": "2026-11-15T00:00:00",
-    "source_score": 5,
-    "comments_count": 0,
-    "source_tags": [
-      "cloud",
       "devops",
-      "docker",
-      "europe"
+      "mobile",
+      "opensource",
+      "testing"
     ],
     "domain": "dev.to",
     "topics": [
       "programming_and_devtools",
-      "cloud"
+      "open_source"
     ],
-    "tools_mentioned": [
-      "Docker"
-    ],
-    "sentiment": 0.0,
+    "tools_mentioned": [],
+    "sentiment": -0.5267,
     "trust_weight": 0.6,
     "mentioned_in_sources": [
       "devto"
     ],
-    "engagement_percentile": 0.3194,
-    "freshness_score": 0.8589,
+    "engagement_percentile": 0.3243,
+    "freshness_score": 0.9847,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.1646
+    "rank_score": 0.1916
   }
 ]
