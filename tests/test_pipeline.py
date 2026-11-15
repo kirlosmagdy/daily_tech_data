@@ -10,8 +10,9 @@ def test_load_config():
     assert "project" in cfg
     assert "sources" in cfg
     assert "topics" in cfg
-    assert cfg["sources"]["rss"]["trust_weight"] == 1.0
-    assert cfg["sources"]["hackernews"]["trust_weight"] == 0.8
+    assert cfg["project"]["history_retention_days"] == 90
+    assert cfg["sources"]["rss"]["enabled"] is True
+    assert cfg["sources"]["hackernews"]["enabled"] is True
 
 
 # Verify cross-source deduplication merges sources, keeps highest trust tier, and preserves max score.
@@ -89,7 +90,7 @@ def test_extract_tools_context_word_guard():
 
     _, tools_false = extract_topics_and_tools(
         title="A bright spark of creativity and a ray of sunshine",
-        snippet="General design thoughts without any data context.",
+        snippet="General design thoughts about painting and photography.",
         tags=[],
         topic_rules=topic_rules,
         tool_rules=tool_rules,
