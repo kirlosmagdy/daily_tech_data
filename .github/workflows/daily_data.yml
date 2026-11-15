@@ -2,8 +2,8 @@ name: Daily Tech Data Pipeline
 
 on:
   schedule:
-    # 05:23 UTC = 07:23 AM Cairo time (off-peak minute as required by Step 8.1)
-    - cron: "23 5 * * *"
+    # 08:00 UTC = 10:00 AM Cairo time (EET, UTC+2)
+    - cron: "0 8 * * *"
   workflow_dispatch:
 
 permissions:
@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Run unit tests
+        run: pytest -v
+
       - name: Run full data pipeline (Extract, Normalize, Enrich, dbt, Export)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -52,7 +55,8 @@ jobs:
             git commit -m "data: daily pulse update $(date -u +'%Y-%m-%d %H:%M UTC')"
             git pull --rebase origin main
             git push origin main
-            if [ -n "$VERCEL_DEPLOY_HOOK_URL" ]; then
-              curl -s -X POST "$VERCEL_DEPLOY_HOOK_URL" > /dev/null
+            CLEAN_HOOK_URL=$(echo "$VERCEL_DEPLOY_HOOK_URL" | tr -d '[:space:]')
+            if [ -n "$CLEAN_HOOK_URL" ]; then
+              curl -fsS -X POST "$CLEAN_HOOK_URL" > /dev/null || echo "Deploy hook warning (non-fatal)"
             fi
           fi
