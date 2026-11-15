@@ -1,0 +1,58 @@
+name: Daily Tech Data Pipeline
+
+on:
+  schedule:
+    # 05:23 UTC = 07:23 AM Cairo time (off-peak minute as required by Step 8.1)
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-data-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.11 with pip cache
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run full data pipeline (Extract, Normalize, Enrich, dbt, Export)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m pipeline.run
+
+      - name: Commit and push updated data and history
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          git config user.name "${{ github.repository_owner }}"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+          git add data/history/silver_items.parquet site/data/*.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "data: daily pulse update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push origin main
+            if [ -n "$VERCEL_DEPLOY_HOOK_URL" ]; then
+              curl -s -X POST "$VERCEL_DEPLOY_HOOK_URL" > /dev/null
+            fi
+          fi
