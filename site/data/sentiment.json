@@ -55,15 +55,15 @@
   },
   {
     "week_start": "2026-11-09T00:00:00",
-    "tool": "PyTorch",
-    "mentions_count": 13,
-    "avg_sentiment": 0.2764
-  },
-  {
-    "week_start": "2026-11-09T00:00:00",
     "tool": "Spark",
     "mentions_count": 13,
     "avg_sentiment": 0.2992
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "PyTorch",
+    "mentions_count": 13,
+    "avg_sentiment": 0.2764
   },
   {
     "week_start": "2026-11-09T00:00:00",

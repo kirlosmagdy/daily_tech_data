@@ -282,7 +282,7 @@
   {
     "metric_date": "2026-11-14T00:00:00",
     "topic": "databases_and_warehouses",
-    "item_count": 30
+    "item_count": 28
   },
   {
     "metric_date": "2026-11-14T00:00:00",
@@ -292,7 +292,7 @@
   {
     "metric_date": "2026-11-14T00:00:00",
     "topic": "programming_and_devtools",
-    "item_count": 59
+    "item_count": 57
   },
   {
     "metric_date": "2026-11-14T00:00:00",
@@ -302,7 +302,7 @@
   {
     "metric_date": "2026-11-15T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 41
+    "item_count": 42
   },
   {
     "metric_date": "2026-11-15T00:00:00",
@@ -322,7 +322,7 @@
   {
     "metric_date": "2026-11-15T00:00:00",
     "topic": "databases_and_warehouses",
-    "item_count": 30
+    "item_count": 33
   },
   {
     "metric_date": "2026-11-15T00:00:00",
@@ -332,11 +332,11 @@
   {
     "metric_date": "2026-11-15T00:00:00",
     "topic": "programming_and_devtools",
-    "item_count": 62
+    "item_count": 64
   },
   {
     "metric_date": "2026-11-15T00:00:00",
     "topic": "security",
-    "item_count": 7
+    "item_count": 8
   }
 ]
