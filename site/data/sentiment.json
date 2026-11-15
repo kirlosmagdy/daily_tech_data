@@ -1,0 +1,80 @@
+[
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "PostgreSQL",
+    "mentions_count": 42,
+    "avg_sentiment": 0.1858
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "DuckDB",
+    "mentions_count": 36,
+    "avg_sentiment": 0.2472
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "dbt",
+    "mentions_count": 35,
+    "avg_sentiment": 0.1761
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "Snowflake",
+    "mentions_count": 23,
+    "avg_sentiment": 0.2335
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "ClickHouse",
+    "mentions_count": 21,
+    "avg_sentiment": 0.1089
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "BigQuery",
+    "mentions_count": 21,
+    "avg_sentiment": 0.179
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "Airflow",
+    "mentions_count": 18,
+    "avg_sentiment": 0.1572
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "Databricks",
+    "mentions_count": 17,
+    "avg_sentiment": 0.117
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "Redshift",
+    "mentions_count": 15,
+    "avg_sentiment": 0.3394
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "PyTorch",
+    "mentions_count": 13,
+    "avg_sentiment": 0.2764
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "Spark",
+    "mentions_count": 13,
+    "avg_sentiment": 0.2992
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "Kubernetes",
+    "mentions_count": 12,
+    "avg_sentiment": 0.0978
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "Iceberg",
+    "mentions_count": 10,
+    "avg_sentiment": 0.1965
+  }
+]
