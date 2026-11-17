@@ -2,119 +2,17 @@
 
 An end-to-end automated data engineering pipeline and static analytics platform that extracts, deduplicates, enriches, ranks, and publishes technical and data engineering content daily at **$0 hosting cost**.
 
----
+## Architecture (Medallion Pipeline)
 
-## Tech Stack
-
-* **Ingestion & Processing:** Python 3.11 (`requests`, `feedparser`, `beautifulsoup4`, `langdetect`, `vaderSentiment`, `pandas`, `pyarrow`)
-* **Storage & History:** DuckDB (local analytical engine) + Apache Parquet (rolling 90-day Silver history snapshot)
-* **Transformation & Data Quality:** `dbt-core` + `dbt-duckdb` (1 staging view, 6 Gold tables, 27 automated schema and freshness tests)
-* **Frontend:** Next.js 14 Static Export (`output: "export"`) deployed on Vercel
-* **Orchestration & CI/CD:** GitHub Actions (daily production schedule + `pytest` CI) & Dockerized Apache Airflow 2.10 (local DAG showcase)
-
----
-
-## Medallion Architecture
-
-```text
-[7 Sources: Hacker News, dev.to, Lobsters, 15 RSS Blogs, GitHub, arXiv, HF Papers]
-       │
-       ▼
-1. Bronze Layer (pipeline/extract.py)
-   - Polite rate-limited connectors, retry/backoff, per-source fault isolation
-   - Raw JSON batch + _run_report.json written to data/raw/YYYY-MM-DD/
-       │
-       ▼
-2. Silver Layer (pipeline/normalize.py & pipeline/enrich.py)
-   - HTML stripping, 300-char snippet cap, UTC normalization, English filter
-   - Canonical URL normalization & cross-source deduplication
-   - Seed-driven topic & tool tagging (with context-word guards) + VADER sentiment
-   - Persisted to 90-day rolling Parquet snapshot (data/history/silver_items.parquet)
-       │
-       ▼
-3. Gold Layer (dbt_project/ with dbt-duckdb)
-   - Rebuilds local DuckDB (data/pulse.duckdb) from 90-day Parquet history
-   - Builds stg_silver_items + 6 Gold analytical models + 27 data quality tests
-       │
-       ▼
-4. Static Export & Frontend (pipeline/export.py -> site/)
-   - Exports compact JSON feeds (<1 MB each) to site/data/
-   - Prerendered static Next.js site deployed on Vercel
-```
-
----
-
-## Data Sources & Trust Tiers
-
-| Source | Type | Trust Tier | Weight | Min Score Filter |
-|---|---|---|---|---|
-| **RSS Feeds (15 Engineering Blogs)** | Official blogs & release notes | Tier 1 | `1.0` | `0` |
-| **arXiv (`cs.AI`, `cs.LG`, `cs.DB`)** | Research preprints | Tier 1 | `1.0` | `0` |
-| **Hugging Face Daily Papers** | Curated ML papers | Tier 1 | `1.0` | `0` |
-| **Hacker News (Algolia API)** | Technical community (relevance-filtered) | Tier 2 | `0.8` | `5` |
-| **Lobsters** | Curated computing community | Tier 2 | `0.8` | `2` |
-| **GitHub Search API** | Active open-source repositories | Tier 2 | `0.8` | `10` stars |
-| **dev.to** | Open developer publishing platform | Tier 3 | `0.6` | `3` reactions |
-
----
-
-## Ranking Formula
-
-Items in `gold_ranked_items` and `gold_today_feed` are scored using:
-
-$$\text{rank\_score} = \text{engagement\_percentile} \times \text{trust\_weight} \times \text{freshness\_score} \times \text{cross\_source\_bonus}$$
-
-* **Engagement Percentile:** 7-day within-source cumulative distribution (`CUME_DIST`) of `source_score + 2 * comments_count` (sources without native scores like RSS and arXiv receive a neutral `0.7` baseline).
-* **Trust Weight:** `1.0` (Tier 1), `0.8` (Tier 2), or `0.6` (Tier 3).
-* **Freshness Score:** Exponential decay with an **18-hour half-life** ($0.5^{\Delta t / 18}$).
-* **Cross-Source Bonus:** $+0.15$ per additional source mentioning the same canonical URL, capped at $+0.45$ ($1.45\times$).
-
----
-
-## Repository Structure
-
-```text
-daily_tech_data/
-├── .github/workflows/
-│   └── daily_data.yml           # Daily scheduled GitHub Actions workflow + CI tests
-├── airflow/
-│   ├── dags/
-│   │   └── daily_tech_data_dag.py
-│   ├── Dockerfile
-│   └── docker-compose.yml       # Local Airflow standalone on port 8085
-├── connectors/                  # Modular source extractors (HN, dev.to, RSS, GitHub, etc.)
-├── data/
-│   └── history/
-│       └── silver_items.parquet # Committed 90-day deduplicated Silver history
-├── dbt_project/
-│   ├── macros/                  # Custom generic test macros (test_between.sql)
-│   ├── models/                  # Staging view, 6 Gold SQL models, and schema.yml
-│   ├── tests/                   # 36h freshness and 7d median row-count tests
-│   ├── dbt_project.yml
-│   └── profiles.yml
-├── pipeline/
-│   ├── config.py                # YAML & environment loader
-│   ├── extract.py               # Bronze runner
-│   ├── normalize.py             # Silver cleaning, canonical URLs, deduplication
-│   ├── enrich.py                # Topic/tool regex tagging & VADER sentiment
-│   ├── export.py                # DuckDB Gold -> compact site/data/*.json exporter
-│   └── run.py                   # Single-command end-to-end pipeline orchestrator
-├── seeds/
-│   ├── topics.csv               # 8 core topics and pipe-delimited keywords
-│   └── tools.csv                # 32 data/AI tools with aliases & context words
-├── site/                        # Next.js 14 static site (Today, Trends, Sentiment, Sources, About)
-├── tests/
-│   └── test_pipeline.py         # Pytest unit test suite
-├── config.yaml                  # Central pipeline configuration
-└── requirements.txt             # Pinned Python dependencies
-```
-
----
+* **Bronze Layer (`connectors/`, `pipeline/extract.py`):** Polite, rate-limited connectors for 7 sources writing raw daily JSON batches and `_run_report.json` to `data/raw/YYYY-MM-DD/`.
+* **Silver Layer (`pipeline/normalize.py`, `pipeline/enrich.py`):** HTML stripping, English language filtering, canonical URL normalization, cross-source deduplication, seed-driven topic/tool regex tagging, VADER sentiment scoring, and 90-day rolling Parquet persistence (`data/history/silver_items.parquet`).
+* **Gold Layer (`dbt_project/`):** Ephemeral DuckDB rebuild executing 1 staging view, 6 Gold analytical models, and 27 schema and freshness tests via `dbt build`.
+* **Static Export & Frontend (`pipeline/export.py`, `site/`):** Compact JSON feeds exported to `site/data/` powering a static Next.js 14 application deployed on Vercel.
 
 ## Local Quickstart
 
 ```powershell
-# 1. Create and activate virtual environment (Windows PowerShell)
+# 1. Create and activate virtual environment
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -122,4 +20,45 @@ pip install -r requirements.txt
 # 2. Run unit tests
 pytest -v
 
-# 3. Run the full end-to-end pipeline (Rebuild -> Extract -> Normalize -> Enrich ->
+# 3. Run the full pipeline (Extract -> Normalize -> Enrich -> dbt build -> Export)
+python -m pipeline.run
+
+# 4. Run dbt models and data quality tests directly (optional)
+dbt build --project-dir dbt_project --profiles-dir dbt_project
+
+# 5. Build and run the static Next.js frontend
+cd site
+npm install
+npm run build
+npm run dev
+```
+
+## GitHub Actions & Secrets
+
+The production workflow (`.github/workflows/daily_data.yml`) runs daily at `08:17 UTC` (`10:17 AM` Cairo time).
+
+* **`GITHUB_TOKEN`**: Provided automatically by GitHub Actions for higher GitHub Search API rate limits and pushing data commits.
+* **`VERCEL_DEPLOY_HOOK_URL`** *(Optional)*: Repository secret containing a Vercel Deploy Hook URL to trigger a static site rebuild after new data commits are pushed.
+
+## Local Airflow Showcase
+
+```powershell
+docker compose -f airflow/docker-compose.yml up -d
+docker logs pulse_airflow | Select-String "password:"
+```
+
+Open `http://localhost:8085`, log in as `admin`, unpause `daily_tech_data_pulse`, and trigger a run. Stop with `docker compose -f airflow/docker-compose.yml down`.
+
+## Limitations
+
+* **Lexicon Sentiment:** VADER sentiment is rule-based and optimized for short text; neutral technical titles typically score near `0.0`.
+* **Keyword Tagging:** Topic and tool detection relies on curated regular expressions and context-word guards in `seeds/` rather than LLM classification.
+* **Ephemeral History Window:** Git-committed Parquet storage retains a rolling 90-day window to keep the repository lightweight.
+
+## Sources and Attribution
+
+Content metadata (titles, URLs, short snippets, and public engagement counts) is aggregated from public APIs and feeds: Hacker News (Algolia), dev.to, Lobsters, Engineering RSS Blogs, GitHub Search API, arXiv API, and Hugging Face Daily Papers. All links point directly to the original publishers.
+
+## License
+
+Released under the [MIT License](LICENSE).
