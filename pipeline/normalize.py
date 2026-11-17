@@ -93,7 +93,7 @@ def map_raw_item(source: str, item: dict, collected_at: str, trust_weight: float
         snippet = item.get("description") or ""
         item_id = str(item.get("id") or "")
         author = (item.get("user") or {}).get("username") or ""
-        pub = parse_dt(item.get("published_at") or item.get("created_at"))
+        pub = parse_dt(item.get("created_at") or item.get("created_at"))
         score = int(item.get("public_reactions_count") or item.get("positive_reactions_count") or 0)
         comments = int(item.get("comments_count") or 0)
         tags = item.get("tag_list") if isinstance(item.get("tag_list"), list) else []
@@ -113,7 +113,7 @@ def map_raw_item(source: str, item: dict, collected_at: str, trust_weight: float
         snippet = item.get("summary") or ""
         item_id = str(item.get("id") or url)
         author = item.get("author") or item.get("feed_name") or ""
-        pub = parse_dt(item.get("published_at"))
+        pub = parse_dt(item.get("created_at"))
         score = 0
         comments = 0
         tags = item.get("tags") or []
@@ -135,7 +135,7 @@ def map_raw_item(source: str, item: dict, collected_at: str, trust_weight: float
         snippet = item.get("summary") or ""
         item_id = str(item.get("id") or "").split("/")[-1]
         author = item.get("author") or ""
-        pub = parse_dt(item.get("published_at"))
+        pub = parse_dt(item.get("created_at"))
         score = 0
         comments = 0
         tags = item.get("tags") or []
@@ -166,7 +166,7 @@ def map_raw_item(source: str, item: dict, collected_at: str, trust_weight: float
         "title": clean_text(title),
         "snippet": clean_text(snippet, max_len=max_snippet),
         "author": clean_text(author),
-        "published_at": pub_iso,
+        "created_at": pub_iso,
         "collected_at": parse_dt(collected_at).isoformat() if parse_dt(collected_at) else now_utc().isoformat(),
         "source_score": score,
         "comments_count": comments,
@@ -189,7 +189,7 @@ def deduplicate_records(records: list[dict]) -> list[dict]:
 
     deduped = []
     for canon_url, group in grouped.items():
-        group.sort(key=lambda r: (r["trust_weight"], r["source_score"], r["published_at"]), reverse=True)
+        group.sort(key=lambda r: (r["trust_weight"], r["source_score"], r["created_at"]), reverse=True)
         winner = dict(group[0])
         sources = sorted({s for r in group for s in r.get("mentioned_in_sources", [r["source"]])})
         tags = sorted({t for r in group for t in r.get("source_tags", [])})

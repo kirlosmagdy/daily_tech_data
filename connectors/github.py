@@ -8,7 +8,7 @@ load_dotenv()
 GITHUB_SEARCH_URL = "https://api.github.com/search/repositories"
 
 
-# Extract active GitHub repositories pushed within the lookback window across configured topics.
+# Extract active GitHub repositories created within the lookback window across configured topics.
 def extract(cfg: dict) -> dict:
     start = time.time()
     cutoff_date = cutoff_utc(cfg["project"]["lookback_hours"]).strftime("%Y-%m-%d")
@@ -22,7 +22,7 @@ def extract(cfg: dict) -> dict:
     for i, topic in enumerate(topics):
         try:
             params = {
-                "q": f"topic:{topic} pushed:>={cutoff_date}",
+                "q": f"topic:{topic} created:>={cutoff_date}",
                 "sort": "stars",
                 "order": "desc",
                 "per_page": 25,
@@ -41,7 +41,7 @@ def extract(cfg: dict) -> dict:
                         "forks_count": repo.get("forks_count", 0),
                         "open_issues_count": repo.get("open_issues_count", 0),
                         "created_at": repo.get("created_at"),
-                        "pushed_at": repo.get("pushed_at"),
+                        "created_at": repo.get("created_at"),
                         "topics": repo.get("topics", []),
                         "owner_login": (repo.get("owner") or {}).get("login", ""),
                         "language": repo.get("language"),
