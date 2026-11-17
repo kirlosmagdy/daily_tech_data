@@ -127,83 +127,13 @@ sources:
     tier: "tier_3"
     subreddits: []
 
+# Topic keywords live in seeds/topics.csv
 topics:
-  data_engineering:
-    - data engineering
-    - etl
-    - elt
-    - data pipeline
-    - apache airflow
-    - spark
-    - kafka
-    - dbt
-    - data integration
-    - orchestration
-  analytics_and_bi:
-    - data analytics
-    - business intelligence
-    - power bi
-    - tableau
-    - looker
-    - metrics
-    - dashboard
-    - data modeling
-  databases_and_warehouses:
-    - database
-    - postgres
-    - postgresql
-    - duckdb
-    - snowflake
-    - databricks
-    - bigquery
-    - clickhouse
-    - iceberg
-    - sql
-    - data warehouse
-    - lakehouse
-  ai_and_ml:
-    - artificial intelligence
-    - machine learning
-    - llm
-    - gpt
-    - neural network
-    - deep learning
-    - pytorch
-    - rag
-    - transformer
-    - fine-tuning
-  programming_and_devtools:
-    - python
-    - rust
-    - typescript
-    - golang
-    - compiler
-    - cli
-    - git
-    - testing
-    - polars
-    - pandas
-  cloud:
-    - aws
-    - gcp
-    - azure
-    - kubernetes
-    - docker
-    - serverless
-    - terraform
-    - cloud native
-  security:
-    - cybersecurity
-    - vulnerability
-    - cve
-    - encryption
-    - zero-day
-    - infosec
-    - authentication
-  open_source:
-    - open source
-    - open-source
-    - apache
-    - linux
-    - mit license
-    - gpl
+  - data_engineering
+  - analytics_and_bi
+  - databases_and_warehouses
+  - ai_and_ml
+  - programming_and_devtools
+  - cloud
+  - security
+  - open_source

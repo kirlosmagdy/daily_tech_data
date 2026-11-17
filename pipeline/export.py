@@ -72,12 +72,6 @@ def run_export() -> dict:
         sentiment_weekly = query_records(con, "SELECT * FROM gold_weekly_tool_sentiment ORDER BY week_start DESC, mentions_count DESC")
         sources_health = query_records(con, "SELECT * FROM gold_source_health ORDER BY trust_weight DESC, source ASC")
 
-    by_topic: dict[str, list[dict]] = {topic: [] for topic in cfg["topics"].keys()}
-    for item in all_ranked:
-        for t in item.get("topics") or []:
-            if t in by_topic and len(by_topic[t]) < 50:
-                by_topic[t].append(item)
-
     for src in sources_health:
         live = run_report_map.get(src["source"])
         if live:
@@ -98,7 +92,7 @@ def run_export() -> dict:
         "generated_at": generated_at,
         "today_count": len(today_items),
         "total_history_count": len(all_ranked),
-        "topics_count": len(by_topic),
+        "topics_count": len(cfg["topics"]),
         "tools_tracked_count": len(tools_trends),
         "ok_sources_count": sum(1 for s in sources_health if s["status"] == "ok"),
         "total_sources_count": len(sources_health),
@@ -106,7 +100,6 @@ def run_export() -> dict:
 
     sizes = {
         "today.json": write_json("today.json", today_items),
-        "by_topic.json": write_json("by_topic.json", by_topic),
         "trends.json": write_json("trends.json", trends_30d),
         "tools.json": write_json("tools.json", tools_trends),
         "sentiment.json": write_json("sentiment.json", sentiment_weekly),

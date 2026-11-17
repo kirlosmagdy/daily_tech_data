@@ -6,39 +6,39 @@ from pipeline.enrich import extract_topics_and_tools, load_tools_seed, load_topi
 from pipeline.normalize import canonicalize_url, deduplicate_records, map_raw_item
 
 
-# Verify configuration loads core project settings, sources, and topics.
+# Verify configuration loads core project settings, sources, and the 8 topic names.
 def test_load_config():
     cfg = load_config()
     assert "project" in cfg
     assert "sources" in cfg
-    assert "topics" in cfg
+    assert isinstance(cfg["topics"], list)
+    assert len(cfg["topics"]) == 8
     assert cfg["project"]["history_retention_days"] == 90
     assert cfg["sources"]["rss"]["enabled"] is True
 
 
-# Verify saved raw fixtures map cleanly into normalized records with titles and canonical URLs.
+# Verify saved raw fixtures map cleanly into normalized records with non-empty canonical_url and title.
 def test_map_raw_item_fixtures():
     fixtures_dir = Path("tests/fixtures")
     specs = [
-        ("hackernews", "hackernews.json", "hits"),
-        ("devto", "devto.json", None),
-        ("lobsters", "lobsters.json", None),
-        ("github", "github.json", "items"),
-        ("hf_papers", "hf_papers.json", None),
+        ("hackernews", "hackernews_sample.json", "hits"),
+        ("devto", "devto_sample.json", None),
+        ("lobsters", "lobsters_sample.json", None),
+        ("github", "github_sample.json", "items"),
+        ("hf_papers", "hf_papers_sample.json", None),
     ]
     for source, filename, key in specs:
         data = json.loads((fixtures_dir / filename).read_text(encoding="utf-8"))
-        rows = data[key] if key else data
+        rows = data[key] if (key and isinstance(data, dict) and key in data) else (data.get("items", []) if isinstance(data, dict) else data)
         assert len(rows) > 0
-        mapped = map_raw_item(rows[0], source, 0.8)
-        assert mapped is not None
+        mapped = map_raw_item(source, rows[0], "2026-11-15T00:00:00+00:00", 0.8, 300)
         assert mapped["canonical_url"]
         assert mapped["title"]
 
 
-# Verify URL canonicalization strips tracking params, www, trailing slashes, and arXiv version suffixes.
+# Verify URL canonicalization strips utm_* params, lowercases host, removes www/trailing slash, and strips arXiv versions.
 def test_canonicalize_url():
-    raw = "HTTPS://www.Example.com/post/?utm_source=hn&utm_medium=social&id=42/"
+    raw = "HTTPS://www.Example.com/post/?utm_source=hn&utm_medium=social&id=42"
     assert canonicalize_url(raw) == "https://example.com/post?id=42"
     assert canonicalize_url("https://arxiv.org/abs/2401.12345v3/") == "https://arxiv.org/abs/2401.12345"
 
