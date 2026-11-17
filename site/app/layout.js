@@ -1,49 +1,53 @@
 import "./globals.css";
 import Link from "next/link";
-import ThemeToggle from "./ThemeToggle";
-import meta from "../data/meta.json";
+import fs from "fs";
+import path from "path";
+import StaleBanner from "./StaleBanner";
 
 export const metadata = {
-  title: "Daily Tech Data",
-  description: "Daily ranked feed and analytics of tech and data engineering content.",
+  title: "Daily Tech & Data Pulse",
+  description: "Automated daily intelligence across Data Engineering, AI/ML, Databases, and Open Source.",
 };
 
-// Render the global navigation header, last updated timestamp, and page container.
+// Load pipeline metadata JSON at build time for header statistics.
+function getMeta() {
+  try {
+    const filePath = path.join(process.cwd(), "data", "meta.json");
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return { generated_at: null, today_count: 0, sources_ok: 0, sources_total: 7 };
+  }
+}
+
+// Render the root application layout with navigation and client-side freshness check.
 export default function RootLayout({ children }) {
-  const updatedDate = meta?.generated_at ? new Date(meta.generated_at) : null;
-  const updatedStr = updatedDate ? updatedDate.toISOString().replace("T", " ").slice(0, 16) + " UTC" : "Unknown";
-  const ageHours = updatedDate ? (Date.now() - updatedDate.getTime()) / 3600000 : 0;
-  const isStale = ageHours > 36;
+  const meta = getMeta();
 
   return (
-    <html lang="en" data-theme="dark">
-      <body>
-        <header className="site-header">
-          <div className="container header-inner">
+    <html lang="en">
+      <body className="min-h-screen bg-[#0D0B09] text-stone-100 antialiased">
+        <StaleBanner generatedAt={meta.generated_at} />
+        <header className="border-b border-stone-800 bg-[#14110E]">
+          <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
-              <Link href="/" className="brand-title">
+              <Link href="/" className="text-xl font-bold tracking-tight text-[#F5B700]">
                 Daily Tech &amp; Data Pulse
               </Link>
-              <div className="meta-sub">Last updated: {updatedStr}</div>
+              <p className="text-xs text-stone-400 mt-0.5">
+                Last updated: {meta.generated_at ? meta.generated_at : "N/A"} &bull; Sources OK:{" "}
+                {meta.sources_ok}/{meta.sources_total}
+              </p>
             </div>
-            <nav className="nav-links" aria-label="Main Navigation">
-              <Link href="/">Today</Link>
-              <Link href="/trends">Trends</Link>
-              <Link href="/sentiment">Sentiment</Link>
-              <Link href="/sources">Sources</Link>
-              <Link href="/about">About</Link>
-              <ThemeToggle />
+            <nav className="flex flex-wrap gap-4 text-sm font-medium text-stone-300">
+              <Link href="/" className="hover:text-[#F5B700] transition-colors">Today</Link>
+              <Link href="/trends" className="hover:text-[#F5B700] transition-colors">Trends</Link>
+              <Link href="/sentiment" className="hover:text-[#F5B700] transition-colors">Sentiment</Link>
+              <Link href="/sources" className="hover:text-[#F5B700] transition-colors">Sources</Link>
+              <Link href="/about" className="hover:text-[#F5B700] transition-colors">About</Link>
             </nav>
           </div>
         </header>
-        <main className="container">
-          {isStale && (
-            <div className="stale-banner" role="alert">
-              Warning: Pipeline data is more than 36 hours old (last updated {updatedStr}).
-            </div>
-          )}
-          {children}
-        </main>
+        <main className="max-w-6xl mx-auto px-4 py-6">{children}</main>
       </body>
     </html>
   );
