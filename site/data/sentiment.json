@@ -1,9 +1,75 @@
 [
   {
-    "week_start": "2026-11-09T00:00:00",
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "dbt",
+    "mentions_count": 29,
+    "avg_sentiment": 0.1751
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "DuckDB",
+    "mentions_count": 29,
+    "avg_sentiment": 0.2584
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
     "tool": "PostgreSQL",
-    "mentions_count": 44,
-    "avg_sentiment": 0.211
+    "mentions_count": 28,
+    "avg_sentiment": 0.239
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "Snowflake",
+    "mentions_count": 21,
+    "avg_sentiment": 0.2797
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "BigQuery",
+    "mentions_count": 17,
+    "avg_sentiment": 0.154
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "Databricks",
+    "mentions_count": 16,
+    "avg_sentiment": 0.1451
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "ClickHouse",
+    "mentions_count": 15,
+    "avg_sentiment": 0.1894
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "Airflow",
+    "mentions_count": 13,
+    "avg_sentiment": 0.1211
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "Redshift",
+    "mentions_count": 12,
+    "avg_sentiment": 0.2741
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "Kubernetes",
+    "mentions_count": 11,
+    "avg_sentiment": 0.0553
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "Spark",
+    "mentions_count": 11,
+    "avg_sentiment": 0.3081
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "PyTorch",
+    "mentions_count": 10,
+    "avg_sentiment": 0.3594
   },
   {
     "week_start": "2026-11-09T00:00:00",
@@ -14,8 +80,8 @@
   {
     "week_start": "2026-11-09T00:00:00",
     "tool": "dbt",
-    "mentions_count": 36,
-    "avg_sentiment": 0.1867
+    "mentions_count": 14,
+    "avg_sentiment": 0.2738
   },
   {
     "week_start": "2026-11-09T00:00:00",
@@ -75,6 +141,6 @@
     "week_start": "2026-11-09T00:00:00",
     "tool": "Iceberg",
     "mentions_count": 10,
-    "avg_sentiment": 0.1965
+    "avg_sentiment": 0.3509
   }
 ]
