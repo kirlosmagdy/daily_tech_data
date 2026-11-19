@@ -3,7 +3,7 @@ name: Daily Tech Data Pipeline
 on:
   schedule:
     # 08:00 UTC = 10:00 AM Cairo time (EET, UTC+2)
-    - cron: "17 8 * * *"
+    - cron: "17 23 * * *"
   workflow_dispatch:
 
 permissions:

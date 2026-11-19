@@ -35,7 +35,7 @@ npm run dev
 
 ## GitHub Actions & Secrets
 
-The production workflow (`.github/workflows/daily_data.yml`) runs daily at `08:17 UTC` (`10:17 AM` Cairo time).
+The workflow is scheduled once a day. GitHub may start scheduled runs hours late, so the exact time varies.
 
 * **`GITHUB_TOKEN`**: Provided automatically by GitHub Actions for higher GitHub Search API rate limits and pushing data commits.
 * **`VERCEL_DEPLOY_HOOK_URL`** *(Optional)*: Repository secret containing a Vercel Deploy Hook URL to trigger a static site rebuild after new data commits are pushed.
