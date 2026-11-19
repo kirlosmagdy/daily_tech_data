@@ -20,8 +20,8 @@ def _to_serializable(val):
         return val.tolist()
     if isinstance(val, (np.integer,)):
         return int(val)
-    if isinstance(val, (np.floating,)):
-        return None if np.isnan(val) else float(val)
+    if isinstance(val, (float, np.floating)):
+        return None if not np.isfinite(val) else float(val)
     return val
 
 
@@ -38,7 +38,7 @@ def query_records(con: duckdb.DuckDBPyConnection, sql: str, params: list | None 
 def write_json(filename: str, payload: dict | list) -> float:
     SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
     path = SITE_DATA_DIR / filename
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False, allow_nan=False), encoding="utf-8")
     size_kb = round(path.stat().st_size / 1024, 1)
     if size_kb > 1024:
         raise ValueError(f"Exported file {filename} exceeds 1 MB limit ({size_kb} KB)")
