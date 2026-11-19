@@ -72,7 +72,7 @@
   {
     "metric_date": "2026-11-08T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 16
+    "item_count": 17
   },
   {
     "metric_date": "2026-11-08T00:00:00",
@@ -147,7 +147,7 @@
   {
     "metric_date": "2026-11-10T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 28
+    "item_count": 29
   },
   {
     "metric_date": "2026-11-10T00:00:00",
@@ -172,7 +172,7 @@
   {
     "metric_date": "2026-11-10T00:00:00",
     "topic": "programming_and_devtools",
-    "item_count": 31
+    "item_count": 32
   },
   {
     "metric_date": "2026-11-10T00:00:00",
@@ -197,7 +197,7 @@
   {
     "metric_date": "2026-11-12T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 134
+    "item_count": 135
   },
   {
     "metric_date": "2026-11-12T00:00:00",
@@ -237,7 +237,7 @@
   {
     "metric_date": "2026-11-13T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 47
+    "item_count": 49
   },
   {
     "metric_date": "2026-11-13T00:00:00",
@@ -277,7 +277,7 @@
   {
     "metric_date": "2026-11-14T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 42
+    "item_count": 43
   },
   {
     "metric_date": "2026-11-14T00:00:00",
@@ -317,7 +317,7 @@
   {
     "metric_date": "2026-11-15T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 77
+    "item_count": 78
   },
   {
     "metric_date": "2026-11-15T00:00:00",
@@ -357,7 +357,7 @@
   {
     "metric_date": "2026-11-16T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 124
+    "item_count": 128
   },
   {
     "metric_date": "2026-11-16T00:00:00",
@@ -397,17 +397,17 @@
   {
     "metric_date": "2026-11-17T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 150
+    "item_count": 163
   },
   {
     "metric_date": "2026-11-17T00:00:00",
     "topic": "analytics_and_bi",
-    "item_count": 4
+    "item_count": 5
   },
   {
     "metric_date": "2026-11-17T00:00:00",
     "topic": "cloud",
-    "item_count": 25
+    "item_count": 22
   },
   {
     "metric_date": "2026-11-17T00:00:00",
@@ -417,17 +417,17 @@
   {
     "metric_date": "2026-11-17T00:00:00",
     "topic": "databases_and_warehouses",
-    "item_count": 29
+    "item_count": 28
   },
   {
     "metric_date": "2026-11-17T00:00:00",
     "topic": "open_source",
-    "item_count": 25
+    "item_count": 26
   },
   {
     "metric_date": "2026-11-17T00:00:00",
     "topic": "programming_and_devtools",
-    "item_count": 71
+    "item_count": 70
   },
   {
     "metric_date": "2026-11-17T00:00:00",
@@ -437,41 +437,81 @@
   {
     "metric_date": "2026-11-18T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 21
+    "item_count": 132
   },
   {
     "metric_date": "2026-11-18T00:00:00",
     "topic": "analytics_and_bi",
-    "item_count": 1
+    "item_count": 2
   },
   {
     "metric_date": "2026-11-18T00:00:00",
     "topic": "cloud",
-    "item_count": 10
+    "item_count": 16
   },
   {
     "metric_date": "2026-11-18T00:00:00",
     "topic": "data_engineering",
-    "item_count": 5
+    "item_count": 12
   },
   {
     "metric_date": "2026-11-18T00:00:00",
     "topic": "databases_and_warehouses",
-    "item_count": 6
+    "item_count": 15
   },
   {
     "metric_date": "2026-11-18T00:00:00",
     "topic": "open_source",
-    "item_count": 9
+    "item_count": 18
   },
   {
     "metric_date": "2026-11-18T00:00:00",
     "topic": "programming_and_devtools",
-    "item_count": 25
+    "item_count": 48
   },
   {
     "metric_date": "2026-11-18T00:00:00",
     "topic": "security",
+    "item_count": 19
+  },
+  {
+    "metric_date": "2026-11-19T00:00:00",
+    "topic": "ai_and_ml",
+    "item_count": 24
+  },
+  {
+    "metric_date": "2026-11-19T00:00:00",
+    "topic": "analytics_and_bi",
+    "item_count": 1
+  },
+  {
+    "metric_date": "2026-11-19T00:00:00",
+    "topic": "cloud",
+    "item_count": 12
+  },
+  {
+    "metric_date": "2026-11-19T00:00:00",
+    "topic": "data_engineering",
+    "item_count": 1
+  },
+  {
+    "metric_date": "2026-11-19T00:00:00",
+    "topic": "databases_and_warehouses",
+    "item_count": 9
+  },
+  {
+    "metric_date": "2026-11-19T00:00:00",
+    "topic": "open_source",
     "item_count": 8
+  },
+  {
+    "metric_date": "2026-11-19T00:00:00",
+    "topic": "programming_and_devtools",
+    "item_count": 32
+  },
+  {
+    "metric_date": "2026-11-19T00:00:00",
+    "topic": "security",
+    "item_count": 9
   }
 ]

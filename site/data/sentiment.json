@@ -1,5 +1,11 @@
 [
   {
+    "week_start": "2026-11-16T00:00:00",
+    "tool": "Databricks",
+    "mentions_count": 11,
+    "avg_sentiment": 0.2254
+  },
+  {
     "week_start": "2026-11-09T00:00:00",
     "tool": "PostgreSQL",
     "mentions_count": 44,
@@ -43,27 +49,27 @@
   },
   {
     "week_start": "2026-11-09T00:00:00",
-    "tool": "Redshift",
-    "mentions_count": 17,
-    "avg_sentiment": 0.3865
-  },
-  {
-    "week_start": "2026-11-09T00:00:00",
     "tool": "Databricks",
     "mentions_count": 17,
     "avg_sentiment": 0.117
   },
   {
     "week_start": "2026-11-09T00:00:00",
-    "tool": "Spark",
-    "mentions_count": 13,
-    "avg_sentiment": 0.2992
+    "tool": "Redshift",
+    "mentions_count": 17,
+    "avg_sentiment": 0.3865
   },
   {
     "week_start": "2026-11-09T00:00:00",
     "tool": "PyTorch",
     "mentions_count": 13,
     "avg_sentiment": 0.2764
+  },
+  {
+    "week_start": "2026-11-09T00:00:00",
+    "tool": "Spark",
+    "mentions_count": 13,
+    "avg_sentiment": 0.2992
   },
   {
     "week_start": "2026-11-09T00:00:00",
