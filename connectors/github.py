@@ -41,7 +41,6 @@ def extract(cfg: dict) -> dict:
                         "forks_count": repo.get("forks_count", 0),
                         "open_issues_count": repo.get("open_issues_count", 0),
                         "created_at": repo.get("created_at"),
-                        "created_at": repo.get("created_at"),
                         "topics": repo.get("topics", []),
                         "owner_login": (repo.get("owner") or {}).get("login", ""),
                         "language": repo.get("language"),
