@@ -15,7 +15,7 @@ function getMeta() {
     const filePath = path.join(process.cwd(), "data", "meta.json");
     return JSON.parse(fs.readFileSync(filePath, "utf8"));
   } catch {
-    return { generated_at: null, today_count: 0, sources_ok: 0, sources_total: 0 };
+    return { generated_at: null, today_count: 0, ok_sources_count: 0, total_sources_count: 0 };
   }
 }
 
@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
               </Link>
               <p className="text-xs text-stone-400 mt-0.5">
                 Last updated: {meta.generated_at ? meta.generated_at : "N/A"} &bull; Sources OK:{" "}
-                {meta.sources_ok}/{meta.sources_total}
+                {meta.ok_sources_count}/{meta.total_sources_count}
               </p>
             </div>
             <nav className="flex flex-wrap gap-4 text-sm font-medium text-stone-300">
