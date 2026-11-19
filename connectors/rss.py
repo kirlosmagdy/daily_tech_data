@@ -24,7 +24,7 @@ def extract(cfg: dict) -> dict:
     for i, feed_cfg in enumerate(feeds):
         name, url = feed_cfg["name"], feed_cfg["url"]
         try:
-            resp = fetch_response(url, delay=0.4 if i > 0 else 0.0)
+            resp = fetch_response(url, timeout=30, delay=0.4 if i > 0 else 0.0)
             parsed = feedparser.parse(resp.content)
             for idx, entry in enumerate(parsed.entries):
                 link = entry.get("link")
