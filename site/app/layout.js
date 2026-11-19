@@ -15,7 +15,7 @@ function getMeta() {
     const filePath = path.join(process.cwd(), "data", "meta.json");
     return JSON.parse(fs.readFileSync(filePath, "utf8"));
   } catch {
-    return { generated_at: null, today_count: 0, sources_ok: 0, sources_total: 7 };
+    return { generated_at: null, today_count: 0, sources_ok: 0, sources_total: 0 };
   }
 }
 
