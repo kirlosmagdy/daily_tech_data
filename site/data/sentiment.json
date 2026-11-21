@@ -1,9 +1,15 @@
 [
   {
     "week_start": "2026-11-16T00:00:00",
+    "tool": "PostgreSQL",
+    "mentions_count": 15,
+    "avg_sentiment": 0.0147
+  },
+  {
+    "week_start": "2026-11-16T00:00:00",
     "tool": "Databricks",
-    "mentions_count": 12,
-    "avg_sentiment": 0.2704
+    "mentions_count": 13,
+    "avg_sentiment": 0.2496
   },
   {
     "week_start": "2026-11-09T00:00:00",
