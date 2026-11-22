@@ -4,7 +4,7 @@ from connectors.common import cutoff_utc, now_utc
 from pipeline.config import load_config
 from pipeline.enrich import extract_topics_and_tools, load_tools_seed, load_topics_seed
 from pipeline.normalize import canonicalize_url, deduplicate_records, map_raw_item
-from connectors.dailydev import map_post
+from connectors.devbytes import parse_article_page
 
 
 # Verify configuration loads core project settings, sources, and the 8 topic names.
@@ -15,15 +15,19 @@ def test_load_config():
     assert isinstance(cfg["topics"], list)
     assert len(cfg["topics"]) == 8
     assert cfg["project"]["history_retention_days"] == 90
-    assert cfg["sources"]["rss"]["enabled"] is True
-    assert cfg["sources"]["dailydev"]["enabled"] is True
-    assert cfg["sources"]["dailydev"]["max_requests_per_run"] <= 4
+    assert cfg["sources"]["medium"]["enabled"] is True
+    assert cfg["sources"]["daily_dev"]["enabled"] is True
+    assert cfg["sources"]["devbytes"]["enabled"] is True
+    assert cfg["sources"]["rss"]["enabled"] is False
 
 
 # Verify saved raw fixtures map cleanly into normalized records with non-empty canonical_url and title.
 def test_map_raw_item_fixtures():
     fixtures_dir = Path("tests/fixtures")
     specs = [
+        ("medium", "medium_sample.json", "items"),
+        ("daily_dev", "daily_dev_sample.json", "items"),
+        ("devbytes", "devbytes_sample.json", "items"),
         ("hackernews", "hackernews_sample.json", "hits"),
         ("devto", "devto_sample.json", None),
         ("lobsters", "lobsters_sample.json", None),
@@ -31,25 +35,26 @@ def test_map_raw_item_fixtures():
         ("hf_papers", "hf_papers_sample.json", None),
     ]
     for source, filename, key in specs:
-        data = json.loads((fixtures_dir / filename).read_text(encoding="utf-8"))
+        path = fixtures_dir / filename
+        data = json.loads(path.read_text(encoding="utf-8"))
         rows = data[key] if (key and isinstance(data, dict) and key in data) else (data.get("items", []) if isinstance(data, dict) else data)
         assert len(rows) > 0
-        mapped = map_raw_item(source, rows[0], "2026-11-15T00:00:00+00:00", 0.8, 300)
+        mapped = map_raw_item(source, rows[0], "2026-11-21T00:00:00+00:00", 0.6, 300)
         assert mapped["canonical_url"]
         assert mapped["title"]
+        assert len(mapped["snippet"]) <= 300
 
 
-# Verify daily.dev API posts map into the connector's compact raw-item shape.
-def test_map_dailydev_fixture():
-    sample = json.loads(Path("tests/fixtures/dailydev_sample.json").read_text(encoding="utf-8"))
-    mapped = map_post(sample["data"][0])
-    assert mapped["id"] == "post-123"
-    assert mapped["url"] == "https://example.com/postgres-18"
-    assert mapped["createdAt"] == "2026-11-26T08:30:00.000Z"
-    assert mapped["numUpvotes"] == 42
-    assert mapped["numComments"] == 8
-    assert len(mapped["summary"]) <= 300
-
+# Verify DevBytes HTML parser extracts title, snippet, date, canonical slug URL, and Previous link.
+def test_devbytes_parse_article_page():
+    html = Path("tests/fixtures/devbytes_page.html").read_text(encoding="utf-8")
+    record, prev_url = parse_article_page(html, "https://devbytes.co.in/news")
+    assert record is not None
+    assert record["title"]
+    assert record["url"].startswith("https://devbytes.co.in/news/")
+    assert record["published_at"].endswith("+00:00")
+    assert len(record["snippet"]) <= 300
+    assert prev_url and prev_url.startswith("https://devbytes.co.in/news/")
 
 # Verify URL canonicalization strips utm_* params, lowercases host, removes www/trailing slash, and strips arXiv versions.
 def test_canonicalize_url():

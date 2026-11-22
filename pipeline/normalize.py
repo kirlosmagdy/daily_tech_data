@@ -162,6 +162,36 @@ def map_raw_item(source: str, item: dict, collected_at: str, trust_weight: float
         score = int(paper.get("upvotes") or 0)
         comments = int(item.get("numComments") or 0)
         tags = ["ai", "arxiv"]
+    elif source == "medium":
+        url = item.get("link") or ""
+        title = item.get("title") or ""
+        snippet = item.get("snippet") or ""
+        item_id = str(item.get("id") or url)
+        author = item.get("author") or item.get("feed_name") or ""
+        pub = parse_dt(item.get("published_at"))
+        score = 0
+        comments = 0
+        tags = item.get("tags") or []
+    elif source == "daily_dev":
+        url = item.get("url") or ""
+        title = item.get("title") or ""
+        snippet = item.get("summary") or ""
+        item_id = str(item.get("id") or url)
+        author = item.get("author") or ""
+        pub = parse_dt(item.get("publishedAt") or item.get("createdAt"))
+        score = int(item.get("numUpvotes") or 0)
+        comments = int(item.get("numComments") or 0)
+        tags = item.get("tags") or []
+    elif source == "devbytes":
+        url = item.get("url") or ""
+        title = item.get("title") or ""
+        snippet = item.get("snippet") or ""
+        item_id = str(item.get("id") or url)
+        author = item.get("author") or "DevBytes"
+        pub = parse_dt(item.get("published_at"))
+        score = 0
+        comments = 0
+        tags = []
     else:
         return {}
 

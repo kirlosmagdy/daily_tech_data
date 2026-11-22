@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": "https://medium.com/p/0909386d824f",
+      "feed_name": "tag:data-engineering",
+      "title": "How I Processed 1 Billion Events a Day for About $3",
+      "link": "https://abhik-chakraborty92.medium.com/how-i-processed-1-billion-events-a-day-for-about-3-0909386d824f",
+      "author": "Abhik Chakraborty",
+      "published_at": "2026-11-22T12:29:05+00:00",
+      "snippet": "I did not believe the numbers, so I ran the whole test again. Continue reading on Medium »",
+      "tags": [
+        "aws",
+        "data-engineering",
+        "software-engineering",
+        "software-development",
+        "kafka"
+      ]
+    },
+    {
+      "id": "https://medium.com/p/3303daafc0bd",
+      "feed_name": "tag:data-engineering",
+      "title": "One Number, Every Team: Taking Databricks Metric Views to Production",
+      "link": "https://ajiks143.medium.com/one-number-every-team-taking-databricks-metric-views-to-production-3303daafc0bd",
+      "author": "AJITH K.S.",
+      "published_at": "2026-11-22T12:23:03+00:00",
+      "snippet": "Building a governed, scalable semantic layer with Databricks Metric Views to deliver consistent business metrics across analytics… Continue reading on Medium »",
+      "tags": [
+        "data-modeling",
+        "analytics",
+        "data-engineering",
+        "semantic-layer",
+        "databricks"
+      ]
+    }
+  ]
+}

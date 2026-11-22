@@ -10,7 +10,7 @@ scored AS (
     SELECT
         *,
         CASE
-            WHEN source IN ('rss', 'arxiv') THEN 0.7
+            WHEN source IN ('rss', 'arxiv', 'medium', 'devbytes') THEN 0.7
             WHEN published_at >= latest_run_at - INTERVAL 7 DAY THEN
                 CUME_DIST() OVER (
                     PARTITION BY source, (published_at >= latest_run_at - INTERVAL 7 DAY)

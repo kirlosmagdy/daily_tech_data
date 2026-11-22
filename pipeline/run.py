@@ -58,7 +58,7 @@ def run_pipeline(skip_extract: bool = False) -> None:
     if not skip_extract:
         print("2/6 Running Bronze extraction...")
         report = run_extraction()
-        active_sources = [s for s in report["sources"] if s["status"] in ("ok", "partial") and s["count"] > 0]
+        active_sources = [s for s in report["sources"] if s["status"] in ("ok", "partial", "degraded") and s["count"] > 0]
         if not active_sources:
             raise RuntimeError("All sources failed during extraction. Stopping without overwriting site data.")
     else:

@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "id": "peEaqayAE",
+      "title": "I gave my 9-year-old laptop server a local LLM job every night, and it reads my homelab logs so I don’t have to",
+      "url": "https://www.xda-developers.com/gave-old-laptop-server-local-llm-job-every-night-reads-homelab-logs",
+      "summary": "A homelabber runs a local LLM every night to summarize container logs so they don't have to read them manually. The model, Gemma 4 E2B Q4_K_M running on llama.cpp, runs on a 9-year-old Dell Latitude laptop with an i5-6300U CPU, no GPU, and 12 GB of RAM. It processes filtered and masked logs from ove",
+      "publishedAt": "2026-11-20T21:30:22+00:00",
+      "author": "XDA Developers",
+      "tags": [
+        "self-hosting",
+        "local-ai",
+        "homelab",
+        "llama-cpp"
+      ],
+      "numUpvotes": 37,
+      "numComments": 2
+    },
+    {
+      "id": "fmBUA8vaH",
+      "title": "RT @PryvitKyle: Welcome to the joy of data processor supply chain where it’s turtles all the way down and no one really knows how the data…",
+      "url": "https://x.com/brendaneich/status/2124235145381282247",
+      "summary": "Data processor supply chains are 'turtles all the way down,' and no one really knows how the data flows, according to a retweeted comment.",
+      "publishedAt": "2026-11-21T20:14:59+00:00",
+      "author": "BrendanEich",
+      "tags": [
+        "data-engineering"
+      ],
+      "numUpvotes": 0,
+      "numComments": 0
+    }
+  ]
+}

@@ -2,14 +2,9 @@
 WITH expected_sources AS (
     SELECT * FROM (
         VALUES
-            ('hackernews', 'tier_2', 0.8),
-            ('devto', 'tier_3', 0.6),
-            ('lobsters', 'tier_2', 0.8),
-            ('rss', 'tier_1', 1.0),
-            ('github', 'tier_2', 0.8),
-            ('arxiv', 'tier_1', 1.0),
-            ('hf_papers', 'tier_1', 1.0),
-            ('dailydev', 'tier_3', 0.6)
+            ('medium', 'tier_3', 0.6),
+            ('daily_dev', 'tier_3', 0.6),
+            ('devbytes', 'tier_3', 0.6)
     ) AS t(source, tier, trust_weight)
 ),
 stats AS (

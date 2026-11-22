@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "ai-agents-breached-this-companys-systems-in-just-14-minutes",
+      "title": "AI agents breached this company's systems in just 14 minutes",
+      "url": "https://devbytes.co.in/news/ai-agents-breached-this-companys-systems-in-just-14-minutes",
+      "snippet": "A swarm of 30+ AI agents breached an unnamed company in just 14 minutes in one of the fastest AI-driven cyberattacks, according to former NSA hacker David Kennedy. The agents used valid login credentials and helped attackers exploit a flaw in the company's 2FA, steal data, and deploy ransomware to e",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "author": "DevBytes"
+    },
+    {
+      "id": "meta-rethinks-its-2030-climate-pledge-amid-ai-boom-1",
+      "title": "Meta rethinks its 2030 climate pledge amid AI boom",
+      "url": "https://devbytes.co.in/news/meta-rethinks-its-2030-climate-pledge-amid-ai-boom-1",
+      "snippet": "Meta is reconsidering its 2030 net-zero emissions deadline as surging AI infrastructure demand complicates its climate commitments. Vice Presidents Rachel Peterson and Blair Swedeen said the company is reviewing its timelines, sequencing, and interim milestones. Meta reported a 45% increase in carbo",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "author": "DevBytes"
+    }
+  ]
+}

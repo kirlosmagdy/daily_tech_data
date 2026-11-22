@@ -1,0 +1,395 @@
+<script>
+window.newsSidebar = function (isListing, currentSlug) {
+    return {
+        isListing,
+        currentSlug,
+        items: [],
+        currentPage: 1,
+        loading: true,
+
+        async fetchPage(page) {
+            this.loading = true;
+            try {
+                const res = await fetch(`/api/news?page=${page}`);
+                const data = await res.json();
+                this.items = data.data;
+                this.currentPage = data.page;
+            } catch (e) {
+                this.items = [];
+            } finally {
+                this.loading = false;
+            }
+        },
+
+        nextPage() {
+            this.fetchPage(this.currentPage + 1);
+            this.$el.querySelector('.sticky')?.scrollIntoView?.({ behavior: 'smooth', block: 'start' });
+        },
+
+        prevPage() {
+            if (this.currentPage <= 1) return;
+            this.fetchPage(this.currentPage - 1);
+            this.$el.querySelector('.sticky')?.scrollIntoView?.({ behavior: 'smooth', block: 'start' });
+        },
+    };
+};
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Meta Description -->
+    <meta name="description" content="Latest programming &amp; tech news in 64 words. Stay up-to-date &amp; grow your career.
+">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="">
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://devbytes.co.in/news" />
+    <!-- Favicons -->
+    <link rel="icon" href="/website/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/website/assets/images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/website/assets/images/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="/website/assets/images/android-chrome-192x192.png">
+    <link rel="icon" sizes="512x512" href="/website/assets/images/android-chrome-512x512.png">
+    <link rel="icon" sizes="32x32" href="/website/assets/images/favicon-32x32.png">
+    <link rel="icon" sizes="16x16" href="/website/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Title -->
+    <title>DevBytes: All coding news in less than 64 words</title>
+    <!-- Keywords -->
+    <meta name="keywords" content="DevBytes, tech updates, coding tutorials, software development, programming, web development, tech news, programming tutorials, tech blog, coding news">
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph (OG) Tags for Social Media -->
+    <meta property="og:title" content="DevBytes - Your Source for Tech News &amp; Coding Insights">
+    <meta property="og:description" content="Stay updated with the latest trends in technology, development tutorials, and programming best practices.">
+    <meta property="og:image" content="/website/assets/images/android-chrome-512x512.png">
+    <meta property="og:url" content="https://devbytes.co.in/news">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DevBytes - Tech Updates and Coding News">
+    <meta name="twitter:description" content="Get the latest coding tutorials and tech news at DevBytes!">
+    <meta name="twitter:image" content="/website/assets/images/android-chrome-512x512.png">
+    <!-- Author -->
+    <meta name="author" content="DevBytes Team">
+    <!-- Language -->
+    <meta name="language" content="en">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Vite -->
+    <link rel="preload" as="style" href="https://devbytes.co.in/build/assets/app-oPuDqZQ2.css" /><link rel="modulepreload" as="script" href="https://devbytes.co.in/build/assets/app-Cm_fdaUW.js" /><link rel="stylesheet" href="https://devbytes.co.in/build/assets/app-oPuDqZQ2.css" /><script type="module" src="https://devbytes.co.in/build/assets/app-Cm_fdaUW.js"></script>    <!-- Styles Stack -->
+        <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "inLanguage": "en-US",
+    "name": "DevBytes: All coding news in less than 64 words",
+    "description": "Latest programming &amp; tech news in 64 words. Stay up-to-date &amp; grow your career.",
+    "url": "https://devbytes.co.in/news",
+    "publisher": {
+        "@type": "Organization",
+        "name": "DevBytes",
+        "url": "https://devbytes.co.in",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://devbytes.co.in/website/assets/images/128x128.png",
+            "height": 128,
+            "width": 128
+        },
+        "sameAs": [
+            "https://www.facebook.com/DevBytes-112098524725091/",
+            "https://twitter.com/DevBytesApp",
+            "https://www.instagram.com/devbytesapp/"
+        ],
+        "location": {
+            "@type": "PostalAddress",
+            "addressCountry": "SG",
+            "addressLocality": "Singapore",
+            "addressRegion": "Singapore",
+            "postalCode": "069534",
+            "streetAddress": "105 The Octagon, #07-02 Cecil Street, Singapore"
+        },
+        "foundingLocation": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN",
+                "addressLocality": "Ghaziabad",
+                "addressRegion": "Uttar Pradesh",
+                "postalCode": "201001",
+                "streetAddress": "118, Ramte Ram Road"
+            }
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://devbytes.co.in/news"
+    }
+}
+</script>
+    <!-- Google Analytics -->
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YRR6NH74EX">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-YRR6NH74EX', {
+            cookie_flags: 'max-age=7200;secure;samesite=strict'
+        });
+    </script>
+</head>
+
+<body class=" bg-gray-950">
+    <!-- Page Content -->
+    <div class="min-h-screen flex flex-col">
+        <div x-data="{ open: false }" x-effect="document.body.style.overflow = open ? 'hidden' : ''" class="absolute top-0 left-0 right-0 z-50 bg-transparent">
+    <div class="container mx-auto p-6 flex items-center justify-between">
+        <!-- Logo Section -->
+        <div class="flex items-center">
+            <a href="/">
+                <img src="/website/assets/images/logo-footer.png" alt="DevBytes_logo" class="h-8 w-auto" />
+            </a>
+        </div>
+
+        <!-- Desktop Navbar Links (Center Aligned) -->
+        <div class="hidden md:flex items-center space-x-8">
+            <a href="/" class="text-gray-100 hover:text-[#6b4ce8] font-medium transition duration-300">Home</a>
+            <a href="/news" class="text-gray-100 hover:text-[#6b4ce8] font-medium transition duration-300">News</a>
+            <a href="/blog" class="text-gray-100 hover:text-[#6b4ce8] font-medium transition duration-300">Blog</a>
+            <a href="/about" class="text-gray-100 hover:text-[#6b4ce8] font-medium transition duration-300">About</a>
+        </div>
+
+        <!-- Mobile Hamburger Icon -->
+        <button type="button" class="md:hidden text-gray-100 p-2" @click="open = true" aria-label="Open menu">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+    </div>
+
+    <!-- Mobile Sidebar Backdrop -->
+    <div x-show="open" x-transition:enter="transition-opacity ease-out duration-300" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity ease-in duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" class="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm md:hidden" @click="open = false" x-cloak></div>
+
+    <!-- Mobile Sidebar -->
+    <div x-show="open" x-transition:enter="transform transition ease-out duration-300" x-transition:enter-start="translate-x-full" x-transition:enter-end="translate-x-0" x-transition:leave="transform transition ease-in duration-200" x-transition:leave-start="translate-x-0" x-transition:leave-end="translate-x-full" class="fixed top-0 right-0 bottom-0 z-50 w-80 max-w-[85vw] bg-[#0B0B0E]/98 backdrop-blur-xl border-l border-white/[0.08] flex flex-col md:hidden" x-cloak>
+
+        <!-- Gradient glow accent -->
+        <div class="absolute top-0 right-0 w-48 h-48 bg-purple-600/15 rounded-full blur-[100px] pointer-events-none"></div>
+        <div class="absolute bottom-32 left-0 w-32 h-32 bg-teal-500/10 rounded-full blur-[80px] pointer-events-none"></div>
+
+        <!-- Header -->
+        <div class="relative flex items-center justify-between p-6 pb-5">
+            <a href="/" @click="open = false">
+                <img src="/website/assets/images/logo-footer.png" alt="DevBytes_logo" class="h-8 w-auto" />
+            </a>
+            <button type="button" class="text-gray-500 hover:text-white p-2 rounded-xl hover:bg-white/[0.08] transition-all duration-200" @click="open = false" aria-label="Close menu">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+        </div>
+
+        <!-- Gradient divider -->
+        <div class="mx-6 h-px bg-gradient-to-r from-transparent via-white/[0.08] to-transparent"></div>
+
+        <!-- Nav links -->
+        <nav class="relative flex-1 px-3 pt-4 space-y-1 overflow-y-auto">
+            <a href="/" @click="open = false" class="group flex items-center gap-4 px-5 py-4 rounded-xl text-gray-300 hover:text-white hover:bg-white/[0.06] transition-all duration-200">
+                <svg class="w-6 h-6 text-gray-500 group-hover:text-purple-400 transition-colors duration-200 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                <span class="text-lg font-medium">Home</span>
+            </a>
+            <a href="/news" @click="open = false" class="group flex items-center gap-4 px-5 py-4 rounded-xl text-gray-300 hover:text-white hover:bg-white/[0.06] transition-all duration-200">
+                <svg class="w-6 h-6 text-gray-500 group-hover:text-purple-400 transition-colors duration-200 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg>
+                <span class="text-lg font-medium">News</span>
+            </a>
+            <a href="/blog" @click="open = false" class="group flex items-center gap-4 px-5 py-4 rounded-xl text-gray-300 hover:text-white hover:bg-white/[0.06] transition-all duration-200">
+                <svg class="w-6 h-6 text-gray-500 group-hover:text-purple-400 transition-colors duration-200 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+                <span class="text-lg font-medium">Blog</span>
+            </a>
+            <a href="/about" @click="open = false" class="group flex items-center gap-4 px-5 py-4 rounded-xl text-gray-300 hover:text-white hover:bg-white/[0.06] transition-all duration-200">
+                <svg class="w-6 h-6 text-gray-500 group-hover:text-purple-400 transition-colors duration-200 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                <span class="text-lg font-medium">About Us</span>
+            </a>
+            <a href="/contact" @click="open = false" class="group flex items-center gap-4 px-5 py-4 rounded-xl text-gray-300 hover:text-white hover:bg-white/[0.06] transition-all duration-200">
+                <svg class="w-6 h-6 text-gray-500 group-hover:text-purple-400 transition-colors duration-200 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                <span class="text-lg font-medium">Contact Us</span>
+            </a>
+        </nav>
+
+        <!-- App download section -->
+        <div class="relative px-6 pb-8 pt-6" @click="open = false">
+            <div class="absolute top-0 left-6 right-6 h-px bg-gradient-to-r from-transparent via-white/[0.08] to-transparent"></div>
+            <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-4">Download the App</p>
+            <div class="flex flex-col gap-3">
+                <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.candelalabs.devbytes&utm_source=website&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="" >
+    <img src="https://devbytes.co.in/images/google-play.svg" alt="Get it on Google Play" class="h-12 sm:h-14 w-auto"  />
+</a>
+<a target="_blank" rel="noopener noreferrer" href="https://apps.apple.com/us/app/devbytes-for-busy-developers/id6742091405" class="" >
+    <img src="https://devbytes.co.in/images/app-store.svg" alt="Download on App Store" class="h-12 sm:h-14 w-auto"  />
+</a>
+            </div>
+        </div>
+    </div>
+</div>
+        <main class="flex-grow">
+            <div class="relative min-h-screen bg-[#0B0B0E] overflow-hidden">
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#1a1a2e_1px,transparent_1px),linear-gradient(to_bottom,#1a1a2e_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-40"></div>
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-teal-600/20 rounded-full blur-[150px]"></div>
+    <div class="absolute bottom-0 left-1/4 w-[500px] h-[400px] bg-blue-600/15 rounded-full blur-[150px]"></div>
+    <div class="relative z-10 container mx-auto px-4 sm:px-6 pt-16 pb-7">
+        <div class="text-center max-w-3xl mx-auto mb-10 mt-4">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-gray-400 mb-4">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse"></span>
+                                DevBytes News
+            </div>
+        
+        
+            </div>
+        <div class="flex flex-col lg:flex-row gap-6">
+            <main class="lg:order-2 lg:w-[70%]">
+                                                <div class="rounded-3xl overflow-hidden border border-white/[0.08]">
+                    <div class="relative aspect-[2/1]">
+                                                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://ik.imagekit.io/a4vr0e2mlfo/test/short/images/6b008af9dd2ca.png?tr=w-600')"></div>
+                                                <div class="absolute inset-0 bg-gradient-to-t from-[#0B0B0E] via-[#0B0B0E]/60 via-40% to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6 sm:p-10">
+                            <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white leading-tight">AI agents breached this company&#039;s systems in just 14 minutes</h1>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-b from-[#0B0B0E] to-white/[0.02] p-6 sm:p-10">
+                        <div class="prose prose-invert max-w-none text-gray-300">
+                                                        <p>A swarm of 30+ AI agents breached an unnamed company in just 14 minutes in one of the fastest AI-driven cyberattacks, according to former NSA hacker David Kennedy. The agents used valid login credentials and helped attackers exploit a flaw in the company&#39;s 2FA, steal data, and deploy ransomware to encrypt systems. The company discovered the intrusion 4.5 hours later, highlighting how AI could accelerate cyberattacks beyond traditional response timelines.</p>
+                                                    </div>
+                                                <p class="text-right text-xs text-gray-600 mt-6">Nov 20, 2026</p>
+                                                <div class="flex justify-between items-center mt-8 pt-6 border-t border-white/10">
+                                                        <a href="/news/meta-rethinks-its-2030-climate-pledge-amid-ai-boom-1" class="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-white transition-colors">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+                                Previous
+                            </a>
+                                                                                    <span></span>
+                                                    </div>
+                    </div>
+                </div>
+                                            </main>
+            <aside class="flex flex-col lg:order-1 lg:w-[30%]" x-data="newsSidebar(true, &quot;ai-agents-breached-this-companys-systems-in-just-14-minutes&quot;)" x-init="fetchPage(1)">
+                <div class="flex flex-col min-h-0 rounded-3xl bg-gradient-to-b from-white/[0.08] to-white/[0.02] border border-white/[0.08] p-5">
+                    <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-5 flex-shrink-0">More Stories</h3>
+                    <div class="flex justify-between gap-2 mb-5 flex-shrink-0">
+                        <button @click="prevPage" :disabled="currentPage <= 1" class="flex-1 text-center py-2 px-3 rounded-xl bg-white/[0.04] hover:bg-white/[0.08] border border-white/[0.06] text-white text-xs font-medium transition-colors disabled:opacity-40 disabled:pointer-events-none">
+                            Previous
+                        </button>
+                        <button @click="nextPage" class="flex-1 text-center py-2 px-3 rounded-xl bg-[#6b4ce8]/20 hover:bg-[#6b4ce8]/30 border border-[#6b4ce8]/30 text-[#c4b5fd] text-xs font-medium transition-colors">
+                            Next
+                        </button>
+                    </div>
+                    <div x-show="loading" class="flex-1 space-y-2">
+                        <template x-for="i in 5" :key="i">
+                            <div class="flex gap-3 p-2.5 rounded-xl border border-white/[0.05] bg-white/[0.02] animate-pulse">
+                                <div class="flex-shrink-0 w-14 h-10 rounded-lg bg-white/[0.04]"></div>
+                                <div class="flex-1 space-y-2 py-0.5">
+                                    <div class="h-3 bg-white/[0.05] rounded w-full"></div>
+                                    <div class="h-3 bg-white/[0.05] rounded w-3/4"></div>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                    <div x-cloak x-show="!loading" class="flex-1 overflow-y-auto space-y-2 pr-1">
+                        <template x-for="item in items" :key="item.slug">
+                            <a :href="'/news/' + item.slug" class="group flex gap-3 p-2.5 rounded-xl border border-white/[0.05] bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/[0.10] transition-all" :class="!isListing && item.slug === currentSlug ? 'border-[#6b4ce8]/40 bg-[#6b4ce8]/8' : ''">
+                                <div x-show="item.images && item.images.length" class="flex-shrink-0 w-14 h-10 rounded-lg overflow-hidden bg-white/[0.03]">
+                                    <img :src="'https://ik.imagekit.io/a4vr0e2mlfo/' + item.images[0].image + '?tr=w-112,h-80'" :alt="item.title" class="w-full h-full object-cover" loading="lazy" />
+                                </div>
+                                <div class="min-w-0 flex-1">
+                                    <h3 class="text-[13px] font-medium text-gray-300 group-hover:text-white transition-colors line-clamp-2 leading-snug" x-text="item.title"></h3>
+                                </div>
+                            </a>
+                        </template>
+                        <div x-show="items.length === 0" class="mt-6 text-center text-gray-400 text-sm">
+                            <p>No news items found.</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
+        </main>
+        <footer class="relative overflow-hidden border-t border-white/[0.08] bg-[#08090c] font-['Inter',ui-sans-serif,system-ui] text-zinc-100">
+    <div class="pointer-events-none absolute left-1/2 top-[-16rem] h-72 w-[48rem] -translate-x-1/2 rounded-full bg-violet-600/[0.08] blur-[100px]" aria-hidden="true"></div>
+
+    <div class="relative mx-auto max-w-7xl px-5 py-14 sm:px-8 sm:py-16 lg:py-20">
+        <div class="grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-12">
+            <!-- Company Section -->
+            <div class="sm:col-span-2 lg:col-span-4">
+                <a href="/" class="inline-flex rounded-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400">
+                    <img src="https://devbytes.co.in/website/assets/images/logo-footer.png" alt="DevBytes" class="h-9 w-auto sm:h-10" />
+                </a>
+
+                <div class="mt-8">
+                    <h4 class="text-sm font-semibold uppercase tracking-[0.14em] text-zinc-200">Follow Us</h4>
+                    <p class="mt-2 text-sm leading-6 text-zinc-500">Stay connected for updates & tips</p>
+                    <div class="mt-4 flex items-center gap-3">
+                        <a href="https://twitter.com/DevBytesApp" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter" class="group flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/[0.035] text-zinc-400 transition duration-200 hover:-translate-y-0.5 hover:border-violet-400/40 hover:bg-violet-400/10 hover:text-violet-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400">
+                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.633 7.997c.013.176.013.353.013.53 0 5.39-4.103 11.61-11.61 11.61-2.307 0-4.453-.676-6.26-1.84.32.037.637.05.97.05 1.92 0 3.686-.65 5.096-1.747-1.797-.037-3.317-1.22-3.843-2.85.252.038.504.063.77.063.37 0 .74-.05 1.085-.143-1.872-.378-3.28-2.03-3.28-4.015v-.05c.548.305 1.18.482 1.85.507-.548-.366-1.01-1.01-1.01-1.73 0-.382.101-.74.28-1.05 2.006 2.462 5.01 4.08 8.39 4.25-.07-.153-.11-.33-.11-.507 0-1.21.98-2.19 2.19-2.19.63 0 1.2.265 1.6.692.5-.1.97-.28 1.39-.53-.164.51-.51.94-.96 1.21.44-.05.86-.17 1.25-.34-.29.44-.65.83-1.07 1.14z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/devbytesapp/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram" class="group flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/[0.035] text-zinc-400 transition duration-200 hover:-translate-y-0.5 hover:border-violet-400/40 hover:bg-violet-400/10 hover:text-violet-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400">
+                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5zm4.25 3.25a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm5.25.75a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+                        </a>
+                        <a href="https://www.threads.net/@devbytesapp" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Threads" class="group flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/[0.035] text-zinc-400 transition duration-200 hover:-translate-y-0.5 hover:border-violet-400/40 hover:bg-violet-400/10 hover:text-violet-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400">
+                            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.004 2.002c-5.522 0-10 4.477-10 10 0 5.522 4.478 10 10 10s10-4.478 10-10c0-5.523-4.478-10-10-10zm0 18.182c-4.52 0-8.182-3.662-8.182-8.182 0-4.52 3.662-8.182 8.182-8.182 4.52 0 8.182 3.662 8.182 8.182 0 4.52-3.662 8.182-8.182 8.182zm0-13.637a5.455 5.455 0 1 0 0 10.91 5.455 5.455 0 0 0 0-10.91zm0 9.09a3.636 3.636 0 1 1 0-7.273 3.636 3.636 0 0 1 0 7.273z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- App Links -->
+            <div class="sm:col-span-1 lg:col-span-3">
+                <div class="flex flex-wrap gap-3 sm:flex-col sm:items-start">
+                    <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.candelalabs.devbytes&utm_source=website&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="rounded-lg transition duration-200 hover:-translate-y-0.5 hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400" >
+    <img src="https://devbytes.co.in/images/google-play.svg" alt="Get it on Google Play" class="h-[3.25rem] w-auto sm:h-14" loading="lazy" />
+</a>
+<a target="_blank" rel="noopener noreferrer" href="https://apps.apple.com/us/app/devbytes-for-busy-developers/id6742091405" class="rounded-lg transition duration-200 hover:-translate-y-0.5 hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400" >
+    <img src="https://devbytes.co.in/images/app-store.svg" alt="Download on App Store" class="h-[3.25rem] w-auto sm:h-14" loading="lazy" />
+</a>
+        </div>
+    </div>
+
+    <!-- Company Links -->
+    <div class="sm:col-span-1 lg:col-span-2">
+        <h4 class="text-sm font-semibold uppercase tracking-[0.14em] text-zinc-200">Company</h4>
+        <ul class="mt-5 space-y-3 text-sm">
+            <li><a href="/about" target="_blank" class="inline-flex text-zinc-400 transition-colors duration-200 hover:text-white focus-visible:rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400">About Us</a></li>
+            <li><a href="/toc" target="_blank" class="inline-flex text-zinc-400 transition-colors duration-200 hover:text-white focus-visible:rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400">Terms & Conditions</a></li>
+            <li><a href="/privacy-policy" target="_blank" class="inline-flex text-zinc-400 transition-colors duration-200 hover:text-white focus-visible:rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400">Privacy Policy</a></li>
+            <li><a href="/contact" target="_blank" class="inline-flex text-zinc-400 transition-colors duration-200 hover:text-white focus-visible:rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="sm:col-span-2 lg:col-span-3">
+        <h4 class="text-sm font-semibold uppercase tracking-[0.14em] text-zinc-200">Get in Touch</h4>
+        <div class="mt-5 space-y-2 text-sm leading-6 text-zinc-400">
+            <p class="font-medium text-zinc-300">Candela Labs Private Limited</p>
+            <p class="max-w-xs">105 The Octagon, #13-02 Cecil Street, Singapore</p>
+            <p class="pt-1">
+                <a href="/cdn-cgi/l/email-protection#b7d1d2d2d3d5d6d4dcf7d3d2c1d5cec3d2c499d4d899ded9" target="_blank" class="inline-flex text-zinc-400 underline decoration-white/20 underline-offset-4 transition-colors duration-200 hover:text-white focus-visible:rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet-400"><span class="__cf_email__" data-cfemail="e1878484858380828aa18584978398958492cf828ecf888f">[email&#160;protected]</span></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Copyright Section -->
+<div class="mt-14 border-t border-white/[0.08] pt-6 sm:mt-16">
+    <p class="text-xs leading-6 text-zinc-500 sm:text-sm">Copyright ©2026 DevBytes. All rights reserved.</p>
+</div>
+</div>
+</footer>
+    </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+
+</html>

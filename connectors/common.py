@@ -37,13 +37,14 @@ def parse_dt(value: str | None) -> datetime | None:
             return None
 
 
-# Perform an HTTP GET with timeout, 3 retries with increasing waits, custom User-Agent, and polite delay.
+# Perform an HTTP GET with timeout, retries, custom User-Agent, polite delay, and optional no-retry statuses.
 def fetch_response(
     url: str,
     params: dict | None = None,
     headers: dict | None = None,
     timeout: int = 15,
     delay: float = 0.5,
+    stop_on_status: tuple[int, ...] = (),
 ) -> requests.Response:
     if delay > 0:
         time.sleep(delay)
@@ -52,6 +53,8 @@ def fetch_response(
     for attempt in range(3):
         try:
             resp = requests.get(url, params=params, headers=req_headers, timeout=timeout)
+            if resp.status_code in stop_on_status:
+                return resp
             if resp.status_code in (429, 500, 502, 503, 504):
                 raise requests.HTTPError(f"HTTP {resp.status_code}", response=resp)
             resp.raise_for_status()

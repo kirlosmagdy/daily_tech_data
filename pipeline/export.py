@@ -78,7 +78,7 @@ def run_export() -> dict:
             src["last_run_status"] = live.get("status", src["status"])
             src["last_run_count"] = live.get("count", 0)
             src["last_run_error"] = live.get("error")
-            if live.get("status") in ("partial", "failed"):
+            if live.get("status") in ("partial", "failed", "degraded", "skipped"):
                 src["status"] = live["status"]
         else:
             src["last_run_status"] = src["status"]

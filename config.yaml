@@ -1,6 +1,6 @@
 project:
   name: "Daily Tech & Data Pulse"
-  version: "1.1"
+  version: "2.0"
   lookback_hours: 48
   history_retention_days: 90
   max_snippet_length: 300
@@ -19,6 +19,9 @@ ranking:
 thresholds:
   min_title_length: 10
   min_score:
+    medium: 0
+    daily_dev: 0
+    devbytes: 0
     hackernews: 5
     devto: 3
     lobsters: 2
@@ -32,11 +35,40 @@ thresholds:
     reddit: 5
 
 sources:
-  hackernews:
+  medium:
     enabled: true
+    tier: "tier_3"
+    tags:
+      - data-engineering
+      - data-science
+      - artificial-intelligence
+      - machine-learning
+      - programming
+      - cloud-computing
+      - cybersecurity
+    publications:
+      - data-engineer-things
+      - airbnb-engineering
+      - netflix-techblog
+      - itnext
+      - towards-artificial-intelligence
+  daily_dev:
+    enabled: true
+    tier: "tier_3"
+    tags:
+      - data-engineering
+      - ai
+      - python
+  devbytes:
+    enabled: true
+    tier: "tier_3"
+    max_pages: 40
+    delay_seconds: 1.0
+  hackernews:
+    enabled: false
     tier: "tier_2"
   devto:
-    enabled: true
+    enabled: false
     tier: "tier_3"
     tags:
       - dataengineering
@@ -50,7 +82,7 @@ sources:
       - cloud
       - database
   lobsters:
-    enabled: true
+    enabled: false
     tier: "tier_2"
     tags:
       - databases
@@ -60,7 +92,7 @@ sources:
       - security
       - devops
   rss:
-    enabled: true
+    enabled: false
     tier: "tier_1"
     feeds:
       - name: "Databricks Blog"
@@ -94,7 +126,7 @@ sources:
       - name: "DuckDB Blog"
         url: "https://duckdb.org/feed.xml"
   github:
-    enabled: true
+    enabled: false
     tier: "tier_2"
     topics:
       - data-engineering
@@ -106,14 +138,14 @@ sources:
       - sql
       - data-science
   arxiv:
-    enabled: true
+    enabled: false
     tier: "tier_1"
     categories:
       - cs.DB
       - cs.LG
       - cs.AI
   hf_papers:
-    enabled: true
+    enabled: false
     tier: "tier_1"
   dailydev:
     enabled: true

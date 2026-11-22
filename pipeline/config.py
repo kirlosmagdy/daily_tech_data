@@ -1,8 +1,11 @@
 from pathlib import Path
+from dotenv import load_dotenv
 import yaml
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT_DIR / "config.yaml"
+
+load_dotenv(ROOT_DIR / ".env")
 
 
 # Load and return the central project configuration dictionary.
