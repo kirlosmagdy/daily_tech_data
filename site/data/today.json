@@ -2,17 +2,869 @@
   {
     "source": "hackernews",
     "tier": "tier_2",
+    "source_item_id": "50593737",
+    "canonical_url": "https://linebender.org/blog/next-100-guis",
+    "title": "Advice for the next 100 Rust GUIs",
+    "snippet": "",
+    "author": "raphlinus",
+    "published_at": "2026-11-21T21:17:53+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 105,
+    "comments_count": 18,
+    "source_tags": [
+      "front_page",
+      "rust",
+      "story"
+    ],
+    "domain": "linebender.org",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.6833,
+    "freshness_score": 0.7968,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.5009
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50587875",
+    "canonical_url": "https://blog.tymscar.com/posts/studiodisplayethernet",
+    "title": "My monitor was cutting my download speed by 75%",
+    "snippet": "",
+    "author": "soheilpro",
+    "published_at": "2026-11-21T10:36:32+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 511,
+    "comments_count": 244,
+    "source_tags": [
+      "front_page",
+      "networking",
+      "story"
+    ],
+    "domain": "blog.tymscar.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.128,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.9292,
+    "freshness_score": 0.528,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.4514
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50594132",
+    "canonical_url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+    "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+    "snippet": "",
+    "author": "sebaandrada",
+    "published_at": "2026-11-21T22:09:58+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 78,
+    "comments_count": 9,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.4019,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6292,
+    "freshness_score": 0.8238,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4146
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "qxzs4y",
+    "canonical_url": "https://bwc9876.dev/blog/jj_todo",
+    "title": "TODOs JJ Style",
+    "snippet": "",
+    "author": "Raicuparta",
+    "published_at": "2026-11-21T15:17:18.956000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 45,
+    "comments_count": 8,
+    "source_tags": [
+      "vcs"
+    ],
+    "domain": "bwc9876.dev",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.4084,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.7901,
+    "freshness_score": 0.6324,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3997
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50592097",
+    "canonical_url": "https://pwn.ai/upload2shell",
+    "title": "Upload2Shell (CVE-2026-125396)",
+    "snippet": "",
+    "author": "f311a",
+    "published_at": "2026-11-21T18:29:29+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 82,
+    "comments_count": 35,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "pwn.ai",
+    "topics": [
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6917,
+    "freshness_score": 0.7153,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3958
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "fjueso",
+    "canonical_url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil",
+    "title": "C++26 is done (again)! — Trip report: November 2026 ISO C++ standards meeting (Búzios, Brazil)",
+    "snippet": "",
+    "author": "olliej",
+    "published_at": "2026-11-21T13:57:53.737000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 16,
+    "comments_count": 20,
+    "source_tags": [
+      "c++",
+      "story"
+    ],
+    "domain": "herbsutter.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.716,
+    "freshness_score": 0.6007,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.3957
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50591260",
+    "canonical_url": "https://jespino.github.io/gopgext",
+    "title": "PostgreSQL Extensions in Go",
+    "snippet": "",
+    "author": "valyala",
+    "published_at": "2026-11-21T17:08:04+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 123,
+    "comments_count": 22,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "jespino.github.io",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [
+      "PostgreSQL"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7125,
+    "freshness_score": 0.6791,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3871
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1466641624",
+    "canonical_url": "https://github.com/Morriswawan05/elevenlabs-pro-win",
+    "title": "Morriswawan05/elevenlabs-pro-win: ElevenLabs - AI voice synthesis platform for text-to-speech generation, voice cloning and multilingual dubbing on Windows 10/11",
+    "snippet": "ElevenLabs - AI voice synthesis platform for text-to-speech generation, voice cloning and multilingual dubbing on Windows 10/11",
+    "author": "Morriswawan05",
+    "published_at": "2026-11-21T14:47:10+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 66,
+    "comments_count": 0,
+    "source_tags": [
+      "ai",
+      "ai-art",
+      "ai-tools",
+      "ai-writing",
+      "artificial-intelligence",
+      "elevenlabs",
+      "elevenlabs-2025",
+      "elevenlabs-2026",
+      "elevenlabs-ai",
+      "elevenlabs-api",
+      "elevenlabs-desktop",
+      "elevenlabs-free",
+      "elevenlabs-premium",
+      "elevenlabs-windows",
+      "generative-ai",
+      "image-generation",
+      "llm",
+      "pro",
+      "text-to-image",
+      "voice-cloning"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.7458,
+    "freshness_score": 0.6203,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3701
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1466272233",
+    "canonical_url": "https://github.com/w01fb0ss/PiBot",
+    "title": "w01fb0ss/PiBot: Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+    "snippet": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+    "author": "w01fb0ss",
+    "published_at": "2026-11-21T06:54:24+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 198,
+    "comments_count": 5,
+    "source_tags": [
+      "agent",
+      "ai-agent",
+      "ai-agents",
+      "ai-assistant",
+      "android",
+      "automation",
+      "chatgpt",
+      "coding-agent",
+      "computer-use",
+      "desktop-app",
+      "electron",
+      "llm",
+      "local-first",
+      "mcp",
+      "multi-agent",
+      "ollama",
+      "openai",
+      "privacy",
+      "self-hosted",
+      "typescript"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.9661,
+    "freshness_score": 0.4579,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3539
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50587859",
+    "canonical_url": "https://bbc.com/news/articles/cvze7de86pk3o",
+    "title": "FBI reportedly investigating apparent hack of its criminal database",
+    "snippet": "",
+    "author": "theanonymousone",
+    "published_at": "2026-11-21T10:33:57+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 173,
+    "comments_count": 87,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "bbc.com",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.5267,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.8083,
+    "freshness_score": 0.527,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3408
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50593481",
+    "canonical_url": "https://pandex.io/",
+    "title": "Pandex – Official European Law for AI Agents, over MCP",
+    "snippet": "",
+    "author": "vasie",
+    "published_at": "2026-11-21T20:47:41+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 42,
+    "comments_count": 8,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "pandex.io",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.5417,
+    "freshness_score": 0.7816,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3387
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5080715",
+    "canonical_url": "https://dev.to/thethirdcup/the-chairs-are-back-the-coffee-is-on-243p",
+    "title": "The Chairs Are Back. The Coffee Is On. ☕",
+    "snippet": "Welcome to The Third Cup. The Renovation Is Done. We're Open Again! Finally, the...",
+    "author": "xulingfeng",
+    "published_at": "2026-11-21T11:24:29+00:00",
+    "collected_at": "2026-11-22T03:10:45.975176+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 82,
+    "comments_count": 31,
+    "source_tags": [
+      "ai",
+      "community",
+      "discuss",
+      "writing"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.5093,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.9851,
+    "freshness_score": 0.5446,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3219
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "et5q0q",
+    "canonical_url": "https://sipacid.com/blog/port-scanning-for-mojang",
+    "title": "port scanning for mojang",
+    "snippet": "",
+    "author": "lina_sh",
+    "published_at": "2026-11-21T23:40:51.912000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 10,
+    "comments_count": 0,
+    "source_tags": [
+      "rant",
+      "story"
+    ],
+    "domain": "sipacid.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.3704,
+    "freshness_score": 0.8733,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.2976
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "hcofqi",
+    "canonical_url": "https://antonz.org/probabilistic-data-structures-2",
+    "title": "Probabilistic data structures in Go, part 2",
+    "snippet": "",
+    "author": "cgrinds",
+    "published_at": "2026-11-21T13:18:02.362000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 24,
+    "comments_count": 1,
+    "source_tags": [
+      "go"
+    ],
+    "domain": "antonz.org",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.5926,
+    "freshness_score": 0.5859,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2778
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "becitz",
+    "canonical_url": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
+    "title": "Microsoft 365 Outage - Post Incident Report",
+    "snippet": "",
+    "author": "rrampage",
+    "published_at": "2026-11-21T12:22:47.193000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 12,
+    "comments_count": 7,
+    "source_tags": [
+      "distributed",
+      "pdf"
+    ],
+    "domain": "tianyin.github.io",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.5926,
+    "freshness_score": 0.5652,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.268
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50586292",
+    "canonical_url": "https://ricapar.net/ClawDOS",
+    "title": "ClawDOS – An AI coding agent for DOS",
+    "snippet": "",
+    "author": "Ricapar",
+    "published_at": "2026-11-21T05:38:01+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 159,
+    "comments_count": 51,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "ricapar.net",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7667,
+    "freshness_score": 0.4361,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2675
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "pvylnk",
+    "canonical_url": "https://progrium.xyz/articles/2026/single-binary-postgres",
+    "title": "How I Got Postgres into a Single Binary",
+    "snippet": "",
+    "author": "rrampage",
+    "published_at": "2026-11-21T19:32:22.642000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 10,
+    "comments_count": 2,
+    "source_tags": [
+      "databases"
+    ],
+    "domain": "progrium.xyz",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [
+      "PostgreSQL"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.4444,
+    "freshness_score": 0.7448,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2648
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "1n8fzn",
+    "canonical_url": "https://slopstrap.mikelacher.com/l",
+    "title": "Slopstrap: Make your site look hastily vibecoded",
+    "snippet": "",
+    "author": "skycam",
+    "published_at": "2026-11-21T00:46:40.624000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 77,
+    "comments_count": 14,
+    "source_tags": [
+      "css",
+      "satire",
+      "web"
+    ],
+    "domain": "slopstrap.mikelacher.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.9136,
+    "freshness_score": 0.3616,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2643
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50585376",
+    "canonical_url": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain",
+    "title": "Clojure will affect the way you think about programming (2017)",
+    "snippet": "",
+    "author": "sammatilda",
+    "published_at": "2026-11-21T02:40:39+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 190,
+    "comments_count": 90,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "eli.thegreenplace.net",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.8208,
+    "freshness_score": 0.389,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2555
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5036802",
+    "canonical_url": "https://dev.to/earlgreyhot1701d/dead-keys-i-brought-back-the-typing-games-kiro-did-the-heavy-lifting-5gc2",
+    "title": "Dead Keys: I Brought Back the Typing Games. Kiro Did the Heavy Lifting.",
+    "snippet": "The keys you miss become the lesson. TL;DR: Dead Keys is my entry for the Kiroween 2026 hackathon,...",
+    "author": "earlgreyhot1701d",
+    "published_at": "2026-11-21T18:23:38+00:00",
+    "collected_at": "2026-11-22T03:10:45.975176+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 12,
+    "comments_count": 3,
+    "source_tags": [
+      "ai",
+      "buildinpublic",
+      "gamedev",
+      "kiro"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.8807,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.597,
+    "freshness_score": 0.7126,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2553
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5083782",
+    "canonical_url": "https://dev.to/necoz/the-function-factory-of-necoz-learning-python-functions-2ikd",
+    "title": "🐱 The Function Factory of Necoz! ⚙️ | Learning Python Functions 🚀",
+    "snippet": "🌟 Chapter 1: A New Mission from King Nyaomaru! Remember my previous adventures on...",
+    "author": "star123",
+    "published_at": "2026-11-21T04:37:50+00:00",
+    "collected_at": "2026-11-22T03:10:45.975176+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 73,
+    "comments_count": 26,
+    "source_tags": [
+      "beginners",
+      "python"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.4559,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.9627,
+    "freshness_score": 0.4194,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2422
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50581110",
+    "canonical_url": "https://masteringemacs.org/article/announcing-dreamcoder",
+    "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+    "snippet": "",
+    "author": "facundo_olano",
+    "published_at": "2026-11-20T20:03:59+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 272,
+    "comments_count": 115,
+    "source_tags": [
+      "building-ai-tooling",
+      "emacs",
+      "front_page",
+      "historical",
+      "story"
+    ],
+    "domain": "masteringemacs.org",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.8708,
+    "freshness_score": 0.3015,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.2416
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "o5coeq",
+    "canonical_url": "https://cwa-union.org/news/releases/internet-archive-workers-launch-union-campaign-communications-workers-america",
+    "title": "Internet Archive Staffers Are Unionizing",
+    "snippet": "",
+    "author": "skalnik",
+    "published_at": "2026-11-20T18:39:29.070000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 85,
+    "comments_count": 7,
+    "source_tags": [
+      "culture",
+      "story"
+    ],
+    "domain": "cwa-union.org",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.8889,
+    "freshness_score": 0.2857,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.2336
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5031605",
+    "canonical_url": "https://dev.to/gde/test-the-npm-package-not-just-the-monorepo-2j1e",
+    "title": "Test the npm Package, Not Just the Monorepo",
+    "snippet": "A tracing adapter can pass its internal tests while capturing nothing in an installed...",
+    "author": "raju_dandigam",
+    "published_at": "2026-11-21T14:20:00+00:00",
+    "collected_at": "2026-11-22T03:10:45.975176+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 13,
+    "comments_count": 3,
+    "source_tags": [
+      "docker",
+      "opensource",
+      "testing",
+      "typescript"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "cloud",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "Docker"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.6194,
+    "freshness_score": 0.6097,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2266
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
     "source_item_id": "50574968",
     "canonical_url": "https://alpo.ge/remark.pdf",
     "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
     "snippet": "Related: Hurried Announcement: Alessandro Masullo GRH - https://news.ycombinator.com/item?id=50579568",
     "author": "iamronaldo",
     "published_at": "2026-11-20T14:16:21+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 2430,
-    "comments_count": 1642,
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 2863,
+    "comments_count": 2041,
     "source_tags": [
       "front_page",
       "math",
@@ -30,10 +882,42 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.9957,
-    "freshness_score": 0.5897,
+    "engagement_percentile": 1.0,
+    "freshness_score": 0.2413,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.5402
+    "rank_score": 0.222
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "p5zsx4",
+    "canonical_url": "https://blog.tenstral.net/2026/11/new-fdo-website.html",
+    "title": "Changes on freedesktop.org",
+    "snippet": "",
+    "author": "hugoarnal",
+    "published_at": "2026-11-21T11:41:23.942000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 8,
+    "comments_count": 4,
+    "source_tags": [
+      "programming"
+    ],
+    "domain": "blog.tenstral.net",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.4938,
+    "freshness_score": 0.5505,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2175
   },
   {
     "source": "rss",
@@ -44,9 +928,9 @@
     "snippet": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
     "author": "Denzil Correa",
     "published_at": "2026-11-20T20:24:38+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
@@ -67,9 +951,60 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.7468,
+    "freshness_score": 0.3056,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.5227
+    "rank_score": 0.2139
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1466712874",
+    "canonical_url": "https://github.com/Juanlabs1989/descript-pro-win",
+    "title": "Juanlabs1989/descript-pro-win: Descript - AI-powered video and podcast editor for text-based editing, transcription and screen recording on Windows 10/11",
+    "snippet": "Descript - AI-powered video and podcast editor for text-based editing, transcription and screen recording on Windows 10/11",
+    "author": "Juanlabs1989",
+    "published_at": "2026-11-21T16:02:55+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 57,
+    "comments_count": 0,
+    "source_tags": [
+      "ai",
+      "ai-art",
+      "ai-tools",
+      "ai-writing",
+      "artificial-intelligence",
+      "descript",
+      "descript-ai",
+      "descript-free",
+      "descript-macos",
+      "descript-pc",
+      "descript-pro",
+      "descript-setup",
+      "description",
+      "descriptors",
+      "generative-ai",
+      "image-generation",
+      "llm",
+      "pro",
+      "text-to-image",
+      "voice-cloning"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.4068,
+    "freshness_score": 0.6509,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2118
   },
   {
     "source": "rss",
@@ -80,9 +1015,9 @@
     "snippet": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
     "author": "Christian Larsen",
     "published_at": "2026-11-20T20:00:45+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
@@ -104,112 +1039,231 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.7353,
+    "freshness_score": 0.3009,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.5147
+    "rank_score": 0.2107
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5088349",
+    "canonical_url": "https://episclera.github.io/portqueue",
+    "title": "PortQueue: background jobs on the database you already have",
+    "snippet": "An open-source Node.js job queue that runs on PostgreSQL, Oracle, MySQL, PGLite or SQLite. No Redis, no broker. It scales by adding servers and comes with a dashboard and a CLI.",
+    "author": "gherciu",
+    "published_at": "2026-11-21T13:32:58+00:00",
+    "collected_at": "2026-11-22T03:10:45.975176+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 9,
+    "comments_count": 4,
+    "source_tags": [
+      "database",
+      "node",
+      "queue",
+      "scalability"
+    ],
+    "domain": "episclera.github.io",
+    "topics": [
+      "analytics_and_bi",
+      "databases_and_warehouses",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "PostgreSQL"
+    ],
+    "sentiment": -0.0803,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.5896,
+    "freshness_score": 0.5912,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2091
   },
   {
     "source": "hackernews",
     "tier": "tier_2",
-    "source_item_id": "50581110",
-    "canonical_url": "https://masteringemacs.org/article/announcing-dreamcoder",
-    "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+    "source_item_id": "50591875",
+    "canonical_url": "https://france24.com/en/fbi-criminal-database-hacked",
+    "title": "FBI Criminal Database Hacked",
     "snippet": "",
-    "author": "facundo_olano",
-    "published_at": "2026-11-20T20:03:59+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 139,
-    "comments_count": 25,
+    "author": "Betelbuddy",
+    "published_at": "2026-11-21T18:05:09+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 18,
+    "comments_count": 1,
     "source_tags": [
-      "building-ai-tooling",
-      "emacs",
-      "front_page",
-      "historical",
       "story"
     ],
-    "domain": "masteringemacs.org",
+    "domain": "france24.com",
     "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.7269,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.3625,
+    "freshness_score": 0.7044,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2043
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50588647",
+    "canonical_url": "https://reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20",
+    "title": "Anthropic's IPO bank closed position meant to stabilize stock",
+    "snippet": "",
+    "author": "anon373839",
+    "published_at": "2026-11-21T12:43:24+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 32,
+    "comments_count": 1,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "reuters.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.4458,
+    "freshness_score": 0.5729,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2043
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50583911",
+    "canonical_url": "https://nate.mecca1.net/posts/2026-11-20_help",
+    "title": "Help github just deleted me",
+    "snippet": "",
+    "author": "01nate",
+    "published_at": "2026-11-20T23:35:42+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 59,
+    "comments_count": 52,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "nate.mecca1.net",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.4019,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7042,
+    "freshness_score": 0.3455,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1946
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1466669853",
+    "canonical_url": "https://github.com/Cloudcode04/runway-ml-pro-win",
+    "title": "Cloudcode04/runway-ml-pro-win: Runway - AI video generation platform for text-to-video synthesis, image animation and motion brush editing on Windows 10/11",
+    "snippet": "Runway - AI video generation platform for text-to-video synthesis, image animation and motion brush editing on Windows 10/11",
+    "author": "Cloudcode04",
+    "published_at": "2026-11-21T15:17:17+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 54,
+    "comments_count": 0,
+    "source_tags": [
+      "ai",
+      "ai-art",
+      "ai-tools",
+      "ai-writing",
+      "artificial-intelligence",
+      "generative-ai",
+      "image-generation",
+      "llm",
+      "pro",
+      "runway",
+      "runway-docs",
+      "runway-ml",
+      "runway-ml-2026",
+      "runway-ml-desktop",
+      "runway-ml-free",
+      "runway-processing",
+      "runway-sdk",
+      "runwayml",
+      "text-to-image",
+      "voice-cloning"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
       "programming_and_devtools"
     ],
     "tools_mentioned": [],
     "sentiment": 0.0,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
-      "hackernews",
-      "lobsters"
+      "github"
     ],
-    "engagement_percentile": 0.7112,
-    "freshness_score": 0.7368,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.4821
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50578794",
-    "canonical_url": "https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
-    "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
-    "snippet": "",
-    "author": "lelanthran",
-    "published_at": "2026-11-20T17:44:01+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 184,
-    "comments_count": 187,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "nbcnews.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.5574,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.8707,
-    "freshness_score": 0.6739,
+    "engagement_percentile": 0.3729,
+    "freshness_score": 0.6324,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4694
+    "rank_score": 0.1886
   },
   {
     "source": "rss",
     "tier": "tier_1",
-    "source_item_id": "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents/",
-    "canonical_url": "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents",
-    "title": "Frontier and Center: Why your data agents need a “wind tunnel”",
-    "snippet": "Imagine you're building a data agent to answer questions about an enterprise data warehouse. Ideally, you'd develop and test it against production data, but access restrictions and data sensitivity make that difficult – especially when the engineers building the agent sit outside the team that owns",
-    "author": "Sunil Pedapudi",
+    "source_item_id": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/",
+    "canonical_url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys",
+    "title": "Ultimate guide for fixing your team’s API keys",
+    "snippet": "Most Gemini prototypes start the same way. You grab an API key from Google AI Studio , then paste it into your coding agent to start building a prototype. That speed is the point, and shouldn’t be slowed down. The trouble starts later, when the prototype gets real users and the key comes along uncha",
+    "author": "Sergio Villani",
     "published_at": "2026-11-20T17:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
-      "data analytics"
+      "ai & machine learning",
+      "developers & practitioners"
     ],
     "domain": "cloud.google.com",
     "topics": [
-      "analytics_and_bi",
-      "databases_and_warehouses",
-      "ai_and_ml"
+      "ai_and_ml",
+      "programming_and_devtools"
     ],
     "tools_mentioned": [],
-    "sentiment": -0.3291,
+    "sentiment": -0.4019,
     "trust_weight": 1.0,
     "mentioned_in_sources": [
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.6551,
+    "freshness_score": 0.2681,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4586
+    "rank_score": 0.1877
   },
   {
     "source": "rss",
@@ -220,9 +1274,9 @@
     "snippet": "As organizations scale their cloud footprint to thousands of autonomous agents and microservices, you can accidentally create an operational bottleneck with strict Identity and Access Management (IAM). Meanwhile, administrators still need to enforce least privilege across thousands of resources with",
     "author": "Prateek Jain",
     "published_at": "2026-11-20T17:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
@@ -241,9 +1295,9 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.6551,
+    "freshness_score": 0.2681,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4586
+    "rank_score": 0.1877
   },
   {
     "source": "rss",
@@ -254,9 +1308,9 @@
     "snippet": "Network sidecars have a deserved reputation for excessive resource consumption and increased management overhead, especially in a service mesh environment. Today, we are announcing the general availability of ambient networking for Google Kubernetes Engine (GKE). This milestone marks an important ev",
     "author": "Chris Crall",
     "published_at": "2026-11-20T17:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
@@ -278,9 +1332,9 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.6551,
+    "freshness_score": 0.2681,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4586
+    "rank_score": 0.1877
   },
   {
     "source": "rss",
@@ -291,9 +1345,9 @@
     "snippet": "For large organizations, building and maintaining data pipelines is one of the most complex tasks that data engineering teams are tasked with. In BigQuery environments, the Data Engineering Agent can help, leveraging Gemini to to automate these workflows. In this blog post, Vodafone Czech Republic d",
     "author": "Pedro Esteves",
     "published_at": "2026-11-20T17:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
@@ -317,9 +1371,9 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.6551,
+    "freshness_score": 0.2681,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4586
+    "rank_score": 0.1877
   },
   {
     "source": "rss",
@@ -330,9 +1384,9 @@
     "snippet": "Ever wonder how the Google Ads team keeps the massive system stable and online, despite continuous attempts by hackers to take it down? Part of the answer is using Spanner as its core operational and graph database. The Google Ads team uses a central graph-based platform to fight fraud and abuse wit",
     "author": "Deepak Tiwari",
     "published_at": "2026-11-20T17:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
@@ -352,80 +1406,9 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.6551,
+    "freshness_score": 0.2681,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4586
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/",
-    "canonical_url": "https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow",
-    "title": "Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents",
-    "snippet": "When an Airflow pipeline fails in production, the hard part is rarely the fix. It's finding out what to fix. A task dies without a traceback. Is it the code, the data, or the environment? Hard to say, as clues are scattered across task logs, scheduler logs, and worker metrics. And once you know what",
-    "author": "Khadija Al Ahyane",
-    "published_at": "2026-11-20T17:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "ai & machine learning",
-      "data analytics"
-    ],
-    "domain": "cloud.google.com",
-    "topics": [
-      "data_engineering",
-      "analytics_and_bi",
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [
-      "Airflow"
-    ],
-    "sentiment": -0.5574,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.6551,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4586
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/",
-    "canonical_url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys",
-    "title": "Ultimate guide for fixing your team’s API keys",
-    "snippet": "Most Gemini prototypes start the same way. You grab an API key from Google AI Studio , then paste it into your coding agent to start building a prototype. That speed is the point, and shouldn’t be slowed down. The trouble starts later, when the prototype gets real users and the key comes along uncha",
-    "author": "Sergio Villani",
-    "published_at": "2026-11-20T17:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "ai & machine learning",
-      "developers & practitioners"
-    ],
-    "domain": "cloud.google.com",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.4019,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.6551,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4586
+    "rank_score": 0.1877
   },
   {
     "source": "rss",
@@ -436,9 +1419,9 @@
     "snippet": "As organizations move from reactive analytics to proactive systems of action powered by autonomous AI agents, data platforms face a new set of demands. Moving from human scale to agent scale changes both how data pipelines run and how they are built: Teams and AI agents now use Model Context Protoco",
     "author": "Santosh Chandrachood",
     "published_at": "2026-11-20T17:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
@@ -460,9 +1443,9 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.6551,
+    "freshness_score": 0.2681,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4586
+    "rank_score": 0.1877
   },
   {
     "source": "rss",
@@ -473,9 +1456,9 @@
     "snippet": "In global maritime logistics, Marine Ports and Terminals play a significant role in the movement of container and cargo, within and beyond. Marine ports and terminals world-wide use a Terminal Operating System (TOS) which acts as the central nervous system managing port operations 24 hours a day, 36",
     "author": "Himanshu Shekhar",
     "published_at": "2026-11-20T17:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
@@ -496,9 +1479,232 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.6551,
+    "freshness_score": 0.2681,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4586
+    "rank_score": 0.1877
+  },
+  {
+    "source": "rss",
+    "tier": "tier_1",
+    "source_item_id": "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents/",
+    "canonical_url": "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents",
+    "title": "Frontier and Center: Why your data agents need a “wind tunnel”",
+    "snippet": "Imagine you're building a data agent to answer questions about an enterprise data warehouse. Ideally, you'd develop and test it against production data, but access restrictions and data sensitivity make that difficult – especially when the engineers building the agent sit outside the team that owns",
+    "author": "Sunil Pedapudi",
+    "published_at": "2026-11-20T17:00:00+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 0,
+    "comments_count": 0,
+    "source_tags": [
+      "data analytics"
+    ],
+    "domain": "cloud.google.com",
+    "topics": [
+      "analytics_and_bi",
+      "databases_and_warehouses",
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.3291,
+    "trust_weight": 1.0,
+    "mentioned_in_sources": [
+      "rss"
+    ],
+    "engagement_percentile": 0.7,
+    "freshness_score": 0.2681,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1877
+  },
+  {
+    "source": "rss",
+    "tier": "tier_1",
+    "source_item_id": "https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/",
+    "canonical_url": "https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow",
+    "title": "Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents",
+    "snippet": "When an Airflow pipeline fails in production, the hard part is rarely the fix. It's finding out what to fix. A task dies without a traceback. Is it the code, the data, or the environment? Hard to say, as clues are scattered across task logs, scheduler logs, and worker metrics. And once you know what",
+    "author": "Khadija Al Ahyane",
+    "published_at": "2026-11-20T17:00:00+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 0,
+    "comments_count": 0,
+    "source_tags": [
+      "ai & machine learning",
+      "data analytics"
+    ],
+    "domain": "cloud.google.com",
+    "topics": [
+      "data_engineering",
+      "analytics_and_bi",
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [
+      "Airflow"
+    ],
+    "sentiment": -0.5574,
+    "trust_weight": 1.0,
+    "mentioned_in_sources": [
+      "rss"
+    ],
+    "engagement_percentile": 0.7,
+    "freshness_score": 0.2681,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1877
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5048824",
+    "canonical_url": "https://dev.to/ndcodes/day-89-a-marker-in-the-file-and-a-grant-somewhere-else-1deo",
+    "title": "Day 89: A Dead Service and a Private Container That Serves",
+    "snippet": "Day 89 of DevOps, Day 39 of Azure. Both tasks today produced something that reads as broken and is...",
+    "author": "ndcodes",
+    "published_at": "2026-11-21T09:00:00+00:00",
+    "collected_at": "2026-11-22T03:10:45.975176+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 19,
+    "comments_count": 0,
+    "source_tags": [
+      "ansible",
+      "automation",
+      "azure",
+      "devops"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "cloud"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.8126,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.6194,
+    "freshness_score": 0.4965,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1845
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50574383",
+    "canonical_url": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+    "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+    "snippet": "",
+    "author": "cdrnsf",
+    "published_at": "2026-11-20T13:29:59+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 502,
+    "comments_count": 879,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "theguardian.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.34,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.9833,
+    "freshness_score": 0.2342,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1842
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1466516087",
+    "canonical_url": "https://github.com/debugdigital677/descript-pro-win",
+    "title": "debugdigital677/descript-pro-win: Descript - AI-powered video and podcast editor for text-based editing, transcription and screen recording on Windows 10/11",
+    "snippet": "Descript - AI-powered video and podcast editor for text-based editing, transcription and screen recording on Windows 10/11",
+    "author": "debugdigital677",
+    "published_at": "2026-11-21T12:21:56+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 57,
+    "comments_count": 0,
+    "source_tags": [
+      "ai",
+      "ai-art",
+      "ai-tools",
+      "ai-writing",
+      "artificial-intelligence",
+      "descript",
+      "descript-desktop",
+      "descript-free",
+      "descript-keygen",
+      "descript-latest",
+      "descript-macos",
+      "descript-pro",
+      "descript-setup",
+      "descript-windows",
+      "generative-ai",
+      "image-generation",
+      "llm",
+      "pro",
+      "text-to-image",
+      "voice-cloning"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.4068,
+    "freshness_score": 0.5648,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1838
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50580536",
+    "canonical_url": "https://winedroid.soham.sh/demo",
+    "title": "Winedroid – run Android apps without Android (WASM demo)",
+    "snippet": "",
+    "author": "sohzm",
+    "published_at": "2026-11-20T19:30:16+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 181,
+    "comments_count": 51,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "winedroid.soham.sh",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.775,
+    "freshness_score": 0.2952,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.183
   },
   {
     "source": "github",
@@ -536,10 +1742,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9583,
-    "freshness_score": 0.5931,
+    "engagement_percentile": 0.9322,
+    "freshness_score": 0.2427,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4547
+    "rank_score": 0.181
   },
   {
     "source": "github",
@@ -577,10 +1783,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9583,
-    "freshness_score": 0.5897,
+    "engagement_percentile": 0.9322,
+    "freshness_score": 0.2413,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4521
+    "rank_score": 0.18
   },
   {
     "source": "github",
@@ -619,30 +1825,67 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.9583,
-    "freshness_score": 0.5889,
+    "engagement_percentile": 0.9322,
+    "freshness_score": 0.241,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4515
+    "rank_score": 0.1797
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50581403",
+    "canonical_url": "https://github.com/diggerhq/opencomputer",
+    "title": "Show HN: OpenComputer – an open source alternative to Devin",
+    "snippet": "Hi HN! Utpal here, I'm one of the founders of OpenComputer. OpenComputer is an open source cloud coding agent for teams that can run in your own cloud account (AWS, GCP, Azure). We run the agent harness and the sandbox on the same durable VM (architecture in the docs [1]). First commit lands in 24s;",
+    "author": "iacguy",
+    "published_at": "2026-11-20T20:19:56+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 118,
+    "comments_count": 36,
+    "source_tags": [
+      "front_page",
+      "show_hn",
+      "story"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "cloud",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.3595,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7333,
+    "freshness_score": 0.3046,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1787
   },
   {
     "source": "lobsters",
     "tier": "tier_2",
-    "source_item_id": "o5coeq",
-    "canonical_url": "https://cwa-union.org/news/releases/internet-archive-workers-launch-union-campaign-communications-workers-america",
-    "title": "Internet Archive Staffers Are Unionizing",
+    "source_item_id": "kkglbw",
+    "canonical_url": "https://vim-classic.org/news/vim-8.3.1-released.html",
+    "title": "Vim Classic 8.3.1 released",
     "snippet": "",
-    "author": "skalnik",
-    "published_at": "2026-11-20T18:39:29.070000+00:00",
-    "collected_at": "2026-11-21T03:58:57.148019+00:00",
+    "author": "FedericoSchonborn",
+    "published_at": "2026-11-20T10:02:03.889000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 40,
-    "comments_count": 4,
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 72,
+    "comments_count": 28,
     "source_tags": [
-      "culture",
+      "editors",
+      "release",
       "story"
     ],
-    "domain": "cwa-union.org",
+    "domain": "vim-classic.org",
     "topics": [
       "programming_and_devtools"
     ],
@@ -653,42 +1896,61 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.6892,
-    "freshness_score": 0.6981,
+    "engagement_percentile": 0.9383,
+    "freshness_score": 0.205,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.4426
+    "rank_score": 0.177
   },
   {
-    "source": "hackernews",
+    "source": "github",
     "tier": "tier_2",
-    "source_item_id": "50583911",
-    "canonical_url": "https://nate.mecca1.net/posts/2026-11-20_help",
-    "title": "Help github just deleted me",
-    "snippet": "",
-    "author": "01nate",
-    "published_at": "2026-11-20T23:35:42+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 52,
-    "comments_count": 46,
+    "source_item_id": "1466768874",
+    "canonical_url": "https://github.com/GuzmanJacqueline93/copy-ai-pro-win",
+    "title": "GuzmanJacqueline93/copy-ai-pro-win: Copy Ai Pro - AI copywriting assistant for content generation, tone rewriting and SEO text optimization on Windows 10/11",
+    "snippet": "Copy Ai Pro - AI copywriting assistant for content generation, tone rewriting and SEO text optimization on Windows 10/11",
+    "author": "GuzmanJacqueline93",
+    "published_at": "2026-11-21T17:04:23+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 49,
+    "comments_count": 0,
     "source_tags": [
-      "story"
+      "ai",
+      "ai-art",
+      "ai-tools",
+      "ai-writing",
+      "artificial-intelligence",
+      "copy",
+      "copy-detection",
+      "copy-files",
+      "copy-move-detection",
+      "copy-on-write",
+      "copy-paste",
+      "copywriting",
+      "deepcopy",
+      "dukascopy",
+      "generative-ai",
+      "image-generation",
+      "llm",
+      "pro",
+      "text-to-image",
+      "voice-cloning"
     ],
-    "domain": "nate.mecca1.net",
+    "domain": "github.com",
     "topics": [
-      "programming_and_devtools"
+      "ai_and_ml"
     ],
     "tools_mentioned": [],
-    "sentiment": 0.4019,
+    "sentiment": 0.6369,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
-      "hackernews"
+      "github"
     ],
-    "engagement_percentile": 0.6552,
-    "freshness_score": 0.8441,
+    "engagement_percentile": 0.322,
+    "freshness_score": 0.6773,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4424
+    "rank_score": 0.1745
   },
   {
     "source": "rss",
@@ -699,9 +1961,9 @@
     "snippet": "Why we built itMost Databricks architecture talks used to start with the same slide: ingestion on the left...",
     "author": "Databricks Blog",
     "published_at": "2026-11-20T14:48:28+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
@@ -720,9 +1982,9 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.6019,
+    "freshness_score": 0.2463,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4213
+    "rank_score": 0.1724
   },
   {
     "source": "github",
@@ -761,75 +2023,10 @@
     "mentioned_in_sources": [
       "github"
     ],
-    "engagement_percentile": 0.875,
-    "freshness_score": 0.5942,
+    "engagement_percentile": 0.8644,
+    "freshness_score": 0.2432,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.416
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50574383",
-    "canonical_url": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-    "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
-    "snippet": "",
-    "author": "cdrnsf",
-    "published_at": "2026-11-20T13:29:59+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 192,
-    "comments_count": 233,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "theguardian.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.4215,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.8966,
-    "freshness_score": 0.5721,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4104
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50580536",
-    "canonical_url": "https://winedroid.soham.sh/demo",
-    "title": "Winedroid – run Android apps without Android (WASM demo)",
-    "snippet": "",
-    "author": "sohzm",
-    "published_at": "2026-11-20T19:30:16+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 113,
-    "comments_count": 36,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "winedroid.soham.sh",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.7026,
-    "freshness_score": 0.7213,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.4054
+    "rank_score": 0.1682
   },
   {
     "source": "rss",
@@ -840,11 +2037,11 @@
     "snippet": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
     "author": "OpenAI News",
     "published_at": "2026-11-20T10:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 34,
-    "comments_count": 50,
+    "comments_count": 51,
     "source_tags": [
       "story"
     ],
@@ -860,9 +2057,161 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.5003,
+    "freshness_score": 0.2048,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.4028
+    "rank_score": 0.1648
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1465322684",
+    "canonical_url": "https://github.com/sous-labs/songe",
+    "title": "sous-labs/songe: A training engine for your local model, using your idle compute",
+    "snippet": "A training engine for your local model, using your idle compute",
+    "author": "sous-labs",
+    "published_at": "2026-11-20T11:01:20+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 185,
+    "comments_count": 10,
+    "source_tags": [
+      "coding-agents",
+      "distillation",
+      "fine-tuning",
+      "llm",
+      "local-llm",
+      "lora",
+      "mlx"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.9492,
+    "freshness_score": 0.2129,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1617
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50583117",
+    "canonical_url": "https://researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+    "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
+    "snippet": "",
+    "author": "undefinedmethod",
+    "published_at": "2026-11-20T22:18:20+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 53,
+    "comments_count": 20,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "researchgate.net",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.3182,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6125,
+    "freshness_score": 0.3288,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1611
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1466508502",
+    "canonical_url": "https://github.com/JieFedorov81/runway-ml-pro-win",
+    "title": "JieFedorov81/runway-ml-pro-win: Runway - AI video generation platform for text-to-video synthesis, image animation and motion brush editing on Windows 10/11",
+    "snippet": "Runway - AI video generation platform for text-to-video synthesis, image animation and motion brush editing on Windows 10/11",
+    "author": "JieFedorov81",
+    "published_at": "2026-11-21T12:12:42+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 51,
+    "comments_count": 0,
+    "source_tags": [
+      "ai",
+      "ai-art",
+      "ai-tools",
+      "ai-writing",
+      "artificial-intelligence",
+      "generative-ai",
+      "image-generation",
+      "llm",
+      "pro",
+      "runway",
+      "runway-ml",
+      "runway-ml-2026",
+      "runway-ml-crack",
+      "runway-ml-desktop",
+      "runway-ml-free",
+      "runway-ml-keygen",
+      "runway-ml-pro-free",
+      "runway-ml-windows",
+      "text-to-image",
+      "voice-cloning"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.3559,
+    "freshness_score": 0.5616,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1599
+  },
+  {
+    "source": "rss",
+    "tier": "tier_1",
+    "source_item_id": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/On-premises-data-gateway-November-2026-release/ba-p/5430005",
+    "canonical_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/On-premises-data-gateway-November-2026-release/ba-p/5430005",
+    "title": "On-premises data gateway November 2026 release",
+    "snippet": "The November 2026 release of the on-premises data gateway (version 3000.342) continues our commitment to secure, reliable and accessible connectivity between on-premises data sources and Microsoft Fabric services. This release focuses on strengthening gateway security, improving performance and reli",
+    "author": "goupadhy",
+    "published_at": "2026-11-20T12:45:00+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 0,
+    "comments_count": 0,
+    "source_tags": [],
+    "domain": "community.fabric.microsoft.com",
+    "topics": [
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.9081,
+    "trust_weight": 1.0,
+    "mentioned_in_sources": [
+      "rss"
+    ],
+    "engagement_percentile": 0.7,
+    "freshness_score": 0.2276,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1593
   },
   {
     "source": "devto",
@@ -898,75 +2247,10 @@
     "mentioned_in_sources": [
       "devto"
     ],
-    "engagement_percentile": 0.8207,
-    "freshness_score": 0.8154,
+    "engagement_percentile": 0.7836,
+    "freshness_score": 0.3337,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4015
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/On-premises-data-gateway-November-2026-release/ba-p/5430005",
-    "canonical_url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/On-premises-data-gateway-November-2026-release/ba-p/5430005",
-    "title": "On-premises data gateway November 2026 release",
-    "snippet": "The November 2026 release of the on-premises data gateway (version 3000.342) continues our commitment to secure, reliable and accessible connectivity between on-premises data sources and Microsoft Fabric services. This release focuses on strengthening gateway security, improving performance and reli",
-    "author": "goupadhy",
-    "published_at": "2026-11-20T12:45:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [],
-    "domain": "community.fabric.microsoft.com",
-    "topics": [
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.9081,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.5562,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3893
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "kkglbw",
-    "canonical_url": "https://vim-classic.org/news/vim-8.3.1-released.html",
-    "title": "Vim Classic 8.3.1 released",
-    "snippet": "",
-    "author": "FedericoSchonborn",
-    "published_at": "2026-11-20T10:02:03.889000+00:00",
-    "collected_at": "2026-11-21T03:58:57.148019+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 56,
-    "comments_count": 9,
-    "source_tags": [
-      "editors",
-      "release",
-      "story"
-    ],
-    "domain": "vim-classic.org",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews",
-      "lobsters"
-    ],
-    "engagement_percentile": 0.8378,
-    "freshness_score": 0.501,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.3861
+    "rank_score": 0.1569
   },
   {
     "source": "rss",
@@ -977,9 +2261,9 @@
     "snippet": "If you haven’t already, read Arun Ulag’s Ignite blog post to learn how Microsoft is bringing together databases, analytics, and intelligent applications across Azure and Microsoft Fabric. Our telemetry shows that agentic analytics has arrived. Agents query, investigate, iterate, test, and drill down",
     "author": "tinotereshko",
     "published_at": "2026-11-20T12:03:43+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [],
@@ -996,9 +2280,47 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.5414,
+    "freshness_score": 0.2216,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.379
+    "rank_score": 0.1551
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5088729",
+    "canonical_url": "https://dev.to/aws-builders/what-changes-in-apache-iceberg-v4-some-thoughts-after-reading-the-spec-jlf",
+    "title": "What Changes in Apache Iceberg v4? Some Thoughts After Reading the Spec",
+    "snippet": "Original Japanese article: Apache Iceberg v4の仕様を読んで、何が変わるのか考えてみた Introduction I'm Aki,...",
+    "author": "datapenguin",
+    "published_at": "2026-11-21T14:40:58+00:00",
+    "collected_at": "2026-11-22T03:10:45.975176+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 8,
+    "comments_count": 1,
+    "source_tags": [
+      "aws",
+      "dataengineering",
+      "iceberg"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "databases_and_warehouses",
+      "cloud",
+      "open_source"
+    ],
+    "tools_mentioned": [
+      "Iceberg"
+    ],
+    "sentiment": 0.3182,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.4179,
+    "freshness_score": 0.6176,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1548
   },
   {
     "source": "hackernews",
@@ -1009,11 +2331,11 @@
     "snippet": "",
     "author": "dotcoma",
     "published_at": "2026-11-20T09:42:16+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 527,
-    "comments_count": 310,
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 571,
+    "comments_count": 336,
     "source_tags": [
       "front_page",
       "story"
@@ -1028,46 +2350,10 @@
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.9483,
-    "freshness_score": 0.4946,
+    "engagement_percentile": 0.9542,
+    "freshness_score": 0.2024,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3752
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50581403",
-    "canonical_url": "https://github.com/diggerhq/opencomputer",
-    "title": "Show HN: OpenComputer – an open source alternative to Devin",
-    "snippet": "Hi HN! Utpal here, I'm one of the founders of OpenComputer. OpenComputer is an open source cloud coding agent for teams that can run in your own cloud account (AWS, GCP, Azure). We run the agent harness and the sandbox on the same durable VM (architecture in the docs [1]). First commit lands in 24s;",
-    "author": "iacguy",
-    "published_at": "2026-11-20T20:19:56+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 74,
-    "comments_count": 22,
-    "source_tags": [
-      "front_page",
-      "show_hn",
-      "story"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml",
-      "cloud",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.3595,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.625,
-    "freshness_score": 0.7444,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3722
+    "rank_score": 0.1545
   },
   {
     "source": "lobsters",
@@ -1078,11 +2364,11 @@
     "snippet": "",
     "author": "Picnoir",
     "published_at": "2026-11-20T09:39:11.806000+00:00",
-    "collected_at": "2026-11-21T03:58:57.148019+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 39,
-    "comments_count": 25,
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 71,
+    "comments_count": 32,
     "source_tags": [
       "release",
       "vcs"
@@ -1097,10 +2383,160 @@
     "mentioned_in_sources": [
       "lobsters"
     ],
-    "engagement_percentile": 0.8649,
-    "freshness_score": 0.4936,
+    "engagement_percentile": 0.9506,
+    "freshness_score": 0.202,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3415
+    "rank_score": 0.1536
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1466567297",
+    "canonical_url": "https://github.com/fire-flux-lab648/unreal-engine-5-win",
+    "title": "fire-flux-lab648/unreal-engine-5-win: Epic Games Unreal Engine 5 - real-time 3D creation engine for game development, virtual production and architectural visualization on Windows 10/11",
+    "snippet": "Epic Games Unreal Engine 5 - real-time 3D creation engine for game development, virtual production and architectural visualization on Windows 10/11",
+    "author": "fire-flux-lab648",
+    "published_at": "2026-11-21T13:23:15+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 49,
+    "comments_count": 0,
+    "source_tags": [
+      "data-engineering",
+      "desktop-app",
+      "engineering",
+      "mechanical-engineering",
+      "prompt-engineering",
+      "software-engineering",
+      "unreal",
+      "unreal-engine",
+      "unreal-engine-cpp-plugin",
+      "unreal-engine-plugin",
+      "unreal-launcher",
+      "unreal-tutorial",
+      "unreal2d",
+      "unrealeditor",
+      "unrealengine5",
+      "unrealscript",
+      "windows",
+      "windows-10",
+      "windows-11",
+      "windows-app"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.4939,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.322,
+    "freshness_score": 0.5878,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1514
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50582280",
+    "canonical_url": "https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+    "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+    "snippet": "",
+    "author": "qlte",
+    "published_at": "2026-11-20T21:18:46+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 66,
+    "comments_count": 5,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "wsj.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.5875,
+    "freshness_score": 0.3164,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1487
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "hcahbx",
+    "canonical_url": "https://dbushell.com/2026/11/16/visited-links",
+    "title": "Visited links are purple",
+    "snippet": "",
+    "author": "eaj",
+    "published_at": "2026-11-20T09:58:05.152000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 40,
+    "comments_count": 10,
+    "source_tags": [
+      "a11y",
+      "story",
+      "web"
+    ],
+    "domain": "dbushell.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.7778,
+    "freshness_score": 0.2045,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.1463
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50591189",
+    "canonical_url": "https://en.andros.dev/blog/94a77341/i-got-banned-from-lobsters-for-writing-like-an-llm",
+    "title": "I got banned from Lobsters for writing like an LLM",
+    "snippet": "",
+    "author": "kristianpaul",
+    "published_at": "2026-11-21T17:00:41+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 9,
+    "comments_count": 2,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "en.andros.dev",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.128,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.2625,
+    "freshness_score": 0.6756,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1419
   },
   {
     "source": "hackernews",
@@ -1111,11 +2547,11 @@
     "snippet": "",
     "author": "renehsz",
     "published_at": "2026-11-20T05:46:01+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 198,
-    "comments_count": 180,
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 207,
+    "comments_count": 189,
     "source_tags": [
       "story",
       "vcs"
@@ -1131,80 +2567,61 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.8707,
-    "freshness_score": 0.4251,
+    "engagement_percentile": 0.8833,
+    "freshness_score": 0.174,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.3405
+    "rank_score": 0.1414
   },
   {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5084452",
-    "canonical_url": "https://blog.mlh.com/prompt-pad-what-is-a-context-window-16hf",
-    "title": "Prompt Pad: What Is a Context Window?",
-    "snippet": "Ever had an AI forget something you told it earlier in the same conversation? There's a reason for...",
-    "author": "heyitsjem",
-    "published_at": "2026-11-20T21:40:34+00:00",
-    "collected_at": "2026-11-21T03:58:46.985333+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 23,
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1466712810",
+    "canonical_url": "https://github.com/suryacode04/jasper-ai-win",
+    "title": "suryacode04/jasper-ai-win: Jasper AI - AI content generation platform for marketing copy creation, brand voice customization and long-form article drafting on Windows 10/11",
+    "snippet": "Jasper AI - AI content generation platform for marketing copy creation, brand voice customization and long-form article drafting on Windows 10/11",
+    "author": "suryacode04",
+    "published_at": "2026-11-21T16:02:51+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 44,
     "comments_count": 0,
     "source_tags": [
       "ai",
-      "beginners",
+      "ai-art",
+      "ai-tools",
+      "ai-writing",
+      "artificial-intelligence",
+      "dynamicjasper",
+      "generative-ai",
+      "image-generation",
+      "jasper",
+      "jasper-module",
+      "jasper-modules",
+      "jasper-premium",
+      "jasper-reports",
+      "jasperreport",
+      "jasperreports",
+      "jaspersoft",
+      "jaspersoft-studio",
       "llm",
-      "promptengineering"
+      "text-to-image",
+      "voice-cloning"
     ],
-    "domain": "blog.mlh.com",
+    "domain": "github.com",
     "topics": [
       "ai_and_ml"
     ],
     "tools_mentioned": [],
-    "sentiment": -0.3094,
-    "trust_weight": 0.6,
+    "sentiment": 0.4939,
+    "trust_weight": 0.8,
     "mentioned_in_sources": [
-      "devto"
+      "github"
     ],
-    "engagement_percentile": 0.7172,
-    "freshness_score": 0.7841,
+    "engagement_percentile": 0.2712,
+    "freshness_score": 0.6509,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3374
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5056698",
-    "canonical_url": "https://dev.to/codenewbie/tell-us-your-story-and-we-might-read-it-on-the-codenewbie-podcast-2840",
-    "title": "Tell us your story, and we might read it on the CodeNewbie Podcast 🎙️",
-    "snippet": "Hi! I’m Lauren 👩🏼‍💻, the new host of the CodeNewbie Podcast, and I’d love to hear your...",
-    "author": "lolocoding",
-    "published_at": "2026-11-20T16:28:49+00:00",
-    "collected_at": "2026-11-21T03:58:46.985333+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 29,
-    "comments_count": 4,
-    "source_tags": [
-      "ai",
-      "beginners",
-      "codenewbie",
-      "podcast"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.6696,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.8621,
-    "freshness_score": 0.6418,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.332
+    "rank_score": 0.1412
   },
   {
     "source": "lobsters",
@@ -1215,11 +2632,11 @@
     "snippet": "",
     "author": "fanf",
     "published_at": "2026-11-20T10:33:36.402000+00:00",
-    "collected_at": "2026-11-21T03:58:57.148019+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 59,
-    "comments_count": 6,
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 68,
+    "comments_count": 10,
     "source_tags": [
       "android",
       "linux",
@@ -1236,10 +2653,210 @@
     "mentioned_in_sources": [
       "lobsters"
     ],
-    "engagement_percentile": 0.8108,
-    "freshness_score": 0.511,
+    "engagement_percentile": 0.8395,
+    "freshness_score": 0.2091,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3315
+    "rank_score": 0.1405
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50572430",
+    "canonical_url": "https://bbc.co.uk/news/articles/c6eq49zyx7p4o",
+    "title": "UK fridges secured from hackers",
+    "snippet": "https://www.pentestpartners.com/security-blog/the-fridge-hac...",
+    "author": "tomnext",
+    "published_at": "2026-11-20T09:52:20+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 150,
+    "comments_count": 144,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "bbc.co.uk",
+    "topics": [
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.4019,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.8417,
+    "freshness_score": 0.2037,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1372
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5056698",
+    "canonical_url": "https://dev.to/codenewbie/tell-us-your-story-and-we-might-read-it-on-the-codenewbie-podcast-2840",
+    "title": "Tell us your story, and we might read it on the CodeNewbie Podcast 🎙️",
+    "snippet": "Hi! I’m Lauren 👩🏼‍💻, the new host of the CodeNewbie Podcast, and I’d love to hear your...",
+    "author": "lolocoding",
+    "published_at": "2026-11-20T16:28:49+00:00",
+    "collected_at": "2026-11-22T03:10:45.975176+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 38,
+    "comments_count": 5,
+    "source_tags": [
+      "ai",
+      "beginners",
+      "codenewbie",
+      "podcast"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.6696,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.8657,
+    "freshness_score": 0.2627,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1364
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "18c0lq",
+    "canonical_url": "https://alicecaml.org/blog/alice-v0-6-0",
+    "title": "Alice v0.6.0",
+    "snippet": "",
+    "author": "olex",
+    "published_at": "2026-11-20T16:44:09.585000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 26,
+    "comments_count": 3,
+    "source_tags": [
+      "ml",
+      "release"
+    ],
+    "domain": "alicecaml.org",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.6296,
+    "freshness_score": 0.2654,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1337
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "6jloca",
+    "canonical_url": "https://feyor.sh/blog/nixos-bringup-on-an-alibaba-riscv-board",
+    "title": "NixOS bring-up on an Alibaba RISC-V board",
+    "snippet": "",
+    "author": "Shorden",
+    "published_at": "2026-11-22T00:30:07.226000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
+    "published_date": "2026-11-22T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 5,
+    "comments_count": 0,
+    "source_tags": [
+      "hardware",
+      "nix"
+    ],
+    "domain": "feyor.sh",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.1852,
+    "freshness_score": 0.9018,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1336
+  },
+  {
+    "source": "rss",
+    "tier": "tier_1",
+    "source_item_id": "https://www.snowflake.com/content/snowflake-site/global/en/blog/sap-snowflake-predictive-analytics",
+    "canonical_url": "https://snowflake.com/content/snowflake-site/global/en/blog/sap-snowflake-predictive-analytics",
+    "title": "Predictive Analytics with SAP and Snowflake: Use Cases",
+    "snippet": "See how SAP and Snowflake's zero-copy integration powers predictive analytics for demand forecasting, fraud detection and customer churn reduction.",
+    "author": "Eric Moeller",
+    "published_at": "2026-11-20T08:00:00+00:00",
+    "collected_at": "2026-11-22T03:11:06.940386+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 0,
+    "comments_count": 0,
+    "source_tags": [],
+    "domain": "snowflake.com",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.6486,
+    "trust_weight": 1.0,
+    "mentioned_in_sources": [
+      "rss"
+    ],
+    "engagement_percentile": 0.7,
+    "freshness_score": 0.1896,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1327
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1465342782",
+    "canonical_url": "https://github.com/LIUFelix2004/dsh-workbuddy",
+    "title": "LIUFelix2004/dsh-workbuddy: Import WorkBuddy accounts into DeepSeek Harness as model providers: one route per account, full model list, per-account credit balance, and an automatic workaround for the gateway 11128 channel check.",
+    "snippet": "Import WorkBuddy accounts into DeepSeek Harness as model providers: one route per account, full model list, per-account credit balance, and an automatic workaround for the gateway 11128 channel check.",
+    "author": "LIUFelix2004",
+    "published_at": "2026-11-20T11:22:44+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 84,
+    "comments_count": 0,
+    "source_tags": [
+      "codebuddy",
+      "deepseek-harness",
+      "dsh-plugin",
+      "llm",
+      "provider",
+      "workbuddy"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.6369,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.7627,
+    "freshness_score": 0.2158,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1317
   },
   {
     "source": "devto",
@@ -1271,91 +2888,348 @@
     "mentioned_in_sources": [
       "devto"
     ],
-    "engagement_percentile": 0.8483,
-    "freshness_score": 0.6509,
+    "engagement_percentile": 0.8209,
+    "freshness_score": 0.2664,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3313
+    "rank_score": 0.1312
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5084452",
+    "canonical_url": "https://blog.mlh.com/prompt-pad-what-is-a-context-window-16hf",
+    "title": "Prompt Pad: What Is a Context Window?",
+    "snippet": "Ever had an AI forget something you told it earlier in the same conversation? There's a reason for...",
+    "author": "heyitsjem",
+    "published_at": "2026-11-20T21:40:34+00:00",
+    "collected_at": "2026-11-21T03:58:46.985333+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-21T00:00:00",
+    "source_score": 23,
+    "comments_count": 0,
+    "source_tags": [
+      "ai",
+      "beginners",
+      "llm",
+      "promptengineering"
+    ],
+    "domain": "blog.mlh.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.3094,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.6791,
+    "freshness_score": 0.3209,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1308
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1466660598",
+    "canonical_url": "https://github.com/isanders5152/descript-pro-win",
+    "title": "isanders5152/descript-pro-win: Descript - AI-powered video and podcast editor for text-based editing, transcription and screen recording on Windows 10/11",
+    "snippet": "Descript - AI-powered video and podcast editor for text-based editing, transcription and screen recording on Windows 10/11",
+    "author": "isanders5152",
+    "published_at": "2026-11-21T15:07:26+00:00",
+    "collected_at": "2026-11-22T03:11:26.506398+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 41,
+    "comments_count": 0,
+    "source_tags": [
+      "ai",
+      "ai-art",
+      "ai-tools",
+      "ai-writing",
+      "artificial-intelligence",
+      "descript",
+      "descript-ai",
+      "descript-free",
+      "descript-macos",
+      "descript-pc",
+      "descript-pro",
+      "descript-setup",
+      "description",
+      "descriptors",
+      "generative-ai",
+      "image-generation",
+      "llm",
+      "pro",
+      "text-to-image",
+      "voice-cloning"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.2542,
+    "freshness_score": 0.6283,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1278
   },
   {
     "source": "hackernews",
     "tier": "tier_2",
-    "source_item_id": "50572430",
-    "canonical_url": "https://bbc.co.uk/news/articles/c6eq49zyx7p4o",
-    "title": "UK fridges secured from hackers",
-    "snippet": "https://www.pentestpartners.com/security-blog/the-fridge-hac...",
-    "author": "tomnext",
-    "published_at": "2026-11-20T09:52:20+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 144,
-    "comments_count": 138,
+    "source_item_id": "50589235",
+    "canonical_url": "https://github.com/natsu0529/agent-mcts",
+    "title": "Show HN: agent-mcts – Monte Carlo tree search on top of Claude Code",
+    "snippet": "",
+    "author": "natsu529",
+    "published_at": "2026-11-21T13:53:08+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 13,
+    "comments_count": 0,
     "source_tags": [
+      "show_hn",
       "story"
     ],
-    "domain": "bbc.co.uk",
+    "domain": "github.com",
     "topics": [
-      "security"
+      "ai_and_ml"
     ],
     "tools_mentioned": [],
-    "sentiment": 0.4019,
+    "sentiment": 0.2023,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.8147,
-    "freshness_score": 0.4978,
+    "engagement_percentile": 0.2625,
+    "freshness_score": 0.5992,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3244
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://www.snowflake.com/content/snowflake-site/global/en/blog/sap-snowflake-predictive-analytics",
-    "canonical_url": "https://snowflake.com/content/snowflake-site/global/en/blog/sap-snowflake-predictive-analytics",
-    "title": "Predictive Analytics with SAP and Snowflake: Use Cases",
-    "snippet": "See how SAP and Snowflake's zero-copy integration powers predictive analytics for demand forecasting, fraud detection and customer churn reduction.",
-    "author": "Eric Moeller",
-    "published_at": "2026-11-20T08:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [],
-    "domain": "snowflake.com",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.6486,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.4632,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3243
+    "rank_score": 0.1258
   },
   {
     "source": "hackernews",
     "tier": "tier_2",
-    "source_item_id": "50582280",
-    "canonical_url": "https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
-    "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+    "source_item_id": "50586193",
+    "canonical_url": "https://nytimes.com/2026/11/19/opinion/anthropic-ipo-ai-regulation.html",
+    "title": "Don't Play Anthropic's Game",
     "snippet": "",
-    "author": "qlte",
-    "published_at": "2026-11-20T21:18:46+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 44,
-    "comments_count": 5,
+    "author": "rreyes1979",
+    "published_at": "2026-11-21T05:19:51+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 12,
+    "comments_count": 4,
     "source_tags": [
       "story"
     ],
-    "domain": "wsj.com",
+    "domain": "nytimes.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.2584,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.3625,
+    "freshness_score": 0.4308,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1249
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50574264",
+    "canonical_url": "https://outdata.net/blog/261120",
+    "title": "Deterministic Simulation Testing Is for Everyone",
+    "snippet": "",
+    "author": "pgraug",
+    "published_at": "2026-11-20T13:19:48+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 76,
+    "comments_count": 12,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "outdata.net",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6417,
+    "freshness_score": 0.2327,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1194
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5089729",
+    "canonical_url": "https://dev.to/arjuncodess/cueback-what-if-tutorials-waited-for-you-4fec",
+    "title": "cueback: What If Tutorials Waited for You?",
+    "snippet": "This is a submission for the Presage SmartSpectra SDK Challenge What I Built You're...",
+    "author": "arjuncodess",
+    "published_at": "2026-11-21T18:08:05+00:00",
+    "collected_at": "2026-11-22T03:10:45.975176+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 6,
+    "comments_count": 0,
+    "source_tags": [
+      "devchallenge",
+      "electron",
+      "opensource",
+      "presagechallenge"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0772,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.2761,
+    "freshness_score": 0.7057,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1169
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50578117",
+    "canonical_url": "https://certuvia.com/blog/postgres-19",
+    "title": "PostgreSQL 19: A hands-on tour with runnable browser examples",
+    "snippet": "",
+    "author": "petrpravda",
+    "published_at": "2026-11-20T17:08:56+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 49,
+    "comments_count": 4,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "certuvia.com",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [
+      "PostgreSQL"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.5375,
+    "freshness_score": 0.2695,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1159
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50569226",
+    "canonical_url": "https://github.com/openssl/openssl/pull/33652",
+    "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+    "snippet": "",
+    "author": "JacobHenner",
+    "published_at": "2026-11-20T02:01:09+00:00",
+    "collected_at": "2026-11-21T03:58:36.168222+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-21T00:00:00",
+    "source_score": 365,
+    "comments_count": 329,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.9375,
+    "freshness_score": 0.1506,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1129
+  },
+  {
+    "source": "rss",
+    "tier": "tier_1",
+    "source_item_id": "https://huggingface.co/blog/inkling2mini",
+    "canonical_url": "https://huggingface.co/blog/inkling2mini",
+    "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+    "snippet": "",
+    "author": "Hugging Face Blog",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "collected_at": "2026-11-21T03:59:07.519407+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-21T00:00:00",
+    "source_score": 15,
+    "comments_count": 1,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "huggingface.co",
+    "topics": [
+      "data_engineering"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.4588,
+    "trust_weight": 1.0,
+    "mentioned_in_sources": [
+      "hackernews",
+      "rss"
+    ],
+    "engagement_percentile": 0.7,
+    "freshness_score": 0.1393,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.1122
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50574772",
+    "canonical_url": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
+    "title": "Llms.txt and MCP didn't move the needle",
+    "snippet": "",
+    "author": "moebrowne",
+    "published_at": "2026-11-20T14:00:23+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-20T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 31,
+    "comments_count": 21,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "backpackforlaravel.com",
     "topics": [
       "ai_and_ml"
     ],
@@ -1365,45 +3239,44 @@
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.5043,
-    "freshness_score": 0.7731,
+    "engagement_percentile": 0.5792,
+    "freshness_score": 0.2389,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3119
+    "rank_score": 0.1107
   },
   {
-    "source": "lobsters",
+    "source": "hackernews",
     "tier": "tier_2",
-    "source_item_id": "hcahbx",
-    "canonical_url": "https://dbushell.com/2026/11/16/visited-links",
-    "title": "Visited links are purple",
+    "source_item_id": "50569890",
+    "canonical_url": "https://postgresql.org/docs/release/19.0",
+    "title": "PostgreSQL 19",
     "snippet": "",
-    "author": "eaj",
-    "published_at": "2026-11-20T09:58:05.152000+00:00",
-    "collected_at": "2026-11-21T03:58:57.148019+00:00",
+    "author": "linzhangrun",
+    "published_at": "2026-11-20T03:45:45+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 29,
-    "comments_count": 6,
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 393,
+    "comments_count": 31,
     "source_tags": [
-      "a11y",
-      "story",
-      "web"
+      "story"
     ],
-    "domain": "dbushell.com",
+    "domain": "postgresql.org",
     "topics": [
-      "programming_and_devtools"
+      "databases_and_warehouses"
     ],
-    "tools_mentioned": [],
+    "tools_mentioned": [
+      "PostgreSQL"
+    ],
     "sentiment": 0.0,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
-      "hackernews",
-      "lobsters"
+      "hackernews"
     ],
-    "engagement_percentile": 0.6622,
-    "freshness_score": 0.4997,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.3044
+    "engagement_percentile": 0.8542,
+    "freshness_score": 0.161,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.11
   },
   {
     "source": "devto",
@@ -1435,30 +3308,29 @@
     "mentioned_in_sources": [
       "devto"
     ],
-    "engagement_percentile": 0.7448,
-    "freshness_score": 0.6308,
+    "engagement_percentile": 0.709,
+    "freshness_score": 0.2582,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2819
+    "rank_score": 0.1098
   },
   {
     "source": "lobsters",
     "tier": "tier_2",
-    "source_item_id": "18c0lq",
-    "canonical_url": "https://alicecaml.org/blog/alice-v0-6-0",
-    "title": "Alice v0.6.0",
+    "source_item_id": "4qcr3k",
+    "canonical_url": "https://antithesis.com/blog/2026/verifying-formal-models",
+    "title": "Verifying formal models of Raft implementations",
     "snippet": "",
-    "author": "olex",
-    "published_at": "2026-11-20T16:44:09.585000+00:00",
-    "collected_at": "2026-11-21T03:58:57.148019+00:00",
+    "author": "a4j",
+    "published_at": "2026-11-20T21:54:45.756000+00:00",
+    "collected_at": "2026-11-22T03:10:55.968284+00:00",
     "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 15,
-    "comments_count": 3,
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 12,
+    "comments_count": 0,
     "source_tags": [
-      "ml",
-      "release"
+      "formalmethods"
     ],
-    "domain": "alicecaml.org",
+    "domain": "antithesis.com",
     "topics": [
       "programming_and_devtools"
     ],
@@ -1468,177 +3340,42 @@
     "mentioned_in_sources": [
       "lobsters"
     ],
-    "engagement_percentile": 0.5405,
-    "freshness_score": 0.6484,
+    "engagement_percentile": 0.4074,
+    "freshness_score": 0.3238,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2804
+    "rank_score": 0.1055
   },
   {
     "source": "hackernews",
     "tier": "tier_2",
-    "source_item_id": "50569226",
-    "canonical_url": "https://github.com/openssl/openssl/pull/33652",
-    "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+    "source_item_id": "50587451",
+    "canonical_url": "https://apnews.com/article/anthropic-history-openai-dario-amodei-ipo-53fb21bd250b936d93c5c8885af8d393",
+    "title": "Anthropic's IPO raises questions about AI safety and shareholder pressure",
     "snippet": "",
-    "author": "JacobHenner",
-    "published_at": "2026-11-20T02:01:09+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 365,
-    "comments_count": 329,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.9397,
-    "freshness_score": 0.3679,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2766
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://huggingface.co/blog/inkling2mini",
-    "canonical_url": "https://huggingface.co/blog/inkling2mini",
-    "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-    "snippet": "",
-    "author": "Hugging Face Blog",
-    "published_at": "2026-11-20T00:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 14,
-    "comments_count": 1,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "huggingface.co",
-    "topics": [
-      "data_engineering"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.4588,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "hackernews",
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3404,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.274
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50583117",
-    "canonical_url": "https://researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
-    "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
-    "snippet": "",
-    "author": "undefinedmethod",
-    "published_at": "2026-11-20T22:18:20+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 21,
-    "comments_count": 8,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "researchgate.net",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.3182,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.4181,
-    "freshness_score": 0.8034,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2687
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50569890",
-    "canonical_url": "https://postgresql.org/docs/release/19.0",
-    "title": "PostgreSQL 19",
-    "snippet": "",
-    "author": "linzhangrun",
-    "published_at": "2026-11-20T03:45:45+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 380,
-    "comments_count": 28,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "postgresql.org",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [
-      "PostgreSQL"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.8319,
-    "freshness_score": 0.3933,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2617
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50578117",
-    "canonical_url": "https://certuvia.com/blog/postgres-19",
-    "title": "PostgreSQL 19: A hands-on tour with runnable browser examples",
-    "snippet": "",
-    "author": "petrpravda",
-    "published_at": "2026-11-20T17:08:56+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 44,
+    "author": "ComputedCamp995",
+    "published_at": "2026-11-21T09:16:46+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 5,
     "comments_count": 4,
     "source_tags": [
       "story"
     ],
-    "domain": "certuvia.com",
+    "domain": "apnews.com",
     "topics": [
-      "databases_and_warehouses"
+      "ai_and_ml"
     ],
-    "tools_mentioned": [
-      "PostgreSQL"
-    ],
-    "sentiment": 0.0,
+    "tools_mentioned": [],
+    "sentiment": 0.1531,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.4957,
-    "freshness_score": 0.6585,
+    "engagement_percentile": 0.2625,
+    "freshness_score": 0.5016,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2611
+    "rank_score": 0.1053
   },
   {
     "source": "rss",
@@ -1672,9 +3409,75 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.3672,
+    "freshness_score": 0.1503,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.257
+    "rank_score": 0.1052
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50588860",
+    "canonical_url": "https://blog.mozilla.org/addons/2026/11/20/developer-spotlight-webbrain",
+    "title": "Mozilla Developer Spotlight: WebBrain – Open-source local-first AI browser agent",
+    "snippet": "",
+    "author": "webbrain",
+    "published_at": "2026-11-21T13:09:10+00:00",
+    "collected_at": "2026-11-22T03:10:34.485414+00:00",
+    "published_date": "2026-11-21T00:00:00",
+    "collected_date": "2026-11-22T00:00:00",
+    "source_score": 6,
+    "comments_count": 3,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "blog.mozilla.org",
+    "topics": [
+      "ai_and_ml",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.225,
+    "freshness_score": 0.5825,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1049
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50568130",
+    "canonical_url": "https://git-aarvin.github.io/mei",
+    "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+    "snippet": "",
+    "author": "hn-aarvin",
+    "published_at": "2026-11-19T23:35:35+00:00",
+    "collected_at": "2026-11-21T03:58:36.168222+00:00",
+    "published_date": "2026-11-19T00:00:00",
+    "collected_date": "2026-11-21T00:00:00",
+    "source_score": 367,
+    "comments_count": 241,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "git-aarvin.github.io",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.9125,
+    "freshness_score": 0.1371,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1001
   },
   {
     "source": "devto",
@@ -1706,163 +3509,10 @@
     "mentioned_in_sources": [
       "devto"
     ],
-    "engagement_percentile": 0.7655,
-    "freshness_score": 0.5562,
+    "engagement_percentile": 0.7313,
+    "freshness_score": 0.2276,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2555
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50574772",
-    "canonical_url": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
-    "title": "Llms.txt and MCP didn't move the needle",
-    "snippet": "",
-    "author": "moebrowne",
-    "published_at": "2026-11-20T14:00:23+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 30,
-    "comments_count": 19,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "backpackforlaravel.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.5431,
-    "freshness_score": 0.5836,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2536
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50568130",
-    "canonical_url": "https://git-aarvin.github.io/mei",
-    "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
-    "snippet": "",
-    "author": "hn-aarvin",
-    "published_at": "2026-11-19T23:35:35+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 367,
-    "comments_count": 241,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "git-aarvin.github.io",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.9181,
-    "freshness_score": 0.335,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.246
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "source_item_id": "1464782522",
-    "canonical_url": "https://github.com/chase1225/anythingllm-verona-document-chat",
-    "title": "chase1225/anythingllm-verona-document-chat: Document-grounded chat for Verona - AnythingLLM workspace integration.",
-    "snippet": "Document-grounded chat for Verona - AnythingLLM workspace integration.",
-    "author": "chase1225",
-    "published_at": "2026-11-19T23:46:33+00:00",
-    "collected_at": "2026-11-21T03:59:27.850237+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 151,
-    "comments_count": 0,
-    "source_tags": [
-      "agentic-ai",
-      "agentic-workflow",
-      "ai-agents",
-      "chat",
-      "chatbot",
-      "generative-ai",
-      "gguf",
-      "inference",
-      "knowledge-base",
-      "large-language-models",
-      "llm",
-      "llm-inference",
-      "llms",
-      "local-ai",
-      "local-llm",
-      "offline",
-      "privacy",
-      "rag",
-      "self-hosted",
-      "self-hosted-ai"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "github"
-    ],
-    "engagement_percentile": 0.8958,
-    "freshness_score": 0.3374,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2418
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5048784",
-    "canonical_url": "https://dev.to/ndcodes/day-88-a-dead-service-and-a-disputed-status-code-48j5",
-    "title": "Day 88: A Marker in the File and a Disputed Status Code",
-    "snippet": "Day 88 of DevOps, Day 38 of Azure. Both tasks today put the thing that matters somewhere other than...",
-    "author": "ndcodes",
-    "published_at": "2026-11-20T18:00:00+00:00",
-    "collected_at": "2026-11-21T03:58:46.985333+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 14,
-    "comments_count": 0,
-    "source_tags": [
-      "ansible",
-      "automation",
-      "azure",
-      "devops"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "programming_and_devtools",
-      "cloud"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.3182,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.5862,
-    "freshness_score": 0.6808,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2395
+    "rank_score": 0.0999
   },
   {
     "source": "rss",
@@ -1895,9 +3545,9 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.3404,
+    "freshness_score": 0.1393,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2383
+    "rank_score": 0.0975
   },
   {
     "source": "rss",
@@ -1927,9 +3577,9 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.3404,
+    "freshness_score": 0.1393,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2383
+    "rank_score": 0.0975
   },
   {
     "source": "rss",
@@ -1957,1508 +3607,8 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.3404,
+    "freshness_score": 0.1393,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2383
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://huggingface.co/blog/harness-adapters-at-scale",
-    "canonical_url": "https://huggingface.co/blog/harness-adapters-at-scale",
-    "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-    "snippet": "",
-    "author": "Hugging Face Blog",
-    "published_at": "2026-11-20T00:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [],
-    "domain": "huggingface.co",
-    "topics": [
-      "data_engineering"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.7096,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3404,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2383
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5074788",
-    "canonical_url": "https://dev.to/codenewbie/i-cant-believe-the-podcast-i-learned-to-code-with-is-back-2gi5",
-    "title": "I can't believe the podcast I learned to code with is back!",
-    "snippet": "Hi friends! 👋 Okay, storytime 🎬 Felt the urge to share this here too, since DEV is where it all...",
-    "author": "lolocoding",
-    "published_at": "2026-11-20T08:55:01+00:00",
-    "collected_at": "2026-11-21T03:58:46.985333+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 28,
-    "comments_count": 0,
-    "source_tags": [
-      "ai",
-      "codenewbie",
-      "podcast"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.8745,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.8138,
-    "freshness_score": 0.4799,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2343
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "01fbfb08b7efad6ab2a47938c8346c4967c08c5d",
-    "canonical_url": "https://aws.amazon.com/blogs/big-data/how-klaviyo-processes-3-billion-daily-events-at-scale-with-amazon-msk-express",
-    "title": "How Klaviyo processes 3 billion daily events at scale with Amazon MSK Express",
-    "snippet": "Learn how Klaviyo migrated its event pipeline from RabbitMQ to Amazon MSK Express brokers, ingesting roughly 3 billion events per day. A small team scaled the broker fleet multi-fold for Black Friday/Cyber Monday 2025, delivered 22.7 billion messages (up 25% year over year), then scaled back down.",
-    "author": "Jonathan Li",
-    "published_at": "2026-11-19T23:18:51+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "amazon managed streaming for apache kafka (amazon msk)",
-      "customer solutions",
-      "intermediate (200)"
-    ],
-    "domain": "aws.amazon.com",
-    "topics": [
-      "data_engineering",
-      "open_source"
-    ],
-    "tools_mentioned": [
-      "Kafka"
-    ],
-    "sentiment": 0.34,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3314,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.232
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://cloud.google.com/blog/products/gaming/kult-built-a-gaming-companion-with-gemini-that-actually-knows-your-game/",
-    "canonical_url": "https://cloud.google.com/blog/products/gaming/kult-built-a-gaming-companion-with-gemini-that-actually-knows-your-game",
-    "title": "The Blueprint: How Kult built a gaming companion that actually knows your game",
-    "snippet": "Welcome to The Blueprint , our ongoing series where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work. Kult is a London-based startup building a c",
-    "author": "Omid Ashtari",
-    "published_at": "2026-11-19T23:00:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "ai & machine learning",
-      "customers",
-      "gaming"
-    ],
-    "domain": "cloud.google.com",
-    "topics": [
-      "ai_and_ml",
-      "cloud"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.9382,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3276,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2293
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "ce829d8639cda503edd90ff40b3c42b8aaa38c69",
-    "canonical_url": "https://aws.amazon.com/blogs/big-data/announcing-in-place-upgrades-from-standard-brokers-to-express-brokers-for-amazon-msk",
-    "title": "Announcing in-place upgrades from Standard brokers to Express brokers for Amazon MSK",
-    "snippet": "Amazon MSK now supports in-place upgrades from Standard brokers to Express brokers. You can modernize an existing MSK Provisioned cluster through a fully managed workflow, with no new cluster, no application changes, and no downtime. This post shows how to assess readiness, run the rolling upgrade,",
-    "author": "Ankita Mishra",
-    "published_at": "2026-11-19T22:51:20+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "amazon managed streaming for apache kafka (amazon msk)",
-      "announcements",
-      "intermediate (200)"
-    ],
-    "domain": "aws.amazon.com",
-    "topics": [
-      "data_engineering",
-      "open_source"
-    ],
-    "tools_mentioned": [
-      "Kafka"
-    ],
-    "sentiment": 0.0772,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3257,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.228
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50569516",
-    "canonical_url": "https://snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat",
-    "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
-    "snippet": "",
-    "author": "craigkerstiens",
-    "published_at": "2026-11-20T02:43:49+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 177,
-    "comments_count": 29,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "snowflake.com",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [
-      "PostgreSQL"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.7457,
-    "freshness_score": 0.378,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2255
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "9ead46f603811706373bda21ca64e5b8d8b0f23a",
-    "canonical_url": "https://aws.amazon.com/blogs/big-data/how-twilio-modernized-billing-at-70-lower-cost-with-amazon-redshift",
-    "title": "How Twilio modernized billing at 70% lower cost with Amazon Redshift",
-    "snippet": "How Twilio's Commerce Platform team modernized their billing pipeline on Amazon Redshift Serverless, cutting infrastructure costs 70% and speeding billing recalculations 12x with streaming ingestion from Amazon MSK and Zero-ETL from Amazon Aurora MySQL.",
-    "author": "Sean McKibben",
-    "published_at": "2026-11-19T22:24:02+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "advanced (300)",
-      "amazon redshift",
-      "customer solutions"
-    ],
-    "domain": "aws.amazon.com",
-    "topics": [
-      "data_engineering",
-      "databases_and_warehouses",
-      "cloud"
-    ],
-    "tools_mentioned": [
-      "Redshift"
-    ],
-    "sentiment": 0.2732,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3201,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2241
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://www.databricks.com/blog/why-postgresql-19-shipped-late",
-    "canonical_url": "https://databricks.com/blog/why-postgresql-19-shipped-late",
-    "title": "Why PostgreSQL 19 shipped late",
-    "snippet": "PostgreSQL 19 is now generally available, and there are some really cool things in...",
-    "author": "Databricks Blog",
-    "published_at": "2026-11-19T22:04:02+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "engineering",
-      "lakebase"
-    ],
-    "domain": "databricks.com",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [
-      "PostgreSQL"
-    ],
-    "sentiment": 0.3804,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.316,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2212
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "tr5ghf",
-    "canonical_url": "https://blog.harrison.page/garage-door-spam",
-    "title": "Garage Door Spam",
-    "snippet": "",
-    "author": "zk",
-    "published_at": "2026-11-20T02:41:39.230000+00:00",
-    "collected_at": "2026-11-21T03:58:57.148019+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 36,
-    "comments_count": 9,
-    "source_tags": [
-      "hardware"
-    ],
-    "domain": "blog.harrison.page",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.3612,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.7297,
-    "freshness_score": 0.3775,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2204
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "fcfb6e908fa96fd58425a801c7f37236a89222b7",
-    "canonical_url": "https://aws.amazon.com/blogs/big-data/understanding-and-optimizing-materialized-views-in-amazon-redshift",
-    "title": "Understanding and optimizing materialized views in Amazon Redshift",
-    "snippet": "Materialized views in Amazon Redshift speed up expensive queries, but every refresh costs compute whether or not a query reads the result. This post shares a diagnostic view, v_mv_health, and the sp_populate_mv_definitions procedure that surface each MV's refresh eligibility, cost, staleness, depend",
-    "author": "Nick Barclay",
-    "published_at": "2026-11-19T21:42:39+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "advanced (300)",
-      "amazon redshift",
-      "best practices"
-    ],
-    "domain": "aws.amazon.com",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [
-      "Redshift"
-    ],
-    "sentiment": 0.6705,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3116,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2181
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
-    "canonical_url": "https://databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
-    "title": "Genie ZeroOps, now in public beta: An autonomous agent that fixes data pipelines, with lessons from 80,000 customer issues",
-    "snippet": "In June we introduced Genie ZeroOps, an autonomous agent that detects, investigates,...",
-    "author": "Databricks Blog",
-    "published_at": "2026-11-19T21:30:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "platform",
-      "product"
-    ],
-    "domain": "databricks.com",
-    "topics": [
-      "data_engineering",
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3092,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2164
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5080188",
-    "canonical_url": "https://github.com/wongcyrus/gemini-computer-use-linkedin-autofolio",
-    "title": "Building an Autonomous LinkedIn Portfolio & Recommendation Agent with Gemini Computer Use on Google Cloud",
-    "snippet": "Learn how to harness Gemini 3.8 Flash Computer Use on Vertex AI with Playwright CDP attach to build an autonomous agent that navigates authenticated web sessions and generates evidence-backed portfolios.",
-    "author": "cyruswong",
-    "published_at": "2026-11-20T16:34:25+00:00",
-    "collected_at": "2026-11-21T03:58:46.985333+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 13,
-    "comments_count": 0,
-    "source_tags": [
-      "ai",
-      "gemini",
-      "googlecloud",
-      "python"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools",
-      "cloud"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.5586,
-    "freshness_score": 0.6443,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2159
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50567209",
-    "canonical_url": "https://synology.com/en-uk/security/advisory/Synology_SA_26_21",
-    "title": "Synology Security Advisory",
-    "snippet": "",
-    "author": "choult",
-    "published_at": "2026-11-19T22:13:40+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 183,
-    "comments_count": 140,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "synology.com",
-    "topics": [
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.34,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.8448,
-    "freshness_score": 0.3178,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2148
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "d9a825c5c807cd12255598b0a432a62a7698a130",
-    "canonical_url": "https://aws.amazon.com/blogs/big-data/introducing-amazon-emr-serverless-flex-run-non-urgent-spark-jobs-at-a-discount",
-    "title": "Introducing Amazon EMR Serverless Flex: Run non-urgent Spark jobs at a discount",
-    "snippet": "Amazon EMR Serverless Flex is a new execution option that runs non-urgent Spark batch jobs on spare compute capacity at a fixed 60% discount compared to standard pricing. Flex handles Availability Zone selection, instance diversification, driver protection, and automatic retries, so jobs complete ev",
-    "author": "Neil Mukerje",
-    "published_at": "2026-11-19T20:58:07+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "amazon emr",
-      "announcements",
-      "intermediate (200)"
-    ],
-    "domain": "aws.amazon.com",
-    "topics": [
-      "cloud"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.6369,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3029,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.212
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://www.snowflake.com/content/snowflake-site/global/en/blog/spark-iceberg-write-audit-publish",
-    "canonical_url": "https://snowflake.com/content/snowflake-site/global/en/blog/spark-iceberg-write-audit-publish",
-    "title": "Spark Write-Audit-Publish for Apache Iceberg Tables",
-    "snippet": "Run Spark on Snowflake-managed and external Apache Iceberg tables with Snowpark Connect. Test writes on a branch; publish only validated data.",
-    "author": "Ash Ubrani, Anita Thomas, Saurin Shah",
-    "published_at": "2026-11-19T20:58:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [],
-    "domain": "snowflake.com",
-    "topics": [
-      "databases_and_warehouses",
-      "open_source"
-    ],
-    "tools_mentioned": [
-      "Spark",
-      "Snowflake",
-      "Iceberg"
-    ],
-    "sentiment": 0.5719,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3029,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.212
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50562754",
-    "canonical_url": "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
-    "title": "Anthropic’s Nasdaq debut",
-    "snippet": "",
-    "author": "wslh",
-    "published_at": "2026-11-19T17:02:40+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 1131,
-    "comments_count": 2299,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "reuters.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 1.0,
-    "freshness_score": 0.2603,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2083
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context",
-    "canonical_url": "https://databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context",
-    "title": "Genie One Accuracy: Why Curated Agents Need Governed Context",
-    "snippet": "Ask Finance and Underwriting whether the loss ratio improved from 2024 to 2025, and...",
-    "author": "Databricks Blog",
-    "published_at": "2026-11-19T20:15:41+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "best practices",
-      "data strategy"
-    ],
-    "domain": "databricks.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.2023,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2946,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2062
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5078362",
-    "canonical_url": "https://dev.to/xulingfeng/after-the-thirty-six-stratagems-three-questions-gb1",
-    "title": "After the Thirty-Six Stratagems: Three Questions",
-    "snippet": "The Laptop Behind the Bar There were no customers left in the café. The Man sat behind...",
-    "author": "xulingfeng",
-    "published_at": "2026-11-20T03:20:03+00:00",
-    "collected_at": "2026-11-20T03:58:56.285876+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-20T00:00:00",
-    "source_score": 28,
-    "comments_count": 6,
-    "source_tags": [
-      "ai",
-      "career",
-      "discuss",
-      "programming"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.296,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.8828,
-    "freshness_score": 0.387,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.205
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "irqtic",
-    "canonical_url": "https://spritely.institute/news/lisp-game-jam-devlog-polydraw.html",
-    "title": "Lisp Game Jam devlog: Polydraw",
-    "snippet": "",
-    "author": "FedericoSchonborn",
-    "published_at": "2026-11-20T11:18:47.299000+00:00",
-    "collected_at": "2026-11-21T03:58:57.148019+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 15,
-    "comments_count": 0,
-    "source_tags": [
-      "games",
-      "lisp"
-    ],
-    "domain": "spritely.institute",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.4865,
-    "freshness_score": 0.526,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2047
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5057366",
-    "canonical_url": "https://dev.to/franckpachot/jsonb-performance-declare-access-patterns-to-postgresql-query-planner-2cip",
-    "title": "JSONB performance: declare access patterns to PostgreSQL query planner",
-    "snippet": "A common drawback of storing data in JSON fields is limited planner visibility: the optimizer doesn't...",
-    "author": "franckpachot",
-    "published_at": "2026-11-20T16:38:21+00:00",
-    "collected_at": "2026-11-21T03:58:46.985333+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 4,
-    "comments_count": 4,
-    "source_tags": [
-      "database",
-      "document",
-      "postgres",
-      "sql"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [
-      "PostgreSQL"
-    ],
-    "sentiment": 0.1531,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.5172,
-    "freshness_score": 0.6459,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2005
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries",
-    "canonical_url": "https://databricks.com/blog/ai-architecture-patterns-regulated-industries",
-    "title": "Four AI Architecture Patterns for Regulated Industries",
-    "snippet": "Enterprise AI cannot replace every deterministic control. These four patterns help...",
-    "author": "Databricks Blog",
-    "published_at": "2026-11-19T19:30:00+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "data strategy"
-    ],
-    "domain": "databricks.com",
-    "topics": [
-      "data_engineering"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.4019,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2863,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2004
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50563148",
-    "canonical_url": "https://anthropic.com/research/claude-black-hole-physics",
-    "title": "Claude solves two open problems in the physics of black holes",
-    "snippet": "",
-    "author": "cybermango",
-    "published_at": "2026-11-19T17:30:44+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 553,
-    "comments_count": 270,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "anthropic.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.1531,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.944,
-    "freshness_score": 0.265,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2001
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://www.databricks.com/blog/postgresql-19-available-lakebase",
-    "canonical_url": "https://databricks.com/blog/postgresql-19-available-lakebase",
-    "title": "PostgreSQL 19 is available on Lakebase",
-    "snippet": "PostgreSQL 19 reached GA today and it's already available on Lakebase. New major...",
-    "author": "Databricks Blog",
-    "published_at": "2026-11-19T15:31:46+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 63,
-    "comments_count": 22,
-    "source_tags": [
-      "engineering",
-      "front_page",
-      "lakebase",
-      "story"
-    ],
-    "domain": "databricks.com",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [
-      "PostgreSQL"
-    ],
-    "sentiment": 0.1027,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "hackernews",
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2455,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.1977
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "b343e5aab0fcb40742ea5aa0ddb898f403969d36",
-    "canonical_url": "https://aws.amazon.com/blogs/big-data/how-moonfrog-scales-analytics-and-lowers-query-cost-with-amazon-redshift-rg-instances",
-    "title": "How Moonfrog scales analytics and lowers query cost with Amazon Redshift RG instances",
-    "snippet": "Moonfrog Labs migrated a 148 TB Amazon Redshift warehouse from RA3 to Graviton-based RG instances with a single elastic resize. See how the team sized capacity for growing analytics demand, verified warehouse and data lake access, and measured faster loads and lower query cost.",
-    "author": "Anirudh Chawla",
-    "published_at": "2026-11-19T19:07:32+00:00",
-    "collected_at": "2026-11-21T03:59:07.519407+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "advanced (300)",
-      "amazon redshift",
-      "customer solutions"
-    ],
-    "domain": "aws.amazon.com",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [
-      "Redshift"
-    ],
-    "sentiment": -0.0258,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2821,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1974
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26619v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26619",
-    "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
-    "snippet": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for",
-    "author": "Jinbin Luo, Xiaozhe Yao, Shang Yang",
-    "published_at": "2026-11-19T18:58:31+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.dc",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.4215,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2804,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1963
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26609v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26609",
-    "title": "Variants of Beam Search for DiskANN",
-    "snippet": "Graph-based data structures such as DiskANN, HNSW, and NSG constitute the state of the art for large-scale approximate nearest-neighbor (ANN) search. Indyk and Xu introduced the notion of $α$-reachable graphs, which include graphs built by DiskANN's slow-preprocessing construction, and proved that g",
-    "author": "Viraj Agrawal, Kirankumar Shiragur",
-    "published_at": "2026-11-19T18:57:05+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.db",
-      "cs.ds",
-      "cs.ir"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2803,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1962
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26611v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26611",
-    "title": "Bridging the Discovery Gap in Solid Dataspaces with a Semantic Data Catalog",
-    "snippet": "Dataspaces are an emerging concept to enable secure and controlled data sharing between multiple stakeholders. However, most existing dataspace architectures, such as those based on the concepts of IDSA (International Data Spaces Association) and Gaia-X, are heavily concept-driven and require signif",
-    "author": "Florian Hölken, Alexander Paulus, Tobias Meisen",
-    "published_at": "2026-11-19T18:57:17+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.db"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.7003,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2803,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1962
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26607v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26607",
-    "title": "Bio-PM-Guided Synthetic IMU Generation",
-    "snippet": "Collecting and labeling inertial measurement unit (IMU) data for human activity recognition (HAR) is expensive, and models trained on one group of subjects often fail to generalize to unseen individuals. Even with balanced data, classifiers struggle to distinguish dynamically similar activity classe",
-    "author": "Deepali Singh, Deepesh Parpani, Aviral Gupta",
-    "published_at": "2026-11-19T18:56:25+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.5106,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2801,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1961
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26601v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26601",
-    "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
-    "snippet": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports an",
-    "author": "Amine Lbath, Manan Suri, Aurelien Delaitre",
-    "published_at": "2026-11-19T18:54:19+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cr",
-      "cs.se"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml",
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.4939,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2797,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1958
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26598v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26598",
-    "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
-    "snippet": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which features to acquire under a budget. Existing AFA methods train thi",
-    "author": "Yang Meng, Zixin Ding, Robert L. Grossman",
-    "published_at": "2026-11-19T18:52:57+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.4019,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2794,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1956
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26596v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26596",
-    "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
-    "snippet": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (",
-    "author": "Kai Lu, Chenyang Ma, Ioannis Havoutis",
-    "published_at": "2026-11-19T18:52:18+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.ro"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.5423,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2794,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1956
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50562113",
-    "canonical_url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order",
-    "title": "UK government forced to admit it issued Apple a secret encryption order",
-    "snippet": "",
-    "author": "Terretta",
-    "published_at": "2026-11-19T16:21:03+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 689,
-    "comments_count": 364,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "macanorak.com",
-    "topics": [
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.296,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.9612,
-    "freshness_score": 0.2536,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.195
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26592v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26592",
-    "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
-    "snippet": "Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's inequality. Prior constructions assume sampled rollouts are cond",
-    "author": "Terence D. Agbeyegbe, Toneukarin G. Agbeyegbe",
-    "published_at": "2026-11-19T18:47:51+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.lg",
-      "stat.me"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.5106,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2785,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1949
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26588v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26588",
-    "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
-    "snippet": "A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature testbenches. We present Verify the Verifier, to our knowled",
-    "author": "Ana E. Sanchez Villalobos, Michael D. Quinn, Aakash Tyagi",
-    "published_at": "2026-11-19T18:45:54+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.ar",
-      "cs.se"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.3818,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2781,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1947
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26586v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26586",
-    "title": "ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images",
-    "snippet": "Graphic designs are ordered compositions of RGBA layers whose separation enables selection, movement, and reuse. Existing layered models represent each layer with a full-canvas or region-sized spatial latent grid, so representation size grows with the cumulative spatial extent of the layers. We pres",
-    "author": "Adrià Ciurana Lanau, Harleen Hanspal, Lusine Abrahamyan",
-    "published_at": "2026-11-19T18:45:31+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2781,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1947
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26584v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26584",
-    "title": "Represented but misread: Post-training changes how language models read out what they represent",
-    "snippet": "Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether G",
-    "author": "Jochen Laubrock",
-    "published_at": "2026-11-19T18:43:56+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cl",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.3919,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2777,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1944
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26569v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26569",
-    "title": "Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs",
-    "snippet": "Multimodal image generation systems have made rapid progress and increasingly emphasize content safety. However, their safety mechanisms tend to rely on a single modality and lack joint consideration of both visual content and text prompts, particularly in instruction-guided image editing, where the",
-    "author": "Ziqing Yang, Yixin Wu, Michael Backes",
-    "published_at": "2026-11-19T18:36:19+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cr",
-      "cs.cv",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.7269,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2765,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1936
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26564v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26564",
-    "title": "GEOHunter: Mapping a Generative Engine Optimization Network in the Wild",
-    "snippet": "Generative engines synthesize retrieved web pages into answers, recommendations, and rankings. Generative engine optimization (GEO) services sell visibility in these answers by publishing promotional articles on user-generated-content (UGC) platforms for paying clients. Such promotion raises concern",
-    "author": "Sean Tang, Peiran Wang, Ying Li",
-    "published_at": "2026-11-19T18:33:42+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cr",
-      "cs.si"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.6369,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.276,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1932
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26562v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26562",
-    "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
-    "snippet": "Barrett's esophagus dysplasia grading suffers substantial inter-observer variability, particularly for low-grade dysplasia, complicating clinical decision-making. We conducted a retrospective multi-institutional diagnostic accuracy study of a foundation model-based deep learning system for dysplasia",
-    "author": "Amirali Khosravi, Jaidip M. Jagtap, D. Chamil Codipilly",
-    "published_at": "2026-11-19T18:27:59+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cv"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.3182,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2749,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1924
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26557v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26557",
-    "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
-    "snippet": "When multimodal decision models determine actions, moderation outcomes, or quality judgments, their reliability depends on preserving semantic decisions across presentation changes, ignoring irrelevant additions, and distinguishing information consistent with task evidence from information that conf",
-    "author": "Jinzhe Li, Qi Wang, Dandan Guo",
-    "published_at": "2026-11-19T18:25:41+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.4767,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2746,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1922
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50566261",
-    "canonical_url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
-    "title": "Rebuilding my local voice assistant pipeline",
-    "snippet": "",
-    "author": "todsacerdoti",
-    "published_at": "2026-11-19T20:57:14+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 126,
-    "comments_count": 23,
-    "source_tags": [
-      "ai",
-      "front_page",
-      "python",
-      "story"
-    ],
-    "domain": "blog.platypush.tech",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews",
-      "lobsters"
-    ],
-    "engagement_percentile": 0.6897,
-    "freshness_score": 0.3027,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.1921
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26553v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26553",
-    "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
-    "snippet": "Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)valid",
-    "author": "Mengxiao Wang, Mahbub Alam, Kalyan Nakka",
-    "published_at": "2026-11-19T18:23:35+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cr",
-      "cs.ma"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "databases_and_warehouses",
-      "ai_and_ml",
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.6652,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2742,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1919
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50574412",
-    "canonical_url": "https://cherwellvalleymotorclub.app/",
-    "title": "Show HN: Drive around my village in 3D",
-    "snippet": "So this started out just over a week ago, could I drive around my village in my old car on the web, and its expanded into a massive map, with races, events, different cars and multiplayer. I'm a web/app guy, backend guy, and yes I build it with Claude. I know I shouldn't be astounded by what these A",
-    "author": "johnwards",
-    "published_at": "2026-11-20T13:32:42+00:00",
-    "collected_at": "2026-11-21T03:58:36.168222+00:00",
-    "published_date": "2026-11-20T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 11,
-    "comments_count": 13,
-    "source_tags": [
-      "show_hn",
-      "story"
-    ],
-    "domain": "cherwellvalleymotorclub.app",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0946,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.4181,
-    "freshness_score": 0.5732,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1917
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.26545v1",
-    "canonical_url": "https://arxiv.org/abs/2611.26545",
-    "title": "The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models",
-    "snippet": "Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical. We widen a published persona bank with",
-    "author": "Md. Abdullah Al Zami, Suraiya Shanaz, Mahdi Hasan",
-    "published_at": "2026-11-19T18:20:01+00:00",
-    "collected_at": "2026-11-21T03:59:34.471405+00:00",
-    "published_date": "2026-11-19T00:00:00",
-    "collected_date": "2026-11-21T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.34,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2737,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1916
+    "rank_score": 0.0975
   }
 ]

@@ -487,7 +487,7 @@
   {
     "metric_date": "2026-11-20T00:00:00",
     "topic": "ai_and_ml",
-    "item_count": 40
+    "item_count": 43
   },
   {
     "metric_date": "2026-11-20T00:00:00",
@@ -517,7 +517,7 @@
   {
     "metric_date": "2026-11-20T00:00:00",
     "topic": "programming_and_devtools",
-    "item_count": 33
+    "item_count": 37
   },
   {
     "metric_date": "2026-11-20T00:00:00",
@@ -527,11 +527,51 @@
   {
     "metric_date": "2026-11-21T00:00:00",
     "topic": "ai_and_ml",
+    "item_count": 24
+  },
+  {
+    "metric_date": "2026-11-21T00:00:00",
+    "topic": "analytics_and_bi",
     "item_count": 1
   },
   {
     "metric_date": "2026-11-21T00:00:00",
+    "topic": "cloud",
+    "item_count": 3
+  },
+  {
+    "metric_date": "2026-11-21T00:00:00",
+    "topic": "databases_and_warehouses",
+    "item_count": 8
+  },
+  {
+    "metric_date": "2026-11-21T00:00:00",
+    "topic": "open_source",
+    "item_count": 11
+  },
+  {
+    "metric_date": "2026-11-21T00:00:00",
     "topic": "programming_and_devtools",
-    "item_count": 4
+    "item_count": 26
+  },
+  {
+    "metric_date": "2026-11-21T00:00:00",
+    "topic": "security",
+    "item_count": 5
+  },
+  {
+    "metric_date": "2026-11-22T00:00:00",
+    "topic": "ai_and_ml",
+    "item_count": 1
+  },
+  {
+    "metric_date": "2026-11-22T00:00:00",
+    "topic": "programming_and_devtools",
+    "item_count": 1
+  },
+  {
+    "metric_date": "2026-11-22T00:00:00",
+    "topic": "security",
+    "item_count": 1
   }
 ]
