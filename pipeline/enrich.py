@@ -19,6 +19,8 @@ SOURCE_DEFAULT_TOPIC = {
     "dailydev": "programming_and_devtools",
 }
 
+RELEVANCE_FILTER_SOURCES = {"hackernews", "medium", "daily_dev", "devbytes", "x", "reddit"}
+
 
 # Load topic keyword regex patterns from seeds/topics.csv.
 def load_topics_seed() -> dict[str, list[re.Pattern]]:
@@ -71,7 +73,7 @@ def extract_topics_and_tools(
     return matched_topics, matched_tools
 
 
-# Enrich Silver items with topics, tools_mentioned, VADER sentiment, and apply the HN relevance filter.
+# Enrich Silver items with topics, tools_mentioned, VADER sentiment, and filter irrelevant items.
 def run_enrich(sample_size: int = 30) -> None:
     if not SILVER_PARQUET_PATH.exists():
         raise FileNotFoundError("silver_items.parquet not found. Run 'python -m pipeline.normalize' first.")
@@ -84,7 +86,7 @@ def run_enrich(sample_size: int = 30) -> None:
     records = df.to_dict(orient="records")
 
     kept_records = []
-    hn_dropped = 0
+    irrelevant_dropped = 0
 
     for rec in records:
         for col in ("source_tags", "mentioned_in_sources"):
@@ -97,9 +99,9 @@ def run_enrich(sample_size: int = 30) -> None:
 
         topics, tools = extract_topics_and_tools(title, snippet, tags, topic_rules, tool_rules)
 
-        # Hacker News relevance filter: drop HN-only items that match zero topic keywords.
-        if rec["source"] == "hackernews" and rec["mentioned_in_sources"] == ["hackernews"] and not topics:
-            hn_dropped += 1
+        # Relevance filter: drop HN and new-source items matching zero topic keywords.
+        if rec["source"] in RELEVANCE_FILTER_SOURCES and not topics:
+            irrelevant_dropped += 1
             continue
 
         if not topics:
@@ -122,7 +124,7 @@ def run_enrich(sample_size: int = 30) -> None:
     with_tools = sum(1 for r in kept_records if r["tools_mentioned"])
     print("\n=== Phase 4 Enrichment Summary ===")
     print(f"Input Silver rows     : {len(records)}")
-    print(f"HN irrelevant dropped : {hn_dropped}")
+    print(f"Irrelevant dropped    : {irrelevant_dropped}")
     print(f"Enriched Silver rows  : {len(kept_records)}")
     print(f"Items with >=1 topic  : {len(kept_records)} (100.0%)")
     print(f"Items with >=1 tool   : {with_tools} ({round(100 * with_tools / max(len(kept_records), 1), 1)}%)")

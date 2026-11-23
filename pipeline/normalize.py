@@ -197,7 +197,7 @@ def map_raw_item(source: str, item: dict, collected_at: str, trust_weight: float
 
     canon = canonicalize_url(url)
     domain = urlsplit(canon).netloc if canon else ""
-    pub_iso = (pub or parse_dt(collected_at) or now_utc()).isoformat()
+    pub_iso = pub.isoformat() if pub else ""
 
     return {
         "source": source,
@@ -302,7 +302,7 @@ def run_normalize(date_str: str | None = None) -> dict:
 
         for raw_item in raw_items:
             rec = map_raw_item(source, raw_item, collected_at, trust_weight, max_snippet)
-            if not rec.get("canonical_url") or len(rec.get("title", "")) < min_title_len:
+            if not rec.get("canonical_url") or len(rec.get("title", "")) < min_title_len or not rec.get("published_at"):
                 drop_invalid += 1
                 continue
             if not is_english(rec["title"], rec["snippet"]):

@@ -150,3 +150,10 @@ def test_utc_time_helpers():
     past = cutoff_utc(24)
     assert current.tzinfo is not None
     assert past < current
+
+
+# Verify items missing published_at produce an empty date so normalization drops them.
+def test_map_raw_item_missing_date():
+    raw = {"title": "No Date Post", "link": "https://medium.com/p/abc123", "snippet": "Test"}
+    mapped = map_raw_item("medium", raw, "2026-11-22T00:00:00+00:00", 0.6, 300)
+    assert mapped["published_at"] == ""

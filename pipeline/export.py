@@ -62,7 +62,7 @@ def run_export() -> dict:
         pass
 
     with duckdb.connect(str(DUCKDB_PATH), read_only=True) as con:
-        today_items = query_records(con, "SELECT * FROM gold_today_feed ORDER BY rank_score DESC")
+        today_items = query_records(con, "SELECT * FROM gold_today_feed ORDER BY published_at DESC, rank_score DESC")
         all_ranked = query_records(con, "SELECT * FROM gold_ranked_items ORDER BY rank_score DESC")
         trends_30d = query_records(
             con,
