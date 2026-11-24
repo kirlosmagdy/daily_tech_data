@@ -1,11 +1,11 @@
 {
   "project": "Daily Tech & Data Pulse",
   "version": "1.1",
-  "generated_at": "2026-11-23T03:44:56.317540+00:00",
+  "generated_at": "2026-11-24T06:58:53.745845+00:00",
   "today_count": 100,
-  "total_history_count": 1984,
+  "total_history_count": 2215,
   "topics_count": 8,
-  "tools_tracked_count": 24,
+  "tools_tracked_count": 23,
   "ok_sources_count": 7,
   "total_sources_count": 7
 }
