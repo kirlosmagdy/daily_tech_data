@@ -41,6 +41,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DAILY_DEV_TOKEN: ${{ secrets.DAILY_DEV_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m pipeline.run
 
       - name: Commit and push updated data and history
@@ -61,3 +63,11 @@ jobs:
               curl -fsS -X POST "$CLEAN_HOOK_URL" > /dev/null || echo "Deploy hook warning (non-fatal)"
             fi
           fi
+
+      - name: Send Telegram failure alert
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.8729705430:AAE0rVHKRYYZrH90IOJ8bXI_wVbMxLVMw6A}}
+          TELEGRAM_CHAT_ID: ${{ secrets.1624471288 }}
+          RUN_URL: "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+        run: python -c "import os; from pipeline.notify import send_failure_alert; send_failure_alert(os.getenv('RUN_URL', ''))"

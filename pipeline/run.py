@@ -4,12 +4,13 @@ import sys
 import time
 import duckdb
 import pandas as pd
-from connectors.common import cutoff_utc
+from connectors.common import cutoff_utc, logger
 from pipeline.config import ROOT_DIR, load_config
 from pipeline.enrich import run_enrich
 from pipeline.export import run_export
 from pipeline.extract import run_extraction
 from pipeline.normalize import DUCKDB_PATH, SILVER_PARQUET_PATH, deduplicate_records, run_normalize
+from pipeline.notify import load_previous_urls, notify_run
 
 
 # Prune records older than retention_days from Parquet history and rebuild DuckDB from it.
@@ -32,7 +33,10 @@ def sync_history_and_rebuild_duckdb(retention_days: int = 90) -> int:
 
     pd.DataFrame(deduped).to_parquet(SILVER_PARQUET_PATH, index=False)
     with duckdb.connect(str(DUCKDB_PATH)) as con:
-        con.execute("CREATE OR REPLACE TABLE silver_items AS SELECT * FROM read_parquet(?)", [str(SILVER_PARQUET_PATH)])
+        con.execute(
+            "CREATE OR REPLACE TABLE silver_items AS SELECT * FROM read_parquet(?)",
+            [str(SILVER_PARQUET_PATH)],
+        )
     return len(deduped)
 
 
@@ -45,7 +49,7 @@ def run_dbt_build() -> None:
         raise RuntimeError(f"dbt build failed with exit code {result.returncode}. Aborting export.")
 
 
-# Run the full pipeline end-to-end: rebuild history, extract, normalize, enrich, dbt build, and export.
+# Run the full pipeline end-to-end: rebuild history, extract, normalize, enrich, dbt build, export, and notify.
 def run_pipeline(skip_extract: bool = False) -> None:
     start = time.time()
     cfg = load_config()
@@ -58,11 +62,17 @@ def run_pipeline(skip_extract: bool = False) -> None:
     if not skip_extract:
         print("2/6 Running Bronze extraction...")
         report = run_extraction()
-        active_sources = [s for s in report["sources"] if s["status"] in ("ok", "partial", "degraded") and s["count"] > 0]
+        active_sources = [
+            s
+            for s in report["sources"]
+            if s["status"] in ("ok", "partial", "degraded") and s["count"] > 0
+        ]
         if not active_sources:
             raise RuntimeError("All sources failed during extraction. Stopping without overwriting site data.")
     else:
         print("2/6 Skipping extraction (--skip-extract enabled)...")
+
+    prev_urls = load_previous_urls()
 
     print("3/6 Running Silver normalization & deduplication...")
     run_normalize()
@@ -76,6 +86,11 @@ def run_pipeline(skip_extract: bool = False) -> None:
     print("6/6 Exporting static JSON files to site/data/...")
     meta = run_export()
 
+    try:
+        notify_run(prev_urls)
+    except Exception as exc:
+        logger.warning("[run] Notification step skipped due to error: %s", exc)
+
     elapsed = round(time.time() - start, 2)
     print(f"\n=== Pipeline Completed in {elapsed}s ===")
     print(f"Today feed: {meta['today_count']} items | Total history: {meta['total_history_count']} items")
@@ -83,7 +98,11 @@ def run_pipeline(skip_extract: bool = False) -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run the Daily Tech & Data Pulse pipeline.")
-    parser.add_argument("--skip-extract", action="store_true", help="Reuse latest raw files without network calls.")
+    parser.add_argument(
+        "--skip-extract",
+        action="store_true",
+        help="Reuse latest raw files without network calls.",
+    )
     args = parser.parse_args()
     try:
         run_pipeline(skip_extract=args.skip_extract)
