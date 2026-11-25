@@ -1,90 +1,35 @@
 [
   {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "trust_weight": 1.0,
-    "item_count": 850,
-    "last_success_at": "2026-11-28T04:45:26.498811+00:00",
-    "status": "ok",
-    "last_run_status": "ok",
-    "last_run_count": 79,
-    "last_run_error": null
-  },
-  {
-    "source": "hf_papers",
-    "tier": "tier_1",
-    "trust_weight": 1.0,
-    "item_count": 498,
-    "last_success_at": "2026-11-28T04:45:27.098824+00:00",
-    "status": "ok",
-    "last_run_status": "ok",
-    "last_run_count": 50,
-    "last_run_error": null
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "trust_weight": 1.0,
-    "item_count": 277,
-    "last_success_at": "2026-11-28T04:44:59.482140+00:00",
-    "status": "ok",
-    "last_run_status": "ok",
-    "last_run_count": 31,
-    "last_run_error": null
-  },
-  {
-    "source": "github",
-    "tier": "tier_2",
-    "trust_weight": 0.8,
-    "item_count": 94,
-    "last_success_at": "2026-11-28T04:45:19.981930+00:00",
-    "status": "ok",
-    "last_run_status": "ok",
-    "last_run_count": 157,
-    "last_run_error": null
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "trust_weight": 0.8,
-    "item_count": 613,
-    "last_success_at": "2026-11-28T04:44:29.017190+00:00",
-    "status": "ok",
-    "last_run_status": "ok",
-    "last_run_count": 286,
-    "last_run_error": null
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "trust_weight": 0.8,
-    "item_count": 200,
-    "last_success_at": "2026-11-28T04:44:48.993262+00:00",
-    "status": "ok",
-    "last_run_status": "ok",
-    "last_run_count": 30,
-    "last_run_error": null
-  },
-  {
-    "source": "dailydev",
+    "source": "daily_dev",
     "tier": "tier_3",
     "trust_weight": 0.6,
-    "item_count": 13,
-    "last_success_at": "2026-11-28T04:45:29.052265+00:00",
+    "item_count": 25,
+    "last_success_at": "2026-11-22T20:21:08.538845+02:00",
     "status": "ok",
     "last_run_status": "ok",
-    "last_run_count": 75,
+    "last_run_count": 45,
     "last_run_error": null
   },
   {
-    "source": "devto",
+    "source": "devbytes",
     "tier": "tier_3",
     "trust_weight": 0.6,
-    "item_count": 292,
-    "last_success_at": "2026-11-28T04:44:40.025852+00:00",
+    "item_count": 17,
+    "last_success_at": "2026-11-22T20:22:12.105423+02:00",
     "status": "ok",
     "last_run_status": "ok",
-    "last_run_count": 340,
+    "last_run_count": 40,
+    "last_run_error": null
+  },
+  {
+    "source": "medium",
+    "tier": "tier_3",
+    "trust_weight": 0.6,
+    "item_count": 140,
+    "last_success_at": "2026-11-22T20:21:05.136457+02:00",
+    "status": "ok",
+    "last_run_status": "ok",
+    "last_run_count": 77,
     "last_run_error": null
   }
 ]
