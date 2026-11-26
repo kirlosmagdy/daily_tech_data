@@ -1,80 +1,66 @@
 [
   {
     "tool": "PostgreSQL",
-    "mentions_last_7d": 26,
+    "mentions_last_7d": 29,
     "mentions_prev_7d": 10,
-    "mentions_delta": 16,
-    "avg_sentiment_7d": 0.0839
-  },
-  {
-    "tool": "Kubernetes",
-    "mentions_last_7d": 8,
-    "mentions_prev_7d": 2,
-    "mentions_delta": 6,
-    "avg_sentiment_7d": 0.133
+    "mentions_delta": 19,
+    "avg_sentiment_7d": 0.0752
   },
   {
     "tool": "Docker",
-    "mentions_last_7d": 7,
+    "mentions_last_7d": 8,
     "mentions_prev_7d": 3,
-    "mentions_delta": 4,
-    "avg_sentiment_7d": 0.3562
-  },
-  {
-    "tool": "Snowflake",
-    "mentions_last_7d": 6,
-    "mentions_prev_7d": 5,
-    "mentions_delta": 1,
-    "avg_sentiment_7d": 0.2251
-  },
-  {
-    "tool": "Iceberg",
-    "mentions_last_7d": 6,
-    "mentions_prev_7d": 5,
-    "mentions_delta": 1,
-    "avg_sentiment_7d": 0.3061
-  },
-  {
-    "tool": "Redshift",
-    "mentions_last_7d": 5,
-    "mentions_prev_7d": 1,
-    "mentions_delta": 4,
-    "avg_sentiment_7d": 0.4292
+    "mentions_delta": 5,
+    "avg_sentiment_7d": 0.3117
   },
   {
     "tool": "DuckDB",
     "mentions_last_7d": 5,
+    "mentions_prev_7d": 3,
+    "mentions_delta": 2,
+    "avg_sentiment_7d": 0.1126
+  },
+  {
+    "tool": "Kubernetes",
+    "mentions_last_7d": 5,
+    "mentions_prev_7d": 5,
+    "mentions_delta": 0,
+    "avg_sentiment_7d": 0.2076
+  },
+  {
+    "tool": "Snowflake",
+    "mentions_last_7d": 5,
+    "mentions_prev_7d": 6,
+    "mentions_delta": -1,
+    "avg_sentiment_7d": 0.2701
+  },
+  {
+    "tool": "Redshift",
+    "mentions_last_7d": 4,
     "mentions_prev_7d": 2,
-    "mentions_delta": 3,
-    "avg_sentiment_7d": 0.2794
+    "mentions_delta": 2,
+    "avg_sentiment_7d": 0.3688
+  },
+  {
+    "tool": "Iceberg",
+    "mentions_last_7d": 4,
+    "mentions_prev_7d": 7,
+    "mentions_delta": -3,
+    "avg_sentiment_7d": 0.3126
   },
   {
     "tool": "Databricks",
-    "mentions_last_7d": 5,
-    "mentions_prev_7d": 13,
-    "mentions_delta": -8,
-    "avg_sentiment_7d": 0.3205
+    "mentions_last_7d": 4,
+    "mentions_prev_7d": 15,
+    "mentions_delta": -11,
+    "avg_sentiment_7d": 0.1913
   },
   {
     "tool": "Spark",
-    "mentions_last_7d": 4,
-    "mentions_prev_7d": 4,
-    "mentions_delta": 0,
-    "avg_sentiment_7d": 0.4928
-  },
-  {
-    "tool": "Kafka",
     "mentions_last_7d": 3,
-    "mentions_prev_7d": 2,
-    "mentions_delta": 1,
-    "avg_sentiment_7d": 0.1391
-  },
-  {
-    "tool": "Terraform",
-    "mentions_last_7d": 2,
-    "mentions_prev_7d": 0,
-    "mentions_delta": 2,
-    "avg_sentiment_7d": -0.2294
+    "mentions_prev_7d": 5,
+    "mentions_delta": -2,
+    "avg_sentiment_7d": 0.347
   },
   {
     "tool": "PyTorch",
@@ -84,11 +70,11 @@
     "avg_sentiment_7d": 0.2293
   },
   {
-    "tool": "Airflow",
+    "tool": "Terraform",
     "mentions_last_7d": 2,
-    "mentions_prev_7d": 1,
-    "mentions_delta": 1,
-    "avg_sentiment_7d": 0.0142
+    "mentions_prev_7d": 0,
+    "mentions_delta": 2,
+    "avg_sentiment_7d": -0.2294
   },
   {
     "tool": "BigQuery",
@@ -96,6 +82,20 @@
     "mentions_prev_7d": 2,
     "mentions_delta": 0,
     "avg_sentiment_7d": 0.5698
+  },
+  {
+    "tool": "Kafka",
+    "mentions_last_7d": 2,
+    "mentions_prev_7d": 3,
+    "mentions_delta": -1,
+    "avg_sentiment_7d": 0.2086
+  },
+  {
+    "tool": "TensorFlow",
+    "mentions_last_7d": 1,
+    "mentions_prev_7d": 0,
+    "mentions_delta": 1,
+    "avg_sentiment_7d": 0.1486
   },
   {
     "tool": "Trino",
@@ -112,18 +112,25 @@
     "avg_sentiment_7d": 0.0
   },
   {
-    "tool": "TensorFlow",
-    "mentions_last_7d": 1,
-    "mentions_prev_7d": 0,
-    "mentions_delta": 1,
-    "avg_sentiment_7d": 0.1486
-  },
-  {
     "tool": "dbt",
     "mentions_last_7d": 1,
     "mentions_prev_7d": 1,
     "mentions_delta": 0,
     "avg_sentiment_7d": 0.7003
+  },
+  {
+    "tool": "Supabase",
+    "mentions_last_7d": 1,
+    "mentions_prev_7d": 1,
+    "mentions_delta": 0,
+    "avg_sentiment_7d": 0.0
+  },
+  {
+    "tool": "Ray",
+    "mentions_last_7d": 1,
+    "mentions_prev_7d": 1,
+    "mentions_delta": 0,
+    "avg_sentiment_7d": 0.1655
   },
   {
     "tool": "ClickHouse",
@@ -133,28 +140,14 @@
     "avg_sentiment_7d": 0.4199
   },
   {
-    "tool": "vLLM",
+    "tool": "Airflow",
     "mentions_last_7d": 1,
     "mentions_prev_7d": 2,
     "mentions_delta": -1,
-    "avg_sentiment_7d": 0.3818
+    "avg_sentiment_7d": -0.5574
   },
   {
     "tool": "Pandas",
-    "mentions_last_7d": 0,
-    "mentions_prev_7d": 1,
-    "mentions_delta": -1,
-    "avg_sentiment_7d": null
-  },
-  {
-    "tool": "Supabase",
-    "mentions_last_7d": 0,
-    "mentions_prev_7d": 1,
-    "mentions_delta": -1,
-    "avg_sentiment_7d": null
-  },
-  {
-    "tool": "Ray",
     "mentions_last_7d": 0,
     "mentions_prev_7d": 1,
     "mentions_delta": -1,
@@ -165,6 +158,13 @@
     "mentions_last_7d": 0,
     "mentions_prev_7d": 2,
     "mentions_delta": -2,
+    "avg_sentiment_7d": null
+  },
+  {
+    "tool": "vLLM",
+    "mentions_last_7d": 0,
+    "mentions_prev_7d": 3,
+    "mentions_delta": -3,
     "avg_sentiment_7d": null
   },
   {
