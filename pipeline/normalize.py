@@ -192,6 +192,16 @@ def map_raw_item(source: str, item: dict, collected_at: str, trust_weight: float
         score = 0
         comments = 0
         tags = []
+    elif source == "x":
+        url = item.get("url") or ""
+        title = item.get("title") or item.get("text") or ""
+        snippet = item.get("snippet") or item.get("text") or ""
+        item_id = str(item.get("id") or url)
+        author = item.get("author") or item.get("username") or "X"
+        pub = parse_dt(item.get("published_at") or item.get("created_at"))
+        score = int(item.get("score") or 0)
+        comments = int(item.get("comments") or 0)
+        tags = item.get("tags") or ["x"]
     else:
         return {}
 

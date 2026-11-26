@@ -1,6 +1,6 @@
 import json
 import time
-from connectors import arxiv, daily_dev, devbytes, devto, github, hackernews, hf_papers, lobsters, medium, rss
+from connectors import arxiv, daily_dev, devbytes, devto, github, hackernews, hf_papers, lobsters, medium, rss, x
 from connectors.common import make_result, now_utc, save_raw
 from pipeline.config import ROOT_DIR, load_config
 
@@ -8,6 +8,7 @@ CONNECTORS = {
     "medium": medium.extract,
     "daily_dev": daily_dev.extract,
     "devbytes": devbytes.extract,
+    "x": x.extract,
     "hackernews": hackernews.extract,
     "devto": devto.extract,
     "lobsters": lobsters.extract,

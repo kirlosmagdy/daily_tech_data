@@ -157,3 +157,30 @@ def test_map_raw_item_missing_date():
     raw = {"title": "No Date Post", "link": "https://medium.com/p/abc123", "snippet": "Test"}
     mapped = map_raw_item("medium", raw, "2026-11-22T00:00:00+00:00", 0.6, 300)
     assert mapped["published_at"] == ""
+
+
+# Verify X connector degrades cleanly without a token and maps tweet records properly.
+def test_x_connector_and_normalization(monkeypatch):
+    from connectors import x as x_connector
+
+    monkeypatch.delenv("X_BEARER_TOKEN", raising=False)
+    res = x_connector.extract({"project": {"lookback_hours": 48, "max_snippet_length": 300}, "sources": {"x": {}}})
+    assert res["status"] == "degraded"
+    assert res["count"] == 0
+
+    tweet_item = {
+        "id": "1860000000000000000",
+        "url": "https://x.com/dataeng/status/1860000000000000000?s=20",
+        "title": "DuckDB and dbt local lakehouse workflow",
+        "snippet": "Testing DuckDB and dbt pipelines on local Parquet files.",
+        "author": "Data Eng",
+        "published_at": now_utc().isoformat(),
+        "score": 18,
+        "comments": 3,
+        "tags": ["x", "duckdb"],
+    }
+    mapped = map_raw_item("x", tweet_item, now_utc().isoformat(), 0.6, 300)
+    assert mapped["source"] == "x"
+    assert mapped["source_score"] == 18
+    assert mapped["canonical_url"] == canonicalize_url(tweet_item["url"])
+    assert mapped["canonical_url"].startswith("https://x.com/dataeng/status/1860000000000000000")
