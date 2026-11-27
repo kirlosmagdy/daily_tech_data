@@ -8,7 +8,8 @@ WITH expected_sources AS (
             ('rss', 'tier_1', 1.0),
             ('github', 'tier_2', 0.8),
             ('arxiv', 'tier_1', 1.0),
-            ('hf_papers', 'tier_1', 1.0)
+            ('hf_papers', 'tier_1', 1.0),
+            ('dailydev', 'tier_3', 0.6)
     ) AS t(source, tier, trust_weight)
 ),
 stats AS (
