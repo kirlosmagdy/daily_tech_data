@@ -4,7 +4,7 @@ An end-to-end automated data engineering pipeline and static analytics platform 
 
 ## Architecture (Medallion Pipeline)
 
-* **Bronze Layer (`connectors/`, `pipeline/extract.py`):** Polite, rate-limited connectors for 7 sources writing raw daily JSON batches and `_run_report.json` to `data/raw/YYYY-MM-DD/`.
+* **Bronze Layer (`connectors/`, `pipeline/extract.py`):** Polite, rate-limited connectors for 8 sources writing raw daily JSON batches and `_run_report.json` to `data/raw/YYYY-MM-DD/`.
 * **Silver Layer (`pipeline/normalize.py`, `pipeline/enrich.py`):** HTML stripping, English language filtering, canonical URL normalization, cross-source deduplication, seed-driven topic/tool regex tagging, VADER sentiment scoring, and 90-day rolling Parquet persistence (`data/history/silver_items.parquet`).
 * **Gold Layer (`dbt_project/`):** Ephemeral DuckDB rebuild executing 1 staging view, 6 Gold analytical models, and 27 schema and freshness tests via `dbt build`.
 * **Static Export & Frontend (`pipeline/export.py`, `site/`):** Compact JSON feeds exported to `site/data/` powering a static Next.js 14 application deployed on Vercel.
@@ -38,6 +38,7 @@ npm run dev
 The workflow is scheduled once a day. GitHub may start scheduled runs hours late, so the exact time varies.
 
 * **`GITHUB_TOKEN`**: Provided automatically by GitHub Actions for higher GitHub Search API rate limits and pushing data commits.
+* **`DAILY_DEV_TOKEN`** *(required for daily.dev)*: Personal Access Token from daily.dev Settings → API Access. Add it as a GitHub repository secret; locally, place it in your git-ignored `.env` file as `DAILY_DEV_TOKEN=dda_...`.
 * **`VERCEL_DEPLOY_HOOK_URL`** *(Optional)*: Repository secret containing a Vercel Deploy Hook URL to trigger a static site rebuild after new data commits are pushed.
 
 ## Local Airflow Showcase
@@ -57,7 +58,7 @@ Open `http://localhost:8085`, log in as `admin`, unpause `daily_tech_data_pulse`
 
 ## Sources and Attribution
 
-Content metadata (titles, URLs, short snippets, and public engagement counts) is aggregated from public APIs and feeds: Hacker News (Algolia), dev.to, Lobsters, Engineering RSS Blogs, GitHub Search API, arXiv API, and Hugging Face Daily Papers. All links point directly to the original publishers.
+Content metadata (titles, URLs, short snippets, and public engagement counts) is aggregated from public APIs and feeds: Hacker News (Algolia), dev.to, Lobsters, Engineering RSS Blogs, GitHub Search API, arXiv API, and Hugging Face Daily Papers, plus daily.dev's public feed API. All links point directly to the original publishers.
 
 ## License
 
