@@ -40,6 +40,7 @@ jobs:
       - name: Run full data pipeline (Extract, Normalize, Enrich, dbt, Export)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAILY_DEV_TOKEN: ${{ secrets.DAILY_DEV_TOKEN }}
         run: python -m pipeline.run
 
       - name: Commit and push updated data and history
