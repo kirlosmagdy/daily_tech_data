@@ -33,7 +33,10 @@ def extract(cfg: dict) -> dict:
     load_dotenv()
     token = os.getenv("DAILY_DEV_TOKEN", "").strip()
     if not token:
-        return make_result("dailydev", "degraded", [], start, "DAILY_DEV_TOKEN is not set.")
+        result = make_result("dailydev", "degraded", [], start, "DAILY_DEV_TOKEN is not set.")
+        result["requests_made"] = 0
+        print("[dailydev] API requests=0; DAILY_DEV_TOKEN is not set.")
+        return result
 
     source_cfg = cfg["sources"]["dailydev"]
     max_requests = min(max(int(source_cfg.get("max_requests_per_run", 4)), 1), 4)
@@ -47,6 +50,7 @@ def extract(cfg: dict) -> dict:
     items, errors = [], []
     requests_made = 0
     seen = set()
+    access_degraded = False
 
     for path in paths:
         requests_made += 1
@@ -59,6 +63,7 @@ def extract(cfg: dict) -> dict:
             )
             if response.status_code in (401, 403, 429):
                 errors.append(f"{path}: HTTP {response.status_code}; stopping daily.dev requests.")
+                access_degraded = True
                 break
             response.raise_for_status()
             payload = response.json()
@@ -74,7 +79,7 @@ def extract(cfg: dict) -> dict:
         except (requests.RequestException, ValueError) as exc:
             errors.append(f"{path}: {exc}")
 
-    status = "ok" if items and not errors else ("partial" if items else "degraded")
+    status = "degraded" if access_degraded else ("ok" if items and not errors else ("partial" if items else "degraded"))
     result = make_result("dailydev", status, items, start, "; ".join(errors) if errors else None)
     result["requests_made"] = requests_made
     print(f"[dailydev] API requests={requests_made}/{max_requests}, page_size={page_size}, items={len(items)}")
