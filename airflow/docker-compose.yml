@@ -5,6 +5,8 @@ services:
       dockerfile: airflow/Dockerfile
     container_name: pulse_airflow
     working_dir: /opt/project
+    env_file:
+      - ../.env
     environment:
       - PYTHONPATH=/opt/project
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
