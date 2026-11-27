@@ -139,6 +139,16 @@ def map_raw_item(source: str, item: dict, collected_at: str, trust_weight: float
         score = 0
         comments = 0
         tags = item.get("tags") or []
+    elif source == "dailydev":
+        url = item.get("url") or ""
+        title = item.get("title") or ""
+        snippet = item.get("summary") or ""
+        item_id = str(item.get("id") or "")
+        author = item.get("author") or ""
+        pub = parse_dt(item.get("createdAt"))
+        score = int(item.get("numUpvotes") or 0)
+        comments = int(item.get("numComments") or 0)
+        tags = item.get("tags") if isinstance(item.get("tags"), list) else []
     elif source == "hf_papers":
         paper = item.get("paper") or {}
         pid = str(paper.get("id") or "")
