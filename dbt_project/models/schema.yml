@@ -15,7 +15,7 @@ models:
         data_tests:
           - not_null
           - accepted_values:
-              values: ["hackernews", "devto", "lobsters", "rss", "github", "arxiv", "hf_papers", "bluesky", "x", "reddit"]
+              values: ["hackernews", "devto", "lobsters", "rss", "github", "arxiv", "hf_papers", "dailydev", "bluesky", "x", "reddit"]
       - name: tier
         description: "Trust tier category assigned to the source."
         data_tests:
@@ -45,7 +45,7 @@ models:
         description: "Primary source identifier."
         data_tests:
           - accepted_values:
-              values: ["hackernews", "devto", "lobsters", "rss", "github", "arxiv", "hf_papers", "bluesky", "x", "reddit"]
+              values: ["hackernews", "devto", "lobsters", "rss", "github", "arxiv", "hf_papers", "dailydev", "bluesky", "x", "reddit"]
       - name: tier
         description: "Trust tier label (tier_1, tier_2, tier_3)."
         data_tests:
