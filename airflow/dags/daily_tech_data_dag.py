@@ -11,7 +11,7 @@ from pipeline.extract import CONNECTORS
 from pipeline.normalize import run_normalize
 from pipeline.run import run_dbt_build, sync_history_and_rebuild_duckdb
 
-SOURCES = ["hackernews", "devto", "lobsters", "rss", "github", "arxiv", "hf_papers"]
+SOURCES = ["hackernews", "devto", "lobsters", "rss", "github", "arxiv", "hf_papers", "dailydev"]
 
 default_args = {
     "owner": "kirolos",
