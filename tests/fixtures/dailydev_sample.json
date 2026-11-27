@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "id": "abc123",
+      "title": "What actually changed in Postgres 18",
+      "url": "https://example.com/postgres-18",
+      "summary": "A rundown of the release highlights and the changes developers should know.",
+      "tags": ["postgres", "databases"],
+      "readTime": 6,
+      "numUpvotes": 342,
+      "numComments": 28,
+      "source": {"name": "Example Engineering"},
+      "createdAt": "2026-09-09T07:12:00.000Z"
+    }
+  ],
+  "pagination": {"hasNextPage": false, "endCursor": null}
+}
