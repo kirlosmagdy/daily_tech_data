@@ -11,6 +11,7 @@ All connectors live in `connectors/` and follow the contract in `docs/CONNECTOR_
 | **GitHub** | REST Search API (`/search/repositories`) | `q=topic:<t> created:>=YYYY-MM-DD`, `sort=stars`, `per_page=25` | `2.0s` delay between topics, `15s` timeout | Tier 2 (`0.8`) | `10` stars |
 | **arXiv** | Atom API (`/api/query`) | 1 request per category (`cs.AI`, `cs.LG`, `cs.DB`, `cs.CL`, `cs.SE`, `stat.ML`), `max_results=40` each, deduplicated by ID | `3.0s` delay between categories, `20s` timeout | Tier 1 (`1.0`) | `0` |
 | **HF Papers** | Hugging Face `/api/daily_papers` | JSON API with 96h weekend fallback | `15s` timeout | Tier 1 (`1.0`) | `0` |
+| **daily.dev** | Public API (`/feeds/popular`, `/feeds/tag/{tag}`) | 1 popular + up to 3 tag feeds; `limit=25`; Bearer token | Max 4 requests/run; 20s timeout; 200 requests/month free quota | Tier 3 (`0.6`) | `3` upvotes |
 
 ## Timestamp Mapping (`published_at`)
 
