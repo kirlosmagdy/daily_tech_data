@@ -26,6 +26,7 @@ thresholds:
     rss: 0
     arxiv: 0
     hf_papers: 0
+    dailydev: 3
     bluesky: 2
     x: 5
     reddit: 5
@@ -114,6 +115,15 @@ sources:
   hf_papers:
     enabled: true
     tier: "tier_1"
+  dailydev:
+    enabled: true
+    tier: "tier_3"
+    tags:
+      - data-engineering
+      - python
+      - machine-learning
+    page_size: 25
+    max_requests_per_run: 4
   bluesky:
     enabled: false
     tier: "tier_3"
