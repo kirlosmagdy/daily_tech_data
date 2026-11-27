@@ -16,6 +16,7 @@ SOURCE_DEFAULT_TOPIC = {
     "lobsters": "programming_and_devtools",
     "devto": "programming_and_devtools",
     "rss": "data_engineering",
+    "dailydev": "programming_and_devtools",
 }
 
 
