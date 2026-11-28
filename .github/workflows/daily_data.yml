@@ -56,8 +56,13 @@ jobs:
             echo "No site JSON changes to commit."
           else
             git commit -m "data: daily site JSON update $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase origin main
-            git push origin main
+            git push origin HEAD:main || (
+              git fetch origin main &&
+              git reset --soft origin/main &&
+              git add site/data/*.json &&
+              git commit -m "data: daily site JSON update $(date -u +'%Y-%m-%d %H:%M UTC')" &&
+              git push origin HEAD:main
+            )
             CLEAN_HOOK_URL=$(echo "$VERCEL_DEPLOY_HOOK_URL" | tr -d '[:space:]')
             if [ -n "$CLEAN_HOOK_URL" ]; then
               curl -fsS -X POST "$CLEAN_HOOK_URL" > /dev/null || echo "Deploy hook warning (non-fatal)"
