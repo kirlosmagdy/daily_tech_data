@@ -11,14 +11,15 @@ START_URL = f"{BASE_URL}/news"
 DATE_RE = re.compile(r"^[A-Z][a-z]{2}\s+\d{1,2},\s+\d{4}$")
 SLUG_RE = re.compile(r"""newsSidebar\([^,]+,\s*["']([^"']+)["']\)""")
 
-# Parse one DevBytes news HTML page into an article dict and the next ("Previous") URL.
+
+# Parse a DevBytes news HTML page into an article record and the next "Previous" URL.
 def parse_article_page(html: str, page_url: str, max_snippet: int = 300) -> tuple[dict | None, str | None]:
     soup = BeautifulSoup(html, "html.parser")
     h1 = soup.find("h1")
     title = h1.get_text(" ", strip=True) if h1 else ""
 
     prose = soup.find("div", class_="prose")
-    snippet = prose.get_text(" ", strip=True)[:max_snippet] if prose else ""
+    snippet = prose.get_text(" ", strip=True)[:max_snippet].strip() if prose else ""
 
     pub_dt = None
     for p in soup.find_all("p"):
@@ -40,8 +41,7 @@ def parse_article_page(html: str, page_url: str, max_snippet: int = 300) -> tupl
     url = canon_link.get("href", "").strip() if canon_link else page_url
     if url.rstrip("/") == START_URL:
         aside = soup.find("aside", attrs={"x-data": True})
-        x_data = aside.get("x-data", "") if aside else ""
-        match = SLUG_RE.search(x_data) or SLUG_RE.search(html)
+        match = SLUG_RE.search(aside.get("x-data", "")) if aside else None
         if match:
             url = f"{START_URL}/{match.group(1)}"
 
@@ -57,10 +57,10 @@ def parse_article_page(html: str, page_url: str, max_snippet: int = 300) -> tupl
     return record, prev_url
 
 
-# Extract recent news summaries from devbytes.co.in by following Previous links up to the 48h cutoff.
+# Extract DevBytes articles by following "Previous" links up to the lookback cutoff.
 def extract(cfg: dict) -> dict:
     start = time.time()
-    cutoff_date = cutoff_utc(cfg["project"]["lookback_hours"]).date()
+    cutoff = cutoff_utc(cfg["project"]["lookback_hours"])
     max_snippet = cfg["project"].get("max_snippet_length", 300)
     src_cfg = cfg["sources"]["devbytes"]
     max_pages = min(int(src_cfg.get("max_pages", 40)), 40)
@@ -76,15 +76,13 @@ def extract(cfg: dict) -> dict:
         try:
             resp = fetch_response(url, timeout=20, delay=delay_s if page_idx > 0 else 0.0, stop_on_status=(403, 429))
             if resp.status_code in (403, 429):
-                errors.append(f"HTTP {resp.status_code} on {url}")
-                return make_result("devbytes", "degraded", items, start, "; ".join(errors))
+                return make_result("devbytes", "degraded", items, start, f"HTTP {resp.status_code} on {url}")
             record, prev_url = parse_article_page(resp.text, url, max_snippet)
             if not record:
                 if page_idx == 0:
                     return make_result("devbytes", "skipped", [], start, "Page structure changed or date missing")
                 break
-            pub_date = datetime.fromisoformat(record["published_at"]).date()
-            if pub_date < cutoff_date:
+            if datetime.fromisoformat(record["published_at"]) < cutoff:
                 break
             if record["url"] not in seen_urls:
                 seen_urls.add(record["url"])
@@ -94,12 +92,7 @@ def extract(cfg: dict) -> dict:
             errors.append(f"{url}: {exc}")
             break
 
-    if items and not errors:
-        status = "ok"
-    elif items:
-        status = "partial"
-    else:
-        status = "skipped"
+    status = "ok" if items and not errors else ("partial" if items else "skipped")
     return make_result("devbytes", status, items, start, "; ".join(errors) if errors else None)
 
 

@@ -29,11 +29,12 @@ thresholds:
     rss: 0
     arxiv: 0
     hf_papers: 0
-    dailydev: 3
+    dailydev: 1
     bluesky: 2
     x: 5
     reddit: 5
 
+  
 sources:
   medium:
     enabled: true

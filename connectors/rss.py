@@ -14,50 +14,69 @@ def _entry_dt(entry: dict) -> datetime | None:
     return parse_dt(entry.get("published") or entry.get("updated"))
 
 
-# Extract recent entries from all configured official RSS/Atom feeds.
-def extract(cfg: dict) -> dict:
+# Fetch entries from RSS/Atom feeds and keep only items within the lookback window.
+def run_feeds(feeds: list[tuple[str, str]], source_name: str, cfg: dict, allow_fallback: bool = False) -> dict:
     start = time.time()
     cutoff = cutoff_utc(cfg["project"]["lookback_hours"])
-    feeds = cfg["sources"]["rss"]["feeds"]
     seen, items, fallback_items, errors = set(), [], [], []
+    degraded = False
 
-    for i, feed_cfg in enumerate(feeds):
-        name, url = feed_cfg["name"], feed_cfg["url"]
+    for i, (name, url) in enumerate(feeds):
         try:
-            resp = fetch_response(url, timeout=30, delay=0.4 if i > 0 else 0.0)
+            resp = fetch_response(url, timeout=20 if source_name == "medium" else 30, delay=0.5 if (source_name == "medium" and i > 0) else (0.4 if i > 0 else 0.0), stop_on_status=(403, 429) if source_name == "medium" else ())
+            if source_name == "medium" and resp.status_code in (403, 429):
+                degraded = True
+                errors.append(f"{name}: HTTP {resp.status_code}")
+                break
             parsed = feedparser.parse(resp.content)
             for idx, entry in enumerate(parsed.entries):
-                link = entry.get("link")
+                link = (entry.get("link") or "").split("?")[0] if source_name == "medium" else entry.get("link")
                 if not link or link in seen:
                     continue
                 dt = _entry_dt(entry)
+                if not dt:
+                    continue
                 record = {
                     "feed_name": name,
                     "feed_url": url,
                     "id": entry.get("id") or link,
-                    "title": entry.get("title", ""),
+                    "title": (entry.get("title") or "").strip() if source_name == "medium" else entry.get("title", ""),
                     "link": link,
-                    "summary": (entry.get("summary") or entry.get("description") or "")[:1000],
-                    "author": entry.get("author", name),
-                    "published_at": dt.isoformat() if dt else None,
+                    "summary": (entry.get("summary") or entry.get("description") or "")[:300 if source_name == "medium" else 1000],
+                    "snippet": (entry.get("summary") or entry.get("description") or "")[:300],
+                    "author": (entry.get("author") or name).strip() if source_name == "medium" else entry.get("author", name),
+                    "published_at": dt.isoformat(),
                     "tags": [t.get("term", "") for t in entry.get("tags", []) if t.get("term")],
                 }
-                if dt and dt >= cutoff:
+                if dt >= cutoff:
                     seen.add(link)
                     items.append(record)
-                elif idx < 2 and dt:
+                elif allow_fallback and idx < 2:
                     fallback_items.append(record)
         except Exception as exc:
             errors.append(f"{name}: {exc}")
 
-    if len(items) < 15:
+    if allow_fallback and len(items) < 15:
         for r in fallback_items:
             if r["link"] not in seen:
                 seen.add(r["link"])
                 items.append(r)
 
-    status = "ok" if items and not errors else ("partial" if items else "failed")
-    return make_result("rss", status, items, start, "; ".join(errors) if errors else None)
+    if degraded:
+        status = "degraded"
+    elif items and not errors:
+        status = "ok"
+    elif items:
+        status = "partial"
+    else:
+        status = "failed"
+    return make_result(source_name, status, items, start, "; ".join(errors) if errors else None)
+
+
+# Extract recent entries from configured RSS/Atom feeds.
+def extract(cfg: dict) -> dict:
+    feeds = [(f["name"], f["url"]) for f in cfg["sources"]["rss"]["feeds"]]
+    return run_feeds(feeds, "rss", cfg, allow_fallback=True)
 
 
 if __name__ == "__main__":
