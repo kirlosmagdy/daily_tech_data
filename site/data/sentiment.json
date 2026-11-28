@@ -1,21 +1,21 @@
 [
   {
-    "week_start": "2026-11-16T00:00:00",
-    "tool": "Databricks",
-    "mentions_count": 19,
-    "avg_sentiment": 0.2435
+    "week_start": "2026-11-23T00:00:00",
+    "tool": "PostgreSQL",
+    "mentions_count": 14,
+    "avg_sentiment": 0.1707
   },
   {
     "week_start": "2026-11-16T00:00:00",
     "tool": "PostgreSQL",
-    "mentions_count": 17,
-    "avg_sentiment": -0.0336
+    "mentions_count": 20,
+    "avg_sentiment": 0.0183
   },
   {
     "week_start": "2026-11-16T00:00:00",
-    "tool": "Kubernetes",
+    "tool": "Databricks",
     "mentions_count": 13,
-    "avg_sentiment": 0.1614
+    "avg_sentiment": 0.2496
   },
   {
     "week_start": "2026-11-09T00:00:00",
