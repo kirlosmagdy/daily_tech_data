@@ -4,10 +4,10 @@
     "tier": "tier_3",
     "trust_weight": 0.6,
     "item_count": 37,
-    "last_success_at": "2026-11-28T15:04:20.494198+00:00",
+    "last_success_at": "2026-11-28T15:51:50.258132+00:00",
     "status": "ok",
     "last_run_status": "ok",
-    "last_run_count": 55,
+    "last_run_count": 56,
     "last_run_error": null
   },
   {
@@ -15,7 +15,7 @@
     "tier": "tier_3",
     "trust_weight": 0.6,
     "item_count": 17,
-    "last_success_at": "2026-11-28T15:05:17.374680+00:00",
+    "last_success_at": "2026-11-28T15:52:45.498213+00:00",
     "status": "ok",
     "last_run_status": "ok",
     "last_run_count": 40,
@@ -25,11 +25,11 @@
     "source": "medium",
     "tier": "tier_3",
     "trust_weight": 0.6,
-    "item_count": 57,
-    "last_success_at": "2026-11-28T15:04:18.312559+00:00",
+    "item_count": 53,
+    "last_success_at": "2026-11-28T15:51:46.630375+00:00",
     "status": "ok",
     "last_run_status": "ok",
-    "last_run_count": 77,
+    "last_run_count": 73,
     "last_run_error": null
   }
 ]
