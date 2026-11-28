@@ -2,17 +2,842 @@
   {
     "source": "hackernews",
     "tier": "tier_2",
+    "source_item_id": "50672835",
+    "canonical_url": "https://ssg.dev/passkey-blues",
+    "title": "Passkey blues",
+    "snippet": "",
+    "author": "sedatk",
+    "published_at": "2026-11-27T23:51:28+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 65,
+    "comments_count": 69,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "ssg.dev",
+    "topics": [
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7189,
+    "freshness_score": 0.828,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4762
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "d0phlt",
+    "canonical_url": "https://pub.roddie.digital/3n3aavxi6hc2g",
+    "title": "Objections to .php application being published on ICANN site",
+    "snippet": "",
+    "author": "misty",
+    "published_at": "2026-11-27T18:16:09.126000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 36,
+    "comments_count": 9,
+    "source_tags": [
+      "story",
+      "web"
+    ],
+    "domain": "pub.roddie.digital",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.7701,
+    "freshness_score": 0.6678,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.4732
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50672008",
+    "canonical_url": "https://progrium.github.io/9ux",
+    "title": "9/UX: a Macintosh-inspired desktop for 9front",
+    "snippet": "",
+    "author": "rbanffy",
+    "published_at": "2026-11-27T21:48:14+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 93,
+    "comments_count": 23,
+    "source_tags": [
+      "ai",
+      "front_page",
+      "osdev",
+      "story"
+    ],
+    "domain": "progrium.github.io",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.6667,
+    "freshness_score": 0.7652,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.4693
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1474588528",
+    "canonical_url": "https://github.com/Red2076-arch/waifu2x-image-upscaler-windows",
+    "title": "Red2076-arch/waifu2x-image-upscaler-windows: Free AI image upscaler and photo denoiser for Windows powered by Vulkan GPU acceleration and ncnn neural networks.",
+    "snippet": "Free AI image upscaler and photo denoiser for Windows powered by Vulkan GPU acceleration and ncnn neural networks.",
+    "author": "Red2076-arch",
+    "published_at": "2026-11-27T15:17:56+00:00",
+    "collected_at": "2026-11-28T04:45:19.981930+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 747,
+    "comments_count": 0,
+    "source_tags": [
+      "amd",
+      "artificial-intelligence",
+      "computer-vision",
+      "deep-learning",
+      "denoising",
+      "gpu",
+      "image-enhancement",
+      "image-processing",
+      "image-upscaling",
+      "intel",
+      "linux",
+      "machine-learning",
+      "macos",
+      "ncnn",
+      "nvidia",
+      "super-resolution",
+      "vulkan",
+      "waifu2x",
+      "windows"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.765,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.9783,
+    "freshness_score": 0.5954,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4659
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50674218",
+    "canonical_url": "https://unkernel.dev/",
+    "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+    "snippet": "",
+    "author": "nreece",
+    "published_at": "2026-11-28T03:19:20+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-28T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 39,
+    "comments_count": 9,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "unkernel.dev",
+    "topics": [
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.5382,
+    "freshness_score": 0.9463,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4074
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50672521",
+    "canonical_url": "https://tabernet.es/",
+    "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+    "snippet": "",
+    "author": "mmcclure",
+    "published_at": "2026-11-27T23:00:30+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 55,
+    "comments_count": 27,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "tabernet.es",
+    "topics": [
+      "cloud"
+    ],
+    "tools_mentioned": [
+      "Kubernetes"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6345,
+    "freshness_score": 0.8014,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.4068
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5136411",
+    "canonical_url": "https://dev.to/koda2026/what-actually-happens-behind-the-hyna-stage-up-command-2n92",
+    "title": "What Actually Happens Behind the `hyna-stage up` Command?",
+    "snippet": "I build HYNA-Stage on a $150 Android phone in Termux. Not a laptop with Docker Desktop, not a machine...",
+    "author": "koda2026",
+    "published_at": "2026-11-28T03:35:18+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-28T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 16,
+    "comments_count": 3,
+    "source_tags": [
+      "buildinpublic",
+      "cli",
+      "cloud",
+      "showdev"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "cloud"
+    ],
+    "tools_mentioned": [
+      "Docker"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.6731,
+    "freshness_score": 0.9561,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3861
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "amjski",
+    "canonical_url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive",
+    "title": "Why optimistic updates are corrosive",
+    "snippet": "",
+    "author": "TeddyDD",
+    "published_at": "2026-11-27T20:01:50.431000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 18,
+    "comments_count": 8,
+    "source_tags": [
+      "web"
+    ],
+    "domain": "datastar-instant-intent.ndyg.cross.stream",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.3182,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.6437,
+    "freshness_score": 0.7144,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3679
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50674489",
+    "canonical_url": "https://twitter.com/jakozloski/status/2126281598517576049",
+    "title": "Claude silently added rules to ignore users skintone preferences in our app",
+    "snippet": "",
+    "author": "doctoboggan",
+    "published_at": "2026-11-28T03:55:15+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-28T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 15,
+    "comments_count": 4,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "twitter.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.3612,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.4618,
+    "freshness_score": 0.9684,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3578
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "u746hs",
+    "canonical_url": "https://cetra3.github.io/blog/state-of-allocators-2026-finally-stabilised",
+    "title": "The State of Allocators in 2026 - Finally Stabilised",
+    "snippet": "",
+    "author": "fanf",
+    "published_at": "2026-11-27T16:09:11.598000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 44,
+    "comments_count": 0,
+    "source_tags": [
+      "rust"
+    ],
+    "domain": "cetra3.github.io",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.7241,
+    "freshness_score": 0.6156,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3566
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50664325",
+    "canonical_url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+    "title": "Claude sabotaging ML research tasks?",
+    "snippet": "",
+    "author": "baobabKoodaa",
+    "published_at": "2026-11-27T08:28:08+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 647,
+    "comments_count": 298,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "twitter.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.9438,
+    "freshness_score": 0.4579,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3457
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50663089",
+    "canonical_url": "https://blainehansen.me/post/mainstream-verifiable-language",
+    "title": "The need for a formally verifiable mainstream programming language",
+    "snippet": "",
+    "author": "todsacerdoti",
+    "published_at": "2026-11-27T05:22:06+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 319,
+    "comments_count": 302,
+    "source_tags": [
+      "ai",
+      "building-ai-tooling",
+      "formalmethods",
+      "plt",
+      "story"
+    ],
+    "domain": "blainehansen.me",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.9116,
+    "freshness_score": 0.4064,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.3408
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50671651",
+    "canonical_url": "https://sessiongraph.ai/",
+    "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+    "snippet": "",
+    "author": "arvindell",
+    "published_at": "2026-11-27T21:07:34+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 39,
+    "comments_count": 17,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "sessiongraph.ai",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.5703,
+    "freshness_score": 0.7453,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.34
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50672829",
+    "canonical_url": "https://fofr.ai/greenhouse-after-the-typhoon",
+    "title": "Painting 1990s anime scenes in Python",
+    "snippet": "",
+    "author": "magoghm",
+    "published_at": "2026-11-27T23:50:17+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 18,
+    "comments_count": 10,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "fofr.ai",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.51,
+    "freshness_score": 0.8275,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3377
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50665488",
+    "canonical_url": "https://thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+    "title": "AI on brink of making online security useless, mathematicians fear",
+    "snippet": "https://archive.ph/4hRp8",
+    "author": "conradqh",
+    "published_at": "2026-11-27T11:09:04+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 118,
+    "comments_count": 155,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "thetimes.com",
+    "topics": [
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.5574,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.8233,
+    "freshness_score": 0.5078,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3344
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50667744",
+    "canonical_url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+    "title": "GPT 6.2 Astra solves a historical mystery",
+    "snippet": "",
+    "author": "bookofjoe",
+    "published_at": "2026-11-27T15:03:17+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 166,
+    "comments_count": 1,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "generativehistory.substack.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.2732,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6948,
+    "freshness_score": 0.59,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.328
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50670443",
+    "canonical_url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10",
+    "title": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+    "snippet": "",
+    "author": "runtimenotes",
+    "published_at": "2026-11-27T18:59:55+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 50,
+    "comments_count": 11,
+    "source_tags": [
+      "show_hn",
+      "story"
+    ],
+    "domain": "runtimenotes.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [
+      "vLLM"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.5663,
+    "freshness_score": 0.6865,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.311
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5135654",
+    "canonical_url": "https://dev.to/debashish_ghosal/i-thought-ai-was-saving-me-time-my-git-log-says-otherwise-1moc",
+    "title": "I Thought AI Was Saving Me Time. My Git Log Says Otherwise",
+    "snippet": "TL;DR: I was sure AI made me faster, and on each task it did. Then I checked when I actually work and...",
+    "author": "debashish_ghosal",
+    "published_at": "2026-11-28T00:11:21+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-28T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 11,
+    "comments_count": 3,
+    "source_tags": [
+      "ai",
+      "discuss",
+      "mentalhealth",
+      "productivity"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.3182,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.6154,
+    "freshness_score": 0.8387,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.3097
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50661646",
+    "canonical_url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up",
+    "title": "Hard Drive pricing has gotten bad",
+    "snippet": "",
+    "author": "zdw",
+    "published_at": "2026-11-27T01:13:49+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 556,
+    "comments_count": 479,
+    "source_tags": [
+      "hardware",
+      "story"
+    ],
+    "domain": "blog.ktz.me",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.5994,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.9558,
+    "freshness_score": 0.3464,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.3046
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50667452",
+    "canonical_url": "https://webosarchive.org/pivot/2026/11/27/the-story-so-far",
+    "title": "Show HN: I restored Palm's last device, and brought its OS to other platforms",
+    "snippet": "webOS Community Edition 3.2.0 is the first OTA Update for Palm/HP's TouchPad, modernizing a 15-year old device. Lunacy is its sibling: the webOS experience, and apps, on Android. Luna DE is a developer tool that brings the webOS app contract to Mac, Windows and Linux as a SDK-compatible Electron app",
+    "author": "codepoet80",
+    "published_at": "2026-11-27T14:37:02+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 76,
+    "comments_count": 25,
+    "source_tags": [
+      "show_hn",
+      "story"
+    ],
+    "domain": "webosarchive.org",
+    "topics": [
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.34,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6506,
+    "freshness_score": 0.5803,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.302
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5134033",
+    "canonical_url": "https://dev.to/gde/zero-repeat-regressions-the-golden-metric-the-future-of-agentic-trust-4857",
+    "title": "Zero Repeat Regressions: The Golden Metric & The Future of Agentic Trust",
+    "snippet": "Why we don't code by majority vote, opening our 375-ticket empirical ledger (including what broke), Barry Boehm's $1 : $500 : $25,000 token defect curve, the 4-Layer Verification Stack that lets you ship languages you despise, and how four Dart scars caught a live bug in a Python flight recorder.",
+    "author": "randalschwartz",
+    "published_at": "2026-11-27T16:31:24+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 10,
+    "comments_count": 11,
+    "source_tags": [
+      "ai",
+      "architecture",
+      "programming",
+      "softwareengineering"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.5106,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.7981,
+    "freshness_score": 0.6243,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.299
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "mbm7xw",
+    "canonical_url": "https://roboticoverlords.org/tinyhat",
+    "title": "Tiny Hat: a new Linux distro dedicated to retro gamedev",
+    "snippet": "Tiny Hat uses only around 100MB of RAM after booting, and can be booted from a >= 1GB memory stick. It comes with a few small games, an easy way to install and run more games and several example programs for getting into retro game development. It also uses a modern stack of libraries, with dwl / Wa",
+    "author": "xyproto",
+    "published_at": "2026-11-27T09:11:13.547000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 46,
+    "comments_count": 8,
+    "source_tags": [
+      "games",
+      "linux",
+      "retrocomputing"
+    ],
+    "domain": "roboticoverlords.org",
+    "topics": [
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.7096,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.7931,
+    "freshness_score": 0.4707,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2987
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50672403",
+    "canonical_url": "https://twitter.com/imjustnewatai/status/2124999308298567840",
+    "title": "Rumor: P equals NP and OpenAI was the lab that solved it",
+    "snippet": "",
+    "author": "aleph_minus_one",
+    "published_at": "2026-11-27T22:40:16+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 13,
+    "comments_count": 4,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "twitter.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.6408,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.4498,
+    "freshness_score": 0.7912,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2847
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50662933",
+    "canonical_url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona",
+    "title": "\"What's Claude's fursona?\" and other questions",
+    "snippet": "",
+    "author": "Mond_",
+    "published_at": "2026-11-27T04:56:18+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 189,
+    "comments_count": 180,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "herecomesthemoon.net",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.8715,
+    "freshness_score": 0.3997,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2786
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
     "source_item_id": "50660180",
     "canonical_url": "https://janlukas.blog/posts/ai-self-hosting",
     "title": "AI made self-hosting fun again",
     "snippet": "",
     "author": "jlelse",
     "published_at": "2026-11-26T21:47:45+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 451,
-    "comments_count": 239,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 1107,
+    "comments_count": 509,
     "source_tags": [
       "ai",
       "devops",
@@ -30,10 +855,737 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.9219,
-    "freshness_score": 0.7559,
+    "engagement_percentile": 0.9839,
+    "freshness_score": 0.3035,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.6411
+    "rank_score": 0.2747
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5135744",
+    "canonical_url": "https://dev.to/earlgreyhot1701d/two-sisters-tinctures-now-in-motion-an-ai-ad-made-with-migoo-3lo7",
+    "title": "Two Sisters Tinctures, Now in Motion: An AI Ad Made with Migoo",
+    "snippet": "Spike the story first. Spend the credits on the shots. TL;DR: I entered the B.E.L.L.E x Migoo AI...",
+    "author": "earlgreyhot1701d",
+    "published_at": "2026-11-28T00:23:15+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-28T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 11,
+    "comments_count": 1,
+    "source_tags": [
+      "ai",
+      "antigravity",
+      "buildinpublic",
+      "showdev"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.3612,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.5192,
+    "freshness_score": 0.8452,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2633
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "c2zrmq",
+    "canonical_url": "https://buildyourownpaint.com/en",
+    "title": "Build your own Paint",
+    "snippet": "",
+    "author": "syncsynchalt",
+    "published_at": "2026-11-27T16:22:36.766000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 16,
+    "comments_count": 4,
+    "source_tags": [
+      "rust"
+    ],
+    "domain": "buildyourownpaint.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.5287,
+    "freshness_score": 0.6207,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2626
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50665732",
+    "canonical_url": "https://theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+    "title": "Pizza history: AI agent's cardless purchase is a first for UK",
+    "snippet": "",
+    "author": "6LLvveMx2koXfwn",
+    "published_at": "2026-11-27T11:41:11+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 20,
+    "comments_count": 41,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "theguardian.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6185,
+    "freshness_score": 0.5183,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2564
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50659640",
+    "canonical_url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji",
+    "title": "Company Culture = Slack Emoji ÷ √Headcount",
+    "snippet": "",
+    "author": "liamg",
+    "published_at": "2026-11-26T20:49:49+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 561,
+    "comments_count": 289,
+    "source_tags": [
+      "culture",
+      "satire",
+      "story"
+    ],
+    "domain": "lia.mg",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.9398,
+    "freshness_score": 0.2924,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.2528
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5032812",
+    "canonical_url": "https://dev.to/gde/your-on-device-ai-works-offline-does-your-web-app-38kj",
+    "title": "Your On-Device AI Works Offline. Does Your Web App?",
+    "snippet": "An on-device model can be ready without a network connection while the application around it still...",
+    "author": "raju_dandigam",
+    "published_at": "2026-11-27T15:09:00+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 12,
+    "comments_count": 7,
+    "source_tags": [
+      "ai",
+      "javascript",
+      "pwa",
+      "webdev"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.25,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.7019,
+    "freshness_score": 0.5923,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2495
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "hizg2w",
+    "canonical_url": "https://system76.com/blog/post/pop_os-26-04-lts-has-landed",
+    "title": "Pop!_OS 26.04 LTS Has Landed",
+    "snippet": "",
+    "author": "JulianWgs",
+    "published_at": "2026-11-27T16:42:50.585000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 13,
+    "comments_count": 4,
+    "source_tags": [
+      "linux",
+      "release"
+    ],
+    "domain": "system76.com",
+    "topics": [
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.561,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.4943,
+    "freshness_score": 0.6287,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2486
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50664931",
+    "canonical_url": "https://blog.pimalaya.org/pimalaya-goes-stable",
+    "title": "Pimalaya goes stable: Himalaya v3 and the pimdir standard",
+    "snippet": "",
+    "author": "joshcsimmons",
+    "published_at": "2026-11-27T09:50:02+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 42,
+    "comments_count": 10,
+    "source_tags": [
+      "email",
+      "release",
+      "rust",
+      "story"
+    ],
+    "domain": "blog.pimalaya.org",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.296,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews",
+      "lobsters"
+    ],
+    "engagement_percentile": 0.5542,
+    "freshness_score": 0.4827,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.2461
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5131295",
+    "canonical_url": "https://dev.to/cloudwerx/how-i-built-my-own-os-942",
+    "title": "How I built my own OS",
+    "snippet": "I run my own operating system now. Not a fork with a new wallpaper and a different logo in the...",
+    "author": "cloudwerx",
+    "published_at": "2026-11-27T09:12:07+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 31,
+    "comments_count": 12,
+    "source_tags": [
+      "ai",
+      "linux",
+      "opensource",
+      "programming"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.8462,
+    "freshness_score": 0.471,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2391
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50667725",
+    "canonical_url": "https://drewdevault.com/weird-guys",
+    "title": "Weird Little Guys of FOSS",
+    "snippet": "",
+    "author": "cowlevel",
+    "published_at": "2026-11-27T15:01:49+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 11,
+    "comments_count": 11,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "drewdevault.com",
+    "topics": [
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.1779,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.494,
+    "freshness_score": 0.5893,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2329
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5134809",
+    "canonical_url": "https://dev.to/aws-builders/porting-an-adk-research-and-judge-loop-to-strands-on-bedrock-agentcore-with-a2a-1x-209j",
+    "title": "Porting an ADK Research and Judge Loop to Strands on Bedrock AgentCore, With A2A 1.x",
+    "snippet": "A three-agent researcher, judge and course builder moved from Google ADK to Strands Agents on Amazon Bedrock: Nova Web Grounding for search, a Strands graph for the loop, AgentCore Runtime for the agents, ECS Express Mode for the web app, and A2A 1.x from an unmerged Strands pull request.",
+    "author": "xbill",
+    "published_at": "2026-11-27T21:03:32+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 13,
+    "comments_count": 0,
+    "source_tags": [
+      "agents",
+      "ai",
+      "aws",
+      "python"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools",
+      "cloud"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.1779,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.5192,
+    "freshness_score": 0.7434,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2316
+  },
+  {
+    "source": "rss",
+    "tier": "tier_1",
+    "source_item_id": "https://huggingface.co/blog/video-trainium3",
+    "canonical_url": "https://huggingface.co/blog/video-trainium3",
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "snippet": "",
+    "author": "Hugging Face Blog",
+    "published_at": "2026-11-27T00:00:00+00:00",
+    "collected_at": "2026-11-28T04:44:59.482140+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 0,
+    "comments_count": 0,
+    "source_tags": [],
+    "domain": "huggingface.co",
+    "topics": [
+      "data_engineering"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 1.0,
+    "mentioned_in_sources": [
+      "rss"
+    ],
+    "engagement_percentile": 0.7,
+    "freshness_score": 0.3305,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2314
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "afxeri",
+    "canonical_url": "https://linux-magazine.com/Online/Features/Taking-Email-Back",
+    "title": "Taking Email Back",
+    "snippet": "",
+    "author": "lim",
+    "published_at": "2026-11-26T19:51:21.378000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 86,
+    "comments_count": 44,
+    "source_tags": [
+      "email"
+    ],
+    "domain": "linux-magazine.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.9885,
+    "freshness_score": 0.2817,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2228
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50664104",
+    "canonical_url": "https://theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
+    "title": "Indie web browser Ladybird enters alpha testing",
+    "snippet": "",
+    "author": "01-_-",
+    "published_at": "2026-11-27T07:58:37+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 88,
+    "comments_count": 3,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "theregister.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6024,
+    "freshness_score": 0.4492,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2165
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5135588",
+    "canonical_url": "https://dev.to/danielneuron/stop-eating-your-ai-coding-bill-parsing-claude-code-codex-gemini-logs-into-client-invoices-551g",
+    "title": "Stop Eating Your AI Coding Bill: Parsing Claude Code, Codex & Gemini Logs into Client Invoices (Zero-Dep TypeScript)",
+    "snippet": "If you freelance or run a boutique dev shop in 2026, your Claude Code, OpenAI Codex CLI, Gemini CLI,...",
+    "author": "danielneuron",
+    "published_at": "2026-11-27T23:53:57+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 5,
+    "comments_count": 2,
+    "source_tags": [
+      "ai",
+      "cli",
+      "opensource",
+      "typescript"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.4231,
+    "freshness_score": 0.8291,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2105
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50670858",
+    "canonical_url": "https://officechai.com/ai/dating-app-ceo-says-claude-ignored-ethnicity-skin-tone-preferences-sabotaged-iq-estimation-while-building-its-app",
+    "title": "Dating App CEO Says Claude Sabotaged Code",
+    "snippet": "",
+    "author": "vinyl7",
+    "published_at": "2026-11-27T19:42:30+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 10,
+    "comments_count": 2,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "officechai.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.3695,
+    "freshness_score": 0.7057,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2086
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5129909",
+    "canonical_url": "https://dev.to/debashish_ghosal/i-talk-to-claude-more-than-my-wife-4cap",
+    "title": "I Talk to Claude More Than My Wife.",
+    "snippet": "I talk to Claude more than I talk to my wife. I did the math last week, and I am not proud of it. By...",
+    "author": "debashish_ghosal",
+    "published_at": "2026-11-27T12:05:56+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 16,
+    "comments_count": 2,
+    "source_tags": [
+      "ai",
+      "discuss",
+      "humor",
+      "productivity"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.3724,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.6538,
+    "freshness_score": 0.5263,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2065
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5133876",
+    "canonical_url": "https://dev.to/gde/thinking-on-constrained-deployments-gemma-e4b-on-4gb-1650-2cc6",
+    "title": "Thinking on Constrained Deployments: Gemma E4B on 4GB 1650",
+    "snippet": "Gemma 4 E4B fits a 4 GB laptop card and answers like an 8 GB desktop card in 15 of 16 settings, at 1.59 times the time. The drafter nearly doubles its speed; thinking doubles its time.",
+    "author": "xbill",
+    "published_at": "2026-11-27T16:16:35+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 8,
+    "comments_count": 3,
+    "source_tags": [
+      "ai",
+      "benchmark",
+      "gemma",
+      "llm"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.2732,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.5481,
+    "freshness_score": 0.6183,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2033
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50670184",
+    "canonical_url": "https://emergent.sh/news/claude-code-skills-now-sharable-across-teams",
+    "title": "Claude Code Skills Now Sharable Across Teams",
+    "snippet": "",
+    "author": "jatin_builds",
+    "published_at": "2026-11-27T18:36:20+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 8,
+    "comments_count": 3,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "emergent.sh",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.3695,
+    "freshness_score": 0.6765,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.2
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5131606",
+    "canonical_url": "https://dev.to/official_fire/i-built-a-programming-language-in-bhojpuri-from-scratch-using-go-3fcl",
+    "title": "I Built a Programming Language in Bhojpuri from Scratch Using Go",
+    "snippet": "I Built a Programming Language in Bhojpuri from Scratch Using Go Nobody asked for a...",
+    "author": "official_fire",
+    "published_at": "2026-11-27T09:59:11+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 10,
+    "comments_count": 6,
+    "source_tags": [
+      "computerscience",
+      "go",
+      "opensource",
+      "programming"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.6731,
+    "freshness_score": 0.4855,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.196
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50665938",
+    "canonical_url": "https://nature.com/articles/d41586-026-03875-6",
+    "title": "Has AI just cracked Internet encryption (Nature essay)",
+    "snippet": "",
+    "author": "bluenose69",
+    "published_at": "2026-11-27T12:05:25+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 9,
+    "comments_count": 7,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "nature.com",
+    "topics": [
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.4618,
+    "freshness_score": 0.5263,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1945
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1473828902",
+    "canonical_url": "https://github.com/i40396379-dotcom/whalefeed-utility",
+    "title": "i40396379-dotcom/whalefeed-utility: Whalefeed Utility: Cross-Platform Desktop Toolkit for Streamlined Workflow Automation",
+    "snippet": "Whalefeed Utility: Cross-Platform Desktop Toolkit for Streamlined Workflow Automation",
+    "author": "i40396379-dotcom",
+    "published_at": "2026-11-27T01:01:08+00:00",
+    "collected_at": "2026-11-28T04:45:19.981930+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 99,
+    "comments_count": 0,
+    "source_tags": [
+      "bayc",
+      "challengue",
+      "collectibles",
+      "duckdb",
+      "dune",
+      "floor-price",
+      "meme-coin",
+      "monitor",
+      "nft-collection",
+      "nft-tools",
+      "reservoir",
+      "satoshi",
+      "sql",
+      "tracker",
+      "transactions",
+      "whale",
+      "winapi",
+      "wintermute"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [
+      "DuckDB"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6739,
+    "freshness_score": 0.3437,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1853
   },
   {
     "source": "hackernews",
@@ -44,11 +1596,11 @@
     "snippet": "",
     "author": "julianlam",
     "published_at": "2026-11-26T17:11:29+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 312,
-    "comments_count": 76,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 440,
+    "comments_count": 107,
     "source_tags": [
       "front_page",
       "story"
@@ -63,10 +1615,45 @@
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.8398,
-    "freshness_score": 0.6332,
+    "engagement_percentile": 0.8996,
+    "freshness_score": 0.2542,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4254
+    "rank_score": 0.1829
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5136426",
+    "canonical_url": "https://dev.to/jsb-securedme/building-from-000-the-roman-numeral-trap-iii-vs-iv-four-real-agentic-telemetry-failures-315f",
+    "title": "Building from $0.00: The Roman Numeral Trap (III vs. IV) & Four Real Agentic Telemetry Failures",
+    "snippet": "Between November 12 and November 23, 2026, I logged twelve straight days of solo AI-assisted systems...",
+    "author": "jsb-securedme",
+    "published_at": "2026-11-28T03:39:23+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-28T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 6,
+    "comments_count": 0,
+    "source_tags": [
+      "ai",
+      "architecture",
+      "devops",
+      "productivity"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.5267,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.3173,
+    "freshness_score": 0.9585,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1825
   },
   {
     "source": "hackernews",
@@ -77,11 +1664,11 @@
     "snippet": "",
     "author": "geox",
     "published_at": "2026-11-27T00:03:18+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
     "published_date": "2026-11-27T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 46,
-    "comments_count": 23,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 56,
+    "comments_count": 28,
     "source_tags": [
       "front_page",
       "story"
@@ -96,10 +1683,114 @@
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.625,
-    "freshness_score": 0.8249,
+    "engagement_percentile": 0.6386,
+    "freshness_score": 0.3311,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4124
+    "rank_score": 0.1692
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5131283",
+    "canonical_url": "https://dev.to/dronzer2code/half-an-f1-car-is-now-a-battery-nobody-else-can-see-we-read-it-from-the-speed-trace-5bk5",
+    "title": "Half of the F1 Car Power Now Comes From Battery Nobody Else Can See. We Read It From the Speed Trace.",
+    "snippet": "This is a submission for the Monthly MLH × DEV Writing Challenge: a project built at an MLH...",
+    "author": "dronzer2code",
+    "published_at": "2026-11-27T09:43:06+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 15,
+    "comments_count": 0,
+    "source_tags": [
+      "devchallenge",
+      "formula1",
+      "machinelearning",
+      "mlhacks"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0772,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.5865,
+    "freshness_score": 0.4805,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1691
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "lmxpfo",
+    "canonical_url": "https://draketo.de/software/curb-ai-impact",
+    "title": "Curb impacts of AI on programming to maintain EU sovereignty",
+    "snippet": "",
+    "author": "aggsol",
+    "published_at": "2026-11-27T07:00:03.110000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 8,
+    "comments_count": 6,
+    "source_tags": [
+      "ai"
+    ],
+    "domain": "draketo.de",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.4828,
+    "freshness_score": 0.4328,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1671
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5129961",
+    "canonical_url": "https://dev.to/alexgeorgiev17/chasing-down-why-ansible-stalled-on-a-fresh-ubuntu-2604-box-5678",
+    "title": "Chasing down why Ansible stalled on a fresh Ubuntu 26.04 box",
+    "snippet": "Ansible's become hung for about 12-13 seconds against Ubuntu 26.04's new sudo-rs. I measured which Ansible versions actually fix it, which don't, and which workaround holds up.",
+    "author": "alexgeorgiev17",
+    "published_at": "2026-11-27T11:00:00+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 12,
+    "comments_count": 1,
+    "source_tags": [
+      "ansible",
+      "devops",
+      "linux",
+      "security"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "security",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.128,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.5481,
+    "freshness_score": 0.5048,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.166
   },
   {
     "source": "devto",
@@ -132,10 +1823,248 @@
     "mentioned_in_sources": [
       "devto"
     ],
-    "engagement_percentile": 0.7692,
-    "freshness_score": 0.8706,
+    "engagement_percentile": 0.7885,
+    "freshness_score": 0.3495,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.4018
+    "rank_score": 0.1653
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50658632",
+    "canonical_url": "https://github.com/eisenzopf/rvoip",
+    "title": "Rvoip: VoIP stack in Rust",
+    "snippet": "",
+    "author": "zerosegfaults",
+    "published_at": "2026-11-26T19:18:09+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 163,
+    "comments_count": 39,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.743,
+    "freshness_score": 0.2758,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1639
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50666051",
+    "canonical_url": "https://marmot.gaurav.zip/",
+    "title": "Marmot, an Alternative Go Compiler",
+    "snippet": "",
+    "author": "andreynering",
+    "published_at": "2026-11-27T12:18:04+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 15,
+    "comments_count": 0,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "marmot.gaurav.zip",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.3855,
+    "freshness_score": 0.5308,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1637
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1473696118",
+    "canonical_url": "https://github.com/thebodytheory01-commits/final-round-ai-desktop",
+    "title": "thebodytheory01-commits/final-round-ai-desktop: Final Round AI Desktop: Real-Time Interview Coaching, Speech Transcription, and Response Suggestions",
+    "snippet": "Final Round AI Desktop: Real-Time Interview Coaching, Speech Transcription, and Response Suggestions",
+    "author": "thebodytheory01-commits",
+    "published_at": "2026-11-26T21:37:37+00:00",
+    "collected_at": "2026-11-28T04:45:19.981930+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 99,
+    "comments_count": 0,
+    "source_tags": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "ai-tools",
+      "claude-code",
+      "claude-skills",
+      "cluely",
+      "cluely-alternative",
+      "cluely-clone",
+      "final-round-ai",
+      "interview",
+      "interviewcoder",
+      "llm",
+      "meeting-assistant",
+      "note-taking",
+      "notes",
+      "open-source",
+      "trending-repositories"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6739,
+    "freshness_score": 0.3015,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1626
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "kikmfz",
+    "canonical_url": "https://gist.github.com/seanjensengrey/f971c20d05d4d0efc0781f2f3c0353da",
+    "title": "x86 is an octal machine",
+    "snippet": "",
+    "author": "linkdd",
+    "published_at": "2026-11-27T20:24:04.111000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 7,
+    "comments_count": 1,
+    "source_tags": [
+      "compsci",
+      "retrocomputing"
+    ],
+    "domain": "gist.github.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.2759,
+    "freshness_score": 0.725,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.16
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1473746908",
+    "canonical_url": "https://github.com/titisseptian-SS/omniroute-explorer",
+    "title": "titisseptian-SS/omniroute-explorer: OmniRoute Explorer: Lightweight, Open-Access Routing Tool",
+    "snippet": "OmniRoute Explorer: Lightweight, Open-Access Routing Tool",
+    "author": "titisseptian-SS",
+    "published_at": "2026-11-26T22:49:29+00:00",
+    "collected_at": "2026-11-28T04:45:19.981930+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 98,
+    "comments_count": 0,
+    "source_tags": [
+      "ai-gateway",
+      "generative-ai",
+      "llm",
+      "omniroute",
+      "openai",
+      "python",
+      "streamlit"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6304,
+    "freshness_score": 0.3158,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1593
+  },
+  {
+    "source": "github",
+    "tier": "tier_2",
+    "source_item_id": "1473769186",
+    "canonical_url": "https://github.com/Ndarrr07/pro-llm-api-hub",
+    "title": "Ndarrr07/pro-llm-api-hub: Pro LLM API Hub: Structured Dataset of Large Language Model Interfaces",
+    "snippet": "Pro LLM API Hub: Structured Dataset of Large Language Model Interfaces",
+    "author": "Ndarrr07",
+    "published_at": "2026-11-26T23:24:29+00:00",
+    "collected_at": "2026-11-28T04:45:19.981930+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 95,
+    "comments_count": 0,
+    "source_tags": [
+      "ai-api",
+      "api-list",
+      "awesome-list",
+      "dataset",
+      "free-api",
+      "free-apis",
+      "free-llm",
+      "free-llm-api",
+      "free-resources",
+      "free-tier",
+      "gemini-api",
+      "generative-ai",
+      "groq",
+      "llm",
+      "llm-api",
+      "llm-apis",
+      "openai-compatible",
+      "openrouter",
+      "public-apis"
+    ],
+    "domain": "github.com",
+    "topics": [
+      "ai_and_ml",
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "github"
+    ],
+    "engagement_percentile": 0.6087,
+    "freshness_score": 0.323,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1573
   },
   {
     "source": "rss",
@@ -146,9 +2075,9 @@
     "snippet": "The idea behind read replicas makes sense: when your app gets busy, you add a couple...",
     "author": "Databricks Blog",
     "published_at": "2026-11-26T13:45:08+00:00",
-    "collected_at": "2026-11-27T05:03:26.163472+00:00",
+    "collected_at": "2026-11-28T04:44:59.482140+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [
@@ -166,42 +2095,78 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.5548,
+    "freshness_score": 0.2227,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3883
+    "rank_score": 0.1559
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5135113",
+    "canonical_url": "https://dev.to/philipjohnbasile/building-the-wisp-family-local-sub-30ms-code-autocomplete-models-trained-on-one-mac-4718",
+    "title": "Building The Wisp Family: Local Sub-30ms Code-Autocomplete Models Trained on One Mac",
+    "snippet": "Most local coding models try to do everything in one trunk: chat, tool calling, chain-of-thought...",
+    "author": "philipjohnbasile",
+    "published_at": "2026-11-27T21:15:26+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 3,
+    "comments_count": 2,
+    "source_tags": [
+      "ai",
+      "machinelearning",
+      "opensource",
+      "programming"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools",
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.3462,
+    "freshness_score": 0.7492,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1556
   },
   {
     "source": "hackernews",
     "tier": "tier_2",
-    "source_item_id": "50658632",
-    "canonical_url": "https://github.com/eisenzopf/rvoip",
-    "title": "Rvoip: VoIP stack in Rust",
+    "source_item_id": "50658498",
+    "canonical_url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty",
+    "title": "An introduction to uncertainty in machine learning",
     "snippet": "",
-    "author": "zerosegfaults",
-    "published_at": "2026-11-26T19:18:09+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
+    "author": "chrhenning",
+    "published_at": "2026-11-26T19:04:50+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 107,
-    "comments_count": 22,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 144,
+    "comments_count": 13,
     "source_tags": [
       "front_page",
       "story"
     ],
-    "domain": "github.com",
+    "domain": "chrhenning.com",
     "topics": [
-      "programming_and_devtools"
+      "ai_and_ml"
     ],
     "tools_mentioned": [],
-    "sentiment": 0.0,
+    "sentiment": -0.34,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.6953,
-    "freshness_score": 0.687,
+    "engagement_percentile": 0.6988,
+    "freshness_score": 0.2733,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3821
+    "rank_score": 0.1528
   },
   {
     "source": "rss",
@@ -212,9 +2177,9 @@
     "snippet": "",
     "author": "Hugging Face Blog",
     "published_at": "2026-11-26T11:37:17+00:00",
-    "collected_at": "2026-11-27T05:03:26.163472+00:00",
+    "collected_at": "2026-11-28T04:44:59.482140+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
     "source_score": 0,
     "comments_count": 0,
     "source_tags": [],
@@ -230,41 +2195,9 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.511,
+    "freshness_score": 0.2052,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3577
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50657110",
-    "canonical_url": "https://twitter.com/ElliotC1/status/2125689373337489419",
-    "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
-    "snippet": "",
-    "author": "binyu",
-    "published_at": "2026-11-26T16:55:15+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 57,
-    "comments_count": 47,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "twitter.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.3612,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.6953,
-    "freshness_score": 0.6267,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3486
+    "rank_score": 0.1436
   },
   {
     "source": "hackernews",
@@ -275,11 +2208,11 @@
     "snippet": "",
     "author": "ritzaco",
     "published_at": "2026-11-26T09:44:23+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 292,
-    "comments_count": 243,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 420,
+    "comments_count": 333,
     "source_tags": [
       "front_page",
       "story"
@@ -294,42 +2227,143 @@
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.9141,
-    "freshness_score": 0.4753,
+    "engagement_percentile": 0.9317,
+    "freshness_score": 0.1908,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3475
+    "rank_score": 0.1422
   },
   {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50658093",
-    "canonical_url": "https://reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into",
-    "title": "Notion's official MCP inject hidden upsell instructions into agent context",
-    "snippet": "",
-    "author": "czottmann",
-    "published_at": "2026-11-26T18:28:30+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 51,
-    "comments_count": 22,
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5136537",
+    "canonical_url": "https://dev.to/sanskarin/introducing-frametrellis-v154-safer-project-saves-and-more-reliable-video-editing-5803",
+    "title": "Introducing FrameTrellis v1.5.4: Safer Project Saves and More Reliable Video Editing",
+    "snippet": "Introducing FrameTrellis v1.5.4 I'm pleased to announce the stable release of FrameTrellis...",
+    "author": "sanskarin",
+    "published_at": "2026-11-28T04:19:46+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-28T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 5,
+    "comments_count": 0,
     "source_tags": [
-      "story"
+      "cpp",
+      "ffmpeg",
+      "opensource",
+      "qt"
     ],
-    "domain": "reddit.com",
+    "domain": "dev.to",
     "topics": [
-      "ai_and_ml"
+      "open_source"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.7845,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.2404,
+    "freshness_score": 0.9835,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1418
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "2gfpu3",
+    "canonical_url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release",
+    "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
+    "snippet": "",
+    "author": "armael",
+    "published_at": "2026-11-26T12:40:23.353000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 61,
+    "comments_count": 4,
+    "source_tags": [
+      "distributed",
+      "release",
+      "web"
+    ],
+    "domain": "garagehq.deuxfleurs.fr",
+    "topics": [
+      "programming_and_devtools"
     ],
     "tools_mentioned": [],
     "sentiment": 0.0,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.8276,
+    "freshness_score": 0.2136,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1414
+  },
+  {
+    "source": "lobsters",
+    "tier": "tier_2",
+    "source_item_id": "tgihkm",
+    "canonical_url": "https://well-typed.com/blog/2026/11/exception-best-practices",
+    "title": "Exception Best Practices",
+    "snippet": "",
+    "author": "ettolrach",
+    "published_at": "2026-11-27T13:05:30.318000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 7,
+    "comments_count": 2,
+    "source_tags": [
+      "haskell"
+    ],
+    "domain": "well-typed.com",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.6369,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "lobsters"
+    ],
+    "engagement_percentile": 0.3218,
+    "freshness_score": 0.547,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1408
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50657110",
+    "canonical_url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+    "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+    "snippet": "",
+    "author": "binyu",
+    "published_at": "2026-11-26T16:55:15+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 61,
+    "comments_count": 51,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "twitter.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.3612,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.6328,
-    "freshness_score": 0.6653,
+    "engagement_percentile": 0.6908,
+    "freshness_score": 0.2516,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3368
+    "rank_score": 0.139
   },
   {
     "source": "hackernews",
@@ -340,11 +2374,11 @@
     "snippet": "",
     "author": "michidk",
     "published_at": "2026-11-26T15:00:06+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 126,
-    "comments_count": 29,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 153,
+    "comments_count": 34,
     "source_tags": [
       "front_page",
       "show_hn",
@@ -360,10 +2394,10 @@
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.7188,
-    "freshness_score": 0.5821,
+    "engagement_percentile": 0.7349,
+    "freshness_score": 0.2337,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3347
+    "rank_score": 0.1374
   },
   {
     "source": "devto",
@@ -396,76 +2430,10 @@
     "mentioned_in_sources": [
       "devto"
     ],
-    "engagement_percentile": 0.7404,
-    "freshness_score": 0.7434,
+    "engagement_percentile": 0.7596,
+    "freshness_score": 0.2984,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3302
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50652527",
-    "canonical_url": "https://micjm.com/blog/openai-is-in-cost-control-mode",
-    "title": "OpenAI may be in cost control mode",
-    "snippet": "",
-    "author": "seizethecheese",
-    "published_at": "2026-11-26T07:33:12+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 307,
-    "comments_count": 316,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "micjm.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.9297,
-    "freshness_score": 0.437,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.325
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "2gfpu3",
-    "canonical_url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release",
-    "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
-    "snippet": "",
-    "author": "armael",
-    "published_at": "2026-11-26T12:40:23.353000+00:00",
-    "collected_at": "2026-11-27T05:03:15.546610+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 40,
-    "comments_count": 3,
-    "source_tags": [
-      "distributed",
-      "release",
-      "web"
-    ],
-    "domain": "garagehq.deuxfleurs.fr",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.75,
-    "freshness_score": 0.5321,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.3193
+    "rank_score": 0.136
   },
   {
     "source": "lobsters",
@@ -476,11 +2444,11 @@
     "snippet": "",
     "author": "m0th",
     "published_at": "2026-11-26T11:51:23.187000+00:00",
-    "collected_at": "2026-11-27T05:03:15.546610+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 24,
-    "comments_count": 11,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 33,
+    "comments_count": 16,
     "source_tags": [
       "rust"
     ],
@@ -494,29 +2462,200 @@
     "mentioned_in_sources": [
       "lobsters"
     ],
-    "engagement_percentile": 0.75,
-    "freshness_score": 0.5156,
+    "engagement_percentile": 0.8161,
+    "freshness_score": 0.207,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.3094
+    "rank_score": 0.1352
+  },
+  {
+    "source": "dailydev",
+    "tier": "tier_3",
+    "source_item_id": "tS4QaD3T1",
+    "canonical_url": "https://ishadeed.com/article/web-personality",
+    "title": "The web is losing its p e r s o n a l i t y",
+    "snippet": "One-shot AI landing pages look alike because models learned from the same templates, UI kits and component libraries. Ahmad Shadeed lists the tells: hero eyebrows with emoji, gradient headlines, animated gradient blobs, blur-in headline animations, 'No fluff. No...' copy, cut-off shadows and awkward",
+    "author": "Ahmad Shadeed",
+    "published_at": "2026-11-26T16:55:21.491000+00:00",
+    "collected_at": "2026-11-28T04:45:29.052265+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 27,
+    "comments_count": 14,
+    "source_tags": [
+      "claude",
+      "tailwind-css",
+      "ui-design",
+      "ux"
+    ],
+    "domain": "ishadeed.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.5267,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "dailydev"
+    ],
+    "engagement_percentile": 0.8889,
+    "freshness_score": 0.2516,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1342
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50658093",
+    "canonical_url": "https://reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into",
+    "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+    "snippet": "",
+    "author": "czottmann",
+    "published_at": "2026-11-26T18:28:30+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 59,
+    "comments_count": 22,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "reddit.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.6225,
+    "freshness_score": 0.2671,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.133
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50652527",
+    "canonical_url": "https://micjm.com/blog/openai-is-in-cost-control-mode",
+    "title": "OpenAI may be in cost control mode",
+    "snippet": "",
+    "author": "seizethecheese",
+    "published_at": "2026-11-26T07:33:12+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 356,
+    "comments_count": 359,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "micjm.com",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.9277,
+    "freshness_score": 0.1754,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1302
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50670173",
+    "canonical_url": "https://twitter.com/martinmaritsch/status/2126195898795573437",
+    "title": "AWS Trainium2 cut training cost by 50% compared to Nvidia H200",
+    "snippet": "",
+    "author": "thkaar",
+    "published_at": "2026-11-27T18:35:07+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 10,
+    "comments_count": 0,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "twitter.com",
+    "topics": [
+      "cloud"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.2732,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.2369,
+    "freshness_score": 0.676,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1281
+  },
+  {
+    "source": "dailydev",
+    "tier": "tier_3",
+    "source_item_id": "gZfNRP41i",
+    "canonical_url": "https://newsletter.techworld-with-milan.com/p/agents-write-99-of-my-code-here-is",
+    "title": "Agents write 99% of my code. Here is what I still do.",
+    "snippet": "Milan Milanović says agents now write 99% of his code, and his job is a short loop: define what he wants, check the result, give feedback. He writes a plan with OpenSpec, has a second model review it, then lets Claude Code (80% of the time) or Codex implement it. A fresh session reviews the branch.",
+    "author": "Tech World With Milan",
+    "published_at": "2026-11-26T17:57:10.072000+00:00",
+    "collected_at": "2026-11-28T04:45:29.052265+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 26,
+    "comments_count": 7,
+    "source_tags": [
+      "ai-agents",
+      "azure",
+      "claude-code"
+    ],
+    "domain": "newsletter.techworld-with-milan.com",
+    "topics": [
+      "ai_and_ml",
+      "cloud"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.3182,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "dailydev"
+    ],
+    "engagement_percentile": 0.7778,
+    "freshness_score": 0.2618,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1222
   },
   {
     "source": "lobsters",
     "tier": "tier_2",
-    "source_item_id": "afxeri",
-    "canonical_url": "https://linux-magazine.com/Online/Features/Taking-Email-Back",
-    "title": "Taking Email Back",
+    "source_item_id": "w4kxiz",
+    "canonical_url": "https://quin.fyi/posts/how-winhelp-files-work.html",
+    "title": "How WinHelp files work",
     "snippet": "",
-    "author": "lim",
-    "published_at": "2026-11-26T19:51:21.378000+00:00",
-    "collected_at": "2026-11-27T05:03:15.546610+00:00",
+    "author": "Quin",
+    "published_at": "2026-11-26T06:39:00.543000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 20,
-    "comments_count": 3,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 23,
+    "comments_count": 16,
     "source_tags": [
-      "email"
+      "front_page",
+      "programming",
+      "reversing",
+      "rust",
+      "show",
+      "story"
     ],
-    "domain": "linux-magazine.com",
+    "domain": "quin.fyi",
     "topics": [
       "programming_and_devtools"
     ],
@@ -524,77 +2663,112 @@
     "sentiment": 0.0,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
+      "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.5217,
-    "freshness_score": 0.7017,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2929
+    "engagement_percentile": 0.7816,
+    "freshness_score": 0.1694,
+    "cross_source_bonus": 1.15,
+    "rank_score": 0.1218
   },
   {
-    "source": "hackernews",
+    "source": "lobsters",
     "tier": "tier_2",
-    "source_item_id": "50658498",
-    "canonical_url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty",
-    "title": "An introduction to uncertainty in machine learning",
+    "source_item_id": "3lkriu",
+    "canonical_url": "https://jeffgeerling.com/blog/2026/ansible-fails-become-ubuntu2604",
+    "title": "Ansible Fails waiting for privilege escalation on Ubuntu 26",
     "snippet": "",
-    "author": "chrhenning",
-    "published_at": "2026-11-26T19:04:50+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
+    "author": "ema-pe",
+    "published_at": "2026-11-26T09:45:42.146000+00:00",
+    "collected_at": "2026-11-28T04:44:48.993262+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 40,
-    "comments_count": 0,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 16,
+    "comments_count": 18,
     "source_tags": [
-      "front_page",
-      "story"
+      "devops",
+      "linux"
     ],
-    "domain": "chrhenning.com",
+    "domain": "jeffgeerling.com",
     "topics": [
-      "ai_and_ml"
+      "programming_and_devtools",
+      "open_source"
     ],
     "tools_mentioned": [],
-    "sentiment": -0.34,
+    "sentiment": -0.0772,
     "trust_weight": 0.8,
     "mentioned_in_sources": [
-      "hackernews"
+      "lobsters"
     ],
-    "engagement_percentile": 0.5352,
-    "freshness_score": 0.6808,
+    "engagement_percentile": 0.7471,
+    "freshness_score": 0.1909,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2915
+    "rank_score": 0.1141
   },
   {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50660880",
-    "canonical_url": "https://faz.net/agenturmeldungen/dpa/sap-haben-verdaechtige-aktivitaeten-identifiziert-201721612.html",
-    "title": "SAP confirms \"suspicious activities\" on its GitHub platform [German]",
-    "snippet": "",
-    "author": "easychris",
-    "published_at": "2026-11-26T23:09:22+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 12,
-    "comments_count": 3,
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5135304",
+    "canonical_url": "https://dev.to/techwithpraisejames/how-to-build-a-semantic-image-search-engine-with-clip-and-python-4d06",
+    "title": "How to build a semantic image search engine with CLIP and Python",
+    "snippet": "I have a folder of photos with filenames like 20251230_141957.JPEG and -7972525063673149628.JPEG. If...",
+    "author": "techwithpraisejames",
+    "published_at": "2026-11-27T22:10:35+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 3,
+    "comments_count": 1,
     "source_tags": [
-      "story"
+      "ai",
+      "machinelearning",
+      "python",
+      "tutorial"
     ],
-    "domain": "faz.net",
+    "domain": "dev.to",
     "topics": [
       "programming_and_devtools"
     ],
     "tools_mentioned": [],
-    "sentiment": -0.3612,
-    "trust_weight": 0.8,
+    "sentiment": 0.3612,
+    "trust_weight": 0.6,
     "mentioned_in_sources": [
-      "hackernews"
+      "devto"
     ],
-    "engagement_percentile": 0.4531,
-    "freshness_score": 0.7968,
+    "engagement_percentile": 0.2404,
+    "freshness_score": 0.7761,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2888
+    "rank_score": 0.1119
+  },
+  {
+    "source": "rss",
+    "tier": "tier_1",
+    "source_item_id": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+    "canonical_url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+    "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+    "snippet": "",
+    "author": "Hugging Face Blog",
+    "published_at": "2026-11-26T05:05:36+00:00",
+    "collected_at": "2026-11-28T04:44:59.482140+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 0,
+    "comments_count": 0,
+    "source_tags": [],
+    "domain": "huggingface.co",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 1.0,
+    "mentioned_in_sources": [
+      "rss"
+    ],
+    "engagement_percentile": 0.7,
+    "freshness_score": 0.1595,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1117
   },
   {
     "source": "hackernews",
@@ -624,10 +2798,10 @@
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.9375,
-    "freshness_score": 0.3753,
+    "engagement_percentile": 0.9237,
+    "freshness_score": 0.1507,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2815
+    "rank_score": 0.1113
   },
   {
     "source": "hackernews",
@@ -660,174 +2834,10 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.9063,
-    "freshness_score": 0.3352,
+    "engagement_percentile": 0.8956,
+    "freshness_score": 0.1346,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.2795
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-    "canonical_url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-    "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-    "snippet": "",
-    "author": "Hugging Face Blog",
-    "published_at": "2026-11-26T05:05:36+00:00",
-    "collected_at": "2026-11-27T05:03:26.163472+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [],
-    "domain": "huggingface.co",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3974,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2782
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50651863",
-    "canonical_url": "https://arxiv.org/abs/2611.34924",
-    "title": "An algebraic quantization of gravity from the null cone",
-    "snippet": "",
-    "author": "hecmmm",
-    "published_at": "2026-11-26T05:37:51+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 226,
-    "comments_count": 86,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.8242,
-    "freshness_score": 0.4056,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2674
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5120802",
-    "canonical_url": "https://dev.to/thethirdcup/i-built-ai-test-automation-today-i-went-back-to-manual-testing-mlh",
-    "title": "I Built AI Test Automation. Today, I Went Back to Manual Testing.",
-    "snippet": "Today, I manually tested a project. It doesn't sound like anything special. After all, I've been...",
-    "author": "xulingfeng",
-    "published_at": "2026-11-26T08:16:05+00:00",
-    "collected_at": "2026-11-27T05:03:05.867315+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 86,
-    "comments_count": 76,
-    "source_tags": [
-      "ai",
-      "discuss",
-      "testing",
-      "watercooler"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.1506,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.9904,
-    "freshness_score": 0.4492,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2669
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "3lkriu",
-    "canonical_url": "https://jeffgeerling.com/blog/2026/ansible-fails-become-ubuntu2604",
-    "title": "Ansible Fails waiting for privilege escalation on Ubuntu 26",
-    "snippet": "",
-    "author": "ema-pe",
-    "published_at": "2026-11-26T09:45:42.146000+00:00",
-    "collected_at": "2026-11-27T05:03:15.546610+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 13,
-    "comments_count": 13,
-    "source_tags": [
-      "devops",
-      "linux"
-    ],
-    "domain": "jeffgeerling.com",
-    "topics": [
-      "programming_and_devtools",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.0772,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.6957,
-    "freshness_score": 0.4756,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2647
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50656686",
-    "canonical_url": "https://status.1984.is/status/public",
-    "title": "1984 Hosting is down due to a security incident",
-    "snippet": "",
-    "author": "eniac111",
-    "published_at": "2026-11-26T16:09:12+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 27,
-    "comments_count": 7,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "status.1984.is",
-    "topics": [
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.34,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.543,
-    "freshness_score": 0.6085,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2643
+    "rank_score": 0.1109
   },
   {
     "source": "devto",
@@ -860,10 +2870,110 @@
     "mentioned_in_sources": [
       "devto"
     ],
-    "engagement_percentile": 0.6731,
-    "freshness_score": 0.6543,
+    "engagement_percentile": 0.7019,
+    "freshness_score": 0.2627,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2642
+    "rank_score": 0.1106
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50651863",
+    "canonical_url": "https://arxiv.org/abs/2611.34924",
+    "title": "An algebraic quantization of gravity from the null cone",
+    "snippet": "",
+    "author": "hecmmm",
+    "published_at": "2026-11-26T05:37:51+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 265,
+    "comments_count": 120,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "arxiv.org",
+    "topics": [
+      "ai_and_ml"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.8434,
+    "freshness_score": 0.1628,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1099
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50660880",
+    "canonical_url": "https://faz.net/agenturmeldungen/dpa/sap-haben-verdaechtige-aktivitaeten-identifiziert-201721612.html",
+    "title": "SAP confirms \"suspicious activities\" on its GitHub platform [German]",
+    "snippet": "",
+    "author": "easychris",
+    "published_at": "2026-11-26T23:09:22+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 13,
+    "comments_count": 3,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "faz.net",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": -0.3612,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.4257,
+    "freshness_score": 0.3199,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1089
+  },
+  {
+    "source": "devto",
+    "tier": "tier_3",
+    "source_item_id": "5120802",
+    "canonical_url": "https://dev.to/thethirdcup/i-built-ai-test-automation-today-i-went-back-to-manual-testing-mlh",
+    "title": "I Built AI Test Automation. Today, I Went Back to Manual Testing.",
+    "snippet": "Today, I manually tested a project. It doesn't sound like anything special. After all, I've been...",
+    "author": "xulingfeng",
+    "published_at": "2026-11-26T08:16:05+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 101,
+    "comments_count": 111,
+    "source_tags": [
+      "ai",
+      "discuss",
+      "testing",
+      "watercooler"
+    ],
+    "domain": "dev.to",
+    "topics": [
+      "programming_and_devtools"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.1506,
+    "trust_weight": 0.6,
+    "mentioned_in_sources": [
+      "devto"
+    ],
+    "engagement_percentile": 0.9904,
+    "freshness_score": 0.1803,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1072
   },
   {
     "source": "hackernews",
@@ -874,11 +2984,11 @@
     "snippet": "",
     "author": "goatley",
     "published_at": "2026-11-26T14:38:57+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 37,
-    "comments_count": 10,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 46,
+    "comments_count": 15,
     "source_tags": [
       "story"
     ],
@@ -892,10 +3002,10 @@
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.5664,
-    "freshness_score": 0.574,
+    "engagement_percentile": 0.5743,
+    "freshness_score": 0.2304,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2601
+    "rank_score": 0.1059
   },
   {
     "source": "devto",
@@ -906,11 +3016,11 @@
     "snippet": "There is something strangely nostalgic about November 2026. GTA VI has finally arrived after 13...",
     "author": "gramli",
     "published_at": "2026-11-26T08:03:09+00:00",
-    "collected_at": "2026-11-27T05:03:05.867315+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 64,
-    "comments_count": 43,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 83,
+    "comments_count": 60,
     "source_tags": [
       "ai",
       "discuss",
@@ -927,10 +3037,42 @@
     "mentioned_in_sources": [
       "devto"
     ],
-    "engagement_percentile": 0.9712,
-    "freshness_score": 0.4454,
+    "engagement_percentile": 0.9808,
+    "freshness_score": 0.1788,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2596
+    "rank_score": 0.1052
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50656686",
+    "canonical_url": "https://status.1984.is/status/public",
+    "title": "1984 Hosting is down due to a security incident",
+    "snippet": "",
+    "author": "eniac111",
+    "published_at": "2026-11-26T16:09:12+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 27,
+    "comments_count": 7,
+    "source_tags": [
+      "story"
+    ],
+    "domain": "status.1984.is",
+    "topics": [
+      "security"
+    ],
+    "tools_mentioned": [],
+    "sentiment": 0.34,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.5181,
+    "freshness_score": 0.2443,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.1012
   },
   {
     "source": "hackernews",
@@ -963,45 +3105,10 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.9961,
-    "freshness_score": 0.2714,
+    "engagement_percentile": 1.0,
+    "freshness_score": 0.109,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.2487
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "byfdgn",
-    "canonical_url": "https://blainehansen.me/post/mainstream-verifiable-language",
-    "title": "The need for a formally verifiable mainstream programming language",
-    "snippet": "",
-    "author": "florianhartung",
-    "published_at": "2026-11-26T20:06:50.248000+00:00",
-    "collected_at": "2026-11-27T05:03:15.546610+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 8,
-    "comments_count": 4,
-    "source_tags": [
-      "ai",
-      "building-ai-tooling",
-      "formalmethods",
-      "plt"
-    ],
-    "domain": "blainehansen.me",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.4348,
-    "freshness_score": 0.7085,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2464
+    "rank_score": 0.1002
   },
   {
     "source": "hackernews",
@@ -1035,10 +3142,10 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.9258,
-    "freshness_score": 0.287,
+    "engagement_percentile": 0.9157,
+    "freshness_score": 0.1152,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.2444
+    "rank_score": 0.0971
   },
   {
     "source": "hackernews",
@@ -1069,45 +3176,10 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.6875,
-    "freshness_score": 0.377,
+    "engagement_percentile": 0.6787,
+    "freshness_score": 0.1513,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.2384
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50650892",
-    "canonical_url": "https://progrium.github.io/minipg",
-    "title": "Minipg: PostgreSQL as a Single Executable",
-    "snippet": "",
-    "author": "rguiscard",
-    "published_at": "2026-11-26T03:00:48+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 291,
-    "comments_count": 44,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "progrium.github.io",
-    "topics": [
-      "databases_and_warehouses"
-    ],
-    "tools_mentioned": [
-      "PostgreSQL"
-    ],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.7969,
-    "freshness_score": 0.3667,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2338
+    "rank_score": 0.0945
   },
   {
     "source": "lobsters",
@@ -1136,10 +3208,10 @@
     "mentioned_in_sources": [
       "lobsters"
     ],
-    "engagement_percentile": 0.9348,
-    "freshness_score": 0.311,
+    "engagement_percentile": 0.9425,
+    "freshness_score": 0.1248,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2325
+    "rank_score": 0.0941
   },
   {
     "source": "devto",
@@ -1172,9 +3244,44 @@
       "devto"
     ],
     "engagement_percentile": 0.8365,
-    "freshness_score": 0.4626,
+    "freshness_score": 0.1857,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2322
+    "rank_score": 0.0932
+  },
+  {
+    "source": "hackernews",
+    "tier": "tier_2",
+    "source_item_id": "50650892",
+    "canonical_url": "https://progrium.github.io/minipg",
+    "title": "Minipg: PostgreSQL as a Single Executable",
+    "snippet": "",
+    "author": "rguiscard",
+    "published_at": "2026-11-26T03:00:48+00:00",
+    "collected_at": "2026-11-27T05:02:55.038185+00:00",
+    "published_date": "2026-11-26T00:00:00",
+    "collected_date": "2026-11-27T00:00:00",
+    "source_score": 291,
+    "comments_count": 44,
+    "source_tags": [
+      "front_page",
+      "story"
+    ],
+    "domain": "progrium.github.io",
+    "topics": [
+      "databases_and_warehouses"
+    ],
+    "tools_mentioned": [
+      "PostgreSQL"
+    ],
+    "sentiment": 0.0,
+    "trust_weight": 0.8,
+    "mentioned_in_sources": [
+      "hackernews"
+    ],
+    "engagement_percentile": 0.7912,
+    "freshness_score": 0.1472,
+    "cross_source_bonus": 1.0,
+    "rank_score": 0.0932
   },
   {
     "source": "hackernews",
@@ -1206,73 +3313,10 @@
       "hackernews",
       "lobsters"
     ],
-    "engagement_percentile": 0.9883,
-    "freshness_score": 0.2524,
+    "engagement_percentile": 0.992,
+    "freshness_score": 0.1013,
     "cross_source_bonus": 1.15,
-    "rank_score": 0.2295
-  },
-  {
-    "source": "rss",
-    "tier": "tier_1",
-    "source_item_id": "https://huggingface.co/blog/training-swarms",
-    "canonical_url": "https://huggingface.co/blog/training-swarms",
-    "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-    "snippet": "",
-    "author": "Hugging Face Blog",
-    "published_at": "2026-11-26T00:00:00+00:00",
-    "collected_at": "2026-11-27T05:03:26.163472+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [],
-    "domain": "huggingface.co",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "rss"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.3267,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2287
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50648050",
-    "canonical_url": "https://github.com/lsernau/grh-lean",
-    "title": "Much shorter version of GRH Lean verification from Anthropic",
-    "snippet": "",
-    "author": "nb-t",
-    "published_at": "2026-11-25T21:48:10+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 552,
-    "comments_count": 349,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.9492,
-    "freshness_score": 0.3002,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2279
+    "rank_score": 0.0925
   },
   {
     "source": "hackernews",
@@ -1283,11 +3327,11 @@
     "snippet": "",
     "author": "me2too",
     "published_at": "2026-11-26T13:43:14+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
+    "collected_at": "2026-11-28T04:44:29.017190+00:00",
     "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 22,
-    "comments_count": 5,
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 27,
+    "comments_count": 7,
     "source_tags": [
       "story"
     ],
@@ -1301,10 +3345,10 @@
     "mentioned_in_sources": [
       "hackernews"
     ],
-    "engagement_percentile": 0.5117,
-    "freshness_score": 0.5541,
+    "engagement_percentile": 0.5181,
+    "freshness_score": 0.2224,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2268
+    "rank_score": 0.0922
   },
   {
     "source": "lobsters",
@@ -1333,528 +3377,22 @@
     "mentioned_in_sources": [
       "lobsters"
     ],
-    "engagement_percentile": 0.913,
-    "freshness_score": 0.3076,
+    "engagement_percentile": 0.931,
+    "freshness_score": 0.1235,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.2247
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "hge0sd",
-    "canonical_url": "https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime",
-    "title": "Browser tabs as a container runtime",
-    "snippet": "",
-    "author": "mrw",
-    "published_at": "2026-11-26T04:57:04.708000+00:00",
-    "collected_at": "2026-11-27T05:03:15.546610+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 25,
-    "comments_count": 4,
-    "source_tags": [
-      "ai",
-      "browsers",
-      "linux",
-      "story"
-    ],
-    "domain": "fzakaria.com",
-    "topics": [
-      "cloud",
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews",
-      "lobsters"
-    ],
-    "engagement_percentile": 0.6087,
-    "freshness_score": 0.3953,
-    "cross_source_bonus": 1.15,
-    "rank_score": 0.2214
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "w4kxiz",
-    "canonical_url": "https://quin.fyi/posts/how-winhelp-files-work.html",
-    "title": "How WinHelp files work",
-    "snippet": "",
-    "author": "Quin",
-    "published_at": "2026-11-26T06:39:00.543000+00:00",
-    "collected_at": "2026-11-27T05:03:15.546610+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 18,
-    "comments_count": 8,
-    "source_tags": [
-      "programming",
-      "reversing",
-      "rust",
-      "show"
-    ],
-    "domain": "quin.fyi",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.6522,
-    "freshness_score": 0.4221,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2202
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50655639",
-    "canonical_url": "https://github.com/batanus/lip-dictation",
-    "title": "Show HN: Silent dictation for Claude Code via on-device lip reading",
-    "snippet": "",
-    "author": "dima7711",
-    "published_at": "2026-11-26T14:25:08+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 15,
-    "comments_count": 2,
-    "source_tags": [
-      "show_hn",
-      "story"
-    ],
-    "domain": "github.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.4648,
-    "freshness_score": 0.5692,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2117
-  },
-  {
-    "source": "devto",
-    "tier": "tier_3",
-    "source_item_id": "5122097",
-    "canonical_url": "https://dev.to/ayush_singh321/my-simulation-exaggerated-the-cost-of-my-own-safety-feature-565p",
-    "title": "My Simulation Exaggerated the Cost of My Own Safety Feature",
-    "snippet": "In my last post, I wrote that checking every sentence before showing it made my RAG system worse...",
-    "author": "ayush_singh321",
-    "published_at": "2026-11-26T06:33:35+00:00",
-    "collected_at": "2026-11-27T05:03:05.867315+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 24,
-    "comments_count": 13,
-    "source_tags": [
-      "ai",
-      "discuss",
-      "productivity",
-      "rag"
-    ],
-    "domain": "dev.to",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.1027,
-    "trust_weight": 0.6,
-    "mentioned_in_sources": [
-      "devto"
-    ],
-    "engagement_percentile": 0.8269,
-    "freshness_score": 0.4204,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.2086
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50656701",
-    "canonical_url": "https://cloudflarestatus.com/incidents/xiqj67vl5pqm",
-    "title": "Cloudflare Dashboard and Cloudflare API service issues",
-    "snippet": "",
-    "author": "gman83",
-    "published_at": "2026-11-26T16:10:59+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 10,
-    "comments_count": 2,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "cloudflarestatus.com",
-    "topics": [
-      "analytics_and_bi",
-      "programming_and_devtools",
-      "cloud"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.3945,
-    "freshness_score": 0.6089,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1922
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50651552",
-    "canonical_url": "https://twitter.com/skirano/status/2125371115979641188",
-    "title": "Claude tries to sabotage research work at every stage",
-    "snippet": "",
-    "author": "theanonymousone",
-    "published_at": "2026-11-26T04:49:21+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 53,
-    "comments_count": 15,
-    "source_tags": [
-      "story"
-    ],
-    "domain": "twitter.com",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.5267,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.6094,
-    "freshness_score": 0.3933,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1917
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "l6g7j1",
-    "canonical_url": "https://lvignoli.eu/posts/2026-11-16-typed-indexes-in-zig",
-    "title": "Typed indexes in Zig",
-    "snippet": "",
-    "author": "lvig",
-    "published_at": "2026-11-25T22:48:44.713000+00:00",
-    "collected_at": "2026-11-27T05:03:15.546610+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 31,
-    "comments_count": 9,
-    "source_tags": [
-      "programming",
-      "zig"
-    ],
-    "domain": "lvignoli.eu",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.7609,
-    "freshness_score": 0.312,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1899
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34938v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34938",
-    "title": "Tokenisation is not in APX",
-    "snippet": "In this paper, we prove that, unless P=NP, no polynomial-time algorithm can find a tokeniser whose objective is within any constant factor of the optimum, meaning that tokenisation is not in the APX complexity class. We prove this for direct and bottom-up tokenisation, under both a compression or un",
-    "author": "Violeta Kastreva, Philip Whittington, Dennis Komm",
-    "published_at": "2026-11-25T18:59:38+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cl",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.296,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2693,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1885
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34935v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34935",
-    "title": "Can image generation help visual reasoning? An empirical study",
-    "snippet": "Language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. Across 13 vision-language model and gene",
-    "author": "Xueyang Yu, Yifan Jing, Taiming Lu",
-    "published_at": "2026-11-25T18:59:31+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cl",
-      "cs.cv",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.891,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2693,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1885
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34934v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34934",
-    "title": "Attack Policy Selection can Mislead Monitor Evaluators",
-    "snippet": "AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is",
-    "author": "Charlie Griffin, Oliver Makins, Asa Cooper Stickland",
-    "published_at": "2026-11-25T18:59:28+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.9442,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2693,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1885
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34930v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34930",
-    "title": "A gene informed benchmark for BioScoring of pathology foundation models",
-    "snippet": "Pathology foundation models are usually compared by their performance on downstream tasks such as classification and retrieval. While such benchmarks measure how useful a model is, they provide no insight into the biology it represents. We introduce BioScore, a benchmark that quantifies how well an",
-    "author": "Paul Vilars, Vincent Quoc-Huy Trinh, Maria Vakalopoulou",
-    "published_at": "2026-11-25T18:59:13+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.4215,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2693,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1885
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34928v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34928",
-    "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
-    "snippet": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning T",
-    "author": "Lukas Aichberger, Adam Golinski, Arno Blaas",
-    "published_at": "2026-11-25T18:59:11+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cl",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.6249,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2693,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1885
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34942v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34942",
-    "title": "Spectrum Adaptation of AI-Native Autoencoder Communications with Transfer Learning",
-    "snippet": "End-to-end physical-layer learning replaces separate modulation, coding, and detection operations with an autoencoder (AE) that consists of a jointly trained encoder-decoder pair at the transmitter and the receiver. This paper studies AI-native communications with AEs and quantifies the sensitivity",
-    "author": "Yalin E. Sagduyu, Tugba Erpek",
-    "published_at": "2026-11-25T18:59:57+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.ni",
-      "eess.sp"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2693,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1885
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34920v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34920",
-    "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
-    "snippet": "Voice agents in shared spaces must satisfy interdependent multi-user requests while upholding per-user authority, privacy, and task constraints. Existing evaluations offer limited coverage when participants react throughout a session. We introduce $μ$-Bench, a benchmark for joint task completion in",
-    "author": "Qihao Lin, Guanxu Chen, Shuhang Zheng",
-    "published_at": "2026-11-25T18:58:42+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cl"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.7351,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2691,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1884
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34925v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34925",
-    "title": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
-    "snippet": "Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatio",
-    "author": "Shuaijun Liu, Qifu Wen, Xingwei Chen",
-    "published_at": "2026-11-25T18:58:56+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.db",
-      "cs.ro"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "databases_and_warehouses",
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.3818,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2691,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1884
+    "rank_score": 0.092
   },
   {
     "source": "rss",
     "tier": "tier_1",
-    "source_item_id": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-    "canonical_url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-    "title": "Where scientists draw the line on AI agents",
+    "source_item_id": "https://huggingface.co/blog/training-swarms",
+    "canonical_url": "https://huggingface.co/blog/training-swarms",
+    "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
     "snippet": "",
     "author": "Hugging Face Blog",
-    "published_at": "2026-11-25T18:52:55+00:00",
+    "published_at": "2026-11-26T00:00:00+00:00",
     "collected_at": "2026-11-27T05:03:26.163472+00:00",
-    "published_date": "2026-11-25T00:00:00",
+    "published_date": "2026-11-26T00:00:00",
     "collected_date": "2026-11-27T00:00:00",
     "source_score": 0,
     "comments_count": 0,
@@ -1870,1465 +3408,43 @@
       "rss"
     ],
     "engagement_percentile": 0.7,
-    "freshness_score": 0.2681,
+    "freshness_score": 0.1312,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.1877
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34899v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34899",
-    "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
-    "snippet": "This work presents a novel application of Earth Observation (EO) embeddings for Maritime Domain Awareness (MDA) from the perspective of the geospatial foundation model TerraMind. By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this app",
-    "author": "Rikard Vinge, Miguel A. Belenguer-Plomer, Isabelle Wittmann",
-    "published_at": "2026-11-25T18:51:36+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cv",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.5574,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2679,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1876
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34894v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34894",
-    "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
-    "snippet": "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness $E/ρ$, and its yield stress $σ_Y/ρ$ when the impact causes plastic deformation, with a feed-forward predictor trained only in s",
-    "author": "Ziyue Peng, Yanxi Hu, Junyoung Kim",
-    "published_at": "2026-11-25T18:47:56+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cv",
-      "cs.gr",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.7184,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2673,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1871
-  },
-  {
-    "source": "hackernews",
-    "tier": "tier_2",
-    "source_item_id": "50647161",
-    "canonical_url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
-    "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
-    "snippet": "",
-    "author": "dm",
-    "published_at": "2026-11-25T20:35:50+00:00",
-    "collected_at": "2026-11-27T05:02:55.038185+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 212,
-    "comments_count": 90,
-    "source_tags": [
-      "front_page",
-      "story"
-    ],
-    "domain": "opensec.in",
-    "topics": [
-      "open_source"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "hackernews"
-    ],
-    "engagement_percentile": 0.8164,
-    "freshness_score": 0.2864,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1871
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34887v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34887",
-    "title": "Interpretable and Accurate Hybrid Decision Trees with Selective Case-Based Splits",
-    "snippet": "Decision trees are among the most well-known interpretable models in Machine Learning. Over the years, a wide variety of strategies have been proposed to define split conditions within the greedy learning framework, aiming to guide instance routing and enhance predictive performance. These strategie",
-    "author": "Cristiano Landi, Alessio Cascione, Riccardo Guidotti",
-    "published_at": "2026-11-25T18:45:35+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.3182,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2669,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1868
-  },
-  {
-    "source": "lobsters",
-    "tier": "tier_2",
-    "source_item_id": "faqxns",
-    "canonical_url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins",
-    "title": "The beauty of CSS mixins",
-    "snippet": "",
-    "author": "carlana",
-    "published_at": "2026-11-26T01:02:17.726000+00:00",
-    "collected_at": "2026-11-27T05:03:15.546610+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 32,
-    "comments_count": 3,
-    "source_tags": [
-      "css"
-    ],
-    "domain": "patrickbrosset.com",
-    "topics": [
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.5859,
-    "trust_weight": 0.8,
-    "mentioned_in_sources": [
-      "lobsters"
-    ],
-    "engagement_percentile": 0.6848,
-    "freshness_score": 0.34,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1862
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34881v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34881",
-    "title": "Stranger Things: When Objects Appear Without Their Typical Neighbors",
-    "snippet": "Visual context is a powerful cue for object recognition: scenes inform what, where, and at what scale objects are likely to appear. Yet over-reliance on context becomes a failure mode when models predict objects based on their typical neighbors rather than the objects' own visual features, which we",
-    "author": "Siddhartha Gairola, Jiahao Xie, Anna Kukleva",
-    "published_at": "2026-11-25T18:39:28+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cv",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.128,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2659,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1861
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34875v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34875",
-    "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
-    "snippet": "Agent patches are larger than developers', which is widely read as over-editing. But patch size does not say whether the extra edits are needed, what they are, or where they come from. We introduce Delta Residue Attribution (DRA), which replays agent trajectories, traces every block (unit) of the fi",
-    "author": "Aakash Goel, Benjamin Steenhoek, Yu Hu",
-    "published_at": "2026-11-25T18:37:06+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.se"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.5927,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2655,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1859
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34870v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34870",
-    "title": "Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation",
-    "snippet": "Merging RDF serializations creates ordering conflicts and misses semantic ones. We describe and evaluate a three-way merge in which the schema defines a conflict: set algebra combines canonical triples, and a slot is contended only where a SHACL shape bounds its cardinality and both sides' changes c",
-    "author": "Steve Brown",
-    "published_at": "2026-11-25T18:34:46+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.db",
-      "cs.se"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "databases_and_warehouses",
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.7184,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.265,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1855
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34868v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34868",
-    "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
-    "snippet": "Large Language Models (LLMs) are increasingly integrated into telecommunications for customer service, network analytics, and operational support. While offering efficiency and innovation, their deployment raises critical privacy, security, and ethical challenges due to the uniquely sensitive and lo",
-    "author": "Joy Bose, Srinivas Adyapak",
-    "published_at": "2026-11-25T18:33:07+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cr",
-      "cs.cy"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml",
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.9169,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2649,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1854
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34863v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34863",
-    "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
-    "snippet": "Vision transformers are strong but costly image encoders for video object segmentation. Training-free token merging cuts compute uniformly across the frame, including on tracked objects. We give a frozen DINOv3 ViT inside a trained Cutie head a training-free focus map: full resolution where the segm",
-    "author": "Harsha Karipineni, Rajesh Reddy Chintha",
-    "published_at": "2026-11-25T18:30:28+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cv",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.5267,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2644,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.185
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34864v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34864",
-    "title": "RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies",
-    "snippet": "Since vision-language-action (VLA) policies can inherit the slow pace of human demonstrations, accelerating these demonstrations before fine-tuning can lead to faster VLA policies without an additional speed-selection module at deployment. Several offline speedup methods have focused on identifying",
-    "author": "Insup Lee, Hojin Jeon, Sunguk Shin",
-    "published_at": "2026-11-25T18:30:43+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.ro"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.3612,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2644,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.185
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34862v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34862",
-    "title": "BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
-    "snippet": "We introduce BOP-Refer, the first benchmark for monocular 3D and 2D grounding of everyday and industrial objects sourced from 9 diverse BOP datasets. We pair images from these datasets with VLM-generated and human-verified referring expressions, and derive accurate ground-truth 3D and 2D bounding bo",
-    "author": "Tomas Hodan, Vineet Bhat, Martin Sundermeyer",
-    "published_at": "2026-11-25T18:29:36+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cv",
-      "cs.ro"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2642,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1849
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34859v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34859",
-    "title": "Model Weights, Airlocks and Sandboxes: A Call for Technical Validation of Re-identification Tests under the EDPB Anonymisation Guidelines",
-    "snippet": "The Guidelines 02/2026 on anonymisation of the European Data Protection Board (EDPB), published for consultation in July 2026, assess anonymity relative to the entities that may access data. They bring AI models into scope and call for testing, but do not say how a re-identification test should be d",
-    "author": "Rickard Brännvall, Henrik Forsgren, Erik Ylipää",
-    "published_at": "2026-11-25T18:28:20+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cr",
-      "cs.cy",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml",
-      "programming_and_devtools"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.264,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1848
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34858v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34858",
-    "title": "From Prediction to Decision: Decision-Focused Fine-Tuning of Autoregressive Tabular Transformers for Cost-Sensitive Financial Events",
-    "snippet": "Autoregressive transformers trained on tokenized tabular event streams are a simple and strong baseline for predicting financial events such as fraud. Yet institutions do not act on probabilities; they act on decisions whose consequences are asymmetric and heteroscedastic: the cost of a missed high-",
-    "author": "Ashkan Golgoon, Giacomo Domeniconi, Samuel Atkins",
-    "published_at": "2026-11-25T18:27:48+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.4019,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2638,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1847
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34848v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34848",
-    "title": "Put the World Back: Timestamps Matter in Time Series Reasoning",
-    "snippet": "Large language models (LLMs) are increasingly applied to time series reasoning. However, current evaluations often give models events in chronological order and already matched to the time series. This makes it unclear whether models use timestamps to connect events with observations or simply take",
-    "author": "Tingrui Huang, Yuanyuan Deng, Qingren Yao",
-    "published_at": "2026-11-25T18:23:07+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.2263,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2632,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1842
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34843v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34843",
-    "title": "Probing Visual Idiosyncrasies in Text-to-Image Models",
-    "snippet": "Text-to-Image (T2I) models turn short text descriptions into images, and the leading models now produce images of comparable visual quality. Whether their outputs still carry model-specific characteristics matters for attribution, for model comparison beyond aggregate quality, and for evaluations th",
-    "author": "Yongqian Peng, Hongjie Li, Yichao Zhou",
-    "published_at": "2026-11-25T18:20:18+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cv"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0258,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2627,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1839
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34841v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34841",
-    "title": "Knowledge-Base Gradient Descent: Self-Structuring Learning through Question Answering",
-    "snippet": "We consider the problem of constructing knowledge bases for applications based on large language models, in which the structure of a knowledge base determines how an application can retrieve and connect the information needed to answer a question. We study Self-Structuring Learning, a setting in whi",
-    "author": "Masahiro Kato",
-    "published_at": "2026-11-25T18:19:02+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.4019,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2625,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1837
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34840v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34840",
-    "title": "Provably Efficient Offline Discounted Reinforcement Learning under Recursive Entropic Risk",
-    "snippet": "We study risk-sensitive reinforcement learning in finite discounted infinite-horizon Markov Decision Processes with recursive entropic risk measures (ERM), parameterized by $β\\neq 0$. We consider both risk-averse ($β>0$) and risk-seeking ($β<0$) settings. We consider the offline RL setting, where th",
-    "author": "Amirparsa Bahrami, Oliver Mortensen, Mohammad Sadegh Talebi",
-    "published_at": "2026-11-25T18:18:53+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg",
-      "eess.sy",
-      "stat.ml"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.25,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2623,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1836
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34831v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34831",
-    "title": "Repairing the Trustworthiness of Distilled Language Models",
-    "snippet": "Knowledge distillation enables the deployment of large language models through smaller student models, but the compression process can introduce regressions in trustworthiness even when downstream performance is preserved. Repairing such failures is challenging because the original distillation corp",
-    "author": "Kumar Shubham, Devendra Vyas, Vidushi Agarwal",
-    "published_at": "2026-11-25T18:12:20+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cl"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.6652,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2613,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1829
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34830v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34830",
-    "title": "Not all world models can doubt: how training objective and architecture shape epistemic uncertainty in JEPA and RSSM world models",
-    "snippet": "World models predict how an environment responds to actions, so that candidate actions can be evaluated before execution. Executed actions, or decisions, taken in this manner are only as reliable as the model's predictive capabilities, and predictions in turn are only reliable within the model's exp",
-    "author": "Simon Baur, Wojciech Samek, Jackie Ma",
-    "published_at": "2026-11-25T18:11:49+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.5994,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2612,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1828
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34826v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34826",
-    "title": "Gradient TD($λ$) for Non-Linear Function Approximation",
-    "snippet": "Temporal difference (TD) learning is central to reinforcement learning. Many methods use semi-gradient TD, which may diverge, or develop algorithms with mean-squared Bellman or TD-error objectives that are difficult to analyze. Gradient TD algorithms overcome these challenges by using projection of",
-    "author": "Sujeet Lahane",
-    "published_at": "2026-11-25T18:08:06+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.296,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2606,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1825
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34825v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34825",
-    "title": "Routeability Before Routing: Routeability Audit Protocol (RAP) and RouteabilityBench for Audited LLM Model Selection",
-    "snippet": "LLM routing aims to choose, for each prompt, which model in a portfolio is most likely to answer correctly. This only makes sense when the benchmark contains enough prompt-specific variation for different models to be best on different inputs. On coarse-scored LLM benchmarks, however, many models of",
-    "author": "Yihang Lu, Denica Kjorvezir, Ana Gjorgjevikj",
-    "published_at": "2026-11-25T18:08:01+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.6369,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2606,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1825
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34821v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34821",
-    "title": "LoopTitan: What Does Parameter Revisit Buy a Mixture-of-Experts?",
-    "snippet": "Looped Mixture-of-Experts (MoE) architectures revisit layer parameters across depths. This design increases effective depth without adding parameters. Recent looped MoE studies report substantial gains over the standard MoE at matched budgets (parameters, FLOPs and KV cache). However, the reported g",
-    "author": "Zichen Tian, Yudong Lu, Xuansheng Wu",
-    "published_at": "2026-11-25T18:04:31+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.5994,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.26,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.182
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34818v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34818",
-    "title": "Deep Reinforcement Learning for Multi-UAV Data Harvesting Under Variable Team Sizes and Agent Loss",
-    "snippet": "Collecting data from wireless sensors can be challenging when limited communication infrastructure prevents them from offloading their measurements. In such settings, unmanned aerial vehicles (UAVs) can exploit their mobility to harvest data locally, while coordinated UAV teams can provide efficient",
-    "author": "Thiago de Souza Lamenza, Bruno José Olivieri de Souza, Markus Endler",
-    "published_at": "2026-11-25T18:03:00+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.dc",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml",
-      "security"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0258,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2598,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1819
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34816v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34816",
-    "title": "Transferring Architecture as an Optimization Prior",
-    "snippet": "Initialization determines the optimization \"fate\" of a model, going far beyond just setting the scale of its weights. It establishes a fundamental initial geometry over the input data, dictating certain aspects such as which examples are considered close and which representations gradient descent wi",
-    "author": "Vighnesh Subramaniam, Boris Katz, Brian Cheung",
-    "published_at": "2026-11-25T18:01:49+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.743,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2595,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1816
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34805v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34805",
-    "title": "Barron Smoothness for Layers in Deep Neural Networks",
-    "snippet": "In order to bound approximation errors for deep neural networks, we split the problem into two steps: First the selection of optimal infinite width limits for each layer and second an optimal discretization of all layers to obtain finite sized networks. We show that in expectation, the latter proble",
-    "author": "G. Welper",
-    "published_at": "2026-11-25T17:56:02+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg",
-      "math.na"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.0258,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2587,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1811
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34801v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34801",
-    "title": "Guidance as Variance Matching",
-    "snippet": "Guidance repels the prediction of a diffusion model away from a weaker reference prediction. It substantially improves sample quality, but its mechanism remains poorly understood. We first find that, at the scales used in practice, guidance does not improve the prediction of the posterior mean (the",
-    "author": "Ali Backour, Artem Lukoianov, Frank Permenter",
-    "published_at": "2026-11-25T17:53:37+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cv",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.4611,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2582,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1807
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34799v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34799",
-    "title": "Split-RL: Local Conflict Resolution in Reinforcement Learning",
-    "snippet": "Reinforcement learning (RL) policies are often trained by mixing contradictory feedback that is localized in space and time. For example, a robot may prioritize speed in open areas versus precision in tight gaps. We introduce Split-RL, a Gradient Boosting Trees (GBT) algorithm that uses guidance lab",
-    "author": "Benjamin Fuhrer, Chen Tessler, Gal Dalal",
-    "published_at": "2026-11-25T17:52:23+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.3182,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.258,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1806
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34785v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34785",
-    "title": "PersonaFactory: Stylistic User Prompt Augmentation with Synthetic Persona Bank",
-    "snippet": "Large language models increasingly replace real people in the AI development pipeline, as they are used to generate training dialogues at scale and to drive alignment and evaluation. However, out-of-the-box models produce monolingual and stylistically flat texts as synthetic user prompts, failing to",
-    "author": "Bich Ngoc Doan, Hanna Yukhymenko, Imanol Schlag",
-    "published_at": "2026-11-25T17:42:31+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cl",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.5106,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2563,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1794
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34781v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34781",
-    "title": "Comparative Study of Deep Learning Architectures for Brain Tumour Classification",
-    "snippet": "Accurate and early classification of brain tumours from magnetic resonance imaging (MRI) is essential for treatment planning, yet many published deep learning studies are trained and tested on small, single-source datasets, reporting accuracies that may not hold outside these datasets. This study co",
-    "author": "Prisha Gupta, Pradeep Kumar Gupta",
-    "published_at": "2026-11-25T17:40:22+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cv",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.256,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1792
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34779v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34779",
-    "title": "Adaptive Reliability Reserves for Residential Battery Fleets",
-    "snippet": "In a Houston 2024 replay, replacing a fixed 20 percent battery reserve with a county-risk threshold raises observed five-hour backup coverage from 75.0 percent to 86.5 percent and adds USD 10.2 in modeled annualized margin per home (paired 95 percent interval: USD +1.7 to USD +21.7). The paired cove",
-    "author": "Maruthi Vemula, Neeraj Praneeth Gajula",
-    "published_at": "2026-11-25T17:39:17+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg",
-      "eess.sy"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.0,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2558,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1791
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34770v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34770",
-    "title": "Make the Adversary Spend More: Stateful Deception as a Cost-Exchange Primitive for AI-Era Cyber Defense",
-    "snippet": "Large language models (LLMs) are transforming the economics of intrusion by reducing the attacker's cost to scan and adapt, while tempting defenders into unbounded compute. We argue that cyber deception should be judged by the cost exchange it imposes, not by realism or detection, and that the primi",
-    "author": "Alessandro Cantelli-Forti, Isabella Marasco, Hosam Alamleh",
-    "published_at": "2026-11-25T17:35:27+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cr"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.835,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2552,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1786
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34767v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34767",
-    "title": "When to Trust a PFN: Detecting Harmful Shift in Tabular Foundation Models",
-    "snippet": "Tabular prior-fitted networks (PFNs) work well across tabular classification problems but can fail silently at deployment when distributions shift. We propose CALD (Calibrated Anchor-Loss Disagreement), a lightweight unsupervised monitor that triggers an alarm to warn when a PFN might fail. By finet",
-    "author": "Viet Nguyen, Herman Bergström, Stephan Rabanser",
-    "published_at": "2026-11-25T17:34:16+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.9485,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.255,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1785
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34763v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34763",
-    "title": "InterConRank: Joint Node Centrality in Interconnected Heterogeneous Networks",
-    "snippet": "Two nodes with identical connections within their own layer can differ in importance if their neighbors in another layer occupy different positions in the network. We introduce InterConRank, a centrality algorithm that computes a separate node ranking for each layer of an interconnected network. Dir",
-    "author": "Hao Ren, Jiaojiao Jiang",
-    "published_at": "2026-11-25T17:32:23+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.si"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.3612,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2547,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1783
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34762v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34762",
-    "title": "TASK Memory: Beyond Text-Only Memory with Activation Steering and Knowledge Editing against Memory Hallucination",
-    "snippet": "LLM agents increasingly rely on external memory, yet they still hallucinate about what they remember. Often the correct memory is retrieved and placed in the prompt, but the answer contradicts it or the memory is applied to the wrong question. We call these use-time memory hallucinations. Across fiv",
-    "author": "Jinkun Zhao, Wenjun Wu",
-    "published_at": "2026-11-25T17:30:37+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.8047,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2544,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1781
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34760v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34760",
-    "title": "One Model, Many Modes: Evolving System Prompt Ensembles for Creative Generation",
-    "snippet": "Preference-aligned LLMs can exhibit mode collapse, concentrating their output distributions around a narrow set of high-reward responses. This limits creative generation, which requires quality, novelty, and diversity. Existing test-time methods often emphasize diversity, giving less attention to wh",
-    "author": "Daiwei Chen, Anda He, Binwei Yao",
-    "published_at": "2026-11-25T17:29:33+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cl",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.6124,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2542,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1779
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34758v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34758",
-    "title": "Reading Fine-Tuning Diffs Through Lenses: Model Diffing for Backdoor Detection",
-    "snippet": "We introduce a common scoring system based on token readouts to evaluate weight, activation and output-based model diffing methods for backdoor detection in fine-tuning processes. We also improve existing weight and activation based methods by incorporating the $J$-lens and its refinement, the $J{+}",
-    "author": "Maximilian Petrowitsch, Ben Connors, Chris Kapulkin",
-    "published_at": "2026-11-25T17:28:59+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.cl",
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.4404,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.254,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1778
+    "rank_score": 0.0918
   },
   {
     "source": "devto",
     "tier": "tier_3",
-    "source_item_id": "5120547",
-    "canonical_url": "https://dev.to/thethirdcup/a-picture-is-worth-a-thousand-words-40eo",
-    "title": "A picture is worth a thousand words",
-    "snippet": "It was a Friday morning, like every day opened my PC, checked my emails and remembered the day before...",
-    "author": "csm18",
-    "published_at": "2026-11-26T02:24:31+00:00",
-    "collected_at": "2026-11-26T05:02:56.721330+00:00",
-    "published_date": "2026-11-26T00:00:00",
-    "collected_date": "2026-11-26T00:00:00",
-    "source_score": 26,
-    "comments_count": 12,
+    "source_item_id": "5134133",
+    "canonical_url": "https://dev.to/taqui/rag-is-dead-mit-just-built-something-better-4ago",
+    "title": "RAG is Dead. MIT Just Built Something Better.",
+    "snippet": "I thought RAG was the answer For 2 years, I built AI apps with RAG. Vector DB. Chunking. Embeddings....",
+    "author": "taqui",
+    "published_at": "2026-11-27T16:55:24+00:00",
+    "collected_at": "2026-11-28T04:44:40.025852+00:00",
+    "published_date": "2026-11-27T00:00:00",
+    "collected_date": "2026-11-28T00:00:00",
+    "source_score": 5,
+    "comments_count": 0,
     "source_tags": [
       "ai",
-      "safety"
+      "llm",
+      "machinelearning",
+      "rag"
     ],
     "domain": "dev.to",
     "topics": [
-      "programming_and_devtools"
+      "ai_and_ml"
     ],
     "tools_mentioned": [],
-    "sentiment": 0.5267,
+    "sentiment": -0.34,
     "trust_weight": 0.6,
     "mentioned_in_sources": [
       "devto"
     ],
-    "engagement_percentile": 0.8269,
-    "freshness_score": 0.3584,
+    "engagement_percentile": 0.2404,
+    "freshness_score": 0.634,
     "cross_source_bonus": 1.0,
-    "rank_score": 0.1778
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34751v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34751",
-    "title": "What Is a Theory Worth to an LLM Solver? Measuring, Inducing, and Merging Theories in Context",
-    "snippet": "Mathematicians solve problems faster when they know the right theory. We ask how much a stated theory is worth to a large language model (LLM) solver, and whether a model can write that theory itself. In a length-matched protocol, adding the right theory to the context of Qwen3-14B raises pass@1 on",
-    "author": "Jun Gao, Shuchao Bi",
-    "published_at": "2026-11-25T17:25:56+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.2263,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2536,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1775
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34746v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34746",
-    "title": "BRIAR: Martingale Belief Smoothing on Bifurcation-Guided Reasoning Trees",
-    "snippet": "Reinforcement learning with verifiable rewards (RLVR) has rapidly advanced long-chain reasoning, yet standard policy optimizers distribute rollout compute and gradient credit blindly across a trajectory. On hard problems, an early misstep derails the remaining trace, whereas on solvable problems, th",
-    "author": "Tianyi Yang, Haoran Zhang, Yifan Chen",
-    "published_at": "2026-11-25T17:23:23+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.4019,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2532,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1773
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34745v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34745",
-    "title": "How Well Do Vision-Language Scene Graphs Serve as Memory for Embodied Question Answering?",
-    "snippet": "Embodied QA needs memory, but answer accuracy mixes retained evidence, reading errors and question priors. For a simulated multi-room scene-graph pipeline we define answerability: the fraction of questions a fixed rule-based reader answers correctly from the graph alone. The baseline recovers 24.1%",
-    "author": "Divyansh Pandey, Shubh Garg, Vedant Khandelwal",
-    "published_at": "2026-11-25T17:23:01+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.ai",
-      "cs.ro"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.5994,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2532,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1773
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34739v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34739",
-    "title": "Was the Model Given the Right Action? Auditing and Repairing Action Interfaces in Navigation World Models",
-    "snippet": "World models are evaluated by predicting future observations from actions. These evaluations assume that actions are prepared the same way as during training, but an unchecked mismatch can make a model appear less accurate than it is. We audit this assumption in Navigation World Models (NWM) and fin",
-    "author": "Ajmain Istiak Apon, Md Mehedi Hasan, Sejuti Rahman",
-    "published_at": "2026-11-25T17:18:15+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cv",
-      "cs.lg",
-      "cs.ro"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.1154,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2524,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1767
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34734v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34734",
-    "title": "From NP-Hardness to Exact Tractability Through Sample Abundance",
-    "snippet": "Additional observations can make exact optimization tractable without changing the objective or feasible set. We establish this phenomenon for noisy parity fitting, a worst-case NP-hard problem, with uniformly sampled rank-one sign tensor entries, independent fair factor signs and independent errors",
-    "author": "Mojtaba Soltanalian",
-    "published_at": "2026-11-25T17:16:26+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.cc",
-      "cs.lg",
-      "math.oc"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": -0.2263,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2521,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.1765
-  },
-  {
-    "source": "arxiv",
-    "tier": "tier_1",
-    "source_item_id": "2611.34726v1",
-    "canonical_url": "https://arxiv.org/abs/2611.34726",
-    "title": "Hierarchical Graph Metanetworks",
-    "snippet": "The emerging field of weight space learning has demonstrated the potential to enable metanetworks, i.e. models that process neural network (NN) data, to support several steps of the machine learning lifecycle, from model optimisation to evaluation and adaptation. However, this potential has yet to m",
-    "author": "Ioannis Kalogeropoulos, Giorgos Bouritsas, Yannis Panagakis",
-    "published_at": "2026-11-25T17:12:08+00:00",
-    "collected_at": "2026-11-27T05:03:53.351426+00:00",
-    "published_date": "2026-11-25T00:00:00",
-    "collected_date": "2026-11-27T00:00:00",
-    "source_score": 0,
-    "comments_count": 0,
-    "source_tags": [
-      "cs.lg"
-    ],
-    "domain": "arxiv.org",
-    "topics": [
-      "ai_and_ml"
-    ],
-    "tools_mentioned": [],
-    "sentiment": 0.6486,
-    "trust_weight": 1.0,
-    "mentioned_in_sources": [
-      "arxiv"
-    ],
-    "engagement_percentile": 0.7,
-    "freshness_score": 0.2514,
-    "cross_source_bonus": 1.0,
-    "rank_score": 0.176
+    "rank_score": 0.0914
   }
 ]
